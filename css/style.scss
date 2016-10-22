@@ -4,15 +4,15 @@
 @import '../_sass/syntax-highlighting';
 
 
-$scotch-primary: rgb(255, 69, 69);
-$scotch-secondary: #FF7B7B;
+$spinetree-primary: rgb(255, 69, 69);
+$spinetree-secondary: #FF7B7B;
 
 %oswald { font-family: 'Oswald', sans-serif; }
-%roboto { font-family: 'Roboto Condensed', sans-serif; }
+%libre { font-family: 'Libre Baskerville', serif; }
 
 
 body {
-    @extend %roboto;
+    @extend %libre;
     font-size: 18px;
     line-height: 30px;
     padding-top: 51px;
@@ -26,7 +26,7 @@ a {
     outline: none !important;
     text-decoration: none !important;
     transition: all 225ms ease;
-    color: $scotch-secondary;
+    color: $spinetree-secondary;
 
     &:hover { color: #6165FF; }
 }
@@ -53,7 +53,7 @@ nav.navbar {
 
         i {
             transition: inherit;
-            color: $scotch-primary;
+            color: $spinetree-primary;
             transform: scale(1);
         }
 
@@ -83,7 +83,7 @@ h1.special {
     font-size: 69px;
     line-height: 69px;
     font-weight: 700;
-    color: $scotch-primary;
+    color: $spinetree-primary;
 
     span {
         display: inline-block;
