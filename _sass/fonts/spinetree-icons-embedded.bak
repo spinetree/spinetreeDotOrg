@@ -1,8 +1,8 @@
 @font-face {
   font-family: 'spinetree-icons';
-  src: url('../font/spinetree-icons.eot?29641237');
-  src: url('../font/spinetree-icons.eot?29641237#iefix') format('embedded-opentype'),
-       url('../font/spinetree-icons.svg?29641237#spinetree-icons') format('svg');
+  src: url('../fonts/spinetree/spinetree-icons.eot?29641237');
+  src: url('../fonts/spinetree/spinetree-icons.eot?29641237#iefix') format('embedded-opentype'),
+       url('../fonts/spinetree/spinetree-icons.svg?29641237#spinetree-icons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
