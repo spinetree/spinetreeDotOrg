@@ -1,53 +1,104 @@
----
----
+--- 
+--- 
 
 @import '../_sass/bootstrap';
-//@import '../_sass/syntax-highlighting';
 @import '../_sass/fonts/spinetree-icons';
 
+$tan1: #E2E5C0;
+$tan2: #E0CFA2;
+$tan3: #AEA07D;
+$green1: #84A585;
+$green2: #729673;
+$green3: #578059;
+$brown1: #6B5D51;
+$brown2: #605232;
+$brown3: #333620;
+$blue1: #86A3C5;
+$blue2: #517C79;
+$blue3: #4C716E;
+%oswaldbold {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+}
 
-$spinetree-primary: rgb(255, 69, 69);
-$spinetree-secondary: #FF7B7B;
+%oswald {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
 
-%oswaldbold { font-family: 'Oswald', sans-serif; font-weight:700; }
-%oswald { font-family: 'Oswald', sans-serif; font-weight:400; }
-%oswaldlight { font-family: 'Oswald', sans-serif; font-weight:300;}
-%libre { font-family: 'Libre Baskerville', serif; }
+%oswaldlight {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+}
 
+%libre {
+    font-family: 'Libre Baskerville', serif;
+}
 
 // ******************************************************************
 // text defaults
 //*******************************************************************
-
 body {
     @extend %libre;
+    background: $green2;
+    color: $tan1;
 }
 
 p {
     margin-bottom: 30px;
 }
 
-section, header, footer, main, article, nav, aside { position: relative; }
+section,
+header,
+footer,
+main,
+article,
+nav,
+aside {
+    position: relative;
+}
 
 a {
     outline: none !important;
     text-decoration: none !important;
     transition: all 225ms ease;
-    color: $spinetree-secondary;
-
-    &:hover { color: #6165FF; }
+    color: $tan2;
+    &:hover {
+        color: $tan3;
+    }
 }
 
-h1, h2, h3, h4, h5, h6 { @extend %oswaldbold; }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {}
 
+h1 {
+    @extend %oswald;
+    color: $tan1;
+    background: $blue2;
+    padding: 10px;
+    width: 90%;
+    border-bottom: 3px solid $blue3;
+    text-align: center;
+    margin: -30px auto 20px;
+    text-transform:uppercase;
+}
+
+h4 {
+    @extend %oswaldbold;
+    text-transform: uppercase;
+    font-size: 14px;
+}
 
 // ******************************************************************
 // Main Content areas
 //*******************************************************************
-
 nav.navbar {
-    background: rgba(0,0,0,0.2);
-    border:none;
+    background: rgba(0, 0, 0, 0.2);
+    border: none;
     margin: 0;
     @extend %oswaldlight;
     a {
@@ -57,24 +108,64 @@ nav.navbar {
 }
 
 .topper {
-    height: 70vh;
-    padding:40px 0;
+    height: 100vh;
+    padding: 40px 0;
     position: relative;
-    background:url('../images/pageHeaderBg.jpg');
+    background: url('../images/pageHeaderBg.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    text-align:center;
-    h1 {margin-top:200px;}
-    h3 {color: #E0CFA2;}
+    text-align: center;
+    h1 {}
+    img {
+        margin-top: 25vh;
+        width: 70%;
+        max-width: 360px;
+    }
+    h3 {
+        @extend %oswaldlight;
+        color: $tan1;
+        letter-spacing: 2px;
+    }
 }
 
+.work {
+    background: $green1;
+    margin: 60px 0 0;
+    padding-bottom: 40px;
+    .container {}
+}
+
+.about {
+    background: $green2;
+    padding-bottom: 40px;
+    .row {    
+        max-width:1170px;
+        margin: 0 auto;
+    }
+}
+
+footer {
+    background: $brown3;
+    text-align: center;
+    padding: 60px 0 80px;
+    h4 {
+        color: $tan3;
+    }
+    li {
+        float: none;
+        display:inline-block;
+        margin: 0 20px 0 0;
+    }
+    p {
+        margin: 0 0 15px;
+    }
+}
 
 // ******************************************************************
 // Media Queries
 //*******************************************************************
+@media only screen and (max-width: 991px) {}
 
-@media only screen and (max-width : 991px) {}
-
-@media only screen and (max-width : 480px) {}
+@media only screen and (max-width: 480px) {}

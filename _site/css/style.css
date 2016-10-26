@@ -2895,30 +2895,58 @@ input[type="button"].btn-block {
   content: '\f4ac'; }
 
 /* '' */
-h1, h2, h3, h4, h5, h6 {
+h4 {
   font-family: 'Oswald', sans-serif;
   font-weight: 700; }
 
-nav.navbar {
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400; }
+
+nav.navbar, .topper h3 {
   font-family: 'Oswald', sans-serif;
   font-weight: 300; }
 
 body {
   font-family: 'Libre Baskerville', serif; }
 
+body {
+  background: #729673;
+  color: #E2E5C0; }
+
 p {
   margin-bottom: 30px; }
 
-section, header, footer, main, article, nav, aside {
+section,
+header,
+footer,
+main,
+article,
+nav,
+aside {
   position: relative; }
 
 a {
   outline: none !important;
   text-decoration: none !important;
   transition: all 225ms ease;
-  color: #FF7B7B; }
+  color: #E0CFA2; }
   a:hover {
-    color: #6165FF; }
+    color: #AEA07D; }
+
+h1 {
+  color: #E2E5C0;
+  background: #517C79;
+  padding: 10px;
+  width: 90%;
+  border-bottom: 3px solid #4C716E;
+  text-align: center;
+  margin: -30px auto 20px;
+  text-transform: uppercase; }
+
+h4 {
+  text-transform: uppercase;
+  font-size: 14px; }
 
 nav.navbar {
   background: rgba(0, 0, 0, 0.2);
@@ -2929,7 +2957,7 @@ nav.navbar {
     font-size: 16px; }
 
 .topper {
-  height: 70vh;
+  height: 100vh;
   padding: 40px 0;
   position: relative;
   background: url("../images/pageHeaderBg.jpg");
@@ -2938,7 +2966,35 @@ nav.navbar {
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center; }
-  .topper h1 {
-    margin-top: 200px; }
+  .topper img {
+    margin-top: 25vh;
+    width: 70%;
+    max-width: 360px; }
   .topper h3 {
-    color: #E0CFA2; }
+    color: #E2E5C0;
+    letter-spacing: 2px; }
+
+.work {
+  background: #84A585;
+  margin: 60px 0 0;
+  padding-bottom: 40px; }
+
+.about {
+  background: #729673;
+  padding-bottom: 40px; }
+  .about .row {
+    max-width: 1170px;
+    margin: 0 auto; }
+
+footer {
+  background: #333620;
+  text-align: center;
+  padding: 60px 0 80px; }
+  footer h4 {
+    color: #AEA07D; }
+  footer li {
+    float: none;
+    display: inline-block;
+    margin: 0 20px 0 0; }
+  footer p {
+    margin: 0 0 15px; }
