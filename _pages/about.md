@@ -1,7 +1,7 @@
 ---
-layout: inner
+layout: about
 title: About
 permalink: /about/
 ---
 
-The about page
+The about page content from the .md file
