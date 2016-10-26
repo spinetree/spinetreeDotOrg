@@ -16,6 +16,7 @@ $brown3: #333620;
 $blue1: #86A3C5;
 $blue2: #517C79;
 $blue3: #4C716E;
+
 %oswaldbold {
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
@@ -40,7 +41,7 @@ $blue3: #4C716E;
 //*******************************************************************
 body {
     @extend %libre;
-    background: $green2;
+    background: $green1;
     color: $tan1;
 }
 
@@ -101,9 +102,10 @@ nav.navbar {
     border: none;
     margin: 0;
     @extend %oswaldlight;
-    a {
+    a.navbar-brand {
         text-transform: uppercase;
         font-size: 16px;
+        color:$tan1;
     }
 }
 
@@ -131,19 +133,24 @@ nav.navbar {
 }
 
 .work {
-    background: $green1;
+    background: $green2;
     margin: 60px 0 0;
     padding-bottom: 40px;
     .container {}
 }
 
 .about {
-    background: $green2;
+    background: $green3;
     padding-bottom: 40px;
     .row {    
         max-width:1170px;
         margin: 0 auto;
     }
+}
+
+.bio {
+    margin-top:120px;
+    background:$green2;
 }
 
 footer {
