@@ -2912,7 +2912,7 @@ body {
 
 body {
   background: #84A585;
-  color: #E2E5C0; }
+  color: #E6E3C5; }
 
 p {
   margin-bottom: 30px; }
@@ -2935,7 +2935,7 @@ a {
     color: #AEA07D; }
 
 h1 {
-  color: #E2E5C0;
+  color: #E6E3C5;
   background: #517C79;
   padding: 10px;
   width: 90%;
@@ -2955,7 +2955,7 @@ nav.navbar {
   nav.navbar a.navbar-brand {
     text-transform: uppercase;
     font-size: 16px;
-    color: #E2E5C0; }
+    color: #E6E3C5; }
 
 .topper {
   height: 100vh;
@@ -2972,16 +2972,16 @@ nav.navbar {
     width: 70%;
     max-width: 360px; }
   .topper h3 {
-    color: #E2E5C0;
+    color: #E6E3C5;
     letter-spacing: 2px; }
 
 .work {
-  background: #729673;
+  background: #7A9E7C;
   margin: 60px 0 0;
   padding-bottom: 40px; }
 
 .about {
-  background: #578059;
+  background: #729673;
   padding-bottom: 40px; }
   .about .row {
     max-width: 1170px;
@@ -2989,7 +2989,7 @@ nav.navbar {
 
 .bio {
   margin-top: 120px;
-  background: #729673; }
+  background: #7A9E7C; }
 
 footer {
   background: #333620;
