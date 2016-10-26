@@ -2895,7 +2895,7 @@ input[type="button"].btn-block {
   content: '\f4ac'; }
 
 /* '' */
-h4 {
+h2, h4, .sixpieces h2 {
   font-family: 'Oswald', sans-serif;
   font-weight: 700; }
 
@@ -2903,7 +2903,7 @@ h1 {
   font-family: 'Oswald', sans-serif;
   font-weight: 400; }
 
-nav.navbar, .topper h3 {
+nav.navbar, .topper h3, .recommendations {
   font-family: 'Oswald', sans-serif;
   font-weight: 300; }
 
@@ -2942,6 +2942,9 @@ h1 {
   border-bottom: 3px solid #4C716E;
   text-align: center;
   margin: -30px auto 20px;
+  text-transform: uppercase; }
+
+h2 {
   text-transform: uppercase; }
 
 h4 {
@@ -2987,10 +2990,6 @@ nav.navbar {
     max-width: 1170px;
     margin: 0 auto; }
 
-.bio {
-  margin-top: 120px;
-  background: #7A9E7C; }
-
 footer {
   background: #333620;
   text-align: center;
@@ -3003,3 +3002,49 @@ footer {
     margin: 0 20px 0 0; }
   footer p {
     margin: 0 0 15px; }
+
+.bio {
+  margin-top: 120px;
+  background: #7A9E7C; }
+
+.stats {
+  background: #7A9E7C; }
+  .stats .row {
+    position: relative; }
+
+.resume {
+  background: #333620;
+  padding: 20px 0; }
+
+.recommendations {
+  border-top: 10px solid #E0CFA2;
+  background: #E6E3C5;
+  color: #86A3C5;
+  font-size: 16px;
+  padding: 100px 0 160px; }
+
+.sixpieces {
+  background: #517C79;
+  color: #E6E3C5;
+  padding: 100px 0 160px;
+  transform: skewY(-3deg);
+  margin-top: -60px; }
+  .sixpieces .row {
+    transform: skewY(3deg);
+    position: relative;
+    top: 20px; }
+  .sixpieces li {
+    list-style: none;
+    margin: 0 0 15px; }
+  .sixpieces .page {
+    background: #86A3C5;
+    border: 4px inset #4C716E; }
+  .sixpieces h2 {
+    color: #517C79; }
+
+.contact {
+  background: #7A9E7C;
+  padding: 100px 0 100px;
+  position: relative;
+  bottom: 60px;
+  margin-bottom: -60px; }

@@ -38,9 +38,11 @@ $blue3: #4C716E;
     font-family: 'Libre Baskerville', serif;
 }
 
+
 // ******************************************************************
 // text defaults
 //*******************************************************************
+
 body {
     @extend %libre;
     background: $green1;
@@ -90,15 +92,23 @@ h1 {
     text-transform:uppercase;
 }
 
+h2 {
+    text-transform:uppercase;
+    @extend %oswaldbold;
+
+}
+
 h4 {
     @extend %oswaldbold;
     text-transform: uppercase;
     font-size: 14px;
 }
 
+
 // ******************************************************************
 // Main Content areas
 //*******************************************************************
+
 nav.navbar {
     background: rgba(0, 0, 0, 0.2);
     border: none;
@@ -150,10 +160,11 @@ nav.navbar {
     }
 }
 
-.bio {
-    margin-top:120px;
-    background:$green2;
-}
+
+// ******************************************************************
+// Footer
+//*******************************************************************
+
 
 footer {
     background: $brown3;
@@ -172,9 +183,81 @@ footer {
     }
 }
 
+
+// ******************************************************************
+// About Page
+//*******************************************************************
+
+
+.bio {
+    margin-top:120px;
+    background:$green2;
+}
+
+.stats {
+    background:$green2;
+    .row {
+        position:relative;
+    }
+}
+
+.resume {
+    background:$brown3;
+    padding:20px 0;
+}
+
+.recommendations {
+    border-top:10px solid $tan2;
+    background:$tan1;
+    color:$blue1;
+    @extend %oswaldlight;
+    font-size:16px;
+    padding:100px 0 160px;
+}
+
+.sixpieces {
+    background:$blue2;
+    color:$tan1;
+    padding:100px 0 160px;
+    transform:skewY(-3deg);
+    margin-top:-60px;
+    .row {
+        transform:skewY(3deg);
+        position:relative;
+        top:20px;
+    }
+    li {
+        list-style:none;
+        margin: 0 0 15px;
+    }
+    .page {
+        background:$blue1;
+        border:4px inset $blue3;
+    }
+    h2 {
+        @extend %oswaldbold;
+        color:$blue2;
+    }
+}
+
+.contact {
+    background:$green2;
+    padding:100px 0 100px;
+    position:relative;
+    bottom:60px;
+    margin-bottom:-60px;
+}
+
+
+
+
+
+
 // ******************************************************************
 // Media Queries
 //*******************************************************************
+
+
 @media only screen and (max-width: 991px) {}
 
 @media only screen and (max-width: 480px) {}

@@ -1,9 +1,8 @@
 {% include header.html %}
 
 <main>
-
     <div class="about-page">
-        
+
         <section class="bio">
             <div class="container">
                 <h1>About</h1>
@@ -21,31 +20,44 @@
         <section class="stats">
             <div class="container">
                 <div class="row">
-                    <div class="apps">
-                        <h2>Experienced With</h2>
-                        <ul>
-                            <li>item</li>
-                            <li>item</li>
-                            <li>item</li>
-                            <li>item</li>
-                            <li>item</li>
-                            <li>item</li>
-                            <li>item</li>
-                            <li>item</li>
-                            <li>item</li>
-                        </ul>
+                    <div class="col-md-7">
+                        <div class="apps">
+                            <h2>Experienced With</h2>
+                            <ul>
+                                <li>item</li>
+                                <li>item</li>
+                                <li>item</li>
+                                <li>item</li>
+                                <li>item</li>
+                                <li>item</li>
+                                <li>item</li>
+                                <li>item</li>
+                                <li>item</li>
+                            </ul>
+                        </div>
                     </div>
                     <div class="skills">
-                        <h2>Skills</h2>
-                        <ul>
-                            <li>skill *****</li>
-                            <li>skill *****</li>
-                            <li>skill *****</li>
-                            <li>skill *****</li>
-                            <li>skill *****</li>
-                        </ul>
+                        <div class="col-md-5">
+                            <div class="card">
+                                <h2>Skills</h2>
+                                <ul>
+                                    <li>skill *****</li>
+                                    <li>skill *****</li>
+                                    <li>skill *****</li>
+                                    <li>skill *****</li>
+                                    <li>skill *****</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
-                    <div class="resume">
+                </div>
+            </div>
+        </section>
+
+        <section class="resume">
+            <div class="container">
+                <div class="row">
+                    <div class="resume col-md-7">
                         <h2>Resume</h2>
                         <button type="button" class="btn btn-primary resmue">Download</button>
                     </div>
@@ -56,20 +68,32 @@
         <section class="recommendations">
             <div class="container">
                 <div class="row">
-                    <p>When this interlude was over, Captain Mayhew began a dark story concerning Moby Dick; not, however, without frequent interruptions from Gabriel, whenever his name was mentioned, and the crazy sea that seemed leagued with him.</p>
+                    <div class="col-md-12">
+                        <p>When this interlude was over, Captain Mayhew began a dark story concerning Moby Dick; not, however, without frequent interruptions from Gabriel, whenever his name was mentioned, and the crazy sea that seemed leagued with him.</p>
+                    </div>
                 </div>
+            </div>
+        </section>
 
+        <section class="sixpieces">
+            <div class="container">
                 <div class="row">
-                    <div class="sixpieces">
+                    <div class="col-md-4 col-md-push-4 page">
                         <h2>Six Pieces From My Professional Life</h2>
-                        <ol>
+                    </div>
+                    <div class="firstpieces col-md-4 col-md-pull-4">
+                        <ul>
                             <li>This is one of the six pieces.</li>
                             <li>This is one of the six pieces.</li>
                             <li>This is one of the six pieces.</li>
+                        </ul>
+                    </div>
+                    <div class="lastpieces col-md-4">
+                        <ul>
                             <li>This is one of the six pieces.</li>
                             <li>This is one of the six pieces.</li>
                             <li>This is one of the six pieces.</li>
-                        </ol>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -78,17 +102,20 @@
         <section class="contact">
             <div class="container">
                 <div class="row">
-                    {% include connect.html %}
-                    <div class="getintouch">
-                        <p>When he was within about fifty feet of me he unclasped an enormous metal armlet, and holding it toward me in the open palm of his hand, addressed me in a clear, resonant voice, but in a language, it is needless to say, I could not understand.</p>
-                        <button type="button" class="btn btn-primary resmue">Get in touch</button>
+                    <div class="col-md-4">
+                        {% include connect.html %}
+                    </div>
+                    <div class="col-md-8">
+                        <div class="getintouch">
+                            <p>When he was within about fifty feet of me he unclasped an enormous metal armlet, and holding it toward me in the open palm of his hand, addressed me in a clear, resonant voice, but in a language, it is needless to say, I could not understand.</p>
+                            <button type="button" class="btn btn-primary resmue">Get in touch</button>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
     </div>
-
 </main>
 
 {% include footer.html %}
