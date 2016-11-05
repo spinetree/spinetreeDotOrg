@@ -1,7 +1,7 @@
 ---
 layout: about
 title: About
-permalink: /work/
+permalink: /about/
 ---
 
 <p>"You are true savages. Already has begun the custom of wearing human  teeth. In another generation you will be perforating your noses and  ears and wearing ornaments of bone and shell. I know. The human race  is doomed to sink back farther and farther into the primitive night  ere again it begins its bloody climb upward to civilization. When we  increase and feel the lack of room, we will proceed to kill one another.  And then I suppose you will wear human scalp-locks at your waist, as  well&mdash;as you, Edwin, who are the gentlest of my grandsons, have already  begun with that vile pigtail. Throw it away, Edwin, boy; throw it away."</p>
