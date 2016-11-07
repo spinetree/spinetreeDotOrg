@@ -1,0 +1,31 @@
+{% include header.html %}
+
+<main>
+
+    <div class="work">
+        <div class="container-fluid">
+            <div class="row">
+                <h1>{{ page.title }}</h1>
+                {{ content }}
+            </div>
+        </div>
+    </div>
+
+    <div class="about">
+        <div class="container-fluid">
+            <h1>About</h1>
+            <div class="row">
+                <div class="col-md-8">
+                    <p>This is some about content</p>
+                    <button type="button" class="btn btn-primary">Read More</button>
+                </div>
+                <div class="col-md-4">
+                    {% include connect.html %}
+                </div>
+            </div>
+        </div>
+    </div>
+
+</main>
+
+{% include footer.html %}
