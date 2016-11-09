@@ -2,6 +2,7 @@
 --- 
 
 @import '../_sass/bootstrap';
+//@import '../_sass/normalize';
 @import '../_sass/fonts/spinetree-icons';
 
 $tan1: #E6E3C5;
@@ -154,8 +155,16 @@ nav.navbar {
     background: $green2;
     margin: 60px 0 0;
     padding-bottom: 40px;
-    .container {}
+    .workimage {
+        width:90%;
+    }
+    .meta {
+        padding:20px 40px;
+        background:rgba(0,0,0,.8);
+    }
 }
+
+section.example {border-bottom:2px solid $green1; position:relative;}
 
 .about {
     background: $green3;

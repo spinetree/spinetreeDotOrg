@@ -8,6 +8,15 @@ permalink: /work/project3
 
 ---
 
+layout: work
+title: 'Work 1'
+date: 2015-08-31 13:26:34
+categories: work
+tags: ux ui visual_design
+featured_image: 'http://placekitten.com/1500/1000'
+
+
+
 <p>"Hello I am project 3's text"</p>
 
 <p>"What a gabble the old geezer makes," Hare-Lip remarked, when, the teeth  all extracted, they began an attempt at equal division.</p>

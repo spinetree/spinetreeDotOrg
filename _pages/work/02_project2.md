@@ -2,6 +2,7 @@
 layout: work
 title: 'Project 2'
 categories: work
+date: 2015-08-31 13:26:34
 tags: ux ui visual_design
 thumbnail: 'http://placekitten.com/200/200'
 permalink: /work/project2

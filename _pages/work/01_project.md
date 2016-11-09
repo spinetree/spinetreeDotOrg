@@ -5,10 +5,13 @@ categories: work
 tags: ux ui visual_design
 thumbnail: 'http://placekitten.com/200/200'
 permalink: /work/project1
-
 ---
 
+
+
 <p>"Hello I am project 1's text"</p>
+
+
 
 <p>"What a gabble the old geezer makes," Hare-Lip remarked, when, the teeth  all extracted, they began an attempt at equal division.</p>
 
