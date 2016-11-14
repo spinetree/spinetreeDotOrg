@@ -1,4 +1,7 @@
---- --- @import '../_sass/bootstrap';
+--- 
+--- 
+
+@import '../_sass/bootstrap';
 @import '../_sass/syntax-highlighting';
 $spinetree-primary: rgb(255, 69, 69);
 $spinetree-secondary: #FF7B7B;
@@ -21,6 +24,7 @@ body {
 
 p {
     margin-bottom: 30px;
+    line-height:1.4;
 }
 
 section,

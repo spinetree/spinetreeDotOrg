@@ -1,13 +1,17 @@
 --- 
 --- 
 
-@import '../_sass/bootstrap';
-//@import '../_sass/normalize';
+//@import '../_sass/bootstrap';
+@import '../_sass/normalize';
+@import '../_sass/flexboxgrid';
+//@import '../_sass/flex';
 @import '../_sass/fonts/spinetree-icons';
 
 $tan1: #E6E3C5;
 $tan2: #E0CFA2;
 $tan3: #AEA07D;
+
+$tangreen: #ABAF7D;
 
 $green1: #84A585;
 $green2: #7A9E7C;
@@ -57,6 +61,7 @@ body {
 
 p {
     margin-bottom: 30px;
+    line-height:1.4;
 }
 
 section,
@@ -152,19 +157,31 @@ nav.navbar {
 }
 
 .work {
-    background: $green2;
+    background: $tangreen;
     margin: 60px 0 0;
     padding-bottom: 40px;
-    .workimage {
-        width:90%;
-    }
-    .meta {
-        padding:20px 40px;
-        background:rgba(0,0,0,.8);
-    }
 }
 
-section.example {border-bottom:2px solid $green1; position:relative;}
+.example {
+    position:relative;
+    height:70vh;
+    .images {
+        text-align:center;
+        padding:40px 0;
+        display:flex;
+        justify-content:center;
+        img {
+            align-self:center;
+            width:60%;
+        }
+    }
+    .meta {
+        .content {        
+            padding:20px;
+        }        
+        background:rgba(0,0,0,.5);
+    }
+}
 
 .about {
     background: $green3;
