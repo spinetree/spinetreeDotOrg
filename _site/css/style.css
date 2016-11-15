@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Change the default font family in all browsers (opinionated).
@@ -402,6 +401,9 @@ template {
  */
 [hidden] {
   display: none; }
+
+.hidden {
+  display: none !important; }
 
 .container,
 .container-fluid {
@@ -1200,141 +1202,6 @@ template {
     -webkit-box-ordinal-group: 2;
     -ms-flex-order: 1;
     order: 1; } }
-@font-face {
-  font-family: 'spinetree-icons';
-  src: url("../font/spinetree-icons.eot?95981301");
-  src: url("../font/spinetree-icons.eot?95981301#iefix") format("embedded-opentype"), url("../font/spinetree-icons.woff2?95981301") format("woff2"), url("../font/spinetree-icons.woff?95981301") format("woff"), url("../font/spinetree-icons.ttf?95981301") format("truetype"), url("../font/spinetree-icons.svg?95981301#spinetree-icons") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
-/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
-/*
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-  @font-face {
-    font-family: 'spinetree-icons';
-    src: url('../font/spinetree-icons.svg?95981301#spinetree-icons') format('svg');
-  }
-}
-*/
-[class^="icon-"]:before, [class*=" icon-"]:before {
-  font-family: "spinetree-icons";
-  font-style: normal;
-  font-weight: normal;
-  speak: none;
-  display: inline-block;
-  text-decoration: inherit;
-  width: 1em;
-  margin-right: .2em;
-  text-align: center;
-  /* opacity: .8; */
-  /* For safety - reset parent styles, that can break glyph codes*/
-  font-variant: normal;
-  text-transform: none;
-  /* fix buttons height, for twitter bootstrap */
-  line-height: 1em;
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed */
-  margin-left: .2em;
-  /* you can be more comfortable with increased icons size */
-  /* font-size: 120%; */
-  /* Font smoothing. That was taken from TWBS */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  /* Uncomment for 3D effect */
-  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */ }
-
-.icon-ok:before {
-  content: '\e803'; }
-
-/* '' */
-.icon-ok-circled:before {
-  content: '\e804'; }
-
-/* '' */
-.icon-check:before {
-  content: '\e805'; }
-
-/* '' */
-.icon-ok-1:before {
-  content: '\e806'; }
-
-/* '' */
-.icon-ok-circle:before {
-  content: '\e807'; }
-
-/* '' */
-.icon-check-empty:before {
-  content: '\f096'; }
-
-/* '' */
-.icon-ok-squared:before {
-  content: '\f14a'; }
-
-/* '' */
-.icon-github:before {
-  content: '\f300'; }
-
-/* '' */
-.icon-github-circled:before {
-  content: '\f301'; }
-
-/* '' */
-.icon-flickr:before {
-  content: '\f303'; }
-
-/* '' */
-.icon-flickr-circled:before {
-  content: '\f304'; }
-
-/* '' */
-.icon-twitter:before {
-  content: '\f309'; }
-
-/* '' */
-.icon-twitter-circled:before {
-  content: '\f30a'; }
-
-/* '' */
-.icon-pinterest:before {
-  content: '\f312'; }
-
-/* '' */
-.icon-pinterest-circled:before {
-  content: '\f313'; }
-
-/* '' */
-.icon-tumblr:before {
-  content: '\f315'; }
-
-/* '' */
-.icon-tumblr-circled:before {
-  content: '\f316'; }
-
-/* '' */
-.icon-linkedin:before {
-  content: '\f318'; }
-
-/* '' */
-.icon-linkedin-circled:before {
-  content: '\f319'; }
-
-/* '' */
-.icon-instagram:before {
-  content: '\f32d'; }
-
-/* '' */
-.icon-skype-circled:before {
-  content: '\f33a'; }
-
-/* '' */
-.icon-paypal:before {
-  content: '\f342'; }
-
-/* '' */
-.icon-comment:before {
-  content: '\f4ac'; }
-
-/* '' */
 h2, h4, .sixpieces h2 {
   font-family: 'Oswald', sans-serif;
   font-weight: 700; }
@@ -1343,7 +1210,7 @@ h1 {
   font-family: 'Oswald', sans-serif;
   font-weight: 400; }
 
-nav.navbar, .topper h3, .recommendations {
+.frontpagehero h3, .recommendations {
   font-family: 'Oswald', sans-serif;
   font-weight: 300; }
 
@@ -1356,7 +1223,8 @@ body {
 
 p {
   margin-bottom: 30px;
-  line-height: 1.4; }
+  line-height: 1.8;
+  font-size: 14px; }
 
 section,
 header,
@@ -1372,26 +1240,30 @@ a {
   text-decoration: none !important;
   -webkit-transition: all 225ms ease;
   transition: all 225ms ease;
-  color: #E0CFA2; }
+  color: #E6E3C5; }
   a:hover {
-    color: #AEA07D; }
+    color: #E0CFA2; }
 
 h1 {
   color: #E6E3C5;
   background: #517C79;
-  padding: 10px;
-  width: 90%;
-  border-bottom: 3px solid #4C716E;
+  padding: 10px 0;
+  border-bottom: 4px solid #4C716E;
   text-align: center;
-  margin: -30px auto 20px;
-  text-transform: uppercase; }
+  margin: -30px auto -30px;
+  text-transform: uppercase;
+  z-index: 100;
+  position: relative;
+  width: 100%;
+  letter-spacing: 0.05em; }
 
 h2 {
   text-transform: uppercase; }
 
 h4 {
   text-transform: uppercase;
-  font-size: 14px; }
+  font-size: 14px;
+  color: #E2E5C0; }
 
 nav.navbar {
   background: rgba(0, 0, 0, 0.2);
@@ -1400,9 +1272,9 @@ nav.navbar {
   nav.navbar a.navbar-brand {
     text-transform: uppercase;
     font-size: 16px;
-    color: #E6E3C5; }
+    color: #E2E5C0; }
 
-.topper {
+.frontpagehero {
   height: 100vh;
   padding: 40px 0;
   position: relative;
@@ -1412,44 +1284,72 @@ nav.navbar {
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center; }
-  .topper img {
+  .frontpagehero img {
     margin-top: 25vh;
     width: 70%;
     max-width: 360px; }
-  .topper h3 {
-    color: #E6E3C5;
+  .frontpagehero h3 {
+    color: #E2E5C0;
     letter-spacing: 2px; }
 
 .work {
   background: #ABAF7D;
-  margin: 60px 0 0;
   padding-bottom: 40px; }
 
-.example {
-  position: relative;
-  height: 70vh; }
-  .example .images {
-    text-align: center;
-    padding: 40px 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center; }
-    .example .images img {
-      -ms-flex-item-align: center;
-          -ms-grid-row-align: center;
-          align-self: center;
-      width: 60%; }
-  .example .meta {
-    background: rgba(0, 0, 0, 0.5); }
-    .example .meta .content {
-      padding: 20px; }
+.hero {
+  height: 50vh;
+  overflow: hidden;
+  background-size: cover;
+  background-position: top;
+  background-repeat: none;
+  display: block; }
+
+.example .images {
+  text-align: center;
+  padding: 80px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  justify-content: center; }
+  .example .images img {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    max-width: 80%;
+    display: inline-block;
+    margin: 40px; }
+.example .meta {
+  background: rgba(0, 0, 0, 0.2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  color: #E2E5C0; }
+  .example .meta .content {
+    padding: 100px 40px 40px; }
+
+.example.dark {
+  background: #7A9E7C; }
 
 .about {
   background: #729673;
-  padding-bottom: 40px; }
+  padding-bottom: 40px;
+  margin-top: -40px; }
+  .about .container, .about .container-fluid {
+    padding-top: 60px; }
   .about .row {
     max-width: 1170px;
     margin: 0 auto; }

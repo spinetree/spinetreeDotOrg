@@ -3,9 +3,10 @@
 
 //@import '../_sass/bootstrap';
 @import '../_sass/normalize';
+@import '../_sass/utilities';
 @import '../_sass/flexboxgrid';
-//@import '../_sass/flex';
-@import '../_sass/fonts/spinetree-icons';
+
+$white: #E2E5C0;
 
 $tan1: #E6E3C5;
 $tan2: #E0CFA2;
@@ -60,8 +61,9 @@ body {
 }
 
 p {
-    margin-bottom: 30px;
-    line-height:1.4;
+    margin-bottom:30px;
+    line-height:1.8;
+    font-size:14px;
 }
 
 section,
@@ -78,9 +80,9 @@ a {
     outline: none !important;
     text-decoration: none !important;
     transition: all 225ms ease;
-    color: $tan2;
+    color: $tan1;
     &:hover {
-        color: $tan3;
+        color: $tan2;
     }
 }
 
@@ -95,12 +97,16 @@ h1 {
     @extend %oswald;
     color: $tan1;
     background: $blue2;
-    padding: 10px;
-    width: 90%;
-    border-bottom: 3px solid $blue3;
+    padding: 10px 0;
+    border-bottom: 4px solid $blue3;
     text-align: center;
-    margin: -30px auto 20px;
+    margin: -30px auto -30px;
     text-transform:uppercase;
+    z-index:100;
+    position:relative;
+    width:100%;
+    letter-spacing:0.05em;
+
 }
 
 h2 {
@@ -113,6 +119,7 @@ h4 {
     @extend %oswaldbold;
     text-transform: uppercase;
     font-size: 14px;
+    color:$white;
 }
 
 
@@ -125,15 +132,16 @@ nav.navbar {
     background: rgba(0, 0, 0, 0.2);
     border: none;
     margin: 0;
-    @extend %oswaldlight;
+   // @extend %oswaldlight;
     a.navbar-brand {
         text-transform: uppercase;
         font-size: 16px;
-        color:$tan1;
+        color:$white;
     }
 }
 
-.topper {
+
+.frontpagehero {
     height: 100vh;
     padding: 40px 0;
     position: relative;
@@ -143,7 +151,6 @@ nav.navbar {
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-    h1 {}
     img {
         margin-top: 25vh;
         width: 70%;
@@ -151,41 +158,69 @@ nav.navbar {
     }
     h3 {
         @extend %oswaldlight;
-        color: $tan1;
+        color: $white;
         letter-spacing: 2px;
     }
 }
 
+.thumbs {
+    
+}
+
+
 .work {
     background: $tangreen;
-    margin: 60px 0 0;
     padding-bottom: 40px;
 }
 
+
+.hero {
+    height:50vh;
+    overflow:hidden;
+    background-size:cover;
+    background-position:top;
+    background-repeat:none;
+    display:block;
+    }
+
+
 .example {
-    position:relative;
-    height:70vh;
     .images {
         text-align:center;
-        padding:40px 0;
+        padding:80px 0;
         display:flex;
+        flex-direction:row;
+        flex-wrap:wrap;
+        justify-content:center;
+        align-items:center;
+        margin: 0 auto;
         justify-content:center;
         img {
             align-self:center;
-            width:60%;
+            max-width:80%;
+            display:inline-block;
+            margin:40px; 
         }
     }
     .meta {
+        background:rgba(0,0,0,.2);
+        display:flex;
+        text-align:center;
+        color:$white;
         .content {        
-            padding:20px;
+            padding:100px 40px 40px;
+           // align-self:center;
         }        
-        background:rgba(0,0,0,.5);
     }
 }
+
+.example.dark {background:$green2;}
 
 .about {
     background: $green3;
     padding-bottom: 40px;
+    margin-top:-40px;
+    .container, .container-fluid {padding-top:60px;}
     .row {    
         max-width:1170px;
         margin: 0 auto;

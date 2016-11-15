@@ -2,19 +2,19 @@
 
 <main>
 
-    <div class="topper">
+    <div class="frontpagehero">
         <h1 class="hidden">Spinetree Media</h1>
         <img src="/images/layout/handLettering.png" />
         <h3 class="secondary">print  |  web  |  UI  |  UX</h3>
     </div>
 
-    <div class="work">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-12">
-                    <h1>Work</h1>
-                </div>
+    <div class="thumbs">
 
+        <h1 class="pagetitle">Work</h1>
+
+          <div class="container-fluid">
+            <div class="row">
+                
                 {% for post in site.posts %}
                     {% if post.categories contains 'work' %}
                     <div class="col-md-6">
