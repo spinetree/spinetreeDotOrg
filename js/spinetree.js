@@ -10,7 +10,9 @@ $(function() {
 =            WINDOW IS LOADED            =
 ========================================*/
 $(window).load(function() {
-
+    $('.slides').slick({
+        //options go here
+    });
 });
 
 
