@@ -9,11 +9,19 @@ $(function() {
 /*========================================
 =            WINDOW IS LOADED            =
 ========================================*/
-$(window).load(function() {
+
+$(window).load(function () {
     $('.slides').slick({
-        //options go here
+        dots: true,
+        infinite: false,
+        speed: 300,
+        slidesToShow: 3,
+        slidesToScroll: 1
+    
+        
     });
 });
+
 
 
 /*=========================================

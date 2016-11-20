@@ -6,7 +6,7 @@
 @import '../_sass/utilities';
 @import '../_sass/flexboxgrid';
 @import '../_sass/slick';
-//@import '../_sass/slick-theme';
+@import '../_sass/slick-theme-spinetree';
 
 
 $white: #E2E5C0;
@@ -197,7 +197,7 @@ nav.navbar {
         justify-content:center;
         align-items:center;
         margin: 0 auto;
-        justify-content:center;
+        justify-content:center;    
         img {
             align-self:center;
             max-width:80%;
@@ -205,8 +205,12 @@ nav.navbar {
             margin:40px; 
         }
     }
+    .images.slides {
+        padding:0 30px;
+        img {margin:0 10px;}
+    }
     .meta {
-        background:rgba(0,0,0,.2);
+        background:rgba(0,0,0,.1);
         display:flex;
         text-align:center;
         color:$white;
