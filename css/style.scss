@@ -84,6 +84,9 @@ h3 {
     font-size: 22px;
 }
 
+h3.small {font-size:20px;}
+
+h3.smaller {font-size:18px;}
 
 h4 {
     @extend %oswaldbold;
@@ -147,13 +150,17 @@ h4 {
         height:220px;
         img {
             position:relative;
-            top: 30px;}
+            top:4px;
+            width:100%;
+            max-width:320px;
+        }
         }
     .meta { 
         align-self:center;
         text-align:center;
         h3 {
-            font-size:30px;
+            font-size:24px;
+            padding:0 20%;
         }
         p {
             font-style:italic;

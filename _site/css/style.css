@@ -427,8 +427,8 @@ template {
   margin-left: auto; }
 
 .container-fluid {
-  padding-right: 2rem;
-  padding-left: 2rem; }
+  padding-right: 0.5rem;
+  padding-left: 0.5rem; }
 
 .row {
   box-sizing: border-box;
@@ -1491,6 +1491,12 @@ h2 {
 h3 {
   font-size: 22px; }
 
+h3.small {
+  font-size: 20px; }
+
+h3.smaller {
+  font-size: 18px; }
+
 h4 {
   font-size: 18px; }
 
@@ -1531,14 +1537,17 @@ h4 {
     height: 220px; }
     .projectcard .thumbnail img {
       position: relative;
-      top: 30px; }
+      top: 4px;
+      width: 100%;
+      max-width: 320px; }
   .projectcard .meta {
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
     text-align: center; }
     .projectcard .meta h3 {
-      font-size: 30px; }
+      font-size: 24px;
+      padding: 0 20%; }
     .projectcard .meta p {
       font-style: italic;
       font-size: 16px;
