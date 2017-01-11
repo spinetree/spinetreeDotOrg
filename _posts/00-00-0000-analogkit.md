@@ -12,6 +12,7 @@ color: '#50300A'
 
 
 <div class="container-fluid">
+    <div class="row">
 
     <div class="hero" style="background-image:url({{ page.hero }});">
     </div>
@@ -19,7 +20,7 @@ color: '#50300A'
   <!--  <h1 class="pagetitle" style="background:{{ page.color }};">{{ page.title }}</h1> -->
   <h1 class="pagetitle">{{ page.title }}</h1> 
 
-    <section class="project row">
+    <section class="project">
         <div class="images col-md-9">
             <img src="http://placekitten.com/400/800" />
         </div>
@@ -33,7 +34,7 @@ color: '#50300A'
         </div>
     </section>
     
-    <section class="project dark row">
+    <section class="project dark">
         <div class="images col-md-9">
             <img src="http://placekitten.com/800/600" />
         </div>
@@ -47,7 +48,7 @@ color: '#50300A'
         </div>
     </section>
     
-    <section class="project row">
+    <section class="project">
         <div class="images col-md-9">
             <img src="http://placekitten.com/500/400" />
             <img src="http://placekitten.com/500/400" />
@@ -62,7 +63,7 @@ color: '#50300A'
         </div>
     </section>    
     
-    <section class="project dark row">
+    <section class="project dark ">
         <div class="images col-md-9">
             <img src="http://placekitten.com/600/400" />
         </div>
@@ -76,7 +77,7 @@ color: '#50300A'
         </div>
     </section>    
 
-<section class="project row">
+<section class="project">
     <div class="images slides col-md-9">
         <div><img src="http://placekitten.com/500/400" /></div>
         <div> <img src="http://placekitten.com/500/400" /></div>
@@ -94,4 +95,5 @@ color: '#50300A'
     </div>
 </section>
     
+    </div>
 </div>

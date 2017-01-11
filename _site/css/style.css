@@ -445,7 +445,7 @@ template {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin-right: -.5rem;
-  margin-left: -0.5rem; }
+  margin-left: -.5rem; }
 
 .row.reverse {
   -webkit-box-orient: horizontal;
@@ -1532,26 +1532,39 @@ h4 {
 
 .projectcard {
   overflow: hidden; }
+  .projectcard .row {
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch; }
   .projectcard .thumbnail {
     text-align: center;
-    height: 220px; }
+    min-height: 220px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
     .projectcard .thumbnail img {
-      position: relative;
-      top: 10px;
+      -ms-flex-item-align: end;
+          align-self: flex-end;
       width: 100%;
-      max-width: 320px; }
+      max-width: 320px;
+      margin: 0 auto;
+      position: relative;
+      top: 6px; }
   .projectcard .meta {
+    text-align: center;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
-    text-align: center; }
+    margin: 0 auto; }
     .projectcard .meta h3 {
+      margin-top: 40px;
       font-size: 24px;
-      padding: 0 20%; }
+      padding: 0 5%; }
     .projectcard .meta p {
       font-style: italic;
       font-size: 16px;
-      color: #E4D297; }
+      color: #E4D297;
+      margin-bottom: 0; }
   .projectcard:hover .thumbnail img {
     top: 1px;
     -webkit-transition: top .4s;

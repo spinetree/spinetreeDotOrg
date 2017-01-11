@@ -145,27 +145,34 @@ h4 {
 
 .projectcard {
     overflow:hidden;
+    .row {align-items:stretch;}
     .thumbnail {
         text-align:center;
-        height:220px;
+        min-height:220px;
+        display:flex;
         img {
-            position:relative;
-            top:10px;
+            align-self:flex-end;
             width:100%;
             max-width:320px;
+            margin:0 auto;
+            position:relative;
+            top:6px;
         }
         }
     .meta { 
-        align-self:center;
         text-align:center;
+        align-self:center;
+        margin:0 auto;
         h3 {
+            margin-top:40px;
             font-size:24px;
-            padding:0 20%;
+            padding:0 5%;
         }
         p {
             font-style:italic;
             font-size:16px;
             color:$tan1;
+            margin-bottom:0;
         }
     }
     &:hover .thumbnail img {
