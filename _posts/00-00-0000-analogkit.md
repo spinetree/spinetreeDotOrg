@@ -1,13 +1,13 @@
 ---
 layout: work
-title: 'Project 1'
+title: 'AnalogKit'
 categories: work
 date: 2015-08-01 13:26:34
-tags: ux ui visual_design
-thumbnail: 'http://placekitten.com/200/200'
-permalink: /work/test
+type: 'UI/UX - Visual Design'
+thumbnail: 'images/thumbs/analogkit.jpg'
+permalink: /work/analogkit
 hero: 'http://placekitten.com/1200/1000' 
-color: '#D59537'
+color: '#50300A'
 ---
 
 
@@ -19,7 +19,7 @@ color: '#D59537'
   <!--  <h1 class="pagetitle" style="background:{{ page.color }};">{{ page.title }}</h1> -->
   <h1 class="pagetitle">{{ page.title }}</h1> 
 
-    <section class="example row">
+    <section class="project row">
         <div class="images col-md-9">
             <img src="http://placekitten.com/400/800" />
         </div>
@@ -33,7 +33,7 @@ color: '#D59537'
         </div>
     </section>
     
-    <section class="example dark row">
+    <section class="project dark row">
         <div class="images col-md-9">
             <img src="http://placekitten.com/800/600" />
         </div>
@@ -47,7 +47,7 @@ color: '#D59537'
         </div>
     </section>
     
-    <section class="example row">
+    <section class="project row">
         <div class="images col-md-9">
             <img src="http://placekitten.com/500/400" />
             <img src="http://placekitten.com/500/400" />
@@ -62,7 +62,7 @@ color: '#D59537'
         </div>
     </section>    
     
-    <section class="example dark row">
+    <section class="project dark row">
         <div class="images col-md-9">
             <img src="http://placekitten.com/600/400" />
         </div>
@@ -76,7 +76,7 @@ color: '#D59537'
         </div>
     </section>    
 
-<section class="example row">
+<section class="project row">
     <div class="images slides col-md-9">
         <div><img src="http://placekitten.com/500/400" /></div>
         <div> <img src="http://placekitten.com/500/400" /></div>

@@ -1,4 +1,19 @@
 @charset "UTF-8";
+h3, h4, .sixpieces h2 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700; }
+
+h1, h2, h3, h4 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400; }
+
+nav.navbar, .frontpagehero h3, .recommendations {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300; }
+
+body, p {
+  font-family: 'Lora', serif; }
+
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Change the default font family in all browsers (opinionated).
@@ -411,6 +426,10 @@ template {
   margin-right: auto;
   margin-left: auto; }
 
+.container-fluid {
+  padding-right: 2rem;
+  padding-left: 2rem; }
+
 .row {
   box-sizing: border-box;
   display: -webkit-box;
@@ -424,7 +443,9 @@ template {
   -ms-flex-direction: row;
   flex-direction: row;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  margin-right: -.5rem;
+  margin-left: -0.5rem; }
 
 .row.reverse {
   -webkit-box-orient: horizontal;
@@ -1400,29 +1421,38 @@ template {
       color: black;
       opacity: 0.75; }
 
-h2, h4, .sixpieces h2 {
-  font-family: 'Oswald', sans-serif;
-  font-weight: 700; }
-
-h1 {
-  font-family: 'Oswald', sans-serif;
-  font-weight: 400; }
-
-.frontpagehero h3, .recommendations {
-  font-family: 'Oswald', sans-serif;
-  font-weight: 300; }
-
-body {
-  font-family: 'Libre Baskerville', serif; }
+nav.navbar {
+  background: rgba(0, 0, 0, 0.5);
+  border: none;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  height: 80px; }
+  nav.navbar ul {
+    padding: 0; }
+  nav.navbar li {
+    list-style: none;
+    display: inline-block;
+    margin: 20px; }
+  nav.navbar a {
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #E2E5C0; }
 
 body {
   background: #84A585;
-  color: #E6E3C5; }
+  color: #E4D297; }
 
 p {
   margin-bottom: 30px;
   line-height: 1.8;
-  font-size: 14px; }
+  font-size: 14px;
+  letter-spacing: .8px; }
 
 section,
 header,
@@ -1438,42 +1468,34 @@ a {
   text-decoration: none !important;
   -webkit-transition: all 225ms ease;
   transition: all 225ms ease;
-  color: #E6E3C5; }
+  color: #E4D297; }
   a:hover {
-    color: #E0CFA2; }
+    color: #E6E3C5; }
 
-h1 {
-  color: #E6E3C5;
+h1, h2, h3, h4 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #E2E5C0; }
+
+h2 {
   background: #517C79;
   padding: 10px 0;
   border-bottom: 4px solid #4C716E;
   text-align: center;
-  margin: -30px auto -30px;
-  text-transform: uppercase;
+  margin: 0 auto;
   z-index: 100;
   position: relative;
-  width: 100%;
+  display: block;
   letter-spacing: 0.05em; }
 
-h2 {
-  text-transform: uppercase; }
+h3 {
+  font-size: 22px; }
 
 h4 {
-  text-transform: uppercase;
-  font-size: 14px;
-  color: #E2E5C0; }
-
-nav.navbar {
-  background: rgba(0, 0, 0, 0.2);
-  border: none;
-  margin: 0; }
-  nav.navbar a.navbar-brand {
-    text-transform: uppercase;
-    font-size: 16px;
-    color: #E2E5C0; }
+  font-size: 18px; }
 
 .frontpagehero {
-  height: 100vh;
+  height: 70vh;
   padding: 40px 0;
   position: relative;
   background: url("../images/pageHeaderBg.jpg");
@@ -1483,7 +1505,7 @@ nav.navbar {
   background-size: cover;
   text-align: center; }
   .frontpagehero img {
-    margin-top: 25vh;
+    margin-top: 20vh;
     width: 70%;
     max-width: 360px; }
   .frontpagehero h3 {
@@ -1495,14 +1517,34 @@ nav.navbar {
   padding-bottom: 40px; }
 
 .hero {
-  height: 50vh;
+  height: 500px;
   overflow: hidden;
   background-size: cover;
   background-position: top;
   background-repeat: none;
   display: block; }
 
-.example .images {
+.projectcard {
+  overflow: hidden; }
+  .projectcard .thumbnail {
+    text-align: center;
+    height: 220px; }
+    .projectcard .thumbnail img {
+      position: relative;
+      top: 30px; }
+  .projectcard .meta {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    text-align: center; }
+    .projectcard .meta h3 {
+      font-size: 30px; }
+    .projectcard .meta p {
+      font-style: italic;
+      font-size: 16px;
+      color: #E4D297; }
+
+.project .images {
   text-align: center;
   padding: 80px 0;
   display: -webkit-box;
@@ -1522,35 +1564,35 @@ nav.navbar {
           align-items: center;
   margin: 0 auto;
   justify-content: center; }
-  .example .images img {
+  .project .images img {
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
     max-width: 80%;
     display: inline-block;
     margin: 40px; }
-.example .images.slides {
+.project .images.slides {
   padding: 0 30px; }
-  .example .images.slides img {
+  .project .images.slides img {
     margin: 0 10px; }
-.example .meta {
+.project .meta {
   background: rgba(0, 0, 0, 0.1);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   text-align: center;
   color: #E2E5C0; }
-  .example .meta .content {
+  .project .meta .content {
     padding: 100px 40px 40px; }
 
-.example.dark {
+.project.dark {
   background: #7A9E7C; }
 
 .about {
   background: #729673;
-  padding-bottom: 40px;
-  margin-top: -40px; }
-  .about .container, .about .container-fluid {
+  padding-bottom: 40px; }
+  .about .container,
+  .about .container-fluid {
     padding-top: 60px; }
   .about .row {
     max-width: 1170px;
@@ -1561,7 +1603,7 @@ footer {
   text-align: center;
   padding: 60px 0 80px; }
   footer h4 {
-    color: #AEA07D; }
+    color: #E0CFA2; }
   footer li {
     float: none;
     display: inline-block;
@@ -1583,15 +1625,15 @@ footer {
   padding: 20px 0; }
 
 .recommendations {
-  border-top: 10px solid #E0CFA2;
-  background: #E6E3C5;
+  border-top: 10px solid #E6E3C5;
+  background: #E4D297;
   color: #86A3C5;
   font-size: 16px;
   padding: 100px 0 160px; }
 
 .sixpieces {
   background: #517C79;
-  color: #E6E3C5;
+  color: #E4D297;
   padding: 100px 0 160px;
   -webkit-transform: skewY(-3deg);
           transform: skewY(-3deg);

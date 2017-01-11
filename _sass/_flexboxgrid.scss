@@ -5,8 +5,8 @@
 }
 
 .container-fluid {
-//    padding-right: 2rem;
-//    padding-left: 2rem
+     padding-right: 2rem;
+     padding-left: 2rem
 }
 
 .row {
@@ -23,8 +23,8 @@
     flex-direction: row;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-   // margin-right: -.5rem;
-    // margin-left: -.5rem
+    margin-right: -.5rem;
+    margin-left: -.5rem
 }
 
 .row.reverse {

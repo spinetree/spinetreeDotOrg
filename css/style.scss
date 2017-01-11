@@ -2,54 +2,14 @@
 --- 
 
 //@import '../_sass/bootstrap';
+@import '../_sass/variables';
 @import '../_sass/normalize';
 @import '../_sass/utilities';
 @import '../_sass/flexboxgrid';
 @import '../_sass/slick';
 @import '../_sass/slick-theme-spinetree';
+@import '../_sass/navbar';
 
-
-$white: #E2E5C0;
-
-$tan1: #E6E3C5;
-$tan2: #E0CFA2;
-$tan3: #AEA07D;
-
-$tangreen: #ABAF7D;
-
-$green1: #84A585;
-$green2: #7A9E7C;
-$green3: #729673;
-$green4: #578059;
-$green5: #578059;
-
-$brown1: #6B5D51;
-$brown2: #605232;
-$brown3: #333620;
-
-$blue1: #86A3C5;
-$blue2: #517C79;
-$blue3: #4C716E;
-
-
-%oswaldbold {
-    font-family: 'Oswald', sans-serif;
-    font-weight: 700;
-}
-
-%oswald {
-    font-family: 'Oswald', sans-serif;
-    font-weight: 400;
-}
-
-%oswaldlight {
-    font-family: 'Oswald', sans-serif;
-    font-weight: 300;
-}
-
-%libre {
-    font-family: 'Libre Baskerville', serif;
-}
 
 
 // ******************************************************************
@@ -58,15 +18,17 @@ $blue3: #4C716E;
 
 
 body {
-    @extend %libre;
+    @extend %lora;
     background: $green1;
     color: $tan1;
 }
 
 p {
+    @extend %lora;
     margin-bottom:30px;
     line-height:1.8;
     font-size:14px;
+    letter-spacing:.8px;
 }
 
 section,
@@ -96,33 +58,36 @@ h4,
 h5,
 h6 {}
 
-h1 {
+h1, h2, h3, h4 {    
+    text-transform:uppercase;
     @extend %oswald;
-    color: $tan1;
+    letter-spacing:1px;
+    color:$white;
+}
+
+h1 {}
+
+h2 {
     background: $blue2;
     padding: 10px 0;
     border-bottom: 4px solid $blue3;
     text-align: center;
-    margin: -30px auto -30px;
-    text-transform:uppercase;
+    margin: 0 auto;
     z-index:100;
     position:relative;
-    width:100%;
+    display:block;
     letter-spacing:0.05em;
-
 }
 
-h2 {
-    text-transform:uppercase;
+h3 {
     @extend %oswaldbold;
-
+    font-size: 22px;
 }
+
 
 h4 {
     @extend %oswaldbold;
-    text-transform: uppercase;
-    font-size: 14px;
-    color:$white;
+    font-size: 18px;
 }
 
 
@@ -131,21 +96,9 @@ h4 {
 //*******************************************************************
 
 
-nav.navbar {
-    background: rgba(0, 0, 0, 0.2);
-    border: none;
-    margin: 0;
-   // @extend %oswaldlight;
-    a.navbar-brand {
-        text-transform: uppercase;
-        font-size: 16px;
-        color:$white;
-    }
-}
-
 
 .frontpagehero {
-    height: 100vh;
+    height: 70vh;
     padding: 40px 0;
     position: relative;
     background: url('../images/pageHeaderBg.jpg');
@@ -155,7 +108,7 @@ nav.navbar {
     background-size: cover;
     text-align: center;
     img {
-        margin-top: 25vh;
+        margin-top: 20vh;
         width: 70%;
         max-width: 360px;
     }
@@ -178,7 +131,7 @@ nav.navbar {
 
 
 .hero {
-    height:50vh;
+    height:500px;
     overflow:hidden;
     background-size:cover;
     background-position:top;
@@ -187,7 +140,31 @@ nav.navbar {
     }
 
 
-.example {
+.projectcard {
+    overflow:hidden;
+    .thumbnail {
+        text-align:center;
+        height:220px;
+        img {
+            position:relative;
+            top: 30px;}
+        }
+    .meta { 
+        align-self:center;
+        text-align:center;
+        h3 {
+            font-size:30px;
+        }
+        p {
+            font-style:italic;
+            font-size:16px;
+            color:$tan1;
+        }
+    }
+}
+
+
+.project {
     .images {
         text-align:center;
         padding:80px 0;
@@ -221,13 +198,13 @@ nav.navbar {
     }
 }
 
-.example.dark {background:$green2;}
+.project.dark {background:$green2;}
 
 .about {
     background: $green3;
     padding-bottom: 40px;
-    margin-top:-40px;
-    .container, .container-fluid {padding-top:60px;}
+    .container, 
+    .container-fluid {padding-top:60px;}
     .row {    
         max-width:1170px;
         margin: 0 auto;

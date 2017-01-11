@@ -10,28 +10,34 @@
 
     <div class="thumbs">
 
-        <h1 class="pagetitle">Work</h1>
+        <h2 class="pagetitle">Work</h2>
 
           <div class="container-fluid">
             <div class="row">
                 
-                {% for post in site.posts %}
+                {% for post in site.posts reversed %}
                     {% if post.categories contains 'work' %}
-                    <div class="col-md-6">
-                        <a href="{{ post.url }}">
-                            <img src="{{ post.thumbnail }}" />
-                            <h3>{{ post.title }}</h3>
-                        </a>                        
+                    <div class="projectcard col-md-6" style="background:{{post.color}}">
+                        <div class="row">
+                            <a href="{{ post.url }}" class="meta col-md-6">
+                                <h3>{{ post.title }}</h3>
+                                <p>{{ post.type }}</p>
+                            </a>                      
+                            <a href="{{ post.url }}" class="thumbnail col-md-6">
+                                <img src="{{ post.thumbnail }}" />
+                            </a>    
+                        </div>
                     </div>
                     {% endif %}
                 {% endfor %}
 
             </div>
         </div>
+        
     </div>
 
     <div class="about">
-        <h1>About</h1>
+        <h2>About</h2>
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-8">
