@@ -4,7 +4,7 @@ title: 'AnalogKit'
 categories: work
 date: 2015-08-01 13:26:34
 type: 'UI/UX - Visual Design'
-thumbnail: 'images/thumbs/analogkit.jpg'
+thumbnail: 'images/thumbs/analogkit@2x.jpg'
 permalink: /work/analogkit
 hero: 'http://placekitten.com/1200/1000' 
 color: '#50300A'
