@@ -77,32 +77,35 @@
 </head>
 
 <body class="">
+    
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="row">
 
-        <nav class="navbar navbar-inverse navbar-fixed-top">
-
-            <div class="navmenu">
+                <div class="navmenu col-xs-6">
                     {% for item in site.data.nav.main %}
-                        <a href="{{ item.url }}">{{ item.text }}</a>
-                    {% endfor %}
-            </div>
+                    <a href="{{ item.url }}">{{ item.text }}</a> {% endfor %}
+                </div>
 
-            <div class="socialicons">
-                <a href="">
-                    <i class="fa fa-linkedin" aria-hidden="true" title=""></i>
-                </a>
-                <a href="">
-                    <i class="fa fa-pinterest" aria-hidden="true" title=""></i>
-                </a>
-                <a href="">
-                    <i class="fa fa-twitter" aria-hidden="true" title=""></i>
-                </a>
-                <a href="">
-                    <i class="fa fa-github" aria-hidden="true" title=""></i>
-                </a>
-                <a href="">
-                    <i class="fa fa-envelope" aria-hidden="true" title=""></i>
-                </a>
-            </div>
+                <div class="socialicons col-xs-6">
+                    <a href="">
+                        <i class="fa fa-linkedin" aria-hidden="true" title=""></i>
+                    </a>
+                    <a href="">
+                        <i class="fa fa-pinterest" aria-hidden="true" title=""></i>
+                    </a>
+                    <a href="">
+                        <i class="fa fa-twitter" aria-hidden="true" title=""></i>
+                    </a>
+                    <a href="">
+                        <i class="fa fa-github" aria-hidden="true" title=""></i>
+                    </a>
+                    <a href="">
+                        <i class="fa fa-envelope" aria-hidden="true" title=""></i>
+                    </a>
+                </div>
 
-        </nav>
+            </div>
+        </div>
+    </nav>
 

@@ -1,13 +1,56 @@
 --- 
 --- 
 @import '../_sass/bootstrap';
-//@import '../_sass/flexboxgrid';
-@import '../_sass/variables';
 @import '../_sass/normalize';
 @import '../_sass/utilities';
 @import '../_sass/slick';
 @import '../_sass/slick-theme-spinetree';
 @import '../_sass/font-awesome';
+
+$white: #E2E5C0;
+
+$tan1: #E6E3C5;
+$tan2: #E0CFA2;
+$tan3: #E4D297;
+$tan4: #AEA07D;
+
+$tangreen: #ABAF7D;
+
+$green1: #84A585;
+$green2: #7A9E7C;
+$green3: #729673;
+$green4: #578059;
+$green5: #578059;
+
+$brown1: #6B5D51;
+$brown2: #605232;
+$brown3: #333620;
+$brown4: #2B2E1B;
+
+$blue1: #86A3C5;
+$blue2: #517C79;
+$blue3: #4C716E;
+
+
+%oswaldbold {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+}
+
+%oswald {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+%oswaldlight {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+}
+
+%lora {
+    font-family: 'Lora', serif;
+}
+
 
 
 // ******************************************************************
@@ -56,16 +99,22 @@ h4,
 h5,
 h6 {}
 
+
+
 h1, h2, h3, h4 {    
     text-transform:uppercase;
-    @extend %oswald;
     letter-spacing:1px;
     color:$white;
 }
 
-h1 {}
+h1,h2,h3 {
+    @extend %oswald;
+}
+
+h1 {font-size:40px;}
 
 h2 {
+    font-size:24px;
     background: $blue2;
     padding: 10px 0;
     border-bottom: 4px solid $blue3;
@@ -75,16 +124,12 @@ h2 {
     position:relative;
     display:block;
     letter-spacing:0.05em;
+    box-shadow: 2px 1px 5px 0px #111;
 }
 
 h3 {
-    @extend %oswaldbold;
     font-size: 22px;
 }
-
-h3.small {font-size:20px;}
-
-h3.smaller {font-size:18px;}
 
 h4 {
     @extend %oswaldbold;
@@ -100,9 +145,9 @@ h5 {
 }
 
 
-// ********************
+// ****************************************
 // Modular content areas
-// ********************
+// ****************************************
 
 .socialicons {
     text-align:center;
@@ -112,10 +157,10 @@ h5 {
         font-size:20px;
         background:$blue3;
         border-radius:20px;
-        line-height:30px;
-        width:30px;
-        height:30px;
-        color:$white;
+        line-height:32px;
+        width:32px;
+        height:32px;
+        color:$tan1;
         &:hover {background:$blue2;}
     }
 }
@@ -126,14 +171,10 @@ h5 {
 
 nav.navbar {
     background: rgba(0, 0, 0, 0.5);
-    display:flex;
-    flex:0 0 100%;
-    flex-wrap:wrap;
     border: none;
     @extend %oswaldlight;
     z-index:1;
     .navmenu {   
-        flex:1 0 320px;
         a {
             text-transform: uppercase;
             font-size: 16px;
@@ -145,7 +186,6 @@ nav.navbar {
     }
     .socialicons {
         padding:28px 0;
-        flex:1 0 320px;
         text-align:right;
         a {text-align:center;}
         i {
@@ -163,7 +203,7 @@ nav.navbar {
 .frontpagehero {
     height: 70vh;
     min-height:500px;
-    padding: 40px 0;
+    padding: 0 0 40px;
     margin-top:-80px;
     position: relative;
     background: url('../images/pageHeaderBg.jpg');
@@ -173,16 +213,14 @@ nav.navbar {
     background-size: cover;
     text-align: center;
     img {
-        margin-top: 15vh;
-        width: 70%;
+        margin: 180px auto 60px;
         max-width: 360px;
-        margin-bottom:40px;
     }
     h5 {        
         @extend %oswaldlight;
         color: #fff;
         letter-spacing: 1.5px;
-        margin:0 0 20px;
+        margin:0 0 10px;
     }
 }
 
@@ -198,13 +236,13 @@ nav.navbar {
 
 
 .hero {
-    height:500px;
+    height:200px;
     overflow:hidden;
     background-size:cover;
     background-position:top;
     background-repeat:none;
     display:block;
-    }
+}
 
 
 .projectcard {
@@ -228,14 +266,14 @@ nav.navbar {
         align-self:center;
         margin:0 auto;
         h3 {
-            margin-top:40px;
+            margin-top:60px;
             font-size:24px;
             padding:0 5%;
         }
         p {
             font-style:italic;
             font-size:16px;
-            color:$tan1;
+            color:$tan3;
             margin-bottom:0;
         }
     }
@@ -284,15 +322,10 @@ nav.navbar {
 
 .about {
     background: $green3;
-    padding-bottom: 40px;
-    .container, 
-    .container-fluid {padding-top:60px;}
-    .row {    
-        max-width:1170px;
-        margin: 0 auto;
-    }
+    .content {margin:40px 0;}
+    .connect {margin:40px 0;}
     p {margin-right:120px;}
-
+    button {margin-right:100px;}
 }
 
 
@@ -303,6 +336,7 @@ nav.navbar {
 
 footer {
     background: $brown3;
+    border-top: 10px solid $brown4;
     text-align: center;
     padding: 60px 0 80px;
     h4 {
@@ -318,6 +352,20 @@ footer {
     }
 }
 
+.btn {
+    @extend %oswaldlight;
+    letter-spacing:.8px;
+    text-transform:uppercase;
+    font-size:16px;
+    padding:15px 30px;
+    border:none;
+    box-shadow: 2px 2px 11px -4px rgba(68,68,68,1);
+    color:$white;
+        }
+.btn-primary {
+    background:$blue3; 
+    &:hover {background:$blue2;}
+}
 
 // ******************************************************************
 // About Page
@@ -325,7 +373,6 @@ footer {
 
 
 .bio {
-    margin-top:120px;
     background:$green2;
 }
 
@@ -385,16 +432,21 @@ footer {
 
 .connect {
     text-align:center;
-    padding:30px 20px 40px;
-    background:$tan2;
+    padding:20px 20px 40px;
+    background:$tan1;
     border:10px solid $tan3;
     box-shadow: 2px 2px 11px -4px rgba(68,68,68,1);
     max-width:320px;
     margin:0 auto;
-    h3 {color:$brown3;}
+    h4 {
+        font-size:22px;
+        letter-spacing:1.2px;
+        color:$brown3; 
+}
     .email {
         color:$green2;
         @extend %oswald;
+        font-size:16px;
         margin-bottom:30px;
         text-transform:uppercase;
         display:block;

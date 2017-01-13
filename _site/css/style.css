@@ -2015,21 +2015,6 @@ input[type="button"].btn-block {
 @media print {
   .hidden-print {
     display: none !important; } }
-h3, h4, .sixpieces h2 {
-  font-family: 'Oswald', sans-serif;
-  font-weight: 700; }
-
-h1, h2, h3, h4, .connect .email {
-  font-family: 'Oswald', sans-serif;
-  font-weight: 400; }
-
-h5, nav.navbar, .frontpagehero h5, .recommendations {
-  font-family: 'Oswald', sans-serif;
-  font-weight: 300; }
-
-body, p {
-  font-family: 'Lora', serif; }
-
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Change the default font family in all browsers (opinionated).
@@ -4960,6 +4945,21 @@ template {
   overflow: visible;
   clip: auto; }
 
+h4, .sixpieces h2 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700; }
+
+h1, h2, h3, .connect .email {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400; }
+
+h5, nav.navbar, .frontpagehero h5, .btn, .recommendations {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300; }
+
+body, p {
+  font-family: 'Lora', serif; }
+
 body {
   background: #84A585;
   color: #E2E5C0; }
@@ -4984,16 +4984,20 @@ a {
   text-decoration: none !important;
   -webkit-transition: all 225ms ease;
   transition: all 225ms ease;
-  color: #E4D297; }
+  color: #E6E3C5; }
   a:hover {
-    color: #E6E3C5; }
+    color: #E0CFA2; }
 
 h1, h2, h3, h4 {
   text-transform: uppercase;
   letter-spacing: 1px;
   color: #E2E5C0; }
 
+h1 {
+  font-size: 40px; }
+
 h2 {
+  font-size: 24px;
   background: #517C79;
   padding: 10px 0;
   border-bottom: 4px solid #4C716E;
@@ -5002,16 +5006,11 @@ h2 {
   z-index: 100;
   position: relative;
   display: block;
-  letter-spacing: 0.05em; }
+  letter-spacing: 0.05em;
+  box-shadow: 2px 1px 5px 0px #111; }
 
 h3 {
   font-size: 22px; }
-
-h3.small {
-  font-size: 20px; }
-
-h3.smaller {
-  font-size: 18px; }
 
 h4 {
   font-size: 18px; }
@@ -5030,41 +5029,26 @@ h5 {
     font-size: 20px;
     background: #4C716E;
     border-radius: 20px;
-    line-height: 30px;
-    width: 30px;
-    height: 30px;
-    color: #E2E5C0; }
+    line-height: 32px;
+    width: 32px;
+    height: 32px;
+    color: #E6E3C5; }
     .socialicons i:hover {
       background: #517C79; }
 
 nav.navbar {
   background: rgba(0, 0, 0, 0.5);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 100%;
-          flex: 0 0 100%;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   border: none;
   z-index: 1; }
-  nav.navbar .navmenu {
-    -webkit-box-flex: 1;
-        -ms-flex: 1 0 320px;
-            flex: 1 0 320px; }
-    nav.navbar .navmenu a {
-      text-transform: uppercase;
-      font-size: 16px;
-      color: #E2E5C0;
-      margin: 0 30px;
-      display: inline-block;
-      line-height: 80px; }
+  nav.navbar .navmenu a {
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #E2E5C0;
+    margin: 0 30px;
+    display: inline-block;
+    line-height: 80px; }
   nav.navbar .socialicons {
     padding: 28px 0;
-    -webkit-box-flex: 1;
-        -ms-flex: 1 0 320px;
-            flex: 1 0 320px;
     text-align: right; }
     nav.navbar .socialicons a {
       text-align: center; }
@@ -5076,12 +5060,12 @@ nav.navbar {
       background: #E2E5C0;
       color: black; }
       nav.navbar .socialicons i:hover {
-        background: #E4D297; }
+        background: #E6E3C5; }
 
 .frontpagehero {
   height: 70vh;
   min-height: 500px;
-  padding: 40px 0;
+  padding: 0 0 40px;
   margin-top: -80px;
   position: relative;
   background: url("../images/pageHeaderBg.jpg");
@@ -5091,21 +5075,19 @@ nav.navbar {
   background-size: cover;
   text-align: center; }
   .frontpagehero img {
-    margin-top: 15vh;
-    width: 70%;
-    max-width: 360px;
-    margin-bottom: 40px; }
+    margin: 180px auto 60px;
+    max-width: 360px; }
   .frontpagehero h5 {
     color: #fff;
     letter-spacing: 1.5px;
-    margin: 0 0 20px; }
+    margin: 0 0 10px; }
 
 .work {
   background: #ABAF7D;
   padding-bottom: 40px; }
 
 .hero {
-  height: 500px;
+  height: 200px;
   overflow: hidden;
   background-size: cover;
   background-position: top;
@@ -5139,7 +5121,7 @@ nav.navbar {
         align-self: center;
     margin: 0 auto; }
     .projectcard .meta h3 {
-      margin-top: 40px;
+      margin-top: 60px;
       font-size: 24px;
       padding: 0 5%; }
     .projectcard .meta p {
@@ -5197,23 +5179,23 @@ nav.navbar {
   background: #7A9E7C; }
 
 .about {
-  background: #729673;
-  padding-bottom: 40px; }
-  .about .container,
-  .about .container-fluid {
-    padding-top: 60px; }
-  .about .row {
-    max-width: 1170px;
-    margin: 0 auto; }
+  background: #729673; }
+  .about .content {
+    margin: 40px 0; }
+  .about .connect {
+    margin: 40px 0; }
   .about p {
     margin-right: 120px; }
+  .about button {
+    margin-right: 100px; }
 
 footer {
   background: #333620;
+  border-top: 10px solid #2B2E1B;
   text-align: center;
   padding: 60px 0 80px; }
   footer h4 {
-    color: #E0CFA2; }
+    color: #E4D297; }
   footer li {
     float: none;
     display: inline-block;
@@ -5221,8 +5203,21 @@ footer {
   footer p {
     margin: 0 0 15px; }
 
+.btn {
+  letter-spacing: .8px;
+  text-transform: uppercase;
+  font-size: 16px;
+  padding: 15px 30px;
+  border: none;
+  box-shadow: 2px 2px 11px -4px #444444;
+  color: #E2E5C0; }
+
+.btn-primary {
+  background: #4C716E; }
+  .btn-primary:hover {
+    background: #517C79; }
+
 .bio {
-  margin-top: 120px;
   background: #7A9E7C; }
 
 .stats {
@@ -5235,15 +5230,15 @@ footer {
   padding: 20px 0; }
 
 .recommendations {
-  border-top: 10px solid #E6E3C5;
-  background: #E4D297;
+  border-top: 10px solid #E0CFA2;
+  background: #E6E3C5;
   color: #86A3C5;
   font-size: 16px;
   padding: 100px 0 160px; }
 
 .sixpieces {
   background: #517C79;
-  color: #E4D297;
+  color: #E6E3C5;
   padding: 100px 0 160px;
   -webkit-transform: skewY(-3deg);
           transform: skewY(-3deg);
@@ -5271,16 +5266,19 @@ footer {
 
 .connect {
   text-align: center;
-  padding: 30px 20px 40px;
+  padding: 20px 20px 40px;
   background: #E6E3C5;
-  border: 10px solid #E0CFA2;
+  border: 10px solid #E4D297;
   box-shadow: 2px 2px 11px -4px #444444;
   max-width: 320px;
   margin: 0 auto; }
-  .connect h3 {
+  .connect h4 {
+    font-size: 22px;
+    letter-spacing: 1.2px;
     color: #333620; }
   .connect .email {
     color: #7A9E7C;
+    font-size: 16px;
     margin-bottom: 30px;
     text-transform: uppercase;
     display: block; }
