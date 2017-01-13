@@ -78,34 +78,31 @@
 
 <body class="">
 
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <!-- <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> 
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button> -->
-                <a class="navbar-brand hidden" href="/">{{ site.data.global.title }}</a>
-            </div>
-            <div id="navbar" class="navbar-collapse collapse">
-                <ul class="nav navbar-nav navbar-right">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+
+            <div class="navmenu">
                     {% for item in site.data.nav.main %}
-                    <li>
                         <a href="{{ item.url }}">{{ item.text }}</a>
-                    </li>
                     {% endfor %}
-                </ul>
             </div>
-            <div class="social-nav">
-                <span class="icon icon-ok"></span>
-                <span class="icon icon-twitter"></span>
-                <span class="icon icon-pinterest"></span>
-                <span class="icon icon-linkedin"></span>
-                <span class="icon icon-instagram"></span>
-                <span class="icon icon-flickr"></span>
-                <span class="icon icon-github"></span>
+
+            <div class="socialicons">
+                <a href="">
+                    <i class="fa fa-linkedin" aria-hidden="true" title=""></i>
+                </a>
+                <a href="">
+                    <i class="fa fa-pinterest" aria-hidden="true" title=""></i>
+                </a>
+                <a href="">
+                    <i class="fa fa-twitter" aria-hidden="true" title=""></i>
+                </a>
+                <a href="">
+                    <i class="fa fa-github" aria-hidden="true" title=""></i>
+                </a>
+                <a href="">
+                    <i class="fa fa-envelope" aria-hidden="true" title=""></i>
+                </a>
             </div>
-        </div>
-    </nav>
+
+        </nav>
+

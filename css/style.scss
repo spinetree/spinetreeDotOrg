@@ -18,15 +18,15 @@
 body {
     @extend %lora;
     background: $green1;
-    color: $tan1;
+    color: $white;
 }
 
 p {
     @extend %lora;
     margin-bottom:30px;
-    line-height:1.8;
+    line-height:1.4;
     font-size:14px;
-    letter-spacing:.8px;
+    letter-spacing:.6px;
 }
 
 section,
@@ -99,36 +99,72 @@ h5 {
     line-height:24px;
 }
 
+
+// ********************
+// Modular content areas
+// ********************
+
+.socialicons {
+    text-align:center;
+        i {
+        display:inline-block;
+        margin:0 15px 0 0; 
+        font-size:20px;
+        background:$blue3;
+        border-radius:20px;
+        line-height:30px;
+        width:30px;
+        height:30px;
+        color:$white;
+        &:hover {background:$blue2;}
+    }
+}
+
 // ******************************************************************
 // Main Content areas
 //*******************************************************************
 
 nav.navbar {
     background: rgba(0, 0, 0, 0.5);
-    border: none;
-    margin: 0;
-    @extend %oswaldlight;
     display:flex;
-    position:absolute;
-    top:0;
+    flex:0 0 100%;
+    flex-wrap:wrap;
+    border: none;
+    @extend %oswaldlight;
     z-index:1;
-    width:100%;
-    height:80px;
-    ul {padding:0;}
-    li {
-        list-style:none; 
-        display:inline-block;
-        margin:20px; }
-    a {
-        text-transform: uppercase;
-        font-size: 16px;
-        color:$white;
+    .navmenu {   
+        flex:1 0 320px;
+        a {
+            text-transform: uppercase;
+            font-size: 16px;
+            color:$white;
+            margin:0 30px;
+            display:inline-block;
+            line-height:80px;
+        }
+    }
+    .socialicons {
+        padding:28px 0;
+        flex:1 0 320px;
+        text-align:right;
+        a {text-align:center;}
+        i {
+            font-size:14px;
+            height:24px;
+            width:24px;
+            line-height:24px;
+            background:$white;
+            color:black;
+            &:hover {background:$tan1;}
+        }
     }
 }
 
 .frontpagehero {
     height: 70vh;
+    min-height:500px;
     padding: 40px 0;
+    margin-top:-80px;
     position: relative;
     background: url('../images/pageHeaderBg.jpg');
     background-attachment: fixed;
@@ -137,15 +173,16 @@ nav.navbar {
     background-size: cover;
     text-align: center;
     img {
-        margin-top: 20vh;
+        margin-top: 15vh;
         width: 70%;
         max-width: 360px;
         margin-bottom:40px;
     }
-    h3 {
+    h5 {        
         @extend %oswaldlight;
-        color: $white;
-        letter-spacing: 2px;
+        color: #fff;
+        letter-spacing: 1.5px;
+        margin:0 0 20px;
     }
 }
 
@@ -254,6 +291,8 @@ nav.navbar {
         max-width:1170px;
         margin: 0 auto;
     }
+    p {margin-right:120px;}
+
 }
 
 
@@ -343,6 +382,25 @@ footer {
     bottom:60px;
     margin-bottom:-60px;
 }
+
+.connect {
+    text-align:center;
+    padding:30px 20px 40px;
+    background:$tan2;
+    border:10px solid $tan3;
+    box-shadow: 2px 2px 11px -4px rgba(68,68,68,1);
+    max-width:320px;
+    margin:0 auto;
+    h3 {color:$brown3;}
+    .email {
+        color:$green2;
+        @extend %oswald;
+        margin-bottom:30px;
+        text-transform:uppercase;
+        display:block;
+    }
+}
+
 
 
 // ******************************************************************
