@@ -1,26 +1,40 @@
 {% include header.html %}
 
 <main>
+  <article class="project">
 
-    <div class="work">        
-        {{ content }}
-    </div>
-
-    <div class="about">
-      <h1>About</h1>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-8">
-                    <p>This is some about content</p>
-                    <button type="button" class="btn btn-primary">Read More</button>
-                </div>
-                <div class="col-md-4">
-                    {% include connect.html %}
+      <section class="hero" style="background:{{ page.color }};">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-md-8 col-md-offset-2">
+                        <img class="responsive" src="{{ page.hero }}" />
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
+        </section>
 
+        <section class="meta">
+            <div class="container">
+                <div class="row">
+                    <div class="primary col-md-5">
+                        <h1>{{ page.title }}</h1>
+                        <h3>Client: {{ page.client }}</h3>
+                        <h4>{{ page.type }}</h4>
+                        <p class="tools">{{ page.tools }}</p>
+                    </div>
+                    <div class="description col-md-7">
+                        <p>{{ page.description }}</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        {{ content }}
+      
+    </article>
 </main>
+
+{% include about-bar.html %}
 
 {% include footer.html %}

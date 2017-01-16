@@ -2,6 +2,8 @@
 title: 'Spinetree Media'
 description: 'Print Web UI UX Illustration and Snark'
 url: 'http://127.0.0.1:4000' # the base hostname & protocol for your site
+#url: 'http://127.0.0.1:4000' # the base hostname & protocol for your site
+
 
 # Admin Settings
 admin_name: 'admin_name_here'

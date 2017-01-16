@@ -8,12 +8,13 @@
         <h5>we create value, solve problems &amp; tell stories</h5>
         <h5>through the practical application</h5> 
         <h5>of just about anything we can get our hands on</h5>
+        <i class="fa fa-caret-down" aria-hidden="true"></i>
     </div>
 
     
     <div class="thumbs">
         
-        <h2 class="pagetitle">Work</h2>
+        <h2 class="titlebar">Work</h2>
         <div class="container-fluid">
             <div class="row">
 
@@ -21,7 +22,7 @@
                     {% if post.categories contains 'work' %}
                     <div class="projectcard container-fluid col-xs-12 col-md-6" style="background:{{post.color}}">
                         <div class="row">
-                            <a href="{{ post.url }}" class="meta col-xs-12 col-sm-6 col-md-12 col-lg-6">
+                            <a href="{{ post.url }}" class="details col-xs-12 col-sm-6 col-md-12 col-lg-6">
                                 <h3>{{ post.title }}</h3>
                                 <p>{{ post.type }}</p>
                             </a>                      
@@ -38,22 +39,7 @@
         
     </div>
 
-    <div class="about">
-        <h2>About</h2>
-        <div class="container">
-            <div class="row">
-            
-                <div class="content col-sm-12 col-md-7">
-                        <p>By this time their destined victim appeared from his cabin. He was a small and dark, but rather delicate looking man for a sea-captain, with large whiskers and moustache, however; and wore a red cotton velvet vest with watch-seals at his side. To this gentleman, Stubb was now politely introduced by the Guernsey-man, who at once ostentatiously put on the aspect of interpreting between them.</p>
-                        <button type="button" class="btn btn-primary pull-right">Read More</button>
-                    </div>
-                    <div class="connect col-sm-12 col-md-5">
-                        {% include connect.html %}
-                    </div>
-
-            </div>
-        </div>
-    </div>
+    {% include about-bar.html %}
 
 </main>
 

@@ -7,7 +7,10 @@
 @import '../_sass/slick-theme-spinetree';
 @import '../_sass/font-awesome';
 
-$white: #E2E5C0;
+$white: #F3F1DA;
+
+$black: #262E27;
+$black2: darken($black,2%);
 
 $tan1: #E6E3C5;
 $tan2: #E0CFA2;
@@ -16,11 +19,9 @@ $tan4: #AEA07D;
 
 $tangreen: #ABAF7D;
 
-$green1: #84A585;
-$green2: #7A9E7C;
-$green3: #729673;
-$green4: #578059;
-$green5: #578059;
+$green: #729673;
+
+$darkgreen: darken($green,32%);
 
 $brown1: #6B5D51;
 $brown2: #605232;
@@ -30,25 +31,27 @@ $brown4: #2B2E1B;
 $blue1: #86A3C5;
 $blue2: #517C79;
 $blue3: #4C716E;
+$blue4: #2B403F;
 
 
-%oswaldbold {
-    font-family: 'Oswald', sans-serif;
+%ralewaybold {
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
 }
 
-%oswald {
-    font-family: 'Oswald', sans-serif;
-    font-weight: 400;
+%raleway {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
 }
 
-%oswaldlight {
-    font-family: 'Oswald', sans-serif;
+%ralewaylight {
+    font-family: 'Raleway', sans-serif;
     font-weight: 300;
 }
 
-%lora {
-    font-family: 'Lora', serif;
+%noto {
+    font-family: 'Noto', serif;
+    font-weight:400;
 }
 
 
@@ -59,17 +62,18 @@ $blue3: #4C716E;
 
 
 body {
-    @extend %lora;
-    background: $green1;
+    @extend %noto;
+    background: black;
     color: $white;
 }
 
 p {
-    @extend %lora;
+    @extend %noto;
     margin-bottom:30px;
     line-height:1.4;
     font-size:14px;
-    letter-spacing:.6px;
+    letter-spacing:1px;
+    font-weight:400;
 }
 
 section,
@@ -92,77 +96,71 @@ a {
     }
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {}
-
-
 
 h1, h2, h3, h4 {    
     text-transform:uppercase;
-    letter-spacing:1px;
+    letter-spacing:1.2px;
     color:$white;
+    margin:0 0 10px;
+    line-height:1;
 }
 
-h1,h2,h3 {
-    @extend %oswald;
+h1 {
+    font-size:44px;
+    @extend %ralewaybold;
 }
-
-h1 {font-size:40px;}
 
 h2 {
     font-size:24px;
-    background: $blue2;
-    padding: 10px 0;
-    border-bottom: 4px solid $blue3;
+    @extend %ralewaylight;
+    color:$tan2;
+    letter-spacing:2.4px;
+}
+
+h2.titlebar {
+    background: $black;
+    padding: 15px 0;
+    border-top: 4px solid $black2;
+    border-bottom: 4px solid $black2;
+//    box-shadow: 2px 1px 5px 0px #111;
     text-align: center;
     margin: 0 auto;
-    z-index:100;
-    position:relative;
-    display:block;
-    letter-spacing:0.05em;
-    box-shadow: 2px 1px 5px 0px #111;
+    z-index: 100;
+    position: relative;
+    display: block;
+    color:$tan2;
+    font-size:20px; 
+    letter-spacing:4.8px;
 }
 
 h3 {
-    font-size: 22px;
+    @extend %ralewaybold;
+    font-size: 20px;
+    letter-spacing:1.5px;
+    color:$tan4;
 }
 
 h4 {
-    @extend %oswaldbold;
+    @extend %raleway;
     font-size: 18px;
+    letter-spacing:1.7px;
+    color:$tan3;
 }
 
 h5 {
-    @extend %oswaldlight;
+    @extend %raleway;
     font-size:16px;
     letter-spacing:1.5px;
     color:$white;
     line-height:24px;
 }
 
+img.responsive {width:100%;}
 
-// ****************************************
-// Modular content areas
-// ****************************************
+.frame {border:6px solid lighten($white,8%);}
 
-.socialicons {
-    text-align:center;
-        i {
-        display:inline-block;
-        margin:0 15px 0 0; 
-        font-size:20px;
-        background:$blue3;
-        border-radius:20px;
-        line-height:32px;
-        width:32px;
-        height:32px;
-        color:$tan1;
-        &:hover {background:$blue2;}
-    }
+.shadow {    
+    box-shadow: 2px 2px 11px -4px rgba(68,68,68,1);
 }
 
 // ******************************************************************
@@ -171,8 +169,9 @@ h5 {
 
 nav.navbar {
     background: rgba(0, 0, 0, 0.5);
-    border: none;
-    @extend %oswaldlight;
+    border-top:none;
+    border-bottom: 4px solid black;
+    @extend %ralewaylight;
     z-index:1;
     .navmenu {   
         a {
@@ -181,7 +180,7 @@ nav.navbar {
             color:$white;
             margin:0 30px;
             display:inline-block;
-            line-height:80px;
+            line-height:74px;
         }
     }
     .socialicons {
@@ -200,8 +199,14 @@ nav.navbar {
     }
 }
 
+// ******************************************************************
+// Front Page
+//*******************************************************************
+
+
+
 .frontpagehero {
-    height: 70vh;
+    height: 90vh;
     min-height:500px;
     padding: 0 0 40px;
     margin-top:-80px;
@@ -213,119 +218,201 @@ nav.navbar {
     background-size: cover;
     text-align: center;
     img {
-        margin: 180px auto 60px;
+        margin: 20vh auto 80px;
         max-width: 360px;
     }
     h5 {        
-        @extend %oswaldlight;
-        color: #fff;
+        @extend %ralewaylight;
+        color:$white;
         letter-spacing: 1.5px;
         margin:0 0 10px;
     }
-}
-
-.thumbs {
-    
-}
-
-
-.work {
-    background: $tangreen;
-    padding-bottom: 40px;
-}
-
-
-.hero {
-    height:200px;
-    overflow:hidden;
-    background-size:cover;
-    background-position:top;
-    background-repeat:none;
-    display:block;
+    i {
+        margin-top:50px;
+        font-size:40px;
+        color:$white;
+    }
 }
 
 
 .projectcard {
-    overflow:hidden;
-    .row {align-items:stretch;}
+    overflow: hidden;
+    .row {
+        align-items: stretch;
+    }
     .thumbnail {
-        text-align:center;
-        min-height:220px;
-        display:flex;
+        text-align: center;
+        min-height: 220px;
+        display: flex;
         img {
-            align-self:flex-end;
-            width:100%;
-            max-width:320px;
-            margin:0 auto;
-            position:relative;
-            top:10px;
+            align-self: flex-end;
+            width: 100%;
+            max-width: 320px;
+            margin: 0 auto;
+            position: relative;
+            top: 10px;
         }
-        }
-    .meta { 
-        text-align:center;
-        align-self:center;
-        margin:0 auto;
+    }
+    .details {
+        text-align: center;
+        align-self: center;
+        margin: 0 auto;
         h3 {
-            margin-top:60px;
-            font-size:24px;
-            padding:0 5%;
+            margin-top: 80px;
+            font-size: 28px;
+            padding: 0 5%;
+            color: $tan1;
         }
         p {
-            font-style:italic;
-            font-size:16px;
-            color:$tan3;
-            margin-bottom:0;
+            font-style: italic;
+            font-size: 16px;
+            color: $tan2;
+            margin-bottom: 0;
         }
     }
     &:hover .thumbnail img {
-        top:1px;
+        top: 1px;
         transition: top .4s;
     }
 }
 
 
+// ******************************************************************
+// Work Pages
+//*******************************************************************
+
+
+
 .project {
-    .images {
-        text-align:center;
-        padding:80px 0;
-        display:flex;
-        flex-direction:row;
-        flex-wrap:wrap;
-        justify-content:center;
-        align-items:center;
-        margin: 0 auto;
-        justify-content:center;    
+    margin-top: -40px;
+    padding: 40px 0;
+    background: $white;
+    .hero {
+        background: $white;
+        margin-top: -80px;
+        padding-top: 120px;
+        display: block;
+        overflow: hidden;
+        text-align: center;
         img {
-            align-self:center;
-            max-width:80%;
-            display:inline-block;
-            margin:40px; 
+            margin: 0 auto -50px;
         }
     }
-    .images.slides {
-        padding:0 30px;
-        img {margin:0 10px;}
-    }
     .meta {
-        background:rgba(0,0,0,.1);
-        display:flex;
-        text-align:center;
-        color:$white;
-        .content {        
-            padding:100px 40px 40px;
-           // align-self:center;
-        }        
+        padding: 30px 0;
+        background: $black;
+        border-top: 4px solid $black2;
+        border-bottom: 6px solid $black2;
+        .primary {
+            padding: 0 40px 0 0;
+            text-align: right;
+            border-right: 4px solid $black2;
+            h1 {
+                margin-bottom: 15px;
+            }
+            h3.client {}
+            h4 {}
+            .tools {
+                font-style: italic;
+                margin-bottom: 0;
+            }
+        }
+        .description {
+            padding-left: 40px;
+            p {
+                margin-bottom: 0;
+            }
+        }
+    }
+    .projectsection {
+        padding: 80px 0;
+    }
+    .images {
+        text-align: center;
+        margin: 0 auto;
+        justify-content: center;
+        img {
+            max-width: 90%;
+            display: inline-block;
+            margin: 0 15px;
+        }
+    }
+    .imagemeta {
+        background: $black;
+        padding: 20px 30px;
+        margin: 0 auto;
+    }
+    .images.slides {
+        padding: 0 30px;
+        img {
+            margin: 0 10px;
+        }
     }
 }
 
-.project.dark {background:$green2;}
 
-.about {
-    background: $green3;
-    .content {margin:40px 0;}
-    .connect {margin:40px 0;}
-    p {margin-right:120px;}
-    button {margin-right:100px;}
+// ******************************************************************
+// About/Contact Section
+//*******************************************************************
+
+.about-bar {
+    background: $blue4;
+    .content {
+        margin:60px 0;
+        p {margin-right:120px;}
+        button {margin-right:100px;}
+        }
+    .connect {
+    text-align:center;
+    padding:30px 20px 40px;
+    background:$tan1;
+    border:10px solid $tan3;
+    box-shadow: 2px 2px 11px -4px rgba(68,68,68,1);
+    max-width:320px;
+    margin:60px 0;
+    transform: rotate(1deg);
+    h4 {
+        @extend %ralewaybold;
+        font-size:20px;
+        letter-spacing:2.4px;
+        color:$brown2; 
+        margin-bottom:20px;
+        }
+    .email {
+        color:$green;
+        @extend %raleway;
+        font-size:16px;
+        margin-bottom:20px;
+        text-transform:uppercase;
+        display:block;
+        }
+    }
+}
+
+
+
+
+
+
+// ****************************************
+// Modular content areas
+// ****************************************
+
+
+.socialicons {
+    text-align:center;
+        i {
+        display:inline-block;
+        margin:0 15px 0 0; 
+        font-size:20px;
+        background:$blue3;
+        border-radius:20px;
+        line-height:32px;
+        width:32px;
+        height:32px;
+        color:$tan1;
+        &:hover {background:$blue2;}
+    }
 }
 
 
@@ -335,25 +422,27 @@ nav.navbar {
 
 
 footer {
-    background: $brown3;
-    border-top: 10px solid $brown4;
+    background: $black;
+    border-top: 30px solid $black2;
     text-align: center;
-    padding: 60px 0 80px;
+    padding: 50px 0 60px;
     h4 {
-        color: $tan3;
+        color: $tan4;
     }
     li {
         float: none;
         display:inline-block;
         margin: 0 20px 0 0;
+        color:$tan1;
     }
     p {
+        color:$tan1;
         margin: 0 0 15px;
     }
 }
 
 .btn {
-    @extend %oswaldlight;
+    @extend %ralewaylight;
     letter-spacing:.8px;
     text-transform:uppercase;
     font-size:16px;
@@ -372,12 +461,13 @@ footer {
 //*******************************************************************
 
 
+
 .bio {
-    background:$green2;
+    background:$green;
 }
 
 .stats {
-    background:$green2;
+    background:$green;
     .row {
         position:relative;
     }
@@ -392,7 +482,7 @@ footer {
     border-top:10px solid $tan2;
     background:$tan1;
     color:$blue1;
-    @extend %oswaldlight;
+    @extend %ralewaylight;
     font-size:16px;
     padding:100px 0 160px;
 }
@@ -417,41 +507,11 @@ footer {
         border:4px inset $blue3;
     }
     h2 {
-        @extend %oswaldbold;
+        @extend %ralewaybold;
         color:$blue2;
     }
 }
 
-.contact {
-    background:$green2;
-    padding:100px 0 100px;
-    position:relative;
-    bottom:60px;
-    margin-bottom:-60px;
-}
-
-.connect {
-    text-align:center;
-    padding:20px 20px 40px;
-    background:$tan1;
-    border:10px solid $tan3;
-    box-shadow: 2px 2px 11px -4px rgba(68,68,68,1);
-    max-width:320px;
-    margin:0 auto;
-    h4 {
-        font-size:22px;
-        letter-spacing:1.2px;
-        color:$brown3; 
-}
-    .email {
-        color:$green2;
-        @extend %oswald;
-        font-size:16px;
-        margin-bottom:30px;
-        text-transform:uppercase;
-        display:block;
-    }
-}
 
 
 
