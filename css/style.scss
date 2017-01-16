@@ -7,10 +7,10 @@
 @import '../_sass/slick-theme-spinetree';
 @import '../_sass/font-awesome';
 
-$white: #F3F1DA;
-
-$black: #262E27;
-$black2: darken($black,2%);
+$white: #FAF9EE;
+    
+$black1: #262E27;
+$black2: darken($black1,2%);
 
 $tan1: #E6E3C5;
 $tan2: #E0CFA2;
@@ -118,7 +118,7 @@ h2 {
 }
 
 h2.titlebar {
-    background: $black;
+    background: $black1;
     padding: 15px 0;
     border-top: 4px solid $black2;
     border-bottom: 4px solid $black2;
@@ -159,9 +159,9 @@ img.responsive {width:100%;}
 
 .frame {border:6px solid lighten($white,8%);}
 
-.shadow {    
-    box-shadow: 2px 2px 11px -4px rgba(68,68,68,1);
-}
+.darkframe {border:1px solid $tan1;}
+
+.shadow {box-shadow: 2px 2px 11px -4px rgba(68,68,68,1);}
 
 // ******************************************************************
 // Main Content areas
@@ -206,7 +206,7 @@ nav.navbar {
 
 
 .frontpagehero {
-    height: 90vh;
+    height: 86vh;
     min-height:500px;
     padding: 0 0 40px;
     margin-top:-80px;
@@ -285,7 +285,6 @@ nav.navbar {
 
 .project {
     margin-top: -40px;
-    padding: 40px 0;
     background: $white;
     .hero {
         background: $white;
@@ -300,7 +299,7 @@ nav.navbar {
     }
     .meta {
         padding: 30px 0;
-        background: $black;
+        background: $black1;
         border-top: 4px solid $black2;
         border-bottom: 6px solid $black2;
         .primary {
@@ -327,18 +326,16 @@ nav.navbar {
     .projectsection {
         padding: 80px 0;
     }
+    .projectsection.dark {background:$tan1;}
     .images {
         text-align: center;
-        margin: 0 auto;
-        justify-content: center;
         img {
             max-width: 90%;
             display: inline-block;
-            margin: 0 15px;
         }
     }
     .imagemeta {
-        background: $black;
+        background: $black1;
         padding: 20px 30px;
         margin: 0 auto;
     }
@@ -422,7 +419,7 @@ nav.navbar {
 
 
 footer {
-    background: $black;
+    background: $black1;
     border-top: 30px solid $black2;
     text-align: center;
     padding: 50px 0 60px;

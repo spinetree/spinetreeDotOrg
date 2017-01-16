@@ -4963,7 +4963,7 @@ body, p {
 
 body {
   background: black;
-  color: #F3F1DA; }
+  color: #FAF9EE; }
 
 p {
   margin-bottom: 30px;
@@ -4993,7 +4993,7 @@ a {
 h1, h2, h3, h4 {
   text-transform: uppercase;
   letter-spacing: 1.2px;
-  color: #F3F1DA;
+  color: #FAF9EE;
   margin: 0 0 10px;
   line-height: 1; }
 
@@ -5032,14 +5032,17 @@ h4 {
 h5 {
   font-size: 16px;
   letter-spacing: 1.5px;
-  color: #F3F1DA;
+  color: #FAF9EE;
   line-height: 24px; }
 
 img.responsive {
   width: 100%; }
 
 .frame {
-  border: 6px solid #fdfdf9; }
+  border: 6px solid white; }
+
+.darkframe {
+  border: 1px solid #E6E3C5; }
 
 .shadow {
   box-shadow: 2px 2px 11px -4px #444444; }
@@ -5052,7 +5055,7 @@ nav.navbar {
   nav.navbar .navmenu a {
     text-transform: uppercase;
     font-size: 16px;
-    color: #F3F1DA;
+    color: #FAF9EE;
     margin: 0 30px;
     display: inline-block;
     line-height: 74px; }
@@ -5066,13 +5069,13 @@ nav.navbar {
       height: 24px;
       width: 24px;
       line-height: 24px;
-      background: #F3F1DA;
+      background: #FAF9EE;
       color: black; }
       nav.navbar .socialicons i:hover {
         background: #E6E3C5; }
 
 .frontpagehero {
-  height: 90vh;
+  height: 86vh;
   min-height: 500px;
   padding: 0 0 40px;
   margin-top: -80px;
@@ -5087,13 +5090,13 @@ nav.navbar {
     margin: 20vh auto 80px;
     max-width: 360px; }
   .frontpagehero h5 {
-    color: #F3F1DA;
+    color: #FAF9EE;
     letter-spacing: 1.5px;
     margin: 0 0 10px; }
   .frontpagehero i {
     margin-top: 50px;
     font-size: 40px;
-    color: #F3F1DA; }
+    color: #FAF9EE; }
 
 .projectcard {
   overflow: hidden; }
@@ -5138,10 +5141,9 @@ nav.navbar {
 
 .project {
   margin-top: -40px;
-  padding: 40px 0;
-  background: #F3F1DA; }
+  background: #FAF9EE; }
   .project .hero {
-    background: #F3F1DA;
+    background: #FAF9EE;
     margin-top: -80px;
     padding-top: 120px;
     display: block;
@@ -5169,16 +5171,13 @@ nav.navbar {
         margin-bottom: 0; }
   .project .projectsection {
     padding: 80px 0; }
+  .project .projectsection.dark {
+    background: #E6E3C5; }
   .project .images {
-    text-align: center;
-    margin: 0 auto;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center; }
+    text-align: center; }
     .project .images img {
       max-width: 90%;
-      display: inline-block;
-      margin: 0 15px; }
+      display: inline-block; }
   .project .imagemeta {
     background: #262E27;
     padding: 20px 30px;
@@ -5256,7 +5255,7 @@ footer {
   padding: 15px 30px;
   border: none;
   box-shadow: 2px 2px 11px -4px #444444;
-  color: #F3F1DA; }
+  color: #FAF9EE; }
 
 .btn-primary {
   background: #4C716E; }

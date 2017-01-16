@@ -18,25 +18,101 @@ tools: 'Axure, Photoshop, Illustrator, After Effects'
         <div class="row">
   
             <div class="images col-md-4">
-                <img class="shadow frame" src="{{ site.data.global.url }}/images/projects/analogkitsketch.jpg" />
+                <img class="darkframe shadow" src="{{ site.data.global.url }}/images/projects/aksticker.jpg" />
             </div>
             
-            <div class="images col-md-4">
-                <img class="shadow frame" src="{{ site.data.global.url }}/images/projects/analogkitsketch2.jpg" />
+            <div class="images col-md-8">
+                <img class="" src="{{ site.data.global.url }}/images/projects/akmodules.jpg" />
             </div>
             
-
-            <div class="imagemeta col-md-3 col-md-push-1">
-                <div class="content">
-                    <h2>I'm an H2</h2>
-                    <p>The assembled warriors and chieftains examined me closely, feeling my muscles and the texture of my skin. The principal chieftain then evidently signified a desire to see me perform, and, motioning me to follow, he started with Tars Tarkas for the open plaza.</p>
-                </div>
-            </div>
     
         </div>   
     </div>
 </section>
 
+<section class="projectsection dark">
+    <div class="container">
+        <div class="row">
+  
+            <div class="images col-md-8">
+                <img class="" src="{{ site.data.global.url }}/images/projects/akkeys.jpg" />
+            </div>
+            
+            <div class="images col-md-4">
+                <img class="shadow" src="{{ site.data.global.url }}/images/projects/akflyer.jpg" />
+            </div>
+            
+    
+        </div>   
+    </div>
+</section>
+
+<section class="projectsection">
+    <div class="container">
+        <div class="row">
+  
+            <div class="images col-md-3">
+                <img class="shadow darkframe" src="{{ site.data.global.url }}/images/projects/akfacebook.jpg" />
+            </div>
+            
+            <div class="images col-md-8 col-md-offset-1">
+                <img class="" src="{{ site.data.global.url }}/images/projects/akmenu.jpg" />
+            </div>
+                
+        </div>   
+    </div>
+</section>
+
+<section class="projectsection dark">
+    <div class="container">
+        <div class="row">
+  
+            <div class="images col-md-8">
+                <img class="" src="{{ site.data.global.url }}/images/projects/akswapmeet.jpg" />
+            </div>
+            
+            <div class="imagemeta col-md-3 col-md-offset-1">
+                <h3>This is some stuff about this.</h3>
+                <p>By this time their destined victim appeared from his cabin. He was a small and dark, but rather delicate looking man for a sea-captain, with large whiskers and moustache, however; and wore a red cotton velvet vest with watch-seals at his side. To this gentleman, Stubb was now politely introduced by the Guernsey-man, who at once ostentatiously put on the aspect of interpreting between them.</p>
+            </div>
+                
+        </div>   
+    </div>
+</section>
+
+
+<section class="projectsection">
+    <div class="container">
+        <div class="row">
+  
+            <div class="images col-md-4">
+                <img class="shadow frame" src="{{ site.data.global.url }}/images/projects/aksketch.jpg" />
+            </div>
+            
+            <div class="images col-md-8">
+                <img class="" src="{{ site.data.global.url }}/images/projects/akswapmeetux.jpg" />
+            </div>
+                
+        </div>   
+    </div>
+</section>
+
+<section class="projectsection dark">
+    <div class="container">
+        <div class="row">
+  
+            <div class="images col-md-6">
+                <img class="" src="{{ site.data.global.url }}/images/projects/aktutorial1.jpg" />
+            </div>
+
+            <div class="images col-md-6">
+                <img class="" src="{{ site.data.global.url }}/images/projects/aktutorial2.jpg" />
+            </div>
+
+                
+        </div>   
+    </div>
+</section>
     
 
     
