@@ -5076,7 +5076,7 @@ nav.navbar {
 
 .frontpagehero {
   height: 86vh;
-  min-height: 500px;
+  min-height: 6   00px;
   padding: 0 0 40px;
   margin-top: -80px;
   position: relative;
@@ -5125,7 +5125,7 @@ nav.navbar {
         align-self: center;
     margin: 0 auto; }
     .projectcard .details h3 {
-      margin-top: 80px;
+      margin-top: 60px;
       font-size: 28px;
       padding: 0 5%;
       color: #E6E3C5; }
