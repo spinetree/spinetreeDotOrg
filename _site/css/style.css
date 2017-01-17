@@ -4967,7 +4967,7 @@ body {
 
 p {
   margin-bottom: 30px;
-  line-height: 1.4;
+  line-height: 1.6;
   font-size: 14px;
   letter-spacing: 1px;
   font-weight: 400; }
@@ -4998,10 +4998,10 @@ h1, h2, h3, h4 {
   line-height: 1; }
 
 h1 {
-  font-size: 44px; }
+  font-size: 40px; }
 
 h2 {
-  font-size: 24px;
+  font-size: 20px;
   color: #E0CFA2;
   letter-spacing: 2.4px; }
 
@@ -5016,21 +5016,21 @@ h2.titlebar {
   position: relative;
   display: block;
   color: #E0CFA2;
-  font-size: 20px;
+  font-size: 16px;
   letter-spacing: 4.8px; }
 
 h3 {
-  font-size: 20px;
+  font-size: 18px;
   letter-spacing: 1.5px;
   color: #AEA07D; }
 
 h4 {
-  font-size: 18px;
+  font-size: 16px;
   letter-spacing: 1.7px;
   color: #E4D297; }
 
 h5 {
-  font-size: 16px;
+  font-size: 12px;
   letter-spacing: 1.5px;
   color: #FAF9EE;
   line-height: 24px; }
@@ -5125,13 +5125,13 @@ nav.navbar {
         align-self: center;
     margin: 0 auto; }
     .projectcard .details h3 {
-      margin-top: 60px;
-      font-size: 28px;
+      margin-top: 80px;
+      font-size: 24px;
       padding: 0 5%;
       color: #E6E3C5; }
     .projectcard .details p {
       font-style: italic;
-      font-size: 16px;
+      font-size: 12px;
       color: #E0CFA2;
       margin-bottom: 0; }
   .projectcard:hover .thumbnail img {
@@ -5170,17 +5170,16 @@ nav.navbar {
       .project .meta .description p {
         margin-bottom: 0; }
   .project .projectsection {
-    padding: 80px 0; }
+    padding: 60px 0; }
   .project .projectsection.dark {
-    background: #E6E3C5; }
+    background: #EFEDD9; }
   .project .images {
     text-align: center; }
     .project .images img {
       max-width: 90%;
       display: inline-block; }
   .project .imagemeta {
-    padding: 20px 30px;
-    margin: 0 auto; }
+    padding: 20px 30px; }
     .project .imagemeta h3 {
       color: #2B403F; }
     .project .imagemeta p {

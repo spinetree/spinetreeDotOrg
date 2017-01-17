@@ -12,6 +12,7 @@ $white: #FAF9EE;
 $black1: #262E27;
 $black2: darken($black1,2%);
 
+$tan0: #EFEDD9;
 $tan1: #E6E3C5;
 $tan2: #E0CFA2;
 $tan3: #E4D297;
@@ -70,7 +71,7 @@ body {
 p {
     @extend %noto;
     margin-bottom:30px;
-    line-height:1.4;
+    line-height:1.6;
     font-size:14px;
     letter-spacing:1px;
     font-weight:400;
@@ -106,12 +107,12 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-    font-size:44px;
+    font-size:40px;
     @extend %ralewaybold;
 }
 
 h2 {
-    font-size:24px;
+    font-size:20px;
     @extend %ralewaylight;
     color:$tan2;
     letter-spacing:2.4px;
@@ -129,27 +130,27 @@ h2.titlebar {
     position: relative;
     display: block;
     color:$tan2;
-    font-size:20px; 
+    font-size:16px; 
     letter-spacing:4.8px;
 }
 
 h3 {
     @extend %ralewaybold;
-    font-size: 20px;
+    font-size: 18px;
     letter-spacing:1.5px;
     color:$tan4;
 }
 
 h4 {
     @extend %raleway;
-    font-size: 18px;
+    font-size: 16px;
     letter-spacing:1.7px;
     color:$tan3;
 }
 
 h5 {
     @extend %raleway;
-    font-size:16px;
+    font-size:12px;
     letter-spacing:1.5px;
     color:$white;
     line-height:24px;
@@ -258,14 +259,14 @@ nav.navbar {
         align-self: center;
         margin: 0 auto;
         h3 {
-            margin-top: 60px;
-            font-size: 28px;
+            margin-top: 80px;
+            font-size: 24px;
             padding: 0 5%;
             color: $tan1;
         }
         p {
             font-style: italic;
-            font-size: 16px;
+            font-size: 12px;
             color: $tan2;
             margin-bottom: 0;
         }
@@ -324,9 +325,9 @@ nav.navbar {
         }
     }
     .projectsection {
-        padding: 80px 0;
+        padding: 60px 0;
     }
-    .projectsection.dark {background:$tan1;}
+    .projectsection.dark {background:$tan0;}
     .images {
         text-align: center;
         img {
@@ -337,7 +338,6 @@ nav.navbar {
     .imagemeta {
         //background: $black1;
         padding: 20px 30px;
-        margin: 0 auto;
         h3 {color:$blue4;}
         p {color:$brown3;}
     }
