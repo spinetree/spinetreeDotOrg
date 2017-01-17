@@ -5179,9 +5179,12 @@ nav.navbar {
       max-width: 90%;
       display: inline-block; }
   .project .imagemeta {
-    background: #262E27;
     padding: 20px 30px;
     margin: 0 auto; }
+    .project .imagemeta h3 {
+      color: #2B403F; }
+    .project .imagemeta p {
+      color: #333620; }
   .project .images.slides {
     padding: 0 30px; }
     .project .images.slides img {

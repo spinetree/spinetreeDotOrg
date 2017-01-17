@@ -335,9 +335,11 @@ nav.navbar {
         }
     }
     .imagemeta {
-        background: $black1;
+        //background: $black1;
         padding: 20px 30px;
         margin: 0 auto;
+        h3 {color:$blue4;}
+        p {color:$brown3;}
     }
     .images.slides {
         padding: 0 30px;
