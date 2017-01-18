@@ -6,7 +6,6 @@
 @import '../_sass/slick';
 @import '../_sass/slick-theme-spinetree';
 @import '../_sass/font-awesome';
-@import '../_sass/nav';
 
 
 $white: #FAF9EE;
@@ -173,21 +172,16 @@ img.responsive {width:100%;}
 // Main Content areas
 //*******************************************************************
 
-.navbarmain {}
-
-.navbarlogo {}
-
-.navbarsocial {}
-
 nav.navbar {
     background: rgba(0, 0, 0, 0.7);
     border-top:none;
-    border-bottom: 4px solid black;
+    border-bottom: 3px solid black;
     @extend %ralewaylight;
     z-index:100;
     position:absolute;
     top:0;
     width:100%;
+    border-radius:0;
     .navbarmain {   
         a {
             text-transform: uppercase;
@@ -221,6 +215,8 @@ nav.navbar {
         }
     }
 }
+
+
 
 
 // ******************************************************************
