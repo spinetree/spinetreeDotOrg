@@ -5150,7 +5150,7 @@ nav.navbar {
     overflow: hidden;
     text-align: center; }
     .project .hero img {
-      margin: 0 auto -50px; }
+      margin: 0 auto -10px; }
   .project .meta {
     padding: 30px 0;
     background: #262E27;
@@ -5170,13 +5170,14 @@ nav.navbar {
       .project .meta .description p {
         margin-bottom: 0; }
   .project .projectsection {
-    padding: 60px 0; }
+    padding: 40px 0; }
   .project .projectsection.dark {
     background: #EFEDD9; }
   .project .images {
     text-align: center; }
     .project .images img {
       max-width: 90%;
+      margin: 40px 0;
       display: inline-block; }
   .project .imagemeta {
     padding: 20px 30px; }
