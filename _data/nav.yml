@@ -2,3 +2,4 @@ main:
     - { url: '/', text: 'Home' }
     - { url: '/work', text: 'Work' }
     - { url: '/about', text: 'About' }
+    - { url: 'ma&#105;lto&#58;steve&#64;s%70%&#54;9n%6&#53;t&#114;ee&#46;&#111;&#114;&#103;', text: 'Contact' }

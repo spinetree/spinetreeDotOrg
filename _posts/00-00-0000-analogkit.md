@@ -9,7 +9,7 @@ permalink: /work/analogkit
 color: '#57340F'
 client: Bitcount Ltd.
 type: UI/UX - Visual Design
-description: Now, I had made no attempt to walk, since my first signal failure, except while tightly grasping Tars Tarkas' arm, and so now I went skipping and flitting about among the desks and chairs like some monstrous grasshopper. After bruising myself severely, much to the amusement of the Martians, I again had recourse to creeping, but this did not suit them and I was roughly jerked to my feet by a towering fellow who had laughed most heartily at my misfortunes. <a href="">test</a>
+description: Generative Music App for iOS
 tools: 'Axure, Photoshop, Illustrator, After Effects'
 ---
 
@@ -103,7 +103,7 @@ tools: 'Axure, Photoshop, Illustrator, After Effects'
             </div>  
             
             <div class="images col-md-6">
-                <img class="" src="{{ site.data.global.url }}/images/projects/akmenu.jpg" />
+                <img class="" src="{{ site.data.global.url }}/images/projects/akmenuux.jpg" />
             </div>
                 
         </div>   

@@ -7,8 +7,8 @@ thumbnail: '/images/thumbs/hydrocarbon@2x.jpg'
 hero: '/images/projects/hcchero.jpg'
 permalink: /work/hydrocarboncollective
 client: Hydrocarbon Collective
-type: Brand Design - Apparel Design
-description: Now, I had made no attempt to walk, since my first signal failure, except while tightly grasping Tars Tarkas' arm, and so now I went skipping and flitting about among the desks and chairs like some monstrous grasshopper. After bruising myself severely, much to the amusement of the Martians, I again had recourse to creeping, but this did not suit them and I was roughly jerked to my feet by a towering fellow who had laughed most heartily at my misfortunes. <a href="">test</a>
+type:  Brand & Print Design
+description: Brand & Marketing Design
 tools: 'Illustrator, Photoshop'
 color: '#9C2E44'
 ---
