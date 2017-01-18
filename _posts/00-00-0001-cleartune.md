@@ -38,15 +38,15 @@ tools: 'Sketch, Photoshop'
     <div class="container">
         <div class="row">
   
-            <div class="images col-md-3">
+            <div class="images col-md-3 col-md-push-6">
                 <img class="responsive shadow" src="{{ site.data.global.url }}/images/projects/cleartuneux.jpg" />
             </div>
 
-            <div class="images col-md-3">
+            <div class="images col-md-3 col-md-push-6">
                 <img class="responsive shadow" src="{{ site.data.global.url }}/images/projects/cleartuneuxdark.jpg" />
             </div>
 
-            <div class="imagemeta col-md-3 col-md-offset-2">
+            <div class="imagemeta col-md-6 col-md-pull-6">
                 <h3>This is some stuff about this.</h3>
                 <p>By this time their destined victim appeared from his cabin. He was a small and dark, but rather delicate looking man for a sea-captain, with large whiskers and moustache, however; and wore a red cotton velvet vest with watch-seals at his side. To this gentleman, Stubb was now politely introduced by the Guernsey-man, who at once ostentatiously put on the aspect of interpreting between them.</p>
             </div>
