@@ -281,28 +281,41 @@ nav.navbar {
 
 .projectcard {
     overflow: hidden;
+    min-height:220px;
     .row {
         align-items: stretch;
     }
     .thumbnail {
         text-align: center;
-        min-height: 220px;
+        .content {
+            position:relative;
+            min-height: 220px;
+        }
         img {
-            width: 100%;
             max-width: 320px;
             margin: 0 auto;
-            position: relative;
-            top: 10px;
+            position: absolute;
+            bottom: -10px;
+            left:50%;
+            margin-left:-160px;
+            margin-bottom:-10px;
         }
     }
     .details {
         text-align: center;
-        align-self: center;
-        margin: 0 auto;
+        position:relative;
+        min-height:220px;
+        display:inline-block;
+        width:100%;
+        .content {
+            width:100%;
+            position:absolute;
+            top:70px;
+        }            
         h3 {
-            margin-top: 15%;
+//            margin-top:15%;
             font-size: 26px;
-            padding: 0 5%;
+            padding:0 5% 10px;
             color: $tan1;
         }
         p {
@@ -313,8 +326,8 @@ nav.navbar {
         }
     }
     &:hover .thumbnail img {
-        top: 1px;
-        transition: top .4s;
+        margin-bottom: -1px;
+        transition: margin-bottom .4s;
     }
 }
 
@@ -377,10 +390,17 @@ nav.navbar {
         }
     }
     .imagemeta {
-        //background: $black1;
         padding: 20px 30px;
-        h3 {color:$blue4;}
+        h3 {
+            color:$blue4;
+            padding-top:60px;
+            margin-bottom:25px;
+        }
         p {color:$brown3;}
+    }
+    .imagemeta.wide h3 {
+        padding-top:0;
+        text-align:center;
     }
     .images.slides {
         padding: 0 30px;
