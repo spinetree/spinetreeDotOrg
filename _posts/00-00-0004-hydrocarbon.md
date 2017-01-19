@@ -8,7 +8,7 @@ hero: '/images/projects/hcchero.jpg'
 permalink: /work/hydrocarboncollective/
 client: Hydrocarbon Collective
 type:  Brand & Print Design
-description: Brand & Marketing Design
+description: Hydrocarbon Collective is a nonprofit I've worked with on several projects, some with a particular social justice goal and some purely for artistic shenaigans. They asked me to create a brand identity, logo and series of sweatshirts, stickers and web assets. The challenge was primarily to create something modern and iconic that featured the icosahedron shape that's part of the group's flagship art piece.
 tools: 'Illustrator, Photoshop'
 color: '#9C2E44'
 ---

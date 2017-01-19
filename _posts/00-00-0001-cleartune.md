@@ -8,9 +8,9 @@ hero: '/images/projects/cleartunehero.jpg'
 permalink: /work/cleartune/
 color: '#272B2F'
 client: Bitcount Ltd.
-type: UI/UX - Visual Design
-description: Instrument Tuner for iOS & Android
-tools: 'Sketch, Photoshop'
+type: Instrument Tuner for iOS & Android
+description: Cleartune is an app I designed for Bitcount Ltd just as the iOS app store was getting really huge. The challenge was to display both fine and coarse readings in an intuitive way that worked even when the user might be holding an instrument and looking at the app from several feet away. 
+tools: 'Photoshop - UI Design'
 ---
 
 <section class="projectsection">
@@ -25,9 +25,9 @@ tools: 'Sketch, Photoshop'
                 <img class="responsive" src="{{ site.data.global.url }}/images/projects/cleartuneandroid.jpg" />
             </div>
 
-            <div class="imagemeta col-md-3 col-md-offset-2">
-                <h3>This is some stuff about this.</h3>
-                <p>By this time their destined victim appeared from his cabin. He was a small and dark, but rather delicate looking man for a sea-captain, with large whiskers and moustache, however; and wore a red cotton velvet vest with watch-seals at his side. To this gentleman, Stubb was now politely introduced by the Guernsey-man, who at once ostentatiously put on the aspect of interpreting between them.</p>
+            <div class="imagemeta col-md-4 col-md-offset-1">
+                <h3>Well that escalated quickly</h3>
+                <p>Cleartune launched to huge acclaim and has sold over half a million copies to date. It's been in the top 10 music apps consistently and remains the top-selling instrument tuner on the iOS app store. It was featured on Apple.com, in iPhone retail kiosks, and made appearances in several iPhone TV commercials.</p>
             </div>
 
         </div>   
@@ -47,8 +47,8 @@ tools: 'Sketch, Photoshop'
             </div>
 
             <div class="imagemeta col-md-6 col-md-pull-6">
-                <h3>This is some stuff about this.</h3>
-                <p>By this time their destined victim appeared from his cabin. He was a small and dark, but rather delicate looking man for a sea-captain, with large whiskers and moustache, however; and wore a red cotton velvet vest with watch-seals at his side. To this gentleman, Stubb was now politely introduced by the Guernsey-man, who at once ostentatiously put on the aspect of interpreting between them.</p>
+                <h3>Night/Stage Mode</h3>
+                <p>Even with the iPhone's brightness turned down, looking at a screen on a dark stage can be disorienting. These are concepts I began in Illustrator for UI updates, including a night mode that would allow musicians to tune more easily in dark environments.</p>
             </div>
 
         </div>   
@@ -59,17 +59,16 @@ tools: 'Sketch, Photoshop'
 <section class="projectsection">
     <div class="container">
         <div class="row">
-  
+            
             <div class="video col-md-10 col-md-offset-1">
                 {% include youtubePlayer.html id="0y-PON19un8" %}         
-            </div>
+            </div> 
             
-        </div>   
+         </div>   
     </div>
 </section>
 
-
-<section class="projectsection dark">
+<section class="projectsection">
     <div class="container">
         <div class="row">
   

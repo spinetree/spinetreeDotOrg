@@ -6338,7 +6338,7 @@ h4, h5, .about-bar .connect .email {
   font-family: 'Raleway', sans-serif;
   font-weight: 500; }
 
-h2, nav.navbar, .frontpagehero h5, .btn, .recommendations {
+h2, nav.navbar, .frontpagehero h5, footer a, .btn, .recommendations {
   font-family: 'Raleway', sans-serif;
   font-weight: 300; }
 
@@ -6351,7 +6351,7 @@ body {
   color: #FAF9EE; }
 
 p {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   line-height: 1.6;
   font-size: 14px;
   letter-spacing: 1px;
@@ -6455,7 +6455,9 @@ nav.navbar {
     width: 60px;
     position: absolute;
     left: 50%;
-    top: 12px; }
+    top: 14px; }
+    nav.navbar .navbarlogo a {
+      padding: 0; }
     nav.navbar .navbarlogo img {
       width: 100%;
       margin-left: -30px; }
@@ -6541,7 +6543,7 @@ nav.navbar {
     .projectcard .details .content {
       width: 100%;
       position: absolute;
-      top: 70px; }
+      top: 60px; }
     .projectcard .details h3 {
       font-size: 26px;
       padding: 0 5% 10px;
@@ -6556,6 +6558,21 @@ nav.navbar {
     -webkit-transition: margin-bottom .4s;
     transition: margin-bottom .4s; }
 
+@media only screen and (max-width: 1199px) {
+  .projectcard .details {
+    min-height: 140px; }
+    .projectcard .details .content {
+      top: 60px; } }
+@media only screen and (max-width: 991px) {
+  .projectcard .details {
+    min-height: 140px; }
+    .projectcard .details .content {
+      top: 60px; } }
+@media only screen and (max-width: 767px) {
+  .projectcard .details {
+    min-height: 100px; }
+    .projectcard .details .content {
+      top: 30px; } }
 .project {
   margin-top: -40px;
   background: #FAF9EE; }
@@ -6579,13 +6596,16 @@ nav.navbar {
       border-right: 4px solid #212822; }
       .project .meta .primary h1 {
         margin-bottom: 15px; }
-      .project .meta .primary .tools {
-        font-style: italic;
+      .project .meta .primary h4 {
         margin-bottom: 0; }
     .project .meta .description {
+      padding-top: 20px;
       padding-left: 40px; }
       .project .meta .description p {
-        margin-bottom: 0; }
+        margin-bottom: 10px; }
+      .project .meta .description p.tools {
+        font-style: italic;
+        color: #729673; }
   .project .projectsection {
     padding: 40px 0; }
   .project .projectsection.dark {
@@ -6612,14 +6632,18 @@ nav.navbar {
     .project .images.slides img {
       margin: 0 10px; }
 
+@media only screen and (max-width: 991px) {
+  .project .meta .primary {
+    padding: 0 0 0 0;
+    text-align: center;
+    border-right: none; }
+  .project .imagemeta h3 {
+    padding-top: 10px;
+    text-align: center; } }
 .about-bar {
   background: #2B403F; }
-  .about-bar .content {
+  .about-bar .description {
     margin: 60px 0; }
-    .about-bar .content p {
-      margin-right: 120px; }
-    .about-bar .content button {
-      margin-right: 100px; }
   .about-bar .connect {
     text-align: center;
     padding: 30px 20px 40px;
@@ -6627,7 +6651,7 @@ nav.navbar {
     border: 10px solid #E4D297;
     box-shadow: 2px 2px 11px -4px #444444;
     max-width: 320px;
-    margin: 60px 0;
+    margin: 60px auto;
     -webkit-transform: rotate(1deg);
             transform: rotate(1deg); }
     .about-bar .connect h4 {
@@ -6642,6 +6666,10 @@ nav.navbar {
       text-transform: uppercase;
       display: block; }
 
+@media only screen and (max-width: 991px) {
+  .connect {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); } }
 .socialicons {
   text-align: center; }
   .socialicons i {
@@ -6670,9 +6698,18 @@ footer {
     margin: 0 20px 0 0;
     color: #E6E3C5; }
   footer p {
+    color: #E6E3C5; }
+  footer a {
+    text-transform: uppercase;
+    font-size: 14px;
     color: #E6E3C5;
-    margin: 0 0 15px; }
+    padding: 0 15px; }
 
+@media only screen and (max-width: 991px) {
+  footer {
+    padding: 20px 0 60px; }
+    footer h4 {
+      margin-top: 60px; } }
 .btn {
   letter-spacing: .8px;
   text-transform: uppercase;
