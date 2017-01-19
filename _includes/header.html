@@ -76,10 +76,11 @@
 
 </head>
 
-<body class="">
+<body class="{% if page.title %}post{% else %}home{% endif %}">
     
     <nav class="navbar navbar-inverse">
         <div class="container-fluid">
+            <div class="row">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                     <span class="sr-only">Toggle navigation</span>
@@ -133,7 +134,8 @@
                 </ul>
                 
             </div>
-            
+                
+            </div> <!-- /row -->
         </div>
     </nav>
 

@@ -12,6 +12,8 @@ $white: #FAF9EE;
     
 $black1: #262E27;
 $black2: darken($black1,2%);
+$black3: darken($black1,5%);
+
 
 $tan0: #EFEDD9;
 $tan1: #E6E3C5;
@@ -172,10 +174,13 @@ img.responsive {width:100%;}
 // Main Content areas
 //*******************************************************************
 
+body.home nav.navbar .navbarlogo {display:none;}
+
+
 nav.navbar {
-    background: rgba(0, 0, 0, 0.7);
+    background: $black2;
     border-top:none;
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid $black1;
     @extend %ralewaylight;
     z-index:100;
     position:absolute;
@@ -216,6 +221,25 @@ nav.navbar {
     }
 }
 
+@media only screen and (max-width: 767px) {
+    nav.navbar {
+        border-bottom: 3px solid $black2;
+        .navbarlogo {top:0;}
+    }
+    #navbar { 
+        background:$black3;
+        text-align:center;
+        .navbarsocial {
+            margin:20px auto; 
+            text-align:center;
+            li {
+                display:inline-block;
+                a {padding:10px 20px;}
+                i {font-size:18px;}
+            }
+        }
+    }
+}
 
 
 
@@ -239,6 +263,7 @@ nav.navbar {
     img {
         margin: 20vh auto 80px;
         max-width: 360px;
+        width:100%;
     }
     h5 {        
         @extend %ralewaylight;
@@ -262,9 +287,7 @@ nav.navbar {
     .thumbnail {
         text-align: center;
         min-height: 220px;
-        display: flex;
         img {
-            align-self: flex-end;
             width: 100%;
             max-width: 320px;
             margin: 0 auto;
@@ -277,15 +300,15 @@ nav.navbar {
         align-self: center;
         margin: 0 auto;
         h3 {
-            margin-top: 80px;
-            font-size: 24px;
+            margin-top: 15%;
+            font-size: 26px;
             padding: 0 5%;
             color: $tan1;
         }
         p {
             font-style: italic;
-            font-size: 12px;
-            color: $tan2;
+            font-size: 16px;
+            color: $tan3;
             margin-bottom: 0;
         }
     }

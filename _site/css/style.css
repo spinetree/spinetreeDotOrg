@@ -6427,10 +6427,13 @@ img.responsive {
 .shadow {
   box-shadow: 2px 2px 11px -4px #444444; }
 
+body.home nav.navbar .navbarlogo {
+  display: none; }
+
 nav.navbar {
-  background: rgba(0, 0, 0, 0.7);
+  background: #212822;
   border-top: none;
-  border-bottom: 3px solid black;
+  border-bottom: 3px solid #262E27;
   z-index: 100;
   position: absolute;
   top: 0;
@@ -6461,6 +6464,24 @@ nav.navbar {
     nav.navbar .navbarsocial i:hover {
       color: #E0CFA2; }
 
+@media only screen and (max-width: 767px) {
+  nav.navbar {
+    border-bottom: 3px solid #212822; }
+    nav.navbar .navbarlogo {
+      top: 0; }
+
+  #navbar {
+    background: #1a201b;
+    text-align: center; }
+    #navbar .navbarsocial {
+      margin: 20px auto;
+      text-align: center; }
+      #navbar .navbarsocial li {
+        display: inline-block; }
+        #navbar .navbarsocial li a {
+          padding: 10px 20px; }
+        #navbar .navbarsocial li i {
+          font-size: 18px; } }
 .frontpagehero {
   height: 86vh;
   min-height: 600px;
@@ -6475,7 +6496,8 @@ nav.navbar {
   text-align: center; }
   .frontpagehero img {
     margin: 20vh auto 80px;
-    max-width: 360px; }
+    max-width: 360px;
+    width: 100%; }
   .frontpagehero h5 {
     color: #FAF9EE;
     letter-spacing: 1.5px;
@@ -6493,13 +6515,8 @@ nav.navbar {
             align-items: stretch; }
   .projectcard .thumbnail {
     text-align: center;
-    min-height: 220px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex; }
+    min-height: 220px; }
     .projectcard .thumbnail img {
-      -ms-flex-item-align: end;
-          align-self: flex-end;
       width: 100%;
       max-width: 320px;
       margin: 0 auto;
@@ -6512,14 +6529,14 @@ nav.navbar {
         align-self: center;
     margin: 0 auto; }
     .projectcard .details h3 {
-      margin-top: 80px;
-      font-size: 24px;
+      margin-top: 15%;
+      font-size: 26px;
       padding: 0 5%;
       color: #E6E3C5; }
     .projectcard .details p {
       font-style: italic;
-      font-size: 12px;
-      color: #E0CFA2;
+      font-size: 16px;
+      color: #E4D297;
       margin-bottom: 0; }
   .projectcard:hover .thumbnail img {
     top: 1px;
