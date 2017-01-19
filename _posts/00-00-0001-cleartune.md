@@ -5,7 +5,7 @@ categories: work
 date: 2015-08-01 13:26:34
 thumbnail: '/images/thumbs/cleartune@2x.jpg'
 hero: '/images/projects/cleartunehero.jpg'
-permalink: /work/cleartune
+permalink: /work/cleartune/
 color: '#272B2F'
 client: Bitcount Ltd.
 type: UI/UX - Visual Design

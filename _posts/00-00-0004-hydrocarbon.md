@@ -5,7 +5,7 @@ categories: work
 date: 2015-08-01 13:26:34
 thumbnail: '/images/thumbs/hydrocarbon@2x.jpg'
 hero: '/images/projects/hcchero.jpg'
-permalink: /work/hydrocarboncollective
+permalink: /work/hydrocarboncollective/
 client: Hydrocarbon Collective
 type:  Brand & Print Design
 description: Brand & Marketing Design

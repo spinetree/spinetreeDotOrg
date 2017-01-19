@@ -5,7 +5,7 @@ categories: work
 date: 2015-08-01 13:26:34
 thumbnail: '/images/thumbs/analogkit@2x.jpg'
 hero: '/images/projects/akhero.jpg'
-permalink: /work/analogkit
+permalink: /work/analogkit/
 color: '#57340F'
 client: Bitcount Ltd.
 type: UI/UX - Visual Design
