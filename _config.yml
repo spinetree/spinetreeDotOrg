@@ -62,3 +62,4 @@ include: ['_pages']
 
 gems:
   - octopress-autoprefixer
+
