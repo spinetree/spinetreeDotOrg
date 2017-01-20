@@ -6351,7 +6351,7 @@ body {
   color: #FAF9EE; }
 
 p {
-  margin-bottom: 10px;
+  margin-bottom: 16px;
   line-height: 1.6;
   font-size: 14px;
   letter-spacing: 1px;
@@ -6461,15 +6461,17 @@ nav.navbar {
     nav.navbar .navbarlogo img {
       width: 100%;
       margin-left: -30px; }
-  nav.navbar .navbarsocial a {
-    text-align: center;
-    padding: 10px 12px; }
-  nav.navbar .navbarsocial i {
-    font-size: 14px;
-    line-height: 40px;
-    color: #E6E3C5; }
-    nav.navbar .navbarsocial i:hover {
-      color: #E0CFA2; }
+  nav.navbar .navbarsocial {
+    padding: 0 10px; }
+    nav.navbar .navbarsocial a {
+      text-align: center;
+      padding: 10px 12px; }
+    nav.navbar .navbarsocial i {
+      font-size: 14px;
+      line-height: 40px;
+      color: #E6E3C5; }
+      nav.navbar .navbarsocial i:hover {
+        color: #E0CFA2; }
 
 @media only screen and (max-width: 767px) {
   nav.navbar {
@@ -6490,6 +6492,7 @@ nav.navbar {
         #navbar .navbarsocial li i {
           font-size: 18px; } }
 .frontpagehero {
+  height: 600px;
   height: 86vh;
   min-height: 600px;
   padding: 0 0 40px;
@@ -6502,15 +6505,18 @@ nav.navbar {
   background-size: cover;
   text-align: center; }
   .frontpagehero img {
-    margin: 20vh auto 80px;
+    margin: 40px auto 20px;
+    margin: 18vh auto 8vh;
     max-width: 360px;
-    width: 100%; }
+    width: 100%;
+    padding: 0 8px; }
   .frontpagehero h5 {
     color: #FAF9EE;
     letter-spacing: 1.5px;
-    margin: 0 0 10px; }
+    margin: 0 20px 20px; }
   .frontpagehero i {
-    margin-top: 50px;
+    margin-top: 30px;
+    margin-top: 4vh;
     font-size: 40px;
     color: #FAF9EE; }
 
@@ -6539,7 +6545,8 @@ nav.navbar {
     position: relative;
     min-height: 220px;
     display: inline-block;
-    width: 100%; }
+    width: 100%;
+    z-index: 1; }
     .projectcard .details .content {
       width: 100%;
       position: absolute;
@@ -6570,9 +6577,15 @@ nav.navbar {
       top: 60px; } }
 @media only screen and (max-width: 767px) {
   .projectcard .details {
-    min-height: 100px; }
+    min-height: 80px; }
     .projectcard .details .content {
-      top: 30px; } }
+      top: 30px; }
+    .projectcard .details h3 {
+      font-size: 20px;
+      padding-bottom: 0; }
+    .projectcard .details p {
+      font-size: 14px;
+      line-height: 1.4; } }
 .project {
   margin-top: -40px;
   background: #FAF9EE; }
@@ -6667,9 +6680,14 @@ nav.navbar {
       display: block; }
 
 @media only screen and (max-width: 991px) {
-  .connect {
+  .about-bar .description {
+    text-align: center; }
+  .about-bar .connect {
+    margin-top: 0px;
     -webkit-transform: rotate(0deg);
-            transform: rotate(0deg); } }
+            transform: rotate(0deg); }
+  .about-bar button {
+    margin-top: 20px; } }
 .socialicons {
   text-align: center; }
   .socialicons i {

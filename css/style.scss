@@ -74,7 +74,7 @@ body {
 
 p {
     @extend %noto;
-    margin-bottom:10px;
+    margin-bottom:16px;
     line-height:1.6;
     font-size:14px;
     letter-spacing:1px;
@@ -207,6 +207,7 @@ nav.navbar {
         }
     }
     .navbarsocial {
+        padding: 0 10px;
         a {
             text-align:center;
             padding:10px 12px;
@@ -248,6 +249,7 @@ nav.navbar {
 
 
 .frontpagehero {
+    height:600px;
     height: 86vh;
     min-height:600px;
     padding: 0 0 40px;
@@ -260,18 +262,21 @@ nav.navbar {
     background-size: cover;
     text-align: center;
     img {
-        margin: 20vh auto 80px;
+        margin:40px auto 20px;
+        margin:18vh auto 8vh;
         max-width: 360px;
         width:100%;
+        padding:0 8px;
     }
     h5 {        
         @extend %ralewaylight;
         color:$white;
         letter-spacing: 1.5px;
-        margin:0 0 10px;
+        margin:0 20px 20px;
     }
     i {
-        margin-top:50px;
+        margin-top:30px;
+        margin-top: 4vh;
         font-size:40px;
         color:$white;
     }
@@ -306,6 +311,7 @@ nav.navbar {
         min-height:220px;
         display:inline-block;
         width:100%;
+        z-index:1;
         .content {
             width:100%;
             position:absolute;
@@ -334,6 +340,7 @@ nav.navbar {
     .projectcard {
         .details {min-height:140px;
             .content {top:60px;}
+            h3 {}
         }   
     }
 }
@@ -341,7 +348,8 @@ nav.navbar {
 
 @media only screen and (max-width: 991px) {
     .projectcard {
-        .details {min-height:140px;
+        .details {
+            min-height:140px;
             .content {top:60px;}
         }   
     }
@@ -349,8 +357,16 @@ nav.navbar {
 
 @media only screen and (max-width: 767px) {
     .projectcard {
-        .details {min-height:100px;
+        .details {min-height:80px;
             .content {top:30px;}
+        h3 {
+            font-size:20px;
+            padding-bottom:0;
+            }
+        p {
+            font-size:14px;
+            line-height:1.4;
+            }
         }   
     }
 }
@@ -490,7 +506,20 @@ nav.navbar {
 }
 
 @media only screen and (max-width: 991px) {
-    .connect {transform:rotate(0deg);}
+    .about-bar { 
+        .description {text-align:center;}
+        .connect {
+            margin-top:0px;
+            transform:rotate(0deg);
+        }
+        button {margin-top:20px;}
+    }
+}
+
+@media only screen and (max-width: 767px) {
+.about-bar {
+    .connect {}
+    }
 }
 
 

@@ -57,15 +57,15 @@ color: '#9C2E44'
     <div class="container">
         <div class="row">
   
-            <div class="images col-sm-8 col-sm-offset-4 col-sm-pull-2">
+            <div class="images col-sm-10 col-sm-offset-2 col-sm-pull-1">
                 <img class="image shadow" src="{{ site.data.global.url }}/images/projects/hccsketches.jpg" />
             </div>
 
-            <div class="images col-sm-5 col-sm-offset-1">
+            <div class="images col-sm-8 col-sm-offset-2">
                 <img class="image shadow" src="{{ site.data.global.url }}/images/projects/hccconcepts1.jpg" />
             </div>
             
-            <div class="images col-sm-5">
+            <div class="images col-sm-8 col-sm-offset-2">
                 <img class="image shadow" src="{{ site.data.global.url }}/images/projects/hccconcepts2.jpg" />
             </div>
             
