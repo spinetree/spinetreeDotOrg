@@ -17,15 +17,15 @@ tools: 'Photoshop - UI Design'
     <div class="container">
         <div class="row">
   
-            <div class="images col-md-3">
+            <div class="images col-xs-6 col-md-3">
                 <img class="responsive" src="{{ site.data.global.url }}/images/projects/cleartuneios.jpg" />
             </div>
 
-            <div class="images col-md-3">
+            <div class="images col-xs-6 col-md-3 col-md-offset-1 col-md-push-5">
                 <img class="responsive" src="{{ site.data.global.url }}/images/projects/cleartuneandroid.jpg" />
             </div>
 
-            <div class="imagemeta col-md-4 col-md-offset-1">
+            <div class="imagemeta col-xs-12 col-md-4 col-md-offset-1 col-md-pull-4">
                 <h3>Well that escalated quickly</h3>
                 <p>Cleartune launched to huge acclaim and has sold over half a million copies to date. It's been in the top 10 music apps consistently and remains the top-selling instrument tuner on the iOS app store. It was featured on Apple.com, in iPhone retail kiosks, and made appearances in several iPhone TV commercials.</p>
             </div>
