@@ -23,6 +23,7 @@ $tan4: #AEA07D;
 
 $tangreen: #ABAF7D;
 
+$lightgreen: #C6CCBC;
 $green: #729673;
 
 $darkgreen: darken($green,32%);
@@ -75,7 +76,7 @@ body {
 p {
     @extend %noto;
     margin-bottom:16px;
-    line-height:1.6;
+    line-height:1.4;
     font-size:14px;
     letter-spacing:1px;
     font-weight:400;
@@ -107,7 +108,7 @@ h1, h2, h3, h4 {
     letter-spacing:1.2px;
     color:$white;
     margin:0 0 10px;
-    line-height:1.3;
+    line-height:1.1;
 }
 
 h1 {
@@ -122,12 +123,11 @@ h2 {
     letter-spacing:2.4px;
 }
 
-h2.titlebar {
+.titlebar {
     background: $black1;
     padding: 15px 0;
     border-top: 4px solid $black2;
     border-bottom: 4px solid $black2;
-//    box-shadow: 2px 1px 5px 0px #111;
     text-align: center;
     margin: 0 auto;
     z-index: 100;
@@ -450,6 +450,7 @@ nav.navbar {
 @media only screen and (max-width: 991px) {
     .project {
         .meta {
+            h1 {}
             .primary {
                 padding:0 0 0 0;
                 text-align:center;
@@ -605,43 +606,101 @@ footer {
 // About Page
 //*******************************************************************
 
-
-
-.bio {
-    background:$green;
+.about-page {
+    background:$lightgreen;
+    color:$blue4;
+    .hero {
+        margin-top: -80px;
+        background: $darkgreen;
+        display: block;
+        padding-top:180px;
+        margin-bottom:40px;
+    }
 }
 
+.bio {
+    margin-bottom: 40px;
+    p {margin-top:30px;}
+    }
+
 .stats {
-    background:$green;
-    .row {
-        position:relative;
+    text-align:center;
+    ul {padding:10px 20px;}
+    li {
+    list-style:none;
+    @extend %raleway;
+    font-size: 12px;
+    }
+    .apps {
+        margin-top:40px;
+        h3 {color:$brown3;}
+        li {
+        display:inline-block;
+        margin: 8px 12px;
+        }
+    }
+    .languages {
+        margin-bottom:-40px;
+        .content {
+            transform:rotate(1deg);
+            margin:0;
+            padding:30px 50px 0px;
+            background:$blue2;
+            border:10px solid $blue3;
+        }
+        ul {padding-bottom:40px;}
+        li {
+            margin-bottom:10px;
+            text-align:left;
+            @extend %raleway;
+            color:$tan1;
+            span {
+                color:$tan3;
+                margin-left:10px;
+                @extend %ralewaylight;
+                font-style:italic;
+            }
+            
+        }
     }
 }
 
 .resume {
-    background:$brown3;
-    padding:20px 0;
+    background:$black1;
+    padding:30px 0;
+    border-top: 4px solid $black2;
+    border-bottom: 4px solid $black2;
+    text-align:center;
+    h2 {display:inline-block;margin-right:20px;}
+
+    .socialicons {
+        padding-top:10px;
+        i {background:$brown2;}
+    }
 }
 
+
 .recommendations {
-    border-top:10px solid $tan2;
-    background:$tan1;
-    color:$blue1;
-    @extend %ralewaylight;
-    font-size:16px;
+    border-top:10px solid $tan1;
+    background:$tan0;
     padding:100px 0 160px;
+    .quote p {
+        @extend %raleway;
+        font-size:20px;
+        color:$black2; 
+        font-style:italic;
+    }
 }
 
 .sixpieces {
-    background:$blue2;
-    color:$tan1;
+    background:$blue3;
+    color:$white;
     padding:100px 0 160px;
     transform:skewY(-3deg);
     margin-top:-60px;
+    margin-bottom:-60px;
     .row {
         transform:skewY(3deg);
-        position:relative;
-        top:20px;
     }
     li {
         list-style:none;
@@ -649,7 +708,8 @@ footer {
     }
     .page {
         background:$blue1;
-        border:4px inset $blue3;
+        padding:20px;
+        border:10px solid $blue4;
     }
     h2 {
         @extend %ralewaybold;

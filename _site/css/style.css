@@ -6338,11 +6338,11 @@ h1, h3, .about-bar .connect h4, .sixpieces h2 {
   font-family: 'Raleway', sans-serif;
   font-weight: 700; }
 
-h4, h5, nav.navbar, .about-bar .connect .email {
+h4, h5, nav.navbar, .about-bar .connect .email, .stats li, .stats .languages li, .recommendations .quote p {
   font-family: 'Raleway', sans-serif;
   font-weight: 500; }
 
-h2, footer a, .btn, .recommendations {
+h2, footer a, .btn, .stats .languages li span {
   font-family: 'Raleway', sans-serif;
   font-weight: 300; }
 
@@ -6356,7 +6356,7 @@ body {
 
 p {
   margin-bottom: 16px;
-  line-height: 1.6;
+  line-height: 1.4;
   font-size: 14px;
   letter-spacing: 1px;
   font-weight: 400; }
@@ -6384,7 +6384,7 @@ h1, h2, h3, h4 {
   letter-spacing: 1.2px;
   color: #FAF9EE;
   margin: 0 0 10px;
-  line-height: 1.3; }
+  line-height: 1.1; }
 
 h1 {
   font-size: 40px; }
@@ -6394,7 +6394,7 @@ h2 {
   color: #E0CFA2;
   letter-spacing: 2.4px; }
 
-h2.titlebar {
+.titlebar {
   background: #262E27;
   padding: 15px 0;
   border-top: 4px solid #212822;
@@ -6748,42 +6748,95 @@ footer {
   .btn-primary:hover {
     background: #517C79; }
 
+.about-page {
+  background: #C6CCBC;
+  color: #2B403F; }
+  .about-page .hero {
+    margin-top: -80px;
+    background: #2b3a2b;
+    display: block;
+    padding-top: 180px;
+    margin-bottom: 40px; }
+
 .bio {
-  background: #729673; }
+  margin-bottom: 40px; }
+  .bio p {
+    margin-top: 30px; }
 
 .stats {
-  background: #729673; }
-  .stats .row {
-    position: relative; }
+  text-align: center; }
+  .stats ul {
+    padding: 10px 20px; }
+  .stats li {
+    list-style: none;
+    font-size: 12px; }
+  .stats .apps {
+    margin-top: 40px; }
+    .stats .apps h3 {
+      color: #333620; }
+    .stats .apps li {
+      display: inline-block;
+      margin: 8px 12px; }
+  .stats .languages {
+    margin-bottom: -40px; }
+    .stats .languages .content {
+      -webkit-transform: rotate(1deg);
+              transform: rotate(1deg);
+      margin: 0;
+      padding: 30px 50px 0px;
+      background: #517C79;
+      border: 10px solid #4C716E; }
+    .stats .languages ul {
+      padding-bottom: 40px; }
+    .stats .languages li {
+      margin-bottom: 10px;
+      text-align: left;
+      color: #E6E3C5; }
+      .stats .languages li span {
+        color: #E4D297;
+        margin-left: 10px;
+        font-style: italic; }
 
 .resume {
-  background: #333620;
-  padding: 20px 0; }
+  background: #262E27;
+  padding: 30px 0;
+  border-top: 4px solid #212822;
+  border-bottom: 4px solid #212822;
+  text-align: center; }
+  .resume h2 {
+    display: inline-block;
+    margin-right: 20px; }
+  .resume .socialicons {
+    padding-top: 10px; }
+    .resume .socialicons i {
+      background: #605232; }
 
 .recommendations {
-  border-top: 10px solid #E0CFA2;
-  background: #E6E3C5;
-  color: #86A3C5;
-  font-size: 16px;
+  border-top: 10px solid #E6E3C5;
+  background: #EFEDD9;
   padding: 100px 0 160px; }
+  .recommendations .quote p {
+    font-size: 20px;
+    color: #212822;
+    font-style: italic; }
 
 .sixpieces {
-  background: #517C79;
-  color: #E6E3C5;
+  background: #4C716E;
+  color: #FAF9EE;
   padding: 100px 0 160px;
   -webkit-transform: skewY(-3deg);
           transform: skewY(-3deg);
-  margin-top: -60px; }
+  margin-top: -60px;
+  margin-bottom: -60px; }
   .sixpieces .row {
     -webkit-transform: skewY(3deg);
-            transform: skewY(3deg);
-    position: relative;
-    top: 20px; }
+            transform: skewY(3deg); }
   .sixpieces li {
     list-style: none;
     margin: 0 0 15px; }
   .sixpieces .page {
     background: #86A3C5;
-    border: 4px inset #4C716E; }
+    padding: 20px;
+    border: 10px solid #2B403F; }
   .sixpieces h2 {
     color: #517C79; }
