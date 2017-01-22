@@ -78,7 +78,7 @@ p {
     margin-bottom:16px;
     line-height:1.4;
     font-size:14px;
-    letter-spacing:1px;
+    letter-spacing:.8px;
     font-weight:400;
 }
 
@@ -534,7 +534,7 @@ nav.navbar {
     text-align:center;
         i {
         display:inline-block;
-        margin:0 15px 0 0; 
+        margin:0 8px 0 0; 
         font-size:20px;
         background:$blue3;
         border-radius:20px;
@@ -619,8 +619,8 @@ footer {
 }
 
 .bio {
-    margin-bottom: 40px;
-    p {margin-top:30px;}
+    margin-bottom: 60px;
+    p {margin-bottom:20px;}
     }
 
 .stats {
@@ -648,7 +648,7 @@ footer {
             background:$blue2;
             border:10px solid $blue3;
         }
-        ul {padding-bottom:40px;}
+        ul {padding:20px 0 40px 40px;}
         li {
             margin-bottom:10px;
             text-align:left;
@@ -665,37 +665,46 @@ footer {
     }
 }
 
-.resume {
-    background:$black1;
-    padding:30px 0;
-    border-top: 4px solid $black2;
-    border-bottom: 4px solid $black2;
+.bioconnect {
     text-align:center;
-    h2 {display:inline-block;margin-right:20px;}
-
+    h3 {
+        margin:20px 20px 12px;
+    }   
+    .resume {
+        background:$black1;
+        padding:30px 0;
+        border-top: 4px solid $black2;
+        border-bottom: 4px solid $black2;
+        text-align:center;
+        }
     .socialicons {
         padding-top:10px;
-        i {background:$brown2;}
     }
 }
+
 
 
 .recommendations {
     border-top:10px solid $tan1;
     background:$tan0;
-    padding:100px 0 160px;
+    padding:60px 0 120px;
+    h3 {text-align:center; margin-bottom:30px;}
     .quote p {
-        @extend %raleway;
-        font-size:20px;
+        @extend %ralewaylight;
+        font-size:14px;
         color:$black2; 
         font-style:italic;
+    }
+    p.attribution {
+        text-align:right;
+        font-style:normal;
     }
 }
 
 .sixpieces {
     background:$blue3;
     color:$white;
-    padding:100px 0 160px;
+    padding:100px 0;
     transform:skewY(-3deg);
     margin-top:-60px;
     margin-bottom:-60px;
@@ -704,20 +713,44 @@ footer {
     }
     li {
         list-style:none;
-        margin: 0 0 15px;
+        margin: 0 0 30px;
     }
     .page {
-        background:$blue1;
+        color:$blue4;
+        border-left:4px solid $blue4;
+        border-right:4px solid $blue4;
         padding:20px;
-        border:10px solid $blue4;
+        margin:60px 0;
     }
     h2 {
         @extend %ralewaybold;
-        color:$blue2;
+        color:$blue4;
+        text-align:center;
     }
 }
 
+@media only screen and (max-width: 990px) {
+    .biophoto {margin-bottom:20px;}
+    .sixpieces {padding: 40px 0 80px;
+        .page {border-left:none; border-right:none;}
+    }
 
+}
+
+@media only screen and (max-width: 767px) {
+    .bio {margin-bottom:20px;}
+    .stats .languages {
+        .content {
+        transform: rotate(0deg);
+        padding: 30px 20px 0px;  
+            ul {padding-left:0;}
+            li {text-align:center;}
+        }        
+    }
+    .sixpieces {
+        padding: 40px 0 80px;
+    }
+}
 
 
 // ******************************************************************
@@ -725,6 +758,8 @@ footer {
 //*******************************************************************
 
 
-@media only screen and (max-width: 991px) {}
+@media only screen and (max-width: 990px) {
+    
+}
 
-@media only screen and (max-width: 480px) {}
+@media only screen and (max-width: 767px) {}

@@ -6338,11 +6338,11 @@ h1, h3, .about-bar .connect h4, .sixpieces h2 {
   font-family: 'Raleway', sans-serif;
   font-weight: 700; }
 
-h4, h5, nav.navbar, .about-bar .connect .email, .stats li, .stats .languages li, .recommendations .quote p {
+h4, h5, nav.navbar, .about-bar .connect .email, .stats li, .stats .languages li {
   font-family: 'Raleway', sans-serif;
   font-weight: 500; }
 
-h2, footer a, .btn, .stats .languages li span {
+h2, footer a, .btn, .stats .languages li span, .recommendations .quote p {
   font-family: 'Raleway', sans-serif;
   font-weight: 300; }
 
@@ -6358,7 +6358,7 @@ p {
   margin-bottom: 16px;
   line-height: 1.4;
   font-size: 14px;
-  letter-spacing: 1px;
+  letter-spacing: .8px;
   font-weight: 400; }
 
 section,
@@ -6698,7 +6698,7 @@ nav.navbar {
   text-align: center; }
   .socialicons i {
     display: inline-block;
-    margin: 0 15px 0 0;
+    margin: 0 8px 0 0;
     font-size: 20px;
     background: #4C716E;
     border-radius: 20px;
@@ -6759,9 +6759,9 @@ footer {
     margin-bottom: 40px; }
 
 .bio {
-  margin-bottom: 40px; }
+  margin-bottom: 60px; }
   .bio p {
-    margin-top: 30px; }
+    margin-bottom: 20px; }
 
 .stats {
   text-align: center; }
@@ -6787,7 +6787,7 @@ footer {
       background: #517C79;
       border: 10px solid #4C716E; }
     .stats .languages ul {
-      padding-bottom: 40px; }
+      padding: 20px 0 40px 40px; }
     .stats .languages li {
       margin-bottom: 10px;
       text-align: left;
@@ -6797,33 +6797,38 @@ footer {
         margin-left: 10px;
         font-style: italic; }
 
-.resume {
-  background: #262E27;
-  padding: 30px 0;
-  border-top: 4px solid #212822;
-  border-bottom: 4px solid #212822;
+.bioconnect {
   text-align: center; }
-  .resume h2 {
-    display: inline-block;
-    margin-right: 20px; }
-  .resume .socialicons {
+  .bioconnect h3 {
+    margin: 20px 20px 12px; }
+  .bioconnect .resume {
+    background: #262E27;
+    padding: 30px 0;
+    border-top: 4px solid #212822;
+    border-bottom: 4px solid #212822;
+    text-align: center; }
+  .bioconnect .socialicons {
     padding-top: 10px; }
-    .resume .socialicons i {
-      background: #605232; }
 
 .recommendations {
   border-top: 10px solid #E6E3C5;
   background: #EFEDD9;
-  padding: 100px 0 160px; }
+  padding: 60px 0 120px; }
+  .recommendations h3 {
+    text-align: center;
+    margin-bottom: 30px; }
   .recommendations .quote p {
-    font-size: 20px;
+    font-size: 14px;
     color: #212822;
     font-style: italic; }
+  .recommendations p.attribution {
+    text-align: right;
+    font-style: normal; }
 
 .sixpieces {
   background: #4C716E;
   color: #FAF9EE;
-  padding: 100px 0 160px;
+  padding: 100px 0;
   -webkit-transform: skewY(-3deg);
           transform: skewY(-3deg);
   margin-top: -60px;
@@ -6833,10 +6838,38 @@ footer {
             transform: skewY(3deg); }
   .sixpieces li {
     list-style: none;
-    margin: 0 0 15px; }
+    margin: 0 0 30px; }
   .sixpieces .page {
-    background: #86A3C5;
+    color: #2B403F;
+    border-left: 4px solid #2B403F;
+    border-right: 4px solid #2B403F;
     padding: 20px;
-    border: 10px solid #2B403F; }
+    margin: 60px 0; }
   .sixpieces h2 {
-    color: #517C79; }
+    color: #2B403F;
+    text-align: center; }
+
+@media only screen and (max-width: 990px) {
+  .biophoto {
+    margin-bottom: 20px; }
+
+  .sixpieces {
+    padding: 40px 0 80px; }
+    .sixpieces .page {
+      border-left: none;
+      border-right: none; } }
+@media only screen and (max-width: 767px) {
+  .bio {
+    margin-bottom: 20px; }
+
+  .stats .languages .content {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    padding: 30px 20px 0px; }
+    .stats .languages .content ul {
+      padding-left: 0; }
+    .stats .languages .content li {
+      text-align: center; }
+
+  .sixpieces {
+    padding: 40px 0 80px; } }
