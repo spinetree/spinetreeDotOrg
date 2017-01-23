@@ -168,6 +168,11 @@ img.responsive {width:100%;}
 
 .shadow {box-shadow: 2px 2px 11px -4px rgba(68,68,68,1);}
 
+@media only screen and (max-width: 990px) {
+    h1 {font-size:24px;}
+}
+
+
 // ******************************************************************
 // Main Content areas
 //*******************************************************************
@@ -604,18 +609,18 @@ footer {
 }
 
 // ******************************************************************
-// About Page
+// About Section
 //*******************************************************************
 
-.about-page {
+.about {
     background:$lightgreen;
     color:$blue4;
     .hero {
-        margin-top: -80px;
-        background: $darkgreen;
-        display: block;
-        padding-top:180px;
-        margin-bottom:40px;
+    //    margin-top: -80px;
+    //    background: $darkgreen;
+    //    display: block;
+    //    padding-top:180px;
+        margin-bottom:60px;
     }
 }
 
@@ -626,6 +631,7 @@ footer {
 
 .stats {
     text-align:center;
+    h3 {color: $tan4;}
     ul {padding:10px 20px;}
     li {
     list-style:none;
@@ -634,7 +640,6 @@ footer {
     }
     .apps {
         margin-top:40px;
-        h3 {color:$brown3;}
         li {
         display:inline-block;
         margin: 8px 12px;
@@ -680,6 +685,8 @@ footer {
         }
     .socialicons {
         padding-top:10px;
+        i {box-shadow: 2px 2px 11px -4px rgba(68,68,68,1);
+}
     }
 }
 
@@ -731,26 +738,77 @@ footer {
 }
 
 @media only screen and (max-width: 990px) {
-    .biophoto {margin-bottom:20px;}
-    .sixpieces {padding: 40px 0 80px;
-        .page {border-left:none; border-right:none;}
+    .biophoto {margin-bottom:60px;}
+    .sixpieces {padding: 40px 0 120px;
+        .page {
+            border-left:none; 
+            border-right:none;
+            margin-bottom:40px;
+        }
+    }
+    .stats .languages .content {
+        margin:0 10px;
+    }
+    .bio .socialicons {        
+        padding-bottom: 20px;
     }
 
 }
 
 @media only screen and (max-width: 767px) {
     .bio {margin-bottom:20px;}
-    .stats .languages {
-        .content {
-        transform: rotate(0deg);
-        padding: 30px 20px 0px;  
-            ul {padding-left:0;}
-            li {text-align:center;}
-        }        
+    .stats { 
+        .apps {margin-bottom:30px;}
+        .languages {
+            .content {
+            transform: rotate(0deg);
+            padding: 30px 20px 0px;  
+                ul {padding-left:0;}
+                li {text-align:center;}
+            }   
+        }
     }
-    .sixpieces {
-        padding: 40px 0 80px;
+}
+
+
+
+// ******************************************************************
+// Carousel
+//*******************************************************************
+
+.slides {
+    padding:20px 0 0px;
+    .slick-next {right:-40px;}
+    .slick-prev {left:-40px;}
+    .slick-prev:before, 
+    .slick-next:before {
+        font-family: "slick";
+        font-size: 30px;
+        line-height: 1;
+        color: $tan3;
+        opacity: 0.75;
+        -webkit-font-smoothing: antialiased;
     }
+    .slick-dots {bottom:-30px; padding:0 10%;}
+    .slick-dots li button:before {
+        content: "●";
+        width: 20px;
+        height: 20px;
+        font-family: "slick";
+        font-size: 16px;
+        line-height: 20px;
+    }    
+    .slide {
+        p {padding:0 30px;}
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .slides {padding-bottom:20px;}   
+}
+
+@media only screen and (max-width: 405px) {
+    .slides {padding-bottom:40px;}   
 }
 
 

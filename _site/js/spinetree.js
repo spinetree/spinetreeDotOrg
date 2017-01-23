@@ -11,13 +11,42 @@ $(function() {
 ========================================*/
 
 $(window).load(function () {
- /*   $('.slides').slick({
-        dots: true,
-        infinite: false,
-        speed: 300,
-        slidesToShow: 3,
-        slidesToScroll: 1
-    }); */
+
+    if ($('.slides').length) {
+
+        function getRandomInt(min, max) {
+            min = Math.ceil(min);
+            max = Math.floor(max);
+            return Math.floor(Math.random() * (max - min)) + min;
+        }
+
+        $('.slides').slick({
+            dots: true,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            adaptiveHeight: true,
+            initialSlide: getRandomInt(0, 19),
+            responsive: [
+                {
+                    breakpoint: 991,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        arrows: false,
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+              ]
+        });
+    };
 });
 
 
