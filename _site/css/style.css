@@ -6731,6 +6731,18 @@ footer {
     font-size: 14px;
     color: #E6E3C5;
     padding: 0 15px; }
+  footer .socialicons {
+    margin: 20px 0; }
+    footer .socialicons i {
+      background: #605232;
+      font-size: 14px;
+      line-height: 24px;
+      width: 24px;
+      height: 24px; }
+      footer .socialicons i:hover {
+        background: #6B5D51; }
+    footer .socialicons a {
+      padding: 0 8px 0 0; }
 
 @media only screen and (max-width: 991px) {
   footer {
@@ -6751,21 +6763,33 @@ footer {
   .btn-primary:hover {
     background: #517C79; }
 
+.about-page {
+  background: #C6CCBC;
+  color: #2B403F;
+  padding-top: 100px; }
+  .about-page h1 {
+    font-size: 30px;
+    color: #6B5D51;
+    margin-bottom: 20px; }
+
 .about {
   background: #C6CCBC;
   color: #2B403F; }
-  .about .hero {
+  .about h2 {
     margin-bottom: 60px; }
 
 .bio {
-  margin-bottom: 60px; }
+  padding-bottom: 0px;
+  margin-bottom: 40px; }
   .bio p {
     margin-bottom: 20px; }
 
 .stats {
-  text-align: center; }
+  text-align: center;
+  padding-top: 40px;
+  background: #bfc5b3; }
   .stats h3 {
-    color: #AEA07D; }
+    color: #6B5D51; }
   .stats ul {
     padding: 10px 20px; }
   .stats li {
@@ -6777,10 +6801,9 @@ footer {
       display: inline-block;
       margin: 8px 12px; }
   .stats .languages {
+    margin-top: 20px;
     margin-bottom: -40px; }
     .stats .languages .content {
-      -webkit-transform: rotate(1deg);
-              transform: rotate(1deg);
       margin: 0;
       padding: 30px 50px 0px;
       background: #517C79;
@@ -6800,16 +6823,12 @@ footer {
   text-align: center; }
   .bioconnect h3 {
     margin: 20px 20px 12px; }
-  .bioconnect .resume {
-    background: #262E27;
-    padding: 30px 0;
-    border-top: 4px solid #212822;
-    border-bottom: 4px solid #212822;
-    text-align: center; }
   .bioconnect .socialicons {
     padding-top: 10px; }
     .bioconnect .socialicons i {
       box-shadow: 2px 2px 11px -4px #444444; }
+  .bioconnect .resumebutton {
+    margin-bottom: 20px; }
 
 .recommendations {
   border-top: 10px solid #E6E3C5;
@@ -6818,6 +6837,8 @@ footer {
   .recommendations h3 {
     text-align: center;
     margin-bottom: 30px; }
+  .recommendations p {
+    color: #605232; }
   .recommendations .quote p {
     font-size: 14px;
     color: #212822;
@@ -6851,6 +6872,9 @@ footer {
     text-align: center; }
 
 @media only screen and (max-width: 990px) {
+  .about h1 {
+    text-align: center; }
+
   .biophoto {
     margin-bottom: 60px; }
 

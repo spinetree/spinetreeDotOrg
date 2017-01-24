@@ -1,8 +1,10 @@
-{% include header.html %}
 
-<main>
-    <div class="about-page">
-            
+    <div class="about">
+    
+        <a name="about">
+            <h2 class="titlebar">About</h2>
+        </a>
+        
         <section class="bio">
             <div class="container">
                 <div class="row">
@@ -11,7 +13,7 @@
                         <div class="container-fluid">
                             <div class="row">
                                 
-                                <div class="biophoto col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-md-10 col-md-offset-1">
+                                <div class="biophoto col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-3 col-md-10 col-md-offset-1">
                                     <img class="images frame responsive shadow" src="{{ site.data.global.url }}/images/about.jpg" />
                                 </div>
                                 
@@ -36,8 +38,8 @@
                                     </div>
                                     <div class="resumebutton">
                                         <h3>Resume</h3>
-                                        <a href="{{ site.data.global.url }}/images/rokitka-resume.pdf">
-                                            <button type="button" class="btn btn-primary resmue">Download</button>
+                                        <a href="{{ site.data.global.url }}/images/rokitka-resume.pdf" target"_blank">
+                                            <button type="button" class="btn btn-primary resume">Download</button>
                                         </a>
                                     </div>
                                 </div>
@@ -47,12 +49,10 @@
                         </div><!-- /layout div -->
                             
                         <div class="col-xs-12 col-xs-offset-0 col-sm-12 col-sm-offset-0 col-md-7">
-                            
-                            <h1>About</h1>
+                                                        
+                            <p>My name's Steve Rokitka (Rocketkar) - I'm a designer, writer and artist, and the principal force behind Spinetree Media. I've been making things with words and images for most of my life, and doing it professionally for the better part of a decade. In that time I've designed a top-selling iOS app, created numerous websites and web assets, and designed enough t-shirts that they account for roughly half my wardrobe.</p> 
 
-                            <p>My name's Steve Rokitka (Rocketkar) - I'm a designer, writer and artist. I've been making things with words and images for most of my life, and doing it professionally for the better part of a decade. In that time I've designed a top-selling iOS app, created numerous websites and web assets, and designed enough t-shirts that they account for roughly half my wardrobe.</p> 
-
-                            <p>I spent three of the last four years as UI/UX lead at a startup, building a complex generative music app and all the assets, marketing materials, websites, and promo schwag that goes along with it. Once the app was released, I decided to take some time off and cross a few (okay, most) of the items off my bucket list. I painted a house, bought a motorcycle and learned to ride, took a Wilderness First Responder course, spent six months learning to fix cars at a community college, and continued my training in Krav Maga.</p>
+                            <p>I spent the last several years as UI/UX lead at a startup, building a complex generative music app and all the assets, marketing materials, websites, and promo schwag that goes along with it. Once the app was released, I decided to take some time off and cross a few (okay, most) of the items off my bucket list. I painted a house, bought a motorcycle and learned to ride, took a Wilderness First Responder course, spent two quarters learning to fix cars at a community college, and continued my training in Krav Maga.</p>
 
                             <p>Taking a break from design was really incredible in that it helped deprogram me from a lot of the things that were holding me back professionally. From working with cars I learned to find something to measure to determine whether a job was successful. From training Krav Maga I learned how even a master continues to train and retrain their fundamentals. From getting first responder certfication I learned how a professional doesn't show up to a situation and take on that situation's energy - they show up and set the tone for how a problem is going to get solved.</p> 
 
@@ -91,7 +91,7 @@
         <section class="stats">
             <div class="container">
                 <div class="row">
-                    <div class="apps col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-8 ">
+                    <div class="apps col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4 ">
                             <h3>Favorite Tools</h3>
                             <ul>
                                 <li>Photoshop</li>
@@ -105,10 +105,26 @@
                                 <li>Wordpress</li>
                                 <li>Liquid</li>
                                 <li>Git</li>
+                                <li>Google Analytics</li>
                             </ul>
                     </div>
+                    <div class="apps col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4 col-md-push-4">
+                            <h3>Specialties</h3>
+                            <ul>
+                                <li>Responsive Design</li>
+                                <li>Print Design &amp; Production</li>
+                                <li>Illustration</li>
+                                <li>Wordpress</li>
+                                <li>Shopify</li>
+                                <li>Drupal</li>
+                                <li>Usability Testing</li>
+                                <li>Copy Writing</li>
+                                <li>CMS Theme Development</li>
+                            </ul>
+                    </div>
+
                     <div class="skills">
-                        <div class="languages col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4">
+                        <div class="languages col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-md-4 col-md-pull-4 col-md-offset-0">
                             <div class="content">
                                 <h4>Languages</h4>
                                 <ul>
@@ -125,10 +141,5 @@
                 </div>
             </div>
         </section>
-
-        {% include reco-six.html %}
-        
-    </div>
-</main>
-
-{% include footer.html %}
+    
+    </div><!-- /about -->

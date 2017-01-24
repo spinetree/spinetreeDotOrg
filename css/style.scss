@@ -24,6 +24,7 @@ $tan4: #AEA07D;
 $tangreen: #ABAF7D;
 
 $lightgreen: #C6CCBC;
+$lightergreen: darken($lightgreen,3%);
 $green: #729673;
 
 $darkgreen: darken($green,32%);
@@ -582,6 +583,18 @@ footer {
         color:$tan1;
         padding:0 15px;
     }
+    .socialicons {
+        margin:20px 0;
+        i {
+            background:$brown2;
+            font-size:14px;
+            line-height:24px;
+            width:24px;
+            height:24px;
+            &:hover {background:$brown1;}
+        }
+        a {padding:0 8px 0 0;}
+    }
 }
 
 @media only screen and (max-width: 991px) {
@@ -611,27 +624,35 @@ footer {
 // ******************************************************************
 // About Section
 //*******************************************************************
+.about-page {
+    background:$lightgreen;
+    color:$blue4;
+    padding-top:100px;
+    h1 {
+        font-size:30px; 
+        color:$brown1;
+        margin-bottom:20px;
+    }
+}
 
 .about {
     background:$lightgreen;
     color:$blue4;
-    .hero {
-    //    margin-top: -80px;
-    //    background: $darkgreen;
-    //    display: block;
-    //    padding-top:180px;
-        margin-bottom:60px;
-    }
+    h2 {margin-bottom:60px;}
 }
 
 .bio {
-    margin-bottom: 60px;
+    padding-bottom:0px;
+    margin-bottom:40px;
     p {margin-bottom:20px;}
     }
 
+
 .stats {
     text-align:center;
-    h3 {color: $tan4;}
+    padding-top:40px;
+    background:$lightergreen;
+    h3 {color: $brown1;}
     ul {padding:10px 20px;}
     li {
     list-style:none;
@@ -646,9 +667,10 @@ footer {
         }
     }
     .languages {
+        margin-top:20px;
         margin-bottom:-40px;
         .content {
-            transform:rotate(1deg);
+           // transform:rotate(1deg);
             margin:0;
             padding:30px 50px 0px;
             background:$blue2;
@@ -672,31 +694,25 @@ footer {
 }
 
 .bioconnect {
-    text-align:center;
+    text-align: center;
     h3 {
-        margin:20px 20px 12px;
-    }   
-    .resume {
-        background:$black1;
-        padding:30px 0;
-        border-top: 4px solid $black2;
-        border-bottom: 4px solid $black2;
-        text-align:center;
-        }
-    .socialicons {
-        padding-top:10px;
-        i {box-shadow: 2px 2px 11px -4px rgba(68,68,68,1);
-}
+        margin: 20px 20px 12px;
     }
+    .socialicons {
+        padding-top: 10px;
+        i {
+            box-shadow: 2px 2px 11px -4px rgba(68, 68, 68, 1);
+        }
+    }
+    .resumebutton {margin-bottom:20px;}
 }
-
-
 
 .recommendations {
     border-top:10px solid $tan1;
     background:$tan0;
     padding:60px 0 120px;
     h3 {text-align:center; margin-bottom:30px;}
+    p {color:$brown2;}
     .quote p {
         @extend %ralewaylight;
         font-size:14px;
@@ -738,6 +754,7 @@ footer {
 }
 
 @media only screen and (max-width: 990px) {
+    .about h1 {text-align:center;}
     .biophoto {margin-bottom:60px;}
     .sixpieces {padding: 40px 0 120px;
         .page {
