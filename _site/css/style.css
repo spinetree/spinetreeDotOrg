@@ -6734,7 +6734,7 @@ footer {
   footer .socialicons {
     margin: 20px 0; }
     footer .socialicons i {
-      background: #605232;
+      background: none;
       font-size: 14px;
       line-height: 24px;
       width: 24px;
