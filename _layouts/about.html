@@ -1,134 +1,38 @@
 {% include header.html %}
 
 <main>
-    <div class="about-page">
-            
-        <section class="bio">
+    <article class="about-page">
+        
+        <section class="hero" style="background:{{ page.color }};">
             <div class="container">
                 <div class="row">
-                    
-                    <div class="col-xs-10 col-xs-offset-1 col-sm-12 col-sm-offset-0 col-md-4">                        
-                        <div class="container-fluid">
-                            <div class="row">
-                                
-                                <div class="biophoto col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-md-10 col-md-offset-1">
-                                    <img class="images frame responsive shadow" src="{{ site.data.global.url }}/images/about.jpg" />
-                                </div>
-                                
-                                <div class="bioconnect hidden-xs hidden-sm visible-md visible-lg col-md-10 col-md-offset-1">    
-                                    <div class="socialicons">
-                                        <h3>Connect</h3>
-                                        <a href="ma&#105;lto&#58;steve&#64;s%70%&#54;9n%6&#53;t&#114;ee&#46;&#111;&#114;&#103;" target="_blank">
-                                            <i class="fa fa-envelope" aria-hidden="true" title=""></i>
-                                        </a>
-                                        <a href="https://www.linkedin.com/in/steverokitka" target="_blank">
-                                            <i class="fa fa-linkedin" aria-hidden="true" title=""></i>
-                                        </a>
-                                        <a href="https://www.pinterest.com/spinetreemedia/" target="_blank">
-                                            <i class="fa fa-pinterest" aria-hidden="true" title=""></i>
-                                        </a>
-                                        <a href="https://twitter.com/spinetree" target="_blank">
-                                            <i class="fa fa-twitter" aria-hidden="true" title=""></i>
-                                        </a>
-                                        <a href="https://github.com/spinetree" target="_blank">
-                                            <i class="fa fa-github" aria-hidden="true" title=""></i>
-                                        </a>
-                                    </div>
-                                    <div class="resumebutton">
-                                        <h3>Resume</h3>
-                                        <a href="{{ site.data.global.url }}/images/rokitka-resume.pdf">
-                                            <button type="button" class="btn btn-primary resmue">Download</button>
-                                        </a>
-                                    </div>
-                                </div>
-
-                                </div>
-                            </div><!-- /container-fluid -->
-                        </div><!-- /layout div -->
-                            
-                        <div class="col-xs-12 col-xs-offset-0 col-sm-12 col-sm-offset-0 col-md-7">
-                            
-                            <h1>About</h1>
-
-                            <p>My name's Steve Rokitka (Rocketkar) - I'm a designer, writer and artist. I've been making things with words and images for most of my life, and doing it professionally for the better part of a decade. In that time I've designed a top-selling iOS app, created numerous websites and web assets, and designed enough t-shirts that they account for roughly half my wardrobe.</p> 
-
-                            <p>I spent three of the last four years as UI/UX lead at a startup, building a complex generative music app and all the assets, marketing materials, websites, and promo schwag that goes along with it. Once the app was released, I decided to take some time off and cross a few (okay, most) of the items off my bucket list. I painted a house, bought a motorcycle and learned to ride, took a Wilderness First Responder course, spent six months learning to fix cars at a community college, and continued my training in Krav Maga.</p>
-
-                            <p>Taking a break from design was really incredible in that it helped deprogram me from a lot of the things that were holding me back professionally. From working with cars I learned to find something to measure to determine whether a job was successful. From training Krav Maga I learned how even a master continues to train and retrain their fundamentals. From getting first responder certfication I learned how a professional doesn't show up to a situation and take on that situation's energy - they show up and set the tone for how a problem is going to get solved.</p> 
-
-                            <p>Today, I'm back at work as a freelancer, and looking for awesome projects that I can be a part of. I've recently designed two novels, a corporate website, a nonprofit's brand identity, and in my opinion, I'm doing the best work of my life. If you've got something that needs solutions found, ideas given form, stories discovered or just a bit of snark interjected into a situation, drop me a line and let's get started.</p>
-                        </div>
-                    
-                        <div class="bioconnect mobile col-xs-12 col-xs-offset-0 col-sm-6 col-sm-offset-3 visible-xs visible-sm">    
-                            <div class="socialicons">
-                                <h3>Connect</h3>
-                                <a href="ma&#105;lto&#58;steve&#64;s%70%&#54;9n%6&#53;t&#114;ee&#46;&#111;&#114;&#103;" target="_blank">
-                                    <i class="fa fa-envelope" aria-hidden="true" title=""></i>
-                                </a>
-                                <a href="https://www.linkedin.com/in/steverokitka" target="_blank">
-                                    <i class="fa fa-linkedin" aria-hidden="true" title=""></i>
-                                </a>
-                                <a href="https://www.pinterest.com/spinetreemedia/" target="_blank">
-                                    <i class="fa fa-pinterest" aria-hidden="true" title=""></i>
-                                </a>
-                                <a href="https://twitter.com/spinetree" target="_blank">
-                                    <i class="fa fa-twitter" aria-hidden="true" title=""></i>
-                                </a>
-                                <a href="https://github.com/spinetree" target="_blank">
-                                    <i class="fa fa-github" aria-hidden="true" title=""></i>
-                                </a>
-                            </div>
-                            <div class="resumebutton">
-                                <h3>Resume</h3>
-                                <button type="button" class="btn btn-primary resmue">Download</button>
-                            </div>
-                        </div>
-
-                </div><!-- /row -->
-            </div><!-- /container -->    
-        </section>
-
-        <section class="stats">
-            <div class="container">
-                <div class="row">
-                    <div class="apps col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-8 ">
-                            <h3>Favorite Tools</h3>
-                            <ul>
-                                <li>Photoshop</li>
-                                <li>Illustrator</li>
-                                <li>InDesign</li>
-                                <li>SASS/SCSS</li>
-                                <li>Jekyll</li>
-                                <li>Bootstrap</li>
-                                <li>Sketch</li>
-                                <li>Axure RP</li>
-                                <li>Wordpress</li>
-                                <li>Liquid</li>
-                                <li>Git</li>
-                            </ul>
-                    </div>
-                    <div class="skills">
-                        <div class="languages col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-4">
-                            <div class="content">
-                                <h4>Languages</h4>
-                                <ul>
-                                    <li>HTML <span>fluent</span></li>
-                                    <li>CSS <span>fluent</span></li>
-                                    <li>PHP <span>conversational</span></li>
-                                    <li>jQuery <span>conversational</span></li>
-                                    <li>Javascript <span>basic</span></li>
-                                    <li>Ruby <span>basic</span></li>
-                                </ul>
-                            </div>
-                        </div>
+                    <div class="col-xs-8 col-xs-offset-2 col-md-6 col-md-offset-3">
+                        <img class="responsive" src="{{ page.hero }}" />
                     </div>
                 </div>
             </div>
         </section>
 
-        {% include reco-six.html %}
+        <section class="meta">
+            <div class="container">
+                <div class="row">
+                    <div class="primary col-xs-10 col-xs-offset-2 col-xs-pull-1 col-md-5 col-md-offset-0 col-md-pull-0">
+                        <h1>{{ page.title }}</h1>
+                    </div>
+                    <div class="description col-xs-10 col-xs-offset-2 col-xs-pull-1 col-md-7 col-md-offset-0 col-md-pull-0">
+                        <p>{{ page.description }}</p>
+                        <p class="tools">{{ page.tools }}</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
         
-    </div>
+        {{ content }}
+
+        
+    </article>
 </main>
 
 {% include footer.html %}

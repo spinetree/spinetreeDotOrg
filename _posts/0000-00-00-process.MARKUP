@@ -1,20 +1,16 @@
 ---
-layout: work
-title: 'Process'
-categories: work
+layout: about
+title: 'Design Process'
+categories: 
 date: 2015-08-01 13:26:34
 thumbnail: 'images/thumbs/web@2x.jpg'
 permalink: /process/
 hero: '/images/projects/webhero.jpg'
 color: '#8D9389'
-client: various
-type: UI Design - UX Design - Drupal & Wordpress Development
-description: Various Websites
-tools: 'Photoshop, Sketch, Axure, Drupal, Wordpress, Shopify'
-color: '#8D9389'
 ---
 
 <section class="projectsection">
+
     <div class="container">
         <div class="row">
 

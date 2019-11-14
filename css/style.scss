@@ -72,15 +72,21 @@ body {
     @extend %noto;
     background: black;
     color: $white;
+    line-height:1.4;
+    font-size:16px;
+    letter-spacing:0.8px;
+    font-weight:400;
 }
 
 p {
     @extend %noto;
-    margin-bottom:16px;
-    line-height:1.4;
-    font-size:14px;
-    letter-spacing:.8px;
-    font-weight:400;
+    margin-top:16px;
+
+}
+
+li {
+    @extend %noto;
+    margin-top:4px;
 }
 
 section,
@@ -108,7 +114,7 @@ h1, h2, h3, h4 {
     text-transform:uppercase;
     letter-spacing:1.2px;
     color:$white;
-    margin:0 0 10px;
+    margin:32px 0 0;
     line-height:1.1;
 }
 
