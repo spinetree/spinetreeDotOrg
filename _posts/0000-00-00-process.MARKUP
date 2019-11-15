@@ -1,74 +1,160 @@
 ---
-layout: work
-title: 'Process'
+layout: about
+title: 'Design Process'
 categories: work
 date: 2015-08-01 13:26:34
-thumbnail: 'images/thumbs/web@2x.jpg'
+thumbnail: 'images/thumbs/process@2x.jpg'
 permalink: /process/
-hero: '/images/projects/webhero.jpg'
-color: '#8D9389'
-client: various
-type: UI Design - UX Design - Drupal & Wordpress Development
-description: Various Websites
-tools: 'Photoshop, Sketch, Axure, Drupal, Wordpress, Shopify'
-color: '#8D9389'
+hero: '/images/projects/process_hero.jpg'
+color: '#4A4A4A'
+type: Tools and methology
+tools: 'Paper, Whiteboard, XMind, User interviews, Competitive analysis, Journey mapping, Usertesting.com, Photoshop, Illustrator, Sketch, Framer, Zeplin, InVision, VSCode, HTML, CSS, Javascript'
 ---
 
 <section class="projectsection">
+
     <div class="container">
+        
         <div class="row">
 
             <div class="imagemeta wide col-sm-12">
-                <h3>Identifying the problem: Where does it hurt? What are we here to change?</h3>
+
+            <div class="images col-md-6">
+                <img class="" src="/images/projects/flowchart.jpg" />
+            </div>
+
+            <div class="imagemeta col-md-6">
+                <h3>Understanding the design challenge: Where does it hurt? What are we here to change?</h3>
                 <p>I begin by looking at both the businesses’ and our users' goals. What does the business want? How
                     about the users? What job are they hiring us to do? What are the indicators for success that we’re
                     going to watch?</p>
 
-
                 <h3>What constraints do we have?</h3>
+                
                 <p>Understanding a problem is great but if you can’t deliver a solution that’s actually possible it’s
                     all for nothing. And if you’re doing it right, you’re also learning about the constraints and needs
                     of the people around you - PMs, your boss, engineering and anyone else who’ll be affected by your
-                    work. </p>
-                <p></p>
+                    work. From the beginning stages of a project, I talk with everyone who's going to be involved, and I keep them part of my design process for every step.</p>
+            </div>
 
+            </div>
+
+      </div>
+
+</section>      
+
+<section class="projectsection dark">
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="imagemeta wide col-sm-12">
+
+            <div class="images col-md-6 col-md-push-6">
+                <img class="" src="/images/projects/task_flow_detailed.jpg" />
+            </div>
+
+            <div class="imagemeta col-md-6 col-md-pull-6">
                 <h3>Research</h3>
                 <p>I go on to collect as much data as the project allows, with additional methods like:</p>
                 <ul>
-                    <li>interviewing stakeholders - to turn their individual expertise into tribal knowledge my team can
-                        build on</li>
+                    <li>interviews - I draw on my journalism background when speaking with stakeholders, users and partners to turn their individual expertise into tribal knowledge my team can build on</li>
                     <li>competitive and cross-industry analysis - to identify conventions and already-solved problems
                     </li>
-                    <li>analytics - identify metrics we can use to see what’s already working (and not)</li>
-                    <li>user testing - test existing solutions, if applicable, or even testing similar products from
-                        other companies</li>
+                    <li>analytics - to identify metrics we can use to see what’s already working (and not)</li>
+                    <li>user testing - I test existing solutions, if applicable, or even similar products from other companies</li>
                 </ul>
                 <p>Research has to stay scrappy and efficient, since everyone's on deadlines. Luckily, sites like
-                    usertesting.com make it easy to run tests quickly, so we can always take some readings. And it’s
-                    amazing how much you can learn if you’re asking the right questions and really listening to answers.
+                    usertesting.com make it easy to run tests quickly, so we never have to move forward without a plan.
                 </p>
 
-                <h3>Solutioning</h3>
+            </div>
+
+        </div>
+
+      </div>
+
+</section>      
+
+<section class="projectsection">
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="imagemeta wide col-sm-12">
+
+            <div class="images col-md-6">
+                <img class="" src="/images/projects/whiteboard_wires.jpg" />
+            </div>
+
+            <div class="imagemeta col-md-6">
+                <h3>Whiteboarding, Sketching and Getting Feedback</h3>
                 <p>Once I understand the problem space, some ideas have usually started to bubble up about how we could
                     do things better. I start on whiteboards and paper, identifying both quick wins and ideal future
-                    solutions. By simultaneously thinking about what we can do now and what we might want later, I’m
+                    solutions.</p> 
+                    <p>By simultaneously thinking about what we can do now and what we might want later, I’m
                     able to focus on immediate impact while still keeping an eye to overall direction, the North star.
                     Socializing these ideas early and often helps get buy-in and insight into what's easy, hard, and
                     unknown.</p>
-                <p>I keep early designs loose and conceptual, because we’re looking for strategy, not specifics.
+            </div>
+
+        </div>
+
+      </div>
+
+</section>      
+
+<section class="projectsection dark">
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="imagemeta wide col-sm-12">
+
+            <div class="images col-md-6 col-md-push-6">
+                <img class="" src="/images/projects/sketch_proto.jpg" />
+            </div>
+
+            <div class="imagemeta col-md-6 col-md-pull-6">
+                <h3>Prototypes, testing and iteration</h3>
+                    <p>I keep early designs loose and conceptual, because we’re looking for strategy, not specifics.
                     Potential designs get tested in different ways depending on the project, but could include:</p>
                 <ul>
                     <li>paper prototypes</li>
-                    <li>interactive prototyping with tools like framer, sketch or native code</li>
+                    <li>interactive wireframes with tools like framer, sketch or native code</li>
                     <li>A/B testing</li>
                     <li>usertesting.com or similar</li>
                 </ul>
                 <p>After testing, if we haven’t seen the results we want, we iterate and test again, until we’ve got
                     something that’s mature, solid and can demonstrate that it’s solving our challenge.
                 </p>
+            </div>
 
-                <h3>Polish and Building Visual Systems</h3>
-                <p>Depending on the situation, the next stage can mean pulling in existing components from a shared
+        </div>
+
+      </div>
+
+</section>      
+
+<section class="projectsection">
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="imagemeta wide col-sm-12">
+
+            <div class="images">
+                <img class="" src="/images/projects/pattern_library.jpg" />
+
+            </div>
+
+            <div class="imagemeta">
+                <h3>Visual Design: Building Visual Systems</h3>
+               <p>Depending on the situation, the next stage can mean pulling in existing components from a shared
                     pattern library, or creating new visual language. Either way, I’m looking to build out a system, not
                     just a series of one-offs, and if it’s new, test it and prove that it works.</p>
                 <p>My background in illustration and lifelong obsession with knobs, sliders and control panels give me a
@@ -76,8 +162,29 @@ color: '#8D9389'
                     elements that are satisfying to work with and so immersive, the user doesn’t think about the tool,
                     they just pick it up and use it to get a job done. I’ve had great successes in this area with
                     projects like Cleartune, AnalogKit and Live Activity Maps.</p>
+            </div>
 
-                <h3>Production and Iteration</h3>
+        </div>
+             
+
+      </div>
+
+</section>      
+
+<section class="projectsection dark">
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="imagemeta wide col-sm-12">
+
+            <div class="images col-md-6 col-md-push-6">
+                <img class="" src="/images/projects/production.png" />
+            </div>
+
+            <div class="imagemeta col-md-6 col-md-pull-6">
+                <h3>Production and Final Polish</h3>
                 <p>My design process doesn’t end at uploading mocks to Zeplin or InVision. There’s a great deal of
                     polish and attention to detail that happens as a product is being built. Microinteractions make the
                     difference between a product that feels okay and a product that feels amazing and seamless and
@@ -85,9 +192,15 @@ color: '#8D9389'
                 <p>I believe that the future is doing design in the native language of a product and that’s why I
                     recently spent two months at Code Fellows expanding my Javascript skills (adding to 10+ years of
                     CSS). My hope is to move into the emerging niche of product designers who can prototype and design
-                    in native code then work on engineering teams where the final phase of the design process is
+                    in native code then work closely with (or on) engineering teams where the final phase of the design process is
                     happening. In the meantime, I’m extremely well-equipped to work with engineering teams or design
                     teams to elevate the quality of our final products.</p>
+
+            </div>
+
+        </div>
+
+
 
             </div>
         </div>

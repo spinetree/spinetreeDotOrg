@@ -6346,20 +6346,23 @@ h2, footer a, .btn, .stats .languages li span, .recommendations .quote p {
   font-family: 'Raleway', sans-serif;
   font-weight: 300; }
 
-body, p {
+body, p, li {
   font-family: 'Noto', serif;
   font-weight: 400; }
 
 body {
   background: black;
-  color: #FAF9EE; }
+  color: #FAF9EE;
+  line-height: 1.4;
+  font-size: 16px;
+  letter-spacing: 0.6px;
+  font-weight: 400; }
 
 p {
-  margin-bottom: 16px;
-  line-height: 1.4;
-  font-size: 14px;
-  letter-spacing: .8px;
-  font-weight: 400; }
+  margin-top: 16px; }
+
+li {
+  margin-top: 4px; }
 
 section,
 header,
@@ -6383,7 +6386,7 @@ h1, h2, h3, h4 {
   text-transform: uppercase;
   letter-spacing: 1.2px;
   color: #FAF9EE;
-  margin: 0 0 10px;
+  margin: 0 0 32px 0;
   line-height: 1.1; }
 
 h1 {
@@ -6697,21 +6700,6 @@ nav.navbar {
             transform: rotate(0deg); }
   .about-bar button {
     margin-top: 20px; } }
-.socialicons {
-  text-align: center; }
-  .socialicons i {
-    display: inline-block;
-    margin: 0 8px 0 0;
-    font-size: 20px;
-    background: #4C716E;
-    border-radius: 20px;
-    line-height: 32px;
-    width: 32px;
-    height: 32px;
-    color: #E6E3C5; }
-    .socialicons i:hover {
-      background: #517C79; }
-
 footer {
   background: #262E27;
   border-top: 30px solid #212822;
@@ -6764,13 +6752,24 @@ footer {
     background: #517C79; }
 
 .about-page {
-  background: #C6CCBC;
+  background: #FAF9EE;
   color: #2B403F;
-  padding-top: 100px; }
-  .about-page h1 {
-    font-size: 30px;
-    color: #6B5D51;
-    margin-bottom: 20px; }
+  padding-top: 60px; }
+
+.socialicons {
+  text-align: center; }
+  .socialicons i {
+    display: inline-block;
+    margin: 0 8px 0 0;
+    font-size: 20px;
+    background: #4C716E;
+    border-radius: 20px;
+    line-height: 32px;
+    width: 32px;
+    height: 32px;
+    color: #E6E3C5; }
+    .socialicons i:hover {
+      background: #517C79; }
 
 .about {
   background: #C6CCBC;
