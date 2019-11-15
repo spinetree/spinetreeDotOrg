@@ -18,8 +18,7 @@ color: '#8D9389'
             <div class="imagemeta wide col-sm-12">
 
             <div class="images col-md-6">
-                            <img class="" src="/images/projects/task_flow.jpg" />
-
+                <img class="" src="/images/projects/flowchart.jpg" />
             </div>
 
             <div class="imagemeta col-md-6">
@@ -38,14 +37,24 @@ color: '#8D9389'
 
             </div>
 
+      </div>
+
+</section>      
+
+<section class="projectsection dark">
+
+    <div class="container">
 
         <div class="row">
 
             <div class="imagemeta wide col-sm-12">
 
+            <div class="images col-md-6 col-md-push-6">
+                <img class="" src="/images/projects/task_flow_detailed.jpg" />
+            </div>
 
-            <div class="imagemeta col-md-6">
-   <h3>Research</h3>
+            <div class="imagemeta col-md-6 col-md-pull-6">
+                <h3>Research</h3>
                 <p>I go on to collect as much data as the project allows, with additional methods like:</p>
                 <ul>
                     <li>interviewing stakeholders - to turn their individual expertise into tribal knowledge my team can
@@ -63,70 +72,57 @@ color: '#8D9389'
 
             </div>
 
-
-            <div class="images col-md-6">
-                <img class="" src="/images/projects/quadrants_2.jpg" />
-            </div>
-
         </div>
+
+      </div>
+
+</section>      
+
+<section class="projectsection">
+
+    <div class="container">
 
         <div class="row">
 
             <div class="imagemeta wide col-sm-12">
 
             <div class="images col-md-6">
-                <img class="" src="/images/projects/" />
+                <img class="" src="/images/projects/whiteboard_wires.jpg" />
             </div>
 
             <div class="imagemeta col-md-6">
-
-            </div>
-
-        </div>
-
-
-        <div class="row">
-
-            <div class="imagemeta wide col-sm-12">
-
-            <div class="images col-md-6">
-                <img class="" src="/images/projects/" />
-            </div>
-
-            <div class="imagemeta col-md-6">
-
-            </div>
-
-        </div>
-
-        <div class="row">
-
-            <div class="imagemeta wide col-sm-12">
-
-            <div class="images col-md-6">
-                <img class="" src="/images/projects/" />
-            </div>
-
-            <div class="imagemeta col-md-6">
-
-            </div>
-
-        </div>
-             
                 <h3>Witeboarding, Sketching and Getting Feedback</h3>
-
                 <p>Once I understand the problem space, some ideas have usually started to bubble up about how we could
                     do things better. I start on whiteboards and paper, identifying both quick wins and ideal future
-                    solutions. By simultaneously thinking about what we can do now and what we might want later, I’m
+                    solutions.</p> 
+                    <p>By simultaneously thinking about what we can do now and what we might want later, I’m
                     able to focus on immediate impact while still keeping an eye to overall direction, the North star.
                     Socializing these ideas early and often helps get buy-in and insight into what's easy, hard, and
                     unknown.</p>
+            </div>
 
+        </div>
+
+      </div>
+
+</section>      
+
+<section class="projectsection dark">
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="imagemeta wide col-sm-12">
+
+            <div class="images col-md-6 col-md-push-6">
+                <img class="" src="/images/projects/sketch_proto.jpg" />
+            </div>
+
+            <div class="imagemeta col-md-6 col-md-pull-6">
                 <h3>Prototypes, testing and iteration</h3>
-
                     <p>I keep early designs loose and conceptual, because we’re looking for strategy, not specifics.
                     Potential designs get tested in different ways depending on the project, but could include:</p>
-              
                 <ul>
                     <li>paper prototypes</li>
                     <li>interactive wireframes with tools like framer, sketch or native code</li>
@@ -136,9 +132,29 @@ color: '#8D9389'
                 <p>After testing, if we haven’t seen the results we want, we iterate and test again, until we’ve got
                     something that’s mature, solid and can demonstrate that it’s solving our challenge.
                 </p>
+            </div>
 
-                <h3>Visual Design Polish and Building Visual Systems</h3>
-                <p>Depending on the situation, the next stage can mean pulling in existing components from a shared
+        </div>
+
+      </div>
+
+</section>      
+
+<section class="projectsection">
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="imagemeta wide col-sm-12">
+
+            <div class="images col-md-6">
+                <img class="" src="/images/projects/akui.jpg" />
+            </div>
+
+            <div class="imagemeta col-md-6">
+                <h3>Visual Design: Building Visual Systems</h3>
+               <p>Depending on the situation, the next stage can mean pulling in existing components from a shared
                     pattern library, or creating new visual language. Either way, I’m looking to build out a system, not
                     just a series of one-offs, and if it’s new, test it and prove that it works.</p>
                 <p>My background in illustration and lifelong obsession with knobs, sliders and control panels give me a
@@ -146,7 +162,28 @@ color: '#8D9389'
                     elements that are satisfying to work with and so immersive, the user doesn’t think about the tool,
                     they just pick it up and use it to get a job done. I’ve had great successes in this area with
                     projects like Cleartune, AnalogKit and Live Activity Maps.</p>
+            </div>
 
+        </div>
+             
+
+      </div>
+
+</section>      
+
+<section class="projectsection dark">
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="imagemeta wide col-sm-12">
+
+            <div class="images col-md-6 col-md-push-6">
+                <img class="" src="/images/projects/akfacebook.jpg" />
+            </div>
+
+            <div class="imagemeta col-md-6 col-md-pull-6">
                 <h3>Production and Iteration</h3>
                 <p>My design process doesn’t end at uploading mocks to Zeplin or InVision. There’s a great deal of
                     polish and attention to detail that happens as a product is being built. Microinteractions make the
@@ -158,6 +195,12 @@ color: '#8D9389'
                     in native code then work on engineering teams where the final phase of the design process is
                     happening. In the meantime, I’m extremely well-equipped to work with engineering teams or design
                     teams to elevate the quality of our final products.</p>
+
+            </div>
+
+        </div>
+
+
 
             </div>
         </div>
