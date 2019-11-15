@@ -12,12 +12,14 @@ color: '#8D9389'
 <section class="projectsection">
 
     <div class="container">
+        
         <div class="row">
 
             <div class="imagemeta wide col-sm-12">
 
             <div class="images col-md-6">
-                <img class="" src="/images/projects/quadrants_2.jpg" />
+                            <img class="" src="/images/projects/task_flow.jpg" />
+
             </div>
 
             <div class="imagemeta col-md-6">
@@ -25,16 +27,25 @@ color: '#8D9389'
                 <p>I begin by looking at both the businesses’ and our users' goals. What does the business want? How
                     about the users? What job are they hiring us to do? What are the indicators for success that we’re
                     going to watch?</p>
-                    </div>
-
 
                 <h3>What constraints do we have?</h3>
+                
                 <p>Understanding a problem is great but if you can’t deliver a solution that’s actually possible it’s
                     all for nothing. And if you’re doing it right, you’re also learning about the constraints and needs
                     of the people around you - PMs, your boss, engineering and anyone else who’ll be affected by your
                     work. </p>
+            </div>
 
-                <h3>Research</h3>
+            </div>
+
+
+        <div class="row">
+
+            <div class="imagemeta wide col-sm-12">
+
+
+            <div class="imagemeta col-md-6">
+   <h3>Research</h3>
                 <p>I go on to collect as much data as the project allows, with additional methods like:</p>
                 <ul>
                     <li>interviewing stakeholders - to turn their individual expertise into tribal knowledge my team can
@@ -50,6 +61,58 @@ color: '#8D9389'
                     amazing how much you can learn if you’re asking the right questions and really listening to answers.
                 </p>
 
+            </div>
+
+
+            <div class="images col-md-6">
+                <img class="" src="/images/projects/quadrants_2.jpg" />
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="imagemeta wide col-sm-12">
+
+            <div class="images col-md-6">
+                <img class="" src="/images/projects/" />
+            </div>
+
+            <div class="imagemeta col-md-6">
+
+            </div>
+
+        </div>
+
+
+        <div class="row">
+
+            <div class="imagemeta wide col-sm-12">
+
+            <div class="images col-md-6">
+                <img class="" src="/images/projects/" />
+            </div>
+
+            <div class="imagemeta col-md-6">
+
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="imagemeta wide col-sm-12">
+
+            <div class="images col-md-6">
+                <img class="" src="/images/projects/" />
+            </div>
+
+            <div class="imagemeta col-md-6">
+
+            </div>
+
+        </div>
+             
                 <h3>Witeboarding, Sketching and Getting Feedback</h3>
 
                 <p>Once I understand the problem space, some ideas have usually started to bubble up about how we could
