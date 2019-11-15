@@ -74,7 +74,7 @@ body {
     color: $white;
     line-height:1.4;
     font-size:16px;
-    letter-spacing:0.8px;
+    letter-spacing:0.6px;
     font-weight:400;
 }
 
@@ -114,7 +114,7 @@ h1, h2, h3, h4 {
     text-transform:uppercase;
     letter-spacing:1.2px;
     color:$white;
-    margin:32px 0 0;
+    margin:0 0 32px 0;
     line-height:1.1;
 }
 
@@ -462,7 +462,6 @@ nav.navbar {
 @media only screen and (max-width: 991px) {
     .project {
         .meta {
-            h1 {}
             .primary {
                 padding:0 0 0 0;
                 text-align:center;
@@ -616,11 +615,6 @@ footer {
     background: $white;
     color:$blue4;
     padding-top:60px;
-    h1 {
-        font-size:30px; 
-        color:$brown1;
-        margin-bottom:20px;
-    }
 }
 
 

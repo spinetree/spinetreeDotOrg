@@ -6355,7 +6355,7 @@ body {
   color: #FAF9EE;
   line-height: 1.4;
   font-size: 16px;
-  letter-spacing: 0.8px;
+  letter-spacing: 0.6px;
   font-weight: 400; }
 
 p {
@@ -6386,7 +6386,7 @@ h1, h2, h3, h4 {
   text-transform: uppercase;
   letter-spacing: 1.2px;
   color: #FAF9EE;
-  margin: 32px 0 0;
+  margin: 0 0 32px 0;
   line-height: 1.1; }
 
 h1 {
@@ -6755,10 +6755,6 @@ footer {
   background: #FAF9EE;
   color: #2B403F;
   padding-top: 60px; }
-  .about-page h1 {
-    font-size: 30px;
-    color: #6B5D51;
-    margin-bottom: 20px; }
 
 .socialicons {
   text-align: center; }
