@@ -15,10 +15,17 @@ color: '#8D9389'
         <div class="row">
 
             <div class="imagemeta wide col-sm-12">
-                <h3>Identifying the problem: Where does it hurt? What are we here to change?</h3>
+
+            <div class="images col-md-6">
+                <img class="" src="/images/projects/quadrants_2.jpg" />
+            </div>
+
+            <div class="imagemeta col-md-6">
+                <h3>Understanding the design challenge: Where does it hurt? What are we here to change?</h3>
                 <p>I begin by looking at both the businesses’ and our users' goals. What does the business want? How
                     about the users? What job are they hiring us to do? What are the indicators for success that we’re
                     going to watch?</p>
+                    </div>
 
 
                 <h3>What constraints do we have?</h3>
@@ -26,7 +33,6 @@ color: '#8D9389'
                     all for nothing. And if you’re doing it right, you’re also learning about the constraints and needs
                     of the people around you - PMs, your boss, engineering and anyone else who’ll be affected by your
                     work. </p>
-                <p></p>
 
                 <h3>Research</h3>
                 <p>I go on to collect as much data as the project allows, with additional methods like:</p>
@@ -44,18 +50,23 @@ color: '#8D9389'
                     amazing how much you can learn if you’re asking the right questions and really listening to answers.
                 </p>
 
-                <h3>Solutioning</h3>
+                <h3>Witeboarding, Sketching and Getting Feedback</h3>
+
                 <p>Once I understand the problem space, some ideas have usually started to bubble up about how we could
                     do things better. I start on whiteboards and paper, identifying both quick wins and ideal future
                     solutions. By simultaneously thinking about what we can do now and what we might want later, I’m
                     able to focus on immediate impact while still keeping an eye to overall direction, the North star.
                     Socializing these ideas early and often helps get buy-in and insight into what's easy, hard, and
                     unknown.</p>
-                <p>I keep early designs loose and conceptual, because we’re looking for strategy, not specifics.
+
+                <h3>Prototypes, testing and iteration</h3>
+
+                    <p>I keep early designs loose and conceptual, because we’re looking for strategy, not specifics.
                     Potential designs get tested in different ways depending on the project, but could include:</p>
+              
                 <ul>
                     <li>paper prototypes</li>
-                    <li>interactive prototyping with tools like framer, sketch or native code</li>
+                    <li>interactive wireframes with tools like framer, sketch or native code</li>
                     <li>A/B testing</li>
                     <li>usertesting.com or similar</li>
                 </ul>
@@ -63,7 +74,7 @@ color: '#8D9389'
                     something that’s mature, solid and can demonstrate that it’s solving our challenge.
                 </p>
 
-                <h3>Polish and Building Visual Systems</h3>
+                <h3>Visual Design Polish and Building Visual Systems</h3>
                 <p>Depending on the situation, the next stage can mean pulling in existing components from a shared
                     pattern library, or creating new visual language. Either way, I’m looking to build out a system, not
                     just a series of one-offs, and if it’s new, test it and prove that it works.</p>

@@ -537,26 +537,6 @@ nav.navbar {
 }
 
 
-// ******************************************************************
-// Modular content areas
-// ******************************************************************
-
-
-.socialicons {
-    text-align:center;
-        i {
-        display:inline-block;
-        margin:0 8px 0 0; 
-        font-size:20px;
-        background:$blue3;
-        border-radius:20px;
-        line-height:32px;
-        width:32px;
-        height:32px;
-        color:$tan1;
-        &:hover {background:$blue2;}
-    }
-}
 
 
 
@@ -622,24 +602,49 @@ footer {
     box-shadow: 2px 2px 11px -4px rgba(68,68,68,1);
     color:$white;
         }
+
 .btn-primary {
     background:$blue3; 
     &:hover {background:$blue2;}
 }
 
 // ******************************************************************
-// About Section
+// process, about pages
 //*******************************************************************
+
 .about-page {
-    background:$lightgreen;
+    background: $white;
     color:$blue4;
-    padding-top:100px;
+    padding-top:60px;
     h1 {
         font-size:30px; 
         color:$brown1;
         margin-bottom:20px;
     }
 }
+
+
+// ******************************************************************
+// Modular content areas 
+// ******************************************************************
+
+
+.socialicons {
+    text-align:center;
+        i {
+        display:inline-block;
+        margin:0 8px 0 0; 
+        font-size:20px;
+        background:$blue3;
+        border-radius:20px;
+        line-height:32px;
+        width:32px;
+        height:32px;
+        color:$tan1;
+        &:hover {background:$blue2;}
+    }
+}
+
 
 .about {
     background:$lightgreen;

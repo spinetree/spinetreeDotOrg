@@ -6700,21 +6700,6 @@ nav.navbar {
             transform: rotate(0deg); }
   .about-bar button {
     margin-top: 20px; } }
-.socialicons {
-  text-align: center; }
-  .socialicons i {
-    display: inline-block;
-    margin: 0 8px 0 0;
-    font-size: 20px;
-    background: #4C716E;
-    border-radius: 20px;
-    line-height: 32px;
-    width: 32px;
-    height: 32px;
-    color: #E6E3C5; }
-    .socialicons i:hover {
-      background: #517C79; }
-
 footer {
   background: #262E27;
   border-top: 30px solid #212822;
@@ -6767,13 +6752,28 @@ footer {
     background: #517C79; }
 
 .about-page {
-  background: #C6CCBC;
+  background: #FAF9EE;
   color: #2B403F;
-  padding-top: 100px; }
+  padding-top: 60px; }
   .about-page h1 {
     font-size: 30px;
     color: #6B5D51;
     margin-bottom: 20px; }
+
+.socialicons {
+  text-align: center; }
+  .socialicons i {
+    display: inline-block;
+    margin: 0 8px 0 0;
+    font-size: 20px;
+    background: #4C716E;
+    border-radius: 20px;
+    line-height: 32px;
+    width: 32px;
+    height: 32px;
+    color: #E6E3C5; }
+    .socialicons i:hover {
+      background: #517C79; }
 
 .about {
   background: #C6CCBC;
