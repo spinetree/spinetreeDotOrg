@@ -153,7 +153,7 @@ tools: 'Paper, Whiteboard, XMind, User interviews, Competitive analysis, Journey
             </div>
 
             <div class="imagemeta">
-                <h3>Visual Design: Building Visual Systems</h3>
+                <h3>UI Design: Building Visual Systems</h3>
                <p>Depending on the situation, the next stage can mean pulling in existing components from a shared
                     pattern library, or creating new visual language. Either way, I’m looking to build out a system, not
                     just a series of one-offs, and if it’s new, test it and prove that it works.</p>
