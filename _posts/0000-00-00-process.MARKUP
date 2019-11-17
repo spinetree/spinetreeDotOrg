@@ -21,27 +21,23 @@ Illustrator, Sketch, Framer, Zeplin, InVision, VSCode, HTML, CSS, Javascript'
             <div class="imagemeta wide col-sm-12">
 
                 <div class="images col-md-6">
-                    <img class="" src="/images/projects/flowchart.jpg" />
+                    <img class="" src="/images/projects/quadrants_notebook.png" />
                 </div>
 
                 <div class="imagemeta col-md-6">
 
-                    <h3>Understanding the design challenge: What problems are we here to solve?</h3>
-                    <p>I begin by looking at both the businesses’ and our users' goals. What does the business want? How
-                        about the users? What job are they hiring us to do? What are the indicators for success that
-                        we’re
-                        going to watch?</p>
+                    <h3>Understanding the challenge:<br />What problems are we here to solve? What do we have to work with?</h3>
+                    <p>I begin by asking questions and diving deep into both the businesses’ and our users' goals for the project.</p>
 
-                    <h3>What constraints do we have?</h3>
+                    <p>As I go, I use a quadrant system where where I document:</p>
+                    <ul>
+                        <li>Solvable problems - business and users' needs that we're addressing</li>
+                        <li>Questions - areas for exploration, clarification and research</li>
+                        <li>Quick wins and opportunities to elevate - potential solutions that spring to mind immediately, and places where we can go from just sorta solving a problem to <em>really</em> delivering a better experince</li>
+                        <li>Goals and KPIs - key performance indicators - things that we should see change if we're doing the thing right.</li>
+                    </ul>
 
-                    <p>Understanding a problem is a start but if you can’t deliver a solution that’s actually workable
-                        it’s
-                        all for nothing. If you’re doing it right, you’re also learning about the constraints and needs
-                        of the people around you - PMs, your boss, engineering and anyone else who’ll be affected by
-                        your
-                        work. From the beginning stages of a project, I talk with everyone who's going to be involved,
-                        and I keep them part of my process for every step.</p>
-
+                    <p>This becomes a living document that I share with people as the project goes. It lets me get feedback and constantly evaluate and re-evaluate whether I'm understanding the problem space and making solutions that align with everyone's goals and deliverable given the resources we have.</p>
                 </div>
 
             </div>

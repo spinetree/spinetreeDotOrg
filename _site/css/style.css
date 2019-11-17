@@ -6353,16 +6353,20 @@ body, p, li {
 body {
   background: black;
   color: #FAF9EE;
-  line-height: 1.4;
+  line-height: 1.2;
   font-size: 16px;
   letter-spacing: 0.6px;
   font-weight: 400; }
 
 p {
-  margin-top: 16px; }
+  margin-bottom: 16px;
+  line-height: 1.4; }
 
 li {
-  margin-top: 4px; }
+  margin-bottom: 8px; }
+
+ul {
+  margin-bottom: 16px; }
 
 section,
 header,
@@ -6386,8 +6390,7 @@ h1, h2, h3, h4 {
   text-transform: uppercase;
   letter-spacing: 1.2px;
   color: #FAF9EE;
-  margin: 0 0 32px 0;
-  line-height: 1.1; }
+  margin: 0 0 32px 0; }
 
 h1 {
   font-size: 40px; }
