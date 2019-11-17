@@ -26,15 +26,13 @@ Illustrator, Sketch, Framer, Zeplin, InVision, VSCode, HTML, CSS, Javascript'
 
                 <div class="imagemeta col-md-6">
 
-                    <h3>Understanding the challenge:<br />What problems are we here to solve? What do we have to work with?</h3>
-                    <p>I begin by asking questions and diving deep into both businesses and user goals for the project.</p>
-
-                    <p>As I go, I use a quadrant system where where I document:</p>
+                    <h3>Understanding a design challenge:<br />What problems are we here to solve?</h3>
+                    <p>I begin by diving deep into businesses and user goals for the project. I use a quadrant system where where I document:</p>
                     <ul>
-                        <li>Solvable problems - business and user needs that we're addressing</li>
+                        <li>Pain points - business and user needs that we're addressing. Where does it hurt?</li>
                         <li>Goals and KPIs - key performance indicators - outcomes that we should get if we're successful</li>
-                        <li>Questions - areas for exploration, clarification and research</li>
-                        <li>Quick wins and opportunities to elevate - often a brief points to ways to address our challenge quickly and easily. I keep track of these ideas while looking for places where we can go from just solving a problem to delivering a superior experince. </li>
+                        <li>Quick wins - big picture ideas that spring to mind first - often part of a project brief. Sometimes these inform MVP, but mostly it's a way of documenting our assumptions. I'll look to validate (or invalidate) these ideas in my discovery phase.</li>
+                        <li>Opportunities to elevate - places where we can go from just solving a problem to delivering a superior experience. This is where I start thinking about ideal future state - what we'd do if we had infinite time and resources. Keeping an eye to the future means we're always thinking strategically and looking to step up our game.</li>
                     </ul>
 
                     <p>What starts as a page in my sketchbook will later become a living document that I share with teams and stakeholders. It lets me get feedback and keep in alignment with business goals and deliverability while always advocating for better customer experience.</p>
@@ -61,21 +59,20 @@ Illustrator, Sketch, Framer, Zeplin, InVision, VSCode, HTML, CSS, Javascript'
                 </div>
 
                 <div class="imagemeta col-md-6 col-md-pull-6">
-                    <h3>Research</h3>
+                    <h3>Research and Discovery</h3>
                     <p>I go on to collect as much data as possible about the problem space, with additional methods like:</p>
                     <ul>
+                        <li>interviews - speaking with stakeholders, users and
+                            partners to turn their individual experience into tribal knowledge. It's also where I learn about the constraints and needs of people outside my team who will be affected by the work I'm doing.</li>
                         <li>competitive and cross-industry analysis - to identify conventions and already-solved
                             problems, as well as looking for opportunities to stand out
                         </li>
-                        <li>interviews - drawing on my journalism background speaking with stakeholders, users and
-                            partners to turn their individual expertise into tribal knowledge my team can build on</li>
                         <li>analytics - to identify metrics we can use to see what’s already working (and not)</li>
                         <li>user testing - I test existing solutions, if applicable, or even similar products from other
                             companies</li>
                     </ul>
                     <p>Research has to stay scrappy and efficient, since everyone's on deadlines. Luckily, sites like
-                        usertesting.com make it easy to run tests quickly, so we never have to move forward without a
-                        plan.
+                        usertesting.com make it easy to run tests quickly, so we never have to move forward in the dark.
                     </p>
 
                 </div>
@@ -101,11 +98,11 @@ Illustrator, Sketch, Framer, Zeplin, InVision, VSCode, HTML, CSS, Javascript'
 
                 <div class="imagemeta col-md-6">
                     <h3>Whiteboarding, Sketching and Getting Feedback</h3>
-                    <p>Once I understand the design challenge and have researched the problem space, ideas will have started to mature about how we could do things better. I start on whiteboards and paper, fleshing out the quick wins and opportunities to elevate from my previous steps. I keep early designs loose and flexible, because we’re looking for strategy, working big to small and answering one question at a time.</p>
+                    <p>Once I understand the design challenge and have researched the problem space, ideas will have started to mature about how we could do things better. I start on whiteboards and paper, fleshing out the quick wins and opportunities to elevate from my previous steps. I keep early designs loose and flexible, working big to small and answering one question at a time.</p>
 
                     <p>
                         Socializing these ideas early and often helps get buy-in and insight into what's easy, hard, and
-                        unknown.</p>
+                        unknown. Sharing at this stage, especially with engineering, lets us start considering what's MVP, next sprint and further down the road.</p>
                 </div>
 
             </div>
@@ -124,7 +121,7 @@ Illustrator, Sketch, Framer, Zeplin, InVision, VSCode, HTML, CSS, Javascript'
             <div class="imagemeta wide col-sm-12">
 
                 <div class="images col-md-6 col-md-push-6">
-                    <img class="" src="/images/projects/sketch_proto.jpg" />
+                    <img class="" src="/images/projects/map_wires.png" />
                 </div>
 
                 <div class="imagemeta col-md-6 col-md-pull-6">
@@ -138,7 +135,7 @@ Illustrator, Sketch, Framer, Zeplin, InVision, VSCode, HTML, CSS, Javascript'
                         <li>usertesting.com or similar</li>
                     </ul>
                     <p>After testing, if we haven’t seen the results we want, we iterate and test again, until we’ve got
-                        something that’s mature, solid and can demonstrate that it’s solving our challenge.
+                        something that’s mature, solid and can demonstrate that it’s addressing our challenge.
                     </p>
                 </div>
 
