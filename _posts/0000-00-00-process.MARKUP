@@ -27,17 +27,17 @@ Illustrator, Sketch, Framer, Zeplin, InVision, VSCode, HTML, CSS, Javascript'
                 <div class="imagemeta col-md-6">
 
                     <h3>Understanding the challenge:<br />What problems are we here to solve? What do we have to work with?</h3>
-                    <p>I begin by asking questions and diving deep into both the businesses’ and our users' goals for the project.</p>
+                    <p>I begin by asking questions and diving deep into both businesses and user goals for the project.</p>
 
                     <p>As I go, I use a quadrant system where where I document:</p>
                     <ul>
-                        <li>Solvable problems - business and users' needs that we're addressing</li>
+                        <li>Solvable problems - business and user needs that we're addressing</li>
+                        <li>Goals and KPIs - key performance indicators - outcomes that we should get if we're successful</li>
                         <li>Questions - areas for exploration, clarification and research</li>
-                        <li>Quick wins and opportunities to elevate - potential solutions that spring to mind immediately, and places where we can go from just sorta solving a problem to <em>really</em> delivering a better experince</li>
-                        <li>Goals and KPIs - key performance indicators - things that we should see change if we're doing the thing right.</li>
+                        <li>Quick wins and opportunities to elevate - often a brief points to ways to address our challenge quickly and easily. I keep track of these ideas while looking for places where we can go from just solving a problem to delivering a superior experince. </li>
                     </ul>
 
-                    <p>This becomes a living document that I share with people as the project goes. It lets me get feedback and constantly evaluate and re-evaluate whether I'm understanding the problem space and making solutions that align with everyone's goals and deliverable given the resources we have.</p>
+                    <p>What starts as a page in my sketchbook will later become a living document that I share with teams and stakeholders. It lets me get feedback and keep in alignment with business goals and deliverability while always advocating for better customer experience.</p>
                 </div>
 
             </div>
@@ -62,13 +62,13 @@ Illustrator, Sketch, Framer, Zeplin, InVision, VSCode, HTML, CSS, Javascript'
 
                 <div class="imagemeta col-md-6 col-md-pull-6">
                     <h3>Research</h3>
-                    <p>I go on to collect as much data as the project allows, with additional methods like:</p>
+                    <p>I go on to collect as much data as possible about the problem space, with additional methods like:</p>
                     <ul>
-                        <li>interviews - I draw on my journalism background when speaking with stakeholders, users and
-                            partners to turn their individual expertise into tribal knowledge my team can build on</li>
                         <li>competitive and cross-industry analysis - to identify conventions and already-solved
-                            problems
+                            problems, as well as looking for opportunities to stand out
                         </li>
+                        <li>interviews - drawing on my journalism background speaking with stakeholders, users and
+                            partners to turn their individual expertise into tribal knowledge my team can build on</li>
                         <li>analytics - to identify metrics we can use to see what’s already working (and not)</li>
                         <li>user testing - I test existing solutions, if applicable, or even similar products from other
                             companies</li>
@@ -101,14 +101,9 @@ Illustrator, Sketch, Framer, Zeplin, InVision, VSCode, HTML, CSS, Javascript'
 
                 <div class="imagemeta col-md-6">
                     <h3>Whiteboarding, Sketching and Getting Feedback</h3>
-                    <p>Once I understand the problem space, some ideas have usually started to bubble up about how we
-                        could
-                        do things better. I start on whiteboards and paper, identifying both quick wins and ideal future
-                        solutions. I keep early designs loose and conceptual, because we’re looking for strategy,
-                        working big to small.</p>
-                    <p>By simultaneously thinking about what we can do now and what we might want later, I’m
-                        able to focus on immediate impact while still keeping an eye to overall direction, the North
-                        star.
+                    <p>Once I understand the design challenge and have researched the problem space, ideas will have started to mature about how we could do things better. I start on whiteboards and paper, fleshing out the quick wins and opportunities to elevate from my previous steps. I keep early designs loose and flexible, because we’re looking for strategy, working big to small and answering one question at a time.</p>
+
+                    <p>
                         Socializing these ideas early and often helps get buy-in and insight into what's easy, hard, and
                         unknown.</p>
                 </div>
