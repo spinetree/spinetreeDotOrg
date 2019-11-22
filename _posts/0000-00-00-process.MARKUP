@@ -8,40 +8,43 @@ permalink: /process/
 hero: '/images/projects/process_hero.jpg'
 color: '#4A4A4A'
 type: Tools and methology
-tools: 'Paper, Whiteboard, XMind, User interviews, Competitive analysis, Journey mapping, Usertesting.com, Photoshop, Illustrator, Sketch, Framer, Zeplin, InVision, VSCode, HTML, CSS, Javascript'
+tools: 'Paper, Whiteboard, XMind, User interviews, Competitive analysis, Journey mapping, Usertesting.com, Photoshop,
+Illustrator, Sketch, Framer, Zeplin, InVision, VSCode, HTML, CSS, Javascript'
 ---
 
 <section class="projectsection">
 
     <div class="container">
+
+        <div class="row">
+
+            <div class="imagemeta wide col-sm-12">
+
+                <div class="images col-md-6">
+                    <img class="" src="/images/projects/quadrants_notebook.png" />
+                </div>
+
+                <div class="imagemeta col-md-6">
+
+                    <h3>Understanding a design challenge:<br />What problems are we here to solve?</h3>
+                    <p>I begin by diving deep into businesses and user goals for the project. I use a quadrant system where where I document:</p>
+                    <ul>
+                        <li>Pain points - business and user needs that we're addressing. Where does it hurt?</li>
+                        <li>Goals and KPIs - key performance indicators - outcomes that we should get if we're successful</li>
+                        <li>Quick wins - big picture ideas that spring to mind first - often part of a project brief. Sometimes these inform MVP, but mostly it's a way of documenting our assumptions. I'll look to validate (or invalidate) these ideas in my discovery phase.</li>
+                        <li>Opportunities to elevate - places where we can go from just solving a problem to delivering a superior experience. This is where I start thinking about ideal future state - what we'd do if we had infinite time and resources. Keeping an eye to the future means we're always thinking strategically and looking to step up our game.</li>
+                    </ul>
+
+                    <p>What starts as a page in my sketchbook will later become a living document that I share with teams and stakeholders. It lets me get feedback and keep in alignment with business goals and deliverability while always advocating for better customer experience.</p>
+                </div>
+
+            </div>
+
+        </div>
         
-        <div class="row">
+    </div>
 
-            <div class="imagemeta wide col-sm-12">
-
-            <div class="images col-md-6">
-                <img class="" src="/images/projects/flowchart.jpg" />
-            </div>
-
-            <div class="imagemeta col-md-6">
-                <h3>Understanding the design challenge: Where does it hurt? What are we here to change?</h3>
-                <p>I begin by looking at both the businesses’ and our users' goals. What does the business want? How
-                    about the users? What job are they hiring us to do? What are the indicators for success that we’re
-                    going to watch?</p>
-
-                <h3>What constraints do we have?</h3>
-                
-                <p>Understanding a problem is great but if you can’t deliver a solution that’s actually possible it’s
-                    all for nothing. And if you’re doing it right, you’re also learning about the constraints and needs
-                    of the people around you - PMs, your boss, engineering and anyone else who’ll be affected by your
-                    work. From the beginning stages of a project, I talk with everyone who's going to be involved, and I keep them part of my design process for every step.</p>
-            </div>
-
-            </div>
-
-      </div>
-
-</section>      
+</section>
 
 <section class="projectsection dark">
 
@@ -51,31 +54,35 @@ tools: 'Paper, Whiteboard, XMind, User interviews, Competitive analysis, Journey
 
             <div class="imagemeta wide col-sm-12">
 
-            <div class="images col-md-6 col-md-push-6">
-                <img class="" src="/images/projects/task_flow_detailed.jpg" />
-            </div>
+                <div class="images col-md-6 col-md-push-6">
+                    <img class="" src="/images/projects/task_flow_detailed.jpg" />
+                </div>
 
-            <div class="imagemeta col-md-6 col-md-pull-6">
-                <h3>Research</h3>
-                <p>I go on to collect as much data as the project allows, with additional methods like:</p>
-                <ul>
-                    <li>interviews - I draw on my journalism background when speaking with stakeholders, users and partners to turn their individual expertise into tribal knowledge my team can build on</li>
-                    <li>competitive and cross-industry analysis - to identify conventions and already-solved problems
-                    </li>
-                    <li>analytics - to identify metrics we can use to see what’s already working (and not)</li>
-                    <li>user testing - I test existing solutions, if applicable, or even similar products from other companies</li>
-                </ul>
-                <p>Research has to stay scrappy and efficient, since everyone's on deadlines. Luckily, sites like
-                    usertesting.com make it easy to run tests quickly, so we never have to move forward without a plan.
-                </p>
+                <div class="imagemeta col-md-6 col-md-pull-6">
+                    <h3>Research and Discovery</h3>
+                    <p>I go on to collect as much data as possible about the problem space, with additional methods like:</p>
+                    <ul>
+                        <li>interviews - speaking with stakeholders, users and
+                            partners to turn their individual experience into tribal knowledge. It's also where I learn about the constraints and needs of people outside my team who will be affected by the work I'm doing.</li>
+                        <li>competitive and cross-industry analysis - to identify conventions and already-solved
+                            problems, as well as looking for opportunities to stand out
+                        </li>
+                        <li>analytics - to identify metrics we can use to see what’s already working (and not)</li>
+                        <li>user testing - I test existing solutions, if applicable, or even similar products from other
+                            companies</li>
+                    </ul>
+                    <p>Research has to stay scrappy and efficient, since everyone's on deadlines. Luckily, sites like
+                        usertesting.com make it easy to run tests quickly, so we never have to move forward in the dark.
+                    </p>
+
+                </div>
 
             </div>
 
         </div>
+    </div>
 
-      </div>
-
-</section>      
+</section>
 
 <section class="projectsection">
 
@@ -85,26 +92,25 @@ tools: 'Paper, Whiteboard, XMind, User interviews, Competitive analysis, Journey
 
             <div class="imagemeta wide col-sm-12">
 
-            <div class="images col-md-6">
-                <img class="" src="/images/projects/whiteboard_wires.jpg" />
-            </div>
+                <div class="images col-md-6">
+                    <img class="" src="/images/projects/whiteboard_wires.jpg" />
+                </div>
 
-            <div class="imagemeta col-md-6">
-                <h3>Whiteboarding, Sketching and Getting Feedback</h3>
-                <p>Once I understand the problem space, some ideas have usually started to bubble up about how we could
-                    do things better. I start on whiteboards and paper, identifying both quick wins and ideal future
-                    solutions.</p> 
-                    <p>By simultaneously thinking about what we can do now and what we might want later, I’m
-                    able to focus on immediate impact while still keeping an eye to overall direction, the North star.
-                    Socializing these ideas early and often helps get buy-in and insight into what's easy, hard, and
-                    unknown.</p>
+                <div class="imagemeta col-md-6">
+                    <h3>Whiteboarding, Sketching and Getting Feedback</h3>
+                    <p>Once I understand the design challenge and have researched the problem space, ideas will have started to mature about how we could do things better. I start on whiteboards and paper, fleshing out the quick wins and opportunities to elevate from my previous steps. I keep early designs loose and flexible, working big to small and answering one question at a time.</p>
+
+                    <p>
+                        Socializing these ideas early and often helps get buy-in and insight into what's easy, hard, and
+                        unknown. Sharing at this stage, especially with engineering, lets us start considering what's MVP, next sprint and further down the road.</p>
+                </div>
+
             </div>
 
         </div>
+    </div>
 
-      </div>
-
-</section>      
+</section>
 
 <section class="projectsection dark">
 
@@ -114,30 +120,32 @@ tools: 'Paper, Whiteboard, XMind, User interviews, Competitive analysis, Journey
 
             <div class="imagemeta wide col-sm-12">
 
-            <div class="images col-md-6 col-md-push-6">
-                <img class="" src="/images/projects/sketch_proto.jpg" />
-            </div>
+                <div class="images col-md-6 col-md-push-6">
+                    <img class="" src="/images/projects/map_wires.png" />
+                </div>
 
-            <div class="imagemeta col-md-6 col-md-pull-6">
-                <h3>Prototypes, testing and iteration</h3>
-                    <p>I keep early designs loose and conceptual, because we’re looking for strategy, not specifics.
-                    Potential designs get tested in different ways depending on the project, but could include:</p>
-                <ul>
-                    <li>paper prototypes</li>
-                    <li>interactive wireframes with tools like framer, sketch or native code</li>
-                    <li>A/B testing</li>
-                    <li>usertesting.com or similar</li>
-                </ul>
-                <p>After testing, if we haven’t seen the results we want, we iterate and test again, until we’ve got
-                    something that’s mature, solid and can demonstrate that it’s solving our challenge.
-                </p>
-            </div>
+                <div class="imagemeta col-md-6 col-md-pull-6">
+                    <h3>Prototypes, testing and iteration</h3>
+                    <p>
+                        Potential designs get tested in different ways depending on the project, but could include:</p>
+                    <ul>
+                        <li>paper prototypes</li>
+                        <li>interactive wireframes with tools like framer, sketch or native code</li>
+                        <li>A/B testing</li>
+                        <li>usertesting.com or similar</li>
+                    </ul>
+                    <p>After testing, if we haven’t seen the results we want, we iterate and test again, until we’ve got
+                        something that’s mature, solid and can demonstrate that it’s addressing our challenge.
+                    </p>
+                </div>
 
+            </div>
         </div>
 
-      </div>
+    </div>
 
-</section>      
+</section>
+
 
 <section class="projectsection">
 
@@ -147,29 +155,34 @@ tools: 'Paper, Whiteboard, XMind, User interviews, Competitive analysis, Journey
 
             <div class="imagemeta wide col-sm-12">
 
-            <div class="images">
-                <img class="" src="/images/projects/pattern_library.jpg" />
+                <div class="images">
+                    <img class="" src="/images/projects/pattern_library.jpg" />
 
-            </div>
+                </div>
 
-            <div class="imagemeta">
-                <h3>UI Design: Building Visual Systems</h3>
-               <p>Depending on the situation, the next stage can mean pulling in existing components from a shared
-                    pattern library, or creating new visual language. Either way, I’m looking to build out a system, not
-                    just a series of one-offs, and if it’s new, test it and prove that it works.</p>
-                <p>My background in illustration and lifelong obsession with knobs, sliders and control panels give me a
-                    great foundation to apply to designing user interfaces. One of my favorite challenges is creating UI
-                    elements that are satisfying to work with and so immersive, the user doesn’t think about the tool,
-                    they just pick it up and use it to get a job done. I’ve had great successes in this area with
-                    projects like Cleartune, AnalogKit and Live Activity Maps.</p>
+                <div class="imagemeta">
+                    <h3>UI Design: Building Visual Systems</h3>
+                    <p>Depending on the situation, the next stage can mean pulling in existing components from a shared
+                        pattern library, or creating new visual language. Either way, I’m looking to build out a system,
+                        not
+                        just a series of one-offs, and if it’s new, test it and prove that it works.</p>
+                    <p>My background in illustration and lifelong obsession with knobs, sliders and control panels give
+                        me a
+                        great foundation to apply to designing user interfaces. One of my favorite challenges is
+                        creating UI
+                        elements that are satisfying to work with and so immersive, the user doesn’t think about the
+                        tool,
+                        they just pick it up and use it to get a job done. I’ve had great successes in this area with
+                        projects like Cleartune, AnalogKit and Live Activity Maps.</p>
+                </div>
+
             </div>
 
         </div>
-             
 
-      </div>
+    </div>
 
-</section>      
+</section>
 
 <section class="projectsection dark">
 
@@ -179,29 +192,32 @@ tools: 'Paper, Whiteboard, XMind, User interviews, Competitive analysis, Journey
 
             <div class="imagemeta wide col-sm-12">
 
-            <div class="images col-md-6 col-md-push-6">
-                <img class="" src="/images/projects/production.png" />
+                <div class="images col-md-6 col-md-push-6">
+                    <img class="" src="/images/projects/production.png" />
+                </div>
+
+                <div class="imagemeta col-md-6 col-md-pull-6">
+                    <h3>Production and Final Polish</h3>
+                    <p>My design process doesn’t end at uploading mocks to Zeplin or InVision. There’s a great deal of
+                        polish and attention to detail that happens as a product is being built. Microinteractions make
+                        the
+                        difference between a product that feels okay and a product that feels amazing and seamless and
+                        that’s what I’m the most excited about lately.</p>
+                    <p>I believe that the future is doing design in the native language of a product and that’s why I
+                        recently spent two months at Code Fellows expanding my Javascript skills (adding to 10+ years of
+                        CSS). My hope is to move into the emerging niche of product designers who can prototype and
+                        design
+                        in native code then work closely with (or on) engineering teams where the final phase of the
+                        design process is
+                        happening. In the meantime, I’m extremely well-equipped to work with engineering teams or design
+                        teams to elevate the quality of our final products.</p>
+
+                </div>
+
             </div>
 
-            <div class="imagemeta col-md-6 col-md-pull-6">
-                <h3>Production and Final Polish</h3>
-                <p>My design process doesn’t end at uploading mocks to Zeplin or InVision. There’s a great deal of
-                    polish and attention to detail that happens as a product is being built. Microinteractions make the
-                    difference between a product that feels okay and a product that feels amazing and seamless and
-                    that’s what I’m the most excited about lately.</p>
-                <p>I believe that the future is doing design in the native language of a product and that’s why I
-                    recently spent two months at Code Fellows expanding my Javascript skills (adding to 10+ years of
-                    CSS). My hope is to move into the emerging niche of product designers who can prototype and design
-                    in native code then work closely with (or on) engineering teams where the final phase of the design process is
-                    happening. In the meantime, I’m extremely well-equipped to work with engineering teams or design
-                    teams to elevate the quality of our final products.</p>
 
-            </div>
 
         </div>
-
-
-
-            </div>
-        </div>
+    </div>
 </section>
