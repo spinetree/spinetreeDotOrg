@@ -6338,11 +6338,11 @@ h1, h3, .about-bar .connect h4, .sixpieces h2 {
   font-family: 'Raleway', sans-serif;
   font-weight: 700; }
 
-h4, h5, nav.navbar, .about-bar .connect .email, .stats li, .stats .languages li {
+h4, h5, nav.navbar .navbarmain a, .about-bar .connect .email, .btn, .stats li, .stats .languages li {
   font-family: 'Raleway', sans-serif;
   font-weight: 500; }
 
-h2, footer a, .btn, .stats .languages li span, .recommendations .quote p {
+h2, footer a, .stats .languages li span, .recommendations .quote p {
   font-family: 'Raleway', sans-serif;
   font-weight: 300; }
 
@@ -6451,12 +6451,14 @@ body.home nav.navbar .navbarlogo {
 nav.navbar {
   background: #212822;
   border-top: none;
-  border-bottom: 3px solid #262E27;
+  border-bottom: 4px solid #1a201b;
   z-index: 100;
   position: absolute;
   top: 0;
   width: 100%;
   border-radius: 0; }
+  nav.navbar li {
+    margin-bottom: 0; }
   nav.navbar .navbarmain a {
     text-transform: uppercase;
     font-size: 12px;
@@ -6518,8 +6520,7 @@ nav.navbar {
   background-size: cover;
   text-align: center; }
   .frontpagehero img {
-    margin: 40px auto 20px;
-    margin: 16vh auto 8vh;
+    margin: 22vh auto 8vh;
     max-width: 360px;
     width: 100%;
     padding: 0 8px; }
@@ -6726,10 +6727,10 @@ footer {
     margin: 20px 0; }
     footer .socialicons i {
       background: none;
-      font-size: 14px;
-      line-height: 24px;
-      width: 24px;
-      height: 24px; }
+      font-size: 18px;
+      line-height: 32px;
+      width: 32px;
+      height: 32px; }
       footer .socialicons i:hover {
         background: #6B5D51; }
     footer .socialicons a {
@@ -6763,13 +6764,13 @@ footer {
   text-align: center; }
   .socialicons i {
     display: inline-block;
-    margin: 0 8px 0 0;
+    margin: 0 4px 8px 0;
     font-size: 20px;
     background: #4C716E;
     border-radius: 20px;
-    line-height: 32px;
-    width: 32px;
-    height: 32px;
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
     color: #E6E3C5; }
     .socialicons i:hover {
       background: #517C79; }
@@ -6788,38 +6789,41 @@ footer {
 
 .stats {
   text-align: center;
-  padding-top: 40px;
+  padding-top: 32px;
   background: #bfc5b3; }
   .stats h3 {
     color: #6B5D51; }
   .stats ul {
-    padding: 10px 20px; }
+    padding: 0 20px; }
   .stats li {
     list-style: none;
-    font-size: 12px; }
+    font-size: 14px; }
   .stats .apps {
-    margin-top: 40px; }
+    margin-top: 32px; }
     .stats .apps li {
       display: inline-block;
       margin: 8px 12px; }
   .stats .languages {
-    margin-top: 20px;
+    margin-top: 24px;
     margin-bottom: -40px; }
     .stats .languages .content {
       margin: 0;
-      padding: 30px 50px 0px;
+      padding: 32px 32px 0px;
       background: #517C79;
       border: 10px solid #4C716E; }
     .stats .languages ul {
-      padding: 20px 0 40px 40px; }
+      padding: 0 0 40px; }
     .stats .languages li {
       margin-bottom: 10px;
       text-align: left;
       color: #E6E3C5; }
       .stats .languages li span {
         color: #E4D297;
-        margin-left: 10px;
-        font-style: italic; }
+        margin-left: 16px;
+        float: right;
+        text-align: left;
+        font-style: italic;
+        font-weight: 400; }
 
 .bioconnect {
   text-align: center; }

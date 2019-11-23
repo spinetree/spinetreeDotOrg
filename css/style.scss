@@ -192,15 +192,16 @@ body.home nav.navbar .navbarlogo {display:none;}
 nav.navbar {
     background: $black2;
     border-top:none;
-    border-bottom: 3px solid $black1;
-    @extend %raleway;
+    border-bottom: 4px solid $black3;
     z-index:100;
     position:absolute;
     top:0;
     width:100%;
     border-radius:0;
+    li {margin-bottom:0;}
     .navbarmain {   
         a {
+            @extend %raleway;
             text-transform: uppercase;
             font-size: 12px;
             color:$tan1;
@@ -276,8 +277,8 @@ nav.navbar {
     background-size: cover;
     text-align: center;
     img {
-        margin:40px auto 20px;
-        margin:16vh auto 8vh;
+        // margin:40px auto 20px;
+        margin:22vh auto 8vh;
         max-width: 360px;
         width:100%;
         padding:0 8px;
@@ -490,8 +491,6 @@ nav.navbar {
     background: $blue4;
     .description {
         margin:60px 0;
-        p {}
-        button {}
         }
     .connect {
     text-align:center;
@@ -528,12 +527,6 @@ nav.navbar {
             transform:rotate(0deg);
         }
         button {margin-top:20px;}
-    }
-}
-
-@media only screen and (max-width: 767px) {
-.about-bar {
-    .connect {}
     }
 }
 
@@ -574,10 +567,10 @@ footer {
         margin:20px 0;
         i {
             background:none;
-            font-size:14px;
-            line-height:24px;
-            width:24px;
-            height:24px;
+            font-size:18px;
+            line-height:32px;
+            width:32px;
+            height:32px;
             &:hover {background:$brown1;}
         }
         a {padding:0 8px 0 0;}
@@ -594,7 +587,7 @@ footer {
 
 
 .btn {
-    @extend %ralewaylight;
+    @extend %raleway;
     letter-spacing:.8px;
     text-transform:uppercase;
     font-size:16px;
@@ -608,6 +601,7 @@ footer {
     background:$blue3; 
     &:hover {background:$blue2;}
 }
+
 
 // ******************************************************************
 // process, about pages
@@ -629,13 +623,13 @@ footer {
     text-align:center;
         i {
         display:inline-block;
-        margin:0 8px 0 0; 
+        margin:0 4px 8px 0; 
         font-size:20px;
         background:$blue3;
         border-radius:20px;
-        line-height:32px;
-        width:32px;
-        height:32px;
+        line-height:40px;
+        width:40px;
+        height:40px;
         color:$tan1;
         &:hover {background:$blue2;}
     }
@@ -657,33 +651,33 @@ footer {
 
 .stats {
     text-align:center;
-    padding-top:40px;
+    padding-top:32px;
     background:$lightergreen;
     h3 {color: $brown1;}
-    ul {padding:10px 20px;}
+    ul {padding:0 20px;}
     li {
     list-style:none;
     @extend %raleway;
-    font-size: 12px;
+    font-size: 14px;
     }
     .apps {
-        margin-top:40px;
+        margin-top:32px;
         li {
         display:inline-block;
         margin: 8px 12px;
         }
     }
     .languages {
-        margin-top:20px;
+        margin-top:24px;
         margin-bottom:-40px;
         .content {
            // transform:rotate(1deg);
             margin:0;
-            padding:30px 50px 0px;
+            padding:32px 32px 0px;
             background:$blue2;
             border:10px solid $blue3;
         }
-        ul {padding:20px 0 40px 40px;}
+        ul {padding:0 0 40px;}
         li {
             margin-bottom:10px;
             text-align:left;
@@ -691,9 +685,12 @@ footer {
             color:$tan1;
             span {
                 color:$tan3;
-                margin-left:10px;
+                margin-left:16px;
+                float:right;
+                text-align:left;
                 @extend %ralewaylight;
                 font-style:italic;
+                font-weight:400;
             }
             
         }
