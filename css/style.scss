@@ -192,15 +192,16 @@ body.home nav.navbar .navbarlogo {display:none;}
 nav.navbar {
     background: $black2;
     border-top:none;
-    border-bottom: 3px solid $black1;
-    @extend %raleway;
+    border-bottom: 4px solid $black3;
     z-index:100;
     position:absolute;
     top:0;
     width:100%;
     border-radius:0;
+    li {margin-bottom:0;}
     .navbarmain {   
         a {
+            @extend %raleway;
             text-transform: uppercase;
             font-size: 12px;
             color:$tan1;

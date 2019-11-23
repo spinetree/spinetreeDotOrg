@@ -6338,7 +6338,7 @@ h1, h3, .about-bar .connect h4, .sixpieces h2 {
   font-family: 'Raleway', sans-serif;
   font-weight: 700; }
 
-h4, h5, nav.navbar, .about-bar .connect .email, .btn, .stats li, .stats .languages li {
+h4, h5, nav.navbar .navbarmain a, .about-bar .connect .email, .btn, .stats li, .stats .languages li {
   font-family: 'Raleway', sans-serif;
   font-weight: 500; }
 
@@ -6451,12 +6451,14 @@ body.home nav.navbar .navbarlogo {
 nav.navbar {
   background: #212822;
   border-top: none;
-  border-bottom: 3px solid #262E27;
+  border-bottom: 4px solid #1a201b;
   z-index: 100;
   position: absolute;
   top: 0;
   width: 100%;
   border-radius: 0; }
+  nav.navbar li {
+    margin-bottom: 0; }
   nav.navbar .navbarmain a {
     text-transform: uppercase;
     font-size: 12px;
