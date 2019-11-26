@@ -6351,8 +6351,8 @@ body, p, li {
   font-weight: 400; }
 
 body {
-  background: black;
-  color: #FAF9EE;
+  background: #FAF9EE;
+  color: #262E27;
   line-height: 1.2;
   font-size: 16px;
   letter-spacing: 0.6px;
@@ -6618,7 +6618,8 @@ nav.navbar {
     padding: 30px 0;
     background: #262E27;
     border-top: 4px solid #212822;
-    border-bottom: 6px solid #212822; }
+    border-bottom: 6px solid #212822;
+    color: #FAF9EE; }
     .project .meta .primary {
       padding: 0 40px 0 0;
       text-align: right;
@@ -6670,7 +6671,8 @@ nav.navbar {
     padding-top: 10px;
     text-align: center; } }
 .about-bar {
-  background: #2B403F; }
+  background: #2B403F;
+  color: #FAF9EE; }
   .about-bar .description {
     margin: 60px 0; }
   .about-bar .connect {

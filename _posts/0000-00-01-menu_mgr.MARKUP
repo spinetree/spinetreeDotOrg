@@ -1,0 +1,164 @@
+---
+layout: work
+title: Case Study:<br />Menu Manager
+categories: work
+date: 2015-08-01 13:26:34
+thumbnail: '/images/thumbs/analogkit@2x.jpg'
+hero: '/images/projects/menumanagerhero.jpg'
+permalink: /work/menumanager/
+color: '#111B2B'
+client: Leafly
+type: B2B Store management dashboard
+description: Leafly asked me to redesign their B2B product for managing a dispensary's menu on their site.
+tools: 'Usertesting.com, Whiteboards, Sketch, InVision, Zeplin'
+---
+
+
+<section class="projectsection dark">
+    <div class="container">
+        <div class="row">
+            <div class="subtitles col-md-3">
+                <h3>Design Challenge</h3>
+                <p>Tools:</p>
+                <ul>
+                    <li>project breif</li>
+                    <li>kickoff meeting</li>
+                    <li>slack</li>
+                    <li>trello</li>
+                </ul>
+            </div>
+            <div class="col-md-5">
+                <p>Leafly allows cannabis dispensaries to list their menus online for a fee, but the data coming from
+                    dispensaries’s POS systems was incomplete and inconsistent, undermining the value of the listings
+                    and creating a subpar consumer experience, especially with search results.</p>
+                <p>I met with my product team and based on the product brief and our discussion, identified the
+                    following design goals:</p>
+                <ul>
+                    <li>Incentivize and enable our clients to curate their data better</li>
+                    <li>Give clear guideposts regarding data quality, and help dispensaries understand the impact this
+                        would have on sales and customer experience.
+                    </li>
+                    <li>Respect our clients time by minimizing time required to improve their data.
+                    </li>
+                    <li>Improve the customer experience by showing them simpler menus with better, more searchable
+                        information.</li>
+                </ul>
+            </div>
+            <div class="images col-md-3">
+                <p></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="projectsection">
+    <div class="container">
+        <div class="row">
+            <div class="subtitles col-md-3">
+                <h3>Discovery and Research</h3>
+                <p>tools:</p>
+                <ul>
+                    <li>whiteboarding</li>
+                    <li>ethnographic interviews</li>
+                    <li>competitive analysis</li>
+                    <li>usertesting.com</li>
+                    <li>confluence</li>
+                </ul>
+            </div>
+            <div class="images col-md-3">
+                <p></p>
+            </div>
+            <div class="col-md-5">
+                <p>I set up meetings with dispensary managers and our client success specialists to find out more about pain points with the existing menu manager. I heard that our clients had the desire to improve their online menus, but needed the process to be simpler than it was, simple enough that it could be relegated to hourly employees. They also struggled to move products while they were still fresh, and create awareness of new products that consumers weren’t yet asking for.</p>
+                <p>I ran user tests on several store management systems, like Shopify, Etsy, and Ebay to find out what people did and didn’t like about those systems, and identify.</p>
+                <p>I looked not only at the design of their UX but on how they incentivized stores to curate their product listings well, and how they dealt with the congnitive overhead of large product catalogs. I also did cross-industry analysis, examing library management software for tasks like media and task management.</p>
+            </div>
+        </div>
+    </div>
+</section> 
+
+
+<section class="projectsection dark">
+    <div class="container">
+        <div class="row">
+            <div class="subtitles col-md-3">
+                <h3>Wiresframes, Prototypes and Testing</h3>
+                <p>Tools:</p>
+                <ul>
+                    <li>whiteboards</li>
+                    <li>paper prototyping</li>
+                    <li>sketch</li>
+                    <li>invision</li>
+                    <li>usertesting.com</li>
+                </ul>
+            </div>
+            <div class="col-md-5">
+                <p>I began to design a new menu manager with the following features:</p>
+                <ul>
+                    <li>Featured products (later branded as staff picks) - a manually curated list of products that the dispensary wanted to feature at the top of every page and search. Featured items would always appear before other products, similar to Amazon or Google's sponsored search results, but items required 90% data completeness to be featured.</li>
+                    <li>Data quality indicators - indicators on every page of the menu manager showing completeness of the data</li>
+                    <li>Product preview - a preview of a product’s listing on mobile and desktop versions of the site, helping connect dispensaries to the final consumer experience.</li>
+                    <li>Better autocomplete and form interactions - manual data entry was never the end-goal, but we still gave some attention to speeding up the process of entering data with features like improved autocomplete and better markup for tabbing through data fields.</li>
+                </ul>
+                <p>We used Sketch and InVision to generate a clickable prototype for the overall creation and editing flow, and also tested with a focus group of dispensary owners, getting their buy-in on the overall solutions before moving on to visual design. We found:</p>
+                <ul>
+                    <li>Clients reported an overall faster experience managing their menus with the new menu manager</li>
+                    <li>Dispensaries responded incredibly well to the data completeness indicators. I had hoped a few would lock in with the numbers strongly, but instead <em>all</em> of our test dispensaries reported assigning employees to meet the goal of 100% data completeness, saying that the new system made it easy for any of their staff to contribute.</li>
+                </ul>
+            </div>
+            <div class="images col-md-5">
+                <h3></h3>
+                <p></p>
+            </div>
+        </div>
+    </div>
+</section> 
+
+
+<section class="projectsection">
+    <div class="container">
+        <div class="row">
+            <div class="subtitles col-md-3">
+                <h3>Visual Design</h3>
+                <p>Tools</p>
+                <ul>
+                    <li>sketch</li>
+                    <li>zeplin</li>
+                    <li>abstract</li>
+                    <li>photoshop</li>
+                    <li>illustrator</li>
+                </ul>
+            </div>
+            <div class="images col-md-9">
+                <p>Because we were working on the B2B side of Leafly, I wanted to create a distinct UI that would exist in the same world as Leafly’s B2C products but also be recognizable on its own, optimized for functionality, and quick to prototype with.</p>
+                <h4>image goes here</h4>
+                <p>I used Google’s Material Design library to springboard off of, keeping many of its interaction patterns  and implementing visuals complementary to the rest of our products, creating a distinct sub-brand for the B2B vertical that still allowed our devs to build quickly.<p>
+
+
+
+
+<!-- 
+<section class="projectsection">
+    <div class="container">
+        <div class="row">
+            <div class="subtitles col-md-3">
+                <h3></h3>
+                <p></p>
+                <ul>
+                    <li></li>
+                </ul>
+            </div>
+            <div class="col-md-5">
+                <p></p>
+                <ul>
+                    <li></li>
+                </ul>
+            </div>
+            <div class="images col-md-5">
+                <h3></h3>
+                <p></p>
+            </div>
+        </div>
+    </div>
+</section> 
+-->

@@ -70,8 +70,8 @@ $blue4: #2B403F;
 
 body {
     @extend %noto;
-    background: black;
-    color: $white;
+    background: $white;
+    color: $black1;
     line-height:1.2;
     font-size:16px;
     letter-spacing:0.6px;
@@ -411,6 +411,7 @@ nav.navbar {
         background: $black1;
         border-top: 4px solid $black2;
         border-bottom: 6px solid $black2;
+        color:$white;
         .primary {
             padding: 0 40px 0 0;
             text-align: right;
@@ -489,6 +490,7 @@ nav.navbar {
 
 .about-bar {
     background: $blue4;
+    color:$white;
     .description {
         margin:60px 0;
         }
