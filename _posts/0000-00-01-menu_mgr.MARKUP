@@ -1,0 +1,207 @@
+---
+layout: work
+title: Case Study:<br />Leafly Menu Manager
+categories: work
+date: 2015-08-01 13:26:34
+thumbnail: '/images/thumbs/menumanager@2x.jpg'
+hero: '/images/projects/menumanagerhero.jpg'
+permalink: /work/menumanager/
+color: '#315D86'
+client: Leafly
+type: B2B Store management dashboard
+description: Leafly asked me to redesign their B2B SaaS product for managing dispensary menus on Leafly.com and Leafly mobile apps. I dove deep on understanding the unique needs of retailers operating in the cannabis space, conducted usability testing and research, and built a system that improved both our client and customer experience.
+tools: 'Role - Design lead'
+---
+
+
+<section class="projectsection dark">
+    <div class="container">
+        <div class="row">
+            <div class="subtitles col-md-3">
+                <h3>Design Challenge</h3>
+                
+                <ul>
+                    <li>project brief</li>
+                    <li>kickoff meeting</li>
+                    <li>slack</li>
+                    <li>trello</li>
+                </ul>
+            </div>
+            <div class="col-md-5">
+                <p>Leafly allows cannabis dispensaries to list their menus online for a fee, but the data coming from
+                    dispensaries’s point of sale and inventory systems was incomplete and inconsistent, undermining the
+                    value of the listings
+                    and creating a subpar consumer experience, especially with search.</p>
+                <p>I met with my product team and based on the product brief and our discussion, identified the
+                    following design goals:</p>
+                <ul>
+                    <li>Incentivize and enable our clients to curate their data better</li>
+                    <li>Give clear guideposts regarding data quality, and help dispensaries understand the impact this
+                        would have on sales and customer experience.
+                    </li>
+                    <li>Respect our clients time by minimizing steps required to improve their data.
+                    </li>
+                    <li>Improve the customer experience by giving them menus with better organized, more complete and
+                        more searchable
+                        information.</li>
+                </ul>
+            </div>
+            <div class="images col-md-3">
+                <img class="" src="/images/projects/mm_goals.png" />
+                <img class="" src="/images/projects/mm_whiteboards.png" />
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="projectsection">
+    <div class="container">
+        <div class="row">
+            <div class="subtitles col-md-3">
+                <h3>Discovery and Research</h3>
+                
+                <ul>
+                    <li>whiteboarding</li>
+                    <li>ethnographic interviews</li>
+                    <li>competitive analysis</li>
+                    <li>usertesting.com</li>
+                    <li>confluence</li>
+                </ul>
+            </div>
+            <div class="images col-md-4">
+                <img class="" src="/images/projects/mm_quadrants.jpg" />
+            </div>
+            <div class="col-md-5">
+                <p>I set up meetings with dispensary managers and our client success specialists to find out more about
+                    pain points with the existing menu manager. I heard that our clients had the desire to improve their
+                    online menus, but needed the process to be simpler than it was, simple enough that it could be
+                    relegated to hourly employees. They also struggled to move products while they were still fresh, and
+                    create awareness of new products that consumers weren’t yet asking for.</p>
+                <p>I ran user tests on several store management systems, to find out what people did and didn’t like
+                    about those systems, and identify patterns that users would be familiar with.</p>
+                <p>I looked not only at the design of their UX but on how they incentivized stores to curate their
+                    product listings well, and how they dealt with the paradox of choice created in many online shopping
+                    experiences. I also did cross-industry analysis, examing products for managing tasks, media
+                    libraries and workflows with large catalogs of perishable products.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="projectsection dark">
+    <div class="container">
+        <div class="row">
+            <div class="subtitles col-md-3">
+                <h3>Wiresframes, Prototypes and Testing</h3>
+                
+                <ul>
+                    <li>whiteboards</li>
+                    <li>paper prototyping</li>
+                    <li>sketch</li>
+                    <li>invision</li>
+                    <li>usertesting.com</li>
+                </ul>
+            </div>
+            <div class="images col-md-5">
+                <p>I began to sketch and make wireframes exploring potential solutions based on my research, such as:</p>
+                <ul>
+                    <li>Data quality indicators - indicators on every page of the menu manager showing completeness of
+                        the data</li>
+                    <li>Featured product lists (later branded as staff picks) - a manually curated list of products that the
+                        dispensary wanted to feature at the top of every page and search. Featured items would always
+                        appear before other products, similar to Amazon or Google's sponsored search results, but items
+                        required 90% data completeness to be featured.</li>
+                    <li>Product preview - a preview of a product’s listing on mobile and desktop versions of the site,
+                        helping connect dispensaries to the final consumer experience.</li>
+                    <li>Better autocomplete and form interactions - manual data entry was never the end-goal, but we
+                        still gave some attention to speeding up the process of entering data with features like
+                        improved autocomplete and better markup for tabbing through data fields.</li>
+                </ul>
+                    <img class="" src="/images/projects/mm_prototype.jpg" />
+                   <p>We used Sketch and InVision to generate a clickable prototype for the overall creation and editing
+                    flow, and also tested with a focus group of dispensary owners, getting their buy-in on the overall
+                    solutions before moving on to visual design. We found:</p>
+                <ul>
+                    <li>Clients reported an overall faster experience managing their menus with the new menu manager
+                    </li>
+                    <li>Dispensaries responded incredibly well to the data completeness indicators. I had hoped a few
+                        would lock in with the numbers strongly, but instead <em>all</em> of our test dispensaries
+                        reported assigning employees to meet the goal of 100% data completeness, saying that the new
+                        system made it easy for any of their staff to contribute.</li>
+                        <li>Great enthusiasm for staff picks/featured product lists, both as a way to help shoppers choose more easily and a way to highlight products stores wanted to move quickly</li>
+                </ul>
+            </div>
+            <div class="images col-md-4">
+                <img class="" src="/images/projects/mm_contextual_wires.jpg" />
+                <img class="" src="/images/projects/mm_newproduct_wires.jpg" />
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<section class="projectsection">
+    <div class="container">
+        <div class="row">
+            <div class="subtitles col-md-3">
+                <h3>Visual Design</h3>
+                
+                <ul>
+                    <li>sketch</li>
+                    <li>zeplin</li>
+                    <li>abstract</li>
+                    <li>photoshop</li>
+                    <li>illustrator</li>
+                </ul>
+            </div>
+            <div class="images col-md-9">
+                <img class="" src="/images/projects/mm_visual.png" />
+                <p>Because we were working on the B2B side of Leafly, I wanted to create a distinct UI that would exist
+                    in the same world as Leafly’s B2C products but also be recognizable on its own, optimized for
+                    functionality, and quick to prototype with.</p>
+
+            </div>
+            <div class="images col-md-9 col-md-offset-3">
+                <img class="" src="/images/projects/mm_visual_preview.png" />
+                <p>Having done months worth of dispensary visits, I saw that the backoffices where my users typically worked could be chaotic places. Stacks of product, constant phone calls from suppliers, and heightened security all created increased stress and cognitive overhead. My users didn't work in peaceful desk spaces, they worked in unfinished rooms filled with boxes and armed security guards going back and forth in a hurry and money counters and always-ringing phones. Understanding this informed strongly my desire to make a peaceful-feeling application that asked the user to pay attention to only a few things at a time and didn't overload them visually. They needed to be able to look away, look back a minute later and not lose what they were doing.</p>  
+                <img class="" src="/images/projects/mm_newproduct_visual.png" />
+                <p>I used Google’s Material Design library to springboard off of, keeping many of its interaction
+                    patterns and implementing visuals complementary to the rest of our products, creating a distinct
+                    sub-brand for the B2B vertical that still allowed our devs to build quickly.</p>
+
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="projectsection dark results">
+    <div class="container">
+        <div class="row">
+            <div class="subtitles col-md-3">
+                <h3>Results</h3>
+            </div>
+            <div class="col-md-9">
+                <p class="quote">Over the course of the next several months, we rolled out the new menu manager to all
+                    our clients. As a result we experienced:</p>
+                <ul>
+                    <li>Average menu completeness began to <strong>immediately increase</strong> as the new menu manager was rolled out and <strong>continued to increase month over month.</strong></li>
+                    <li><strong>60% immediate adoption rate</strong> of staff picks feature</li>
+                    <li><strong>Lowered bounce rate</strong> for the menu manager itself from over 40% to 5%. <strong>Decreased
+                    average time on page</strong> from almost 18 minutes to just over 14.</li>
+                    <li>Additional curated product lists were adopted later and became the <strong>#1 most-clicked item on dispensary menus.</strong></li>
+                </ul>
+                <p>The work was extremely well-received by our clients. We got feedback such as:</p>
+                <img class="" src="/images/projects/mm_feedback_1.jpg" />
+                <img class="" src="/images/projects/mm_feedback_2.jpg" />
+                <p>The project was cited by our VP of product as one of the year's major successes, saying:</p>
+                <aside class="pquote">
+                    "When we give our clients a tool like this, they feel like they’re dealing with the best in the industry."  
+                </aside>
+                <p>In the following months we took the menu manager through several more iterations, adding features like realtime inventory tracking, automatic controls taking items on and off a menu based on stock levels, and of course more and better POS integrations.</p>
+            </div>
+        </div>    
+    </div>    
+</section>

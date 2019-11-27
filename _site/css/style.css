@@ -6351,8 +6351,8 @@ body, p, li {
   font-weight: 400; }
 
 body {
-  background: black;
-  color: #FAF9EE;
+  background: #FAF9EE;
+  color: #262E27;
   line-height: 1.2;
   font-size: 16px;
   letter-spacing: 0.6px;
@@ -6618,13 +6618,14 @@ nav.navbar {
     padding: 30px 0;
     background: #262E27;
     border-top: 4px solid #212822;
-    border-bottom: 6px solid #212822; }
+    border-bottom: 6px solid #212822;
+    color: #FAF9EE; }
     .project .meta .primary {
       padding: 0 40px 0 0;
       text-align: right;
       border-right: 4px solid #212822; }
       .project .meta .primary h1 {
-        margin-bottom: 15px; }
+        margin: 0 0 15px; }
       .project .meta .primary h4 {
         margin-bottom: 0; }
     .project .meta .description {
@@ -6635,22 +6636,39 @@ nav.navbar {
       .project .meta .description p.tools {
         font-style: italic;
         color: #729673; }
+  .project .pquote {
+    color: #4C716E;
+    font-size: 24px;
+    margin: 24px 48px;
+    font-weight: 700; }
   .project .projectsection {
-    padding: 40px 0; }
-  .project .projectsection.dark {
-    background: #EFEDD9; }
-  .project .images {
+    padding: 64px 0;
     text-align: center; }
-    .project .images img {
-      max-width: 90%;
-      margin: 20px 0;
-      display: inline-block; }
-  .project .imagemeta {
-    padding: 20px 30px; }
-    .project .imagemeta h3 {
+    .project .projectsection h3 {
       color: #2B403F;
       padding-top: 60px;
       margin-bottom: 25px; }
+    .project .projectsection img {
+      max-width: 90%;
+      margin: 20px 0;
+      display: inline-block; }
+    .project .projectsection p, .project .projectsection ul, .project .projectsection li {
+      text-align: left; }
+    .project .projectsection .subtitles {
+      text-align: right; }
+      .project .projectsection .subtitles h3 {
+        padding-top: 0; }
+      .project .projectsection .subtitles p {
+        text-transform: uppercase; }
+      .project .projectsection .subtitles p, .project .projectsection .subtitles ul, .project .projectsection .subtitles li {
+        color: #729673;
+        list-style-type: none;
+        text-align: right;
+        font-weight: 700; }
+  .project .projectsection.dark {
+    background: #EFEDD9; }
+  .project .imagemeta {
+    padding: 20px 30px; }
     .project .imagemeta p {
       color: #333620; }
   .project .imagemeta.wide h3 {
@@ -6666,11 +6684,28 @@ nav.navbar {
     padding: 0 0 0 0;
     text-align: center;
     border-right: none; }
+  .project .projectsection .subtitles {
+    text-align: center; }
+    .project .projectsection .subtitles p {
+      text-align: center; }
+    .project .projectsection .subtitles ul {
+      text-align: center;
+      margin: 0 auto;
+      margin-bottom: 16px;
+      margin-left: 0;
+      padding-left: 0; }
+    .project .projectsection .subtitles ul li {
+      display: inline-block;
+      padding: 0 12px;
+      border-right: 1px solid #729673; }
+    .project .projectsection .subtitles ul li:last-child {
+      border-right: none; }
   .project .imagemeta h3 {
     padding-top: 10px;
     text-align: center; } }
 .about-bar {
-  background: #2B403F; }
+  background: #2B403F;
+  color: #FAF9EE; }
   .about-bar .description {
     margin: 60px 0; }
   .about-bar .connect {
