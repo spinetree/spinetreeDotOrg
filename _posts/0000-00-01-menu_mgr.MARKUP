@@ -108,7 +108,7 @@ tools: 'Role - Design lead'
                 <ul>
                     <li>Data quality indicators - indicators on every page of the menu manager showing completeness of
                         the data</li>
-                    <li>Featured products (later branded as staff picks) - a manually curated list of products that the
+                    <li>Featured product lists (later branded as staff picks) - a manually curated list of products that the
                         dispensary wanted to feature at the top of every page and search. Featured items would always
                         appear before other products, similar to Amazon or Google's sponsored search results, but items
                         required 90% data completeness to be featured.</li>
@@ -129,6 +129,7 @@ tools: 'Role - Design lead'
                         would lock in with the numbers strongly, but instead <em>all</em> of our test dispensaries
                         reported assigning employees to meet the goal of 100% data completeness, saying that the new
                         system made it easy for any of their staff to contribute.</li>
+                        <li>Great enthusiasm for staff picks/featured product lists, both as a way to help shoppers choose more easily and a way to highlight products stores wanted to move quickly</li>
                 </ul>
             </div>
             <div class="images col-md-4">
