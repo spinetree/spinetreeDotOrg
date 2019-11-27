@@ -9,7 +9,7 @@ permalink: /work/menumanager/
 color: '#315D86'
 client: Leafly
 type: B2B Store management dashboard
-description: Leafly asked me to redesign their SaaS product for managing dispensary menus on Leafly.com and Leafly mobile apps. I dove deep on understanding the unique needs of retailers operating in the cannabis space, conducted usability testing and research, and built a system that improved both our client and customer experience.
+description: Leafly asked me to redesign their B2B SaaS product for managing dispensary menus on Leafly.com and Leafly mobile apps. I dove deep on understanding the unique needs of retailers operating in the cannabis space, conducted usability testing and research, and built a system that improved both our client and customer experience.
 tools: 'Role - Design lead'
 ---
 
@@ -19,7 +19,7 @@ tools: 'Role - Design lead'
         <div class="row">
             <div class="subtitles col-md-3">
                 <h3>Design Challenge</h3>
-                <p>Tools:</p>
+                
                 <ul>
                     <li>project brief</li>
                     <li>kickoff meeting</li>
@@ -59,7 +59,7 @@ tools: 'Role - Design lead'
         <div class="row">
             <div class="subtitles col-md-3">
                 <h3>Discovery and Research</h3>
-                <p>tools:</p>
+                
                 <ul>
                     <li>whiteboarding</li>
                     <li>ethnographic interviews</li>
@@ -94,7 +94,7 @@ tools: 'Role - Design lead'
         <div class="row">
             <div class="subtitles col-md-3">
                 <h3>Wiresframes, Prototypes and Testing</h3>
-                <p>Tools:</p>
+                
                 <ul>
                     <li>whiteboards</li>
                     <li>paper prototyping</li>
@@ -146,7 +146,7 @@ tools: 'Role - Design lead'
         <div class="row">
             <div class="subtitles col-md-3">
                 <h3>Visual Design</h3>
-                <p>Tools</p>
+                
                 <ul>
                     <li>sketch</li>
                     <li>zeplin</li>

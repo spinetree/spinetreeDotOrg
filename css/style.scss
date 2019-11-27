@@ -433,11 +433,11 @@ nav.navbar {
     .pquote {
         color:$blue3;
     font-size: 24px;
-    margin:24px 16px; 
+    margin:24px 48px; 
     font-weight:700;
     }
     .projectsection {
-        padding:40px 0;
+        padding:64px 0;
         text-align: center;
         h3 {
             color:$blue4;
@@ -450,6 +450,17 @@ nav.navbar {
             display: inline-block;
         }
         p, ul, li {text-align:left;}
+        .subtitles {
+            text-align:right;
+            h3 {padding-top:0;}
+            p {text-transform: uppercase;}
+            p, ul, li {
+                color: $green;
+                list-style-type: none;
+                text-align:right;
+                font-weight:700;
+            }
+        }
 
     }
     .projectsection.dark {background:$tan0;}
@@ -477,6 +488,16 @@ nav.navbar {
                 text-align:center;
                 border-right:none;
             }
+        }
+        .projectsection .subtitles {
+            text-align:center;
+            p { text-align:center;}
+            ul {text-align:center; margin:0 auto; margin-bottom:16px; margin-left:0; padding-left:0;}
+            ul li {
+                display:inline-block;
+            padding:0 12px;
+            border-right:1px solid $green;}
+            ul li:last-child {border-right:none;}
         }
         .imagemeta {
             h3 {
