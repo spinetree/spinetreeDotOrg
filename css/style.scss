@@ -416,7 +416,7 @@ nav.navbar {
             padding: 0 40px 0 0;
             text-align: right;
             border-right: 4px solid $black2;
-            h1 {margin-bottom: 15px;}
+            h1 {margin:0 0 15px;}
             h4 {margin-bottom:0;}
         }
         .description {
@@ -430,25 +430,31 @@ nav.navbar {
 
         }
     }
+    .pquote {
+        color:$blue3;
+    font-size: 24px;
+    margin:24px 16px; 
+    font-weight:700;
+    }
     .projectsection {
         padding:40px 0;
-    }
-    .projectsection.dark {background:$tan0;}
-    .images {
         text-align: center;
-        img {
-            max-width: 90%;
-            margin:20px 0;
-            display: inline-block;
-        }
-    }
-    .imagemeta {
-        padding: 20px 30px;
         h3 {
             color:$blue4;
             padding-top:60px;
             margin-bottom:25px;
         }
+        img {
+            max-width: 90%;
+            margin:20px 0;
+            display: inline-block;
+        }
+        p, ul, li {text-align:left;}
+
+    }
+    .projectsection.dark {background:$tan0;}
+    .imagemeta {
+        padding: 20px 30px;
         p {color:$brown3;}
     }
     .imagemeta.wide h3 {

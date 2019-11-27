@@ -6625,7 +6625,7 @@ nav.navbar {
       text-align: right;
       border-right: 4px solid #212822; }
       .project .meta .primary h1 {
-        margin-bottom: 15px; }
+        margin: 0 0 15px; }
       .project .meta .primary h4 {
         margin-bottom: 0; }
     .project .meta .description {
@@ -6636,22 +6636,28 @@ nav.navbar {
       .project .meta .description p.tools {
         font-style: italic;
         color: #729673; }
+  .project .pquote {
+    color: #4C716E;
+    font-size: 24px;
+    margin: 24px 16px;
+    font-weight: 700; }
   .project .projectsection {
-    padding: 40px 0; }
-  .project .projectsection.dark {
-    background: #EFEDD9; }
-  .project .images {
+    padding: 40px 0;
     text-align: center; }
-    .project .images img {
-      max-width: 90%;
-      margin: 20px 0;
-      display: inline-block; }
-  .project .imagemeta {
-    padding: 20px 30px; }
-    .project .imagemeta h3 {
+    .project .projectsection h3 {
       color: #2B403F;
       padding-top: 60px;
       margin-bottom: 25px; }
+    .project .projectsection img {
+      max-width: 90%;
+      margin: 20px 0;
+      display: inline-block; }
+    .project .projectsection p, .project .projectsection ul, .project .projectsection li {
+      text-align: left; }
+  .project .projectsection.dark {
+    background: #EFEDD9; }
+  .project .imagemeta {
+    padding: 20px 30px; }
     .project .imagemeta p {
       color: #333620; }
   .project .imagemeta.wide h3 {
