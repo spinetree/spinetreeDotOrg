@@ -1,0 +1,51 @@
+$white: #FAF9EE;
+    
+$black1: #262E27;
+$black2: darken($black1,2%);
+$black3: darken($black1,5%);
+
+
+$tan0: #EFEDD9;
+$tan1: #E6E3C5;
+$tan2: #E0CFA2;
+$tan3: #E4D297;
+$tan4: #AEA07D;
+
+$tangreen: #ABAF7D;
+
+$lightgreen: #C6CCBC;
+$lightergreen: darken($lightgreen,3%);
+$green: #729673;
+
+$darkgreen: darken($green,32%);
+
+$brown1: #6B5D51;
+$brown2: #605232;
+$brown3: #333620;
+$brown4: #2B2E1B;
+
+$blue1: #86A3C5;
+$blue2: #517C79;
+$blue3: #4C716E;
+$blue4: #2B403F;
+
+
+%ralewaybold {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+%raleway {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+
+%ralewaylight {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+
+%noto {
+    font-family: 'Noto', serif;
+    font-weight:400;
+}

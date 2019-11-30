@@ -1,0 +1,143 @@
+
+
+
+// ******************************************************************
+// Modular content areas 
+// ******************************************************************
+
+
+
+body.home nav.navbar .navbarlogo {display:none;}
+
+
+nav.navbar {
+    background: $black2;
+    border-top:none;
+    border-bottom: 4px solid $black3;
+    z-index:100;
+    position:absolute;
+    top:0;
+    width:100%;
+    border-radius:0;
+    li {margin-bottom:0;}
+    .navbarmain {   
+        a {
+            @extend %raleway;
+            text-transform: uppercase;
+            font-size: 12px;
+            color:$tan1;
+            line-height:20px;
+            padding-top:20px;
+            padding-bottom:20px;
+        }
+    }
+    .navbarlogo {
+        width:60px;
+        position:absolute;
+        left:50%;
+        top:14px;
+        a {padding:0;}
+        img {
+            width:100%;
+            margin-left:-30px;
+        }
+    }
+    .navbarsocial {
+        padding: 0 20px;
+        a {
+            text-align:center;
+            padding:10px 12px;
+        }
+        i {
+            font-size:14px;
+            line-height:40px;
+            color:$tan1;
+            &:hover {color:$tan2;}
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    nav.navbar {
+        border-bottom: 3px solid $black2;
+        .navbarlogo {top:0;}
+    }
+    #navbar { 
+        background:$black3;
+        text-align:center;
+        .navbarsocial {
+            margin:20px auto; 
+            text-align:center;
+            li {
+                display:inline-block;
+                a {padding:10px 20px;}
+                i {font-size:18px;}
+            }
+        }
+    }
+}
+
+// ******************************************************************
+// Modular Content areas
+//*******************************************************************
+
+
+.socialicons {
+    text-align:center;
+        i {
+        display:inline-block;
+        margin:0 4px 8px 0; 
+        font-size:20px;
+        background:$blue3;
+        border-radius:20px;
+        line-height:40px;
+        width:40px;
+        height:40px;
+        color:$tan1;
+        &:hover {background:$blue2;}
+    }
+}
+
+
+
+
+
+
+// ******************************************************************
+// Carousel
+//*******************************************************************
+
+.slides {
+    padding:20px 0 0px;
+    .slick-next {right:-40px;}
+    .slick-prev {left:-40px;}
+    .slick-prev:before, 
+    .slick-next:before {
+        font-family: "slick";
+        font-size: 30px;
+        line-height: 1;
+        color: $tan3;
+        opacity: 0.75;
+        -webkit-font-smoothing: antialiased;
+    }
+    .slick-dots {bottom:-30px; padding:0 10%;}
+    .slick-dots li button:before {
+        content: "●";
+        width: 20px;
+        height: 20px;
+        font-family: "slick";
+        font-size: 16px;
+        line-height: 20px;
+    }    
+    .slide {
+        p {padding:0 30px;}
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .slides {padding-bottom:20px;}   
+}
+
+@media only screen and (max-width: 405px) {
+    .slides {padding-bottom:40px;}   
+}
