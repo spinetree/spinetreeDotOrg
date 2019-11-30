@@ -1,0 +1,154 @@
+.about {
+    background:$lightgreen;
+    color:$blue4;
+    h2 {margin-bottom:60px;}
+}
+
+.bio {
+    padding-bottom:0px;
+    margin-bottom:40px;
+    p {margin-bottom:20px;}
+    }
+
+
+.stats {
+    text-align:center;
+    padding-top:32px;
+    background:$lightergreen;
+    h3 {color: $brown1;}
+    ul {padding:0 20px;}
+    li {
+    list-style:none;
+    @extend %raleway;
+    font-size: 14px;
+    }
+    .apps {
+        margin-top:32px;
+        li {
+        display:inline-block;
+        margin: 8px 12px;
+        }
+    }
+    .languages {
+        margin-top:24px;
+        margin-bottom:-40px;
+        .content {
+           // transform:rotate(1deg);
+            margin:0;
+            padding:32px 32px 0px;
+            background:$blue2;
+            border:10px solid $blue3;
+        }
+        ul {padding:0 0 40px;}
+        li {
+            margin-bottom:10px;
+            text-align:left;
+            @extend %raleway;
+            color:$tan1;
+            span {
+                color:$tan3;
+                margin-left:16px;
+                float:right;
+                text-align:left;
+                @extend %ralewaylight;
+                font-style:italic;
+                font-weight:400;
+            }
+            
+        }
+    }
+}
+
+.bioconnect {
+    text-align: center;
+    h3 {
+        margin: 20px 20px 12px;
+    }
+    .socialicons {
+        padding-top: 10px;
+        i {
+            box-shadow: 2px 2px 11px -4px rgba(68, 68, 68, 1);
+        }
+    }
+    .resumebutton {margin-bottom:20px;}
+}
+
+.recommendations {
+    border-top:10px solid $tan1;
+    background:$tan0;
+    padding:60px 0 120px;
+    h3 {text-align:center; margin-bottom:30px;}
+    p {color:$brown2;}
+    .quote p {
+        @extend %ralewaylight;
+        font-size:14px;
+        color:$black2; 
+        font-style:italic;
+    }
+    p.attribution {
+        text-align:right;
+        font-style:normal;
+    }
+}
+
+.sixpieces {
+    background:$blue3;
+    color:$white;
+    padding:100px 0;
+    transform:skewY(-3deg);
+    margin-top:-60px;
+    margin-bottom:-70px;
+    .row {
+        transform:skewY(3deg);
+    }
+    li {
+        list-style:none;
+        margin: 0 0 30px;
+    }
+    .page {
+        color:$blue4;
+        border-left:4px solid $blue4;
+        border-right:4px solid $blue4;
+        padding:20px;
+        margin:60px 0;
+    }
+    h2 {
+        @extend %ralewaybold;
+        color:$blue4;
+        text-align:center;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .about h1 {text-align:center;}
+    .biophoto {margin-bottom:60px;}
+    .sixpieces {padding: 40px 0 120px;
+        .page {
+            border-left:none; 
+            border-right:none;
+            margin-bottom:40px;
+        }
+    }
+    .stats .languages .content {
+        margin:0 10px;
+    }
+    .bio .socialicons {        
+        padding-bottom: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    .bio {margin-bottom:20px;}
+    .stats { 
+        .apps {margin-bottom:30px;}
+        .languages {
+            .content {
+            transform: rotate(0deg);
+            padding: 30px 20px 0px;  
+                ul {padding-left:0;}
+                li {text-align:center;}
+            }   
+        }
+    }
+}
