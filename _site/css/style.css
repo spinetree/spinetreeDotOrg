@@ -1,4 +1,155 @@
 @charset "UTF-8";
+.sixpieces h2, h1, h3, .about-bar .connect h4 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700; }
+
+.stats li, .stats .languages li, h4, h5, nav.navbar .navbarmain a, .about-bar .connect .email, .btn {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500; }
+
+.stats .languages li span, .recommendations .quote p, h2, footer a {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300; }
+
+body, p, li {
+  font-family: 'Noto', serif;
+  font-weight: 400; }
+
+.about {
+  background: #C6CCBC;
+  color: #2B403F; }
+  .about h2 {
+    margin-bottom: 60px; }
+
+.bio {
+  padding-bottom: 0px;
+  margin-bottom: 40px; }
+  .bio p {
+    margin-bottom: 20px; }
+
+.stats {
+  text-align: center;
+  padding-top: 32px;
+  background: #bfc5b3; }
+  .stats h3 {
+    color: #6B5D51; }
+  .stats ul {
+    padding: 0 20px; }
+  .stats li {
+    list-style: none;
+    font-size: 14px; }
+  .stats .apps {
+    margin-top: 32px; }
+    .stats .apps li {
+      display: inline-block;
+      margin: 8px 12px; }
+  .stats .languages {
+    margin-top: 24px;
+    margin-bottom: -40px; }
+    .stats .languages .content {
+      margin: 0;
+      padding: 32px 32px 0px;
+      background: #517C79;
+      border: 10px solid #4C716E; }
+    .stats .languages ul {
+      padding: 0 0 40px; }
+    .stats .languages li {
+      margin-bottom: 10px;
+      text-align: left;
+      color: #E6E3C5; }
+      .stats .languages li span {
+        color: #E4D297;
+        margin-left: 16px;
+        float: right;
+        text-align: left;
+        font-style: italic;
+        font-weight: 400; }
+
+.bioconnect {
+  text-align: center; }
+  .bioconnect h3 {
+    margin: 20px 20px 12px; }
+  .bioconnect .socialicons {
+    padding-top: 10px; }
+    .bioconnect .socialicons i {
+      box-shadow: 2px 2px 11px -4px #444444; }
+  .bioconnect .resumebutton {
+    margin-bottom: 20px; }
+
+.recommendations {
+  border-top: 10px solid #E6E3C5;
+  background: #EFEDD9;
+  padding: 60px 0 120px; }
+  .recommendations h3 {
+    text-align: center;
+    margin-bottom: 30px; }
+  .recommendations p {
+    color: #605232; }
+  .recommendations .quote p {
+    font-size: 14px;
+    color: #212822;
+    font-style: italic; }
+  .recommendations p.attribution {
+    text-align: right;
+    font-style: normal; }
+
+.sixpieces {
+  background: #4C716E;
+  color: #FAF9EE;
+  padding: 100px 0;
+  -webkit-transform: skewY(-3deg);
+          transform: skewY(-3deg);
+  margin-top: -60px;
+  margin-bottom: -70px; }
+  .sixpieces .row {
+    -webkit-transform: skewY(3deg);
+            transform: skewY(3deg); }
+  .sixpieces li {
+    list-style: none;
+    margin: 0 0 30px; }
+  .sixpieces .page {
+    color: #2B403F;
+    border-left: 4px solid #2B403F;
+    border-right: 4px solid #2B403F;
+    padding: 20px;
+    margin: 60px 0; }
+  .sixpieces h2 {
+    color: #2B403F;
+    text-align: center; }
+
+@media only screen and (max-width: 990px) {
+  .about h1 {
+    text-align: center; }
+
+  .biophoto {
+    margin-bottom: 60px; }
+
+  .sixpieces {
+    padding: 40px 0 120px; }
+    .sixpieces .page {
+      border-left: none;
+      border-right: none;
+      margin-bottom: 40px; }
+
+  .stats .languages .content {
+    margin: 0 10px; }
+
+  .bio .socialicons {
+    padding-bottom: 20px; } }
+@media only screen and (max-width: 767px) {
+  .bio {
+    margin-bottom: 20px; }
+
+  .stats .apps {
+    margin-bottom: 30px; }
+  .stats .languages .content {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    padding: 30px 20px 0px; }
+    .stats .languages .content ul {
+      padding-left: 0; }
+    .stats .languages .content li {
+      text-align: center; } }
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2017 Twitter, Inc.
@@ -4008,22 +4159,6 @@ html, html a {
       color: black;
       opacity: 0.75; }
 
-h1, h3, .about-bar .connect h4, .sixpieces h2 {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700; }
-
-h4, h5, nav.navbar .navbarmain a, .about-bar .connect .email, .btn, .stats li, .stats .languages li {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 500; }
-
-h2, footer a, .stats .languages li span, .recommendations .quote p {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 300; }
-
-body, p, li {
-  font-family: 'Noto', serif;
-  font-weight: 400; }
-
 body {
   background: #FAF9EE;
   color: #262E27;
@@ -4180,6 +4315,54 @@ nav.navbar {
           padding: 10px 20px; }
         #navbar .navbarsocial li i {
           font-size: 18px; } }
+.socialicons {
+  text-align: center; }
+  .socialicons i {
+    display: inline-block;
+    margin: 0 4px 8px 0;
+    font-size: 20px;
+    background: #4C716E;
+    border-radius: 20px;
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
+    color: #E6E3C5; }
+    .socialicons i:hover {
+      background: #517C79; }
+
+.slides {
+  padding: 20px 0 0px; }
+  .slides .slick-next {
+    right: -40px; }
+  .slides .slick-prev {
+    left: -40px; }
+  .slides .slick-prev:before,
+  .slides .slick-next:before {
+    font-family: "slick";
+    font-size: 30px;
+    line-height: 1;
+    color: #E4D297;
+    opacity: 0.75;
+    -webkit-font-smoothing: antialiased; }
+  .slides .slick-dots {
+    bottom: -30px;
+    padding: 0 10%; }
+  .slides .slick-dots li button:before {
+    content: "●";
+    width: 20px;
+    height: 20px;
+    font-family: "slick";
+    font-size: 16px;
+    line-height: 20px; }
+  .slides .slide p {
+    padding: 0 30px; }
+
+@media only screen and (max-width: 990px) {
+  .slides {
+    padding-bottom: 20px; } }
+@media only screen and (max-width: 405px) {
+  .slides {
+    padding-bottom: 40px; } }
 .frontpagehero {
   height: 600px;
   height: 86vh;
@@ -4468,187 +4651,3 @@ footer {
   background: #FAF9EE;
   color: #2B403F;
   padding-top: 60px; }
-
-.socialicons {
-  text-align: center; }
-  .socialicons i {
-    display: inline-block;
-    margin: 0 4px 8px 0;
-    font-size: 20px;
-    background: #4C716E;
-    border-radius: 20px;
-    line-height: 40px;
-    width: 40px;
-    height: 40px;
-    color: #E6E3C5; }
-    .socialicons i:hover {
-      background: #517C79; }
-
-.about {
-  background: #C6CCBC;
-  color: #2B403F; }
-  .about h2 {
-    margin-bottom: 60px; }
-
-.bio {
-  padding-bottom: 0px;
-  margin-bottom: 40px; }
-  .bio p {
-    margin-bottom: 20px; }
-
-.stats {
-  text-align: center;
-  padding-top: 32px;
-  background: #bfc5b3; }
-  .stats h3 {
-    color: #6B5D51; }
-  .stats ul {
-    padding: 0 20px; }
-  .stats li {
-    list-style: none;
-    font-size: 14px; }
-  .stats .apps {
-    margin-top: 32px; }
-    .stats .apps li {
-      display: inline-block;
-      margin: 8px 12px; }
-  .stats .languages {
-    margin-top: 24px;
-    margin-bottom: -40px; }
-    .stats .languages .content {
-      margin: 0;
-      padding: 32px 32px 0px;
-      background: #517C79;
-      border: 10px solid #4C716E; }
-    .stats .languages ul {
-      padding: 0 0 40px; }
-    .stats .languages li {
-      margin-bottom: 10px;
-      text-align: left;
-      color: #E6E3C5; }
-      .stats .languages li span {
-        color: #E4D297;
-        margin-left: 16px;
-        float: right;
-        text-align: left;
-        font-style: italic;
-        font-weight: 400; }
-
-.bioconnect {
-  text-align: center; }
-  .bioconnect h3 {
-    margin: 20px 20px 12px; }
-  .bioconnect .socialicons {
-    padding-top: 10px; }
-    .bioconnect .socialicons i {
-      box-shadow: 2px 2px 11px -4px #444444; }
-  .bioconnect .resumebutton {
-    margin-bottom: 20px; }
-
-.recommendations {
-  border-top: 10px solid #E6E3C5;
-  background: #EFEDD9;
-  padding: 60px 0 120px; }
-  .recommendations h3 {
-    text-align: center;
-    margin-bottom: 30px; }
-  .recommendations p {
-    color: #605232; }
-  .recommendations .quote p {
-    font-size: 14px;
-    color: #212822;
-    font-style: italic; }
-  .recommendations p.attribution {
-    text-align: right;
-    font-style: normal; }
-
-.sixpieces {
-  background: #4C716E;
-  color: #FAF9EE;
-  padding: 100px 0;
-  -webkit-transform: skewY(-3deg);
-          transform: skewY(-3deg);
-  margin-top: -60px;
-  margin-bottom: -70px; }
-  .sixpieces .row {
-    -webkit-transform: skewY(3deg);
-            transform: skewY(3deg); }
-  .sixpieces li {
-    list-style: none;
-    margin: 0 0 30px; }
-  .sixpieces .page {
-    color: #2B403F;
-    border-left: 4px solid #2B403F;
-    border-right: 4px solid #2B403F;
-    padding: 20px;
-    margin: 60px 0; }
-  .sixpieces h2 {
-    color: #2B403F;
-    text-align: center; }
-
-@media only screen and (max-width: 990px) {
-  .about h1 {
-    text-align: center; }
-
-  .biophoto {
-    margin-bottom: 60px; }
-
-  .sixpieces {
-    padding: 40px 0 120px; }
-    .sixpieces .page {
-      border-left: none;
-      border-right: none;
-      margin-bottom: 40px; }
-
-  .stats .languages .content {
-    margin: 0 10px; }
-
-  .bio .socialicons {
-    padding-bottom: 20px; } }
-@media only screen and (max-width: 767px) {
-  .bio {
-    margin-bottom: 20px; }
-
-  .stats .apps {
-    margin-bottom: 30px; }
-  .stats .languages .content {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-    padding: 30px 20px 0px; }
-    .stats .languages .content ul {
-      padding-left: 0; }
-    .stats .languages .content li {
-      text-align: center; } }
-.slides {
-  padding: 20px 0 0px; }
-  .slides .slick-next {
-    right: -40px; }
-  .slides .slick-prev {
-    left: -40px; }
-  .slides .slick-prev:before,
-  .slides .slick-next:before {
-    font-family: "slick";
-    font-size: 30px;
-    line-height: 1;
-    color: #E4D297;
-    opacity: 0.75;
-    -webkit-font-smoothing: antialiased; }
-  .slides .slick-dots {
-    bottom: -30px;
-    padding: 0 10%; }
-  .slides .slick-dots li button:before {
-    content: "●";
-    width: 20px;
-    height: 20px;
-    font-family: "slick";
-    font-size: 16px;
-    line-height: 20px; }
-  .slides .slide p {
-    padding: 0 30px; }
-
-@media only screen and (max-width: 990px) {
-  .slides {
-    padding-bottom: 20px; } }
-@media only screen and (max-width: 405px) {
-  .slides {
-    padding-bottom: 40px; } }
