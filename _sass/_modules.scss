@@ -123,7 +123,7 @@ nav.navbar {
 .projectcard {
     overflow: hidden;
     min-height:220px;
-    border:16px solid $white2;
+    border:16px solid $white1;
     .row {
         align-items: stretch;
     }
@@ -217,19 +217,18 @@ nav.navbar {
 //*******************************************************************
 
 .about-bar {
-    background: $blue4;
-    color:$white;
+    background: $white2;
+    padding:32px;
     .description {
-        margin:60px 0;
+        margin:24px 0;
         }
     .connect {
     text-align:center;
     padding:30px 20px 40px;
-    background:$tan1;
-    border:10px solid $tan3;
-    box-shadow: 2px 2px 11px -4px rgba(68,68,68,1);
+    background:$white1;
+    border:10px solid $white3;
     max-width:320px;
-    margin:60px auto;
+    margin:32px auto;
     transform: rotate(1deg);
     h4 {
         @extend %ralewaybold;
@@ -239,8 +238,8 @@ nav.navbar {
         margin-bottom:20px;
         }
     .email {
-        color:$green;
-        @extend %raleway;
+        color:$pink;
+        @extend %ralewaysemi;
         font-size:16px;
         margin-bottom:20px;
         text-transform:uppercase;

@@ -3144,9 +3144,13 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   font-family: 'Raleway', sans-serif;
   font-weight: 300; }
 
-.stats li, .stats .languages li, h5, nav.navbar .navbarmain a, .about-bar .connect .email {
+.stats li, .stats .languages li, h5, nav.navbar .navbarmain a {
   font-family: 'Raleway', sans-serif;
   font-weight: 500; }
+
+.about-bar .connect .email {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600; }
 
 .sixpieces h2, h1, h2, h3, .btn, .about-bar .connect h4 {
   font-family: 'Raleway', sans-serif;
@@ -3169,8 +3173,8 @@ body, p, li {
   clear: both;
   background: #2C2C2C;
   text-align: center; }
-  .frontpagehero h1 {
-    margin: 22vh auto 2vh auto; }
+  .frontpagehero img {
+    margin: 22vh auto 4vh auto; }
   .frontpagehero h4 {
     text-transform: none;
     color: #E8BE4F;
@@ -3180,10 +3184,10 @@ body, p, li {
     margin-top: 30px;
     margin-top: 4vh;
     font-size: 40px;
-    color: #Fff; }
+    color: #Fff;
+    display: block; }
 
 .thumbs {
-  background: #F0F0E9;
   padding: 32px 16px 64px; }
 
 .about {
@@ -4444,7 +4448,7 @@ nav.navbar {
 .projectcard {
   overflow: hidden;
   min-height: 220px;
-  border: 16px solid #F0F0E9; }
+  border: 16px solid #FFFEFA; }
   .projectcard .row {
     -webkit-box-align: stretch;
         -ms-flex-align: stretch;
@@ -4507,18 +4511,17 @@ nav.navbar {
       font-size: 14px;
       line-height: 1.4; } }
 .about-bar {
-  background: #2B403F;
-  color: #Fff; }
+  background: #F0F0E9;
+  padding: 32px; }
   .about-bar .description {
-    margin: 60px 0; }
+    margin: 24px 0; }
   .about-bar .connect {
     text-align: center;
     padding: 30px 20px 40px;
-    background: #E6E3C5;
-    border: 10px solid #E4D297;
-    box-shadow: 2px 2px 11px -4px #444444;
+    background: #FFFEFA;
+    border: 10px solid #B9B9B9;
     max-width: 320px;
-    margin: 60px auto;
+    margin: 32px auto;
     -webkit-transform: rotate(1deg);
             transform: rotate(1deg); }
     .about-bar .connect h4 {
@@ -4527,7 +4530,7 @@ nav.navbar {
       color: #605232;
       margin-bottom: 20px; }
     .about-bar .connect .email {
-      color: #729673;
+      color: #C94A7A;
       font-size: 16px;
       margin-bottom: 20px;
       text-transform: uppercase;

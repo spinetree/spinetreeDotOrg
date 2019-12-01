@@ -12,8 +12,8 @@
     clear:both;
     background: $black1;
     text-align: center;
-    h1 { 
-        margin: 22vh auto 2vh auto;
+    img { 
+        margin: 22vh auto 4vh auto;
     }
     h4 {        
         @extend %librebold;
@@ -27,11 +27,12 @@
         margin-top: 4vh;
         font-size:40px;
         color:$white;
+        display:block;
     }
 }
 
 .thumbs {
-background:$white2;
+// background:$white2;
     padding:32px 16px 64px;
 }
 
