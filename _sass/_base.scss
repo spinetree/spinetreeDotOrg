@@ -1,3 +1,40 @@
+// ******************************************************************
+// Front Page
+//*******************************************************************
+
+
+.frontpagehero {
+    height:570px;
+    height: 57vh;
+    min-height:600px;
+    padding: 0 0 40px;
+    position: relative;
+    clear:both;
+    background: $black1;
+    text-align: center;
+    h1 { 
+        margin: 22vh auto 2vh auto;
+    }
+    h4 {        
+        @extend %librebold;
+        text-transform:none;
+        color:$yellow1;
+        font-size:28px;
+        margin:0 20px 20px;
+    }
+    i {
+        margin-top:30px;
+        margin-top: 4vh;
+        font-size:40px;
+        color:$white;
+    }
+}
+
+.thumbs {
+background:$white2;
+    padding:32px 16px 64px;
+}
+
 .about {
     padding:32px;
     h2 {margin-bottom:60px;}
@@ -129,42 +166,6 @@
 }
 
 
-// ******************************************************************
-// Front Page
-//*******************************************************************
-
-
-.frontpagehero {
-    height:570px;
-    height: 57vh;
-    min-height:600px;
-    padding: 0 0 40px;
-    position: relative;
-    clear:both;
-    background: $black1;
-    text-align: center;
-    h1 { 
-        margin: 22vh auto 2vh auto;
-    }
-    h4 {        
-        @extend %librebold;
-        text-transform:none;
-        color:$yellow1;
-        font-size:28px;
-        margin:0 20px 20px;
-    }
-    i {
-        margin-top:30px;
-        margin-top: 4vh;
-        font-size:40px;
-        color:$white;
-    }
-}
-
-.thumbs {
-    background:$white2;
-    padding:16px 16px;
-}
 
 
 // ******************************************************************

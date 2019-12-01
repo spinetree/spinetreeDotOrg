@@ -27,7 +27,7 @@ tools: 'Photoshop - UI Design'
 
             <div class="imagemeta col-xs-12 col-md-4 col-md-offset-1 col-md-pull-4">
                 <h3>Well that escalated quickly</h3>
-                <p>Cleartune launched to huge acclaim and has sold over half a million copies to date. It's been in the top 10 music apps consistently and remains the top-selling instrument tuner on the iOS app store. It was featured on Apple.com, in iPhone retail kiosks, and made appearances in several iPhone TV commercials.</p>
+                <p>Cleartune launched to huge acclaim and has sold over 1.3 million copies to date. It's been in the top 10 music apps consistently and remains the top-selling instrument tuner on the iOS app store. It was featured on Apple.com, in iPhone retail kiosks, and made appearances in several iPhone TV commercials.</p>
             </div>
 
         </div>   
@@ -51,31 +51,6 @@ tools: 'Photoshop - UI Design'
                 <p>Even with the iPhone's brightness turned down, looking at a screen on a dark stage can be disorienting. These are concepts I began in Illustrator for UI updates, including a night mode that would allow musicians to tune more easily in dark environments.</p>
             </div>
 
-        </div>   
-    </div>
-</section>
-
-
-<section class="projectsection">
-    <div class="container">
-        <div class="row">
-            
-            <div class="video col-md-10 col-md-offset-1">
-                {% include youtubePlayer.html id="0y-PON19un8" %}         
-            </div> 
-            
-         </div>   
-    </div>
-</section>
-
-<section class="projectsection">
-    <div class="container">
-        <div class="row">
-  
-            <div class="video col-md-10 col-md-offset-1">
-                {% include youtubePlayer.html id="5NNbG8BZbS4" %}         
-            </div>
-            
         </div>   
     </div>
 </section>
