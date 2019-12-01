@@ -3269,15 +3269,7 @@ body, p, li {
     margin-bottom: 20px; }
 
   .stats .apps {
-    margin-bottom: 30px; }
-  .stats .languages .content {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-    padding: 30px 20px 0px; }
-    .stats .languages .content ul {
-      padding-left: 0; }
-    .stats .languages .content li {
-      text-align: center; } }
+    margin-bottom: 30px; } }
 .frontpagehero {
   height: 570px;
   height: 57vh;
