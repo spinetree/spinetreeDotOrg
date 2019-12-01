@@ -3140,11 +3140,11 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 @media print {
   .hidden-print {
     display: none !important; } }
-.stats .languages li span, .recommendations .quote p, h4, footer a {
+.stats .languages li span, .recommendations .quote p, footer a {
   font-family: 'Raleway', sans-serif;
   font-weight: 300; }
 
-.stats li, .stats .languages li, h5, nav.navbar .navbarmain a {
+.stats li, .stats .languages li, h4, h5, nav.navbar .navbarmain a {
   font-family: 'Raleway', sans-serif;
   font-weight: 500; }
 
@@ -3174,7 +3174,9 @@ body, p, li {
   background: #2C2C2C;
   text-align: center; }
   .frontpagehero img {
-    margin: 22vh auto 4vh auto; }
+    margin: 22vh auto 4vh auto;
+    max-width: 800px;
+    padding: 0 16px; }
   .frontpagehero h4 {
     text-transform: none;
     color: #E8BE4F;
@@ -3627,14 +3629,14 @@ body {
   font-weight: 400; }
 
 p {
-  margin-bottom: 16px;
+  margin-top: 16px;
   line-height: 1.4; }
 
 li {
-  margin-bottom: 16px; }
+  margin-top: 16px; }
 
 ul {
-  margin-bottom: 24px; }
+  margin-top: 24px; }
 
 section,
 header,
@@ -3656,7 +3658,8 @@ a {
 
 h1, h2, h3, h4 {
   letter-spacing: 1.2px;
-  margin: 0 0 32px 0; }
+  margin-top: 16px;
+  margin-bottom: 0; }
 
 h1 {
   font-size: 58px;
@@ -3669,14 +3672,15 @@ h2 {
   color: #323335; }
 
 h3 {
-  font-size: 20px;
-  line-height: 22px;
-  letter-spacing: 1.7px; }
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 1.25px; }
 
 h4 {
-  font-size: 16px;
+  font-size: 14px;
   text-transform: uppercase;
-  letter-spacing: 1.3px; }
+  letter-spacing: 1.25px;
+  line-height: 20px; }
 
 h5 {
   font-size: 12px;
@@ -3688,7 +3692,7 @@ img.responsive {
   width: 100%; }
 
 .frame {
-  border: 4px solid #fbfbf6; }
+  border: 4px solid #fdfcf8; }
 
 .darkframe {
   border: 1px solid #E6E3C5; }
@@ -4358,6 +4362,7 @@ img.responsive {
   letter-spacing: .8px;
   text-transform: uppercase;
   font-size: 18px;
+  margin-top: 16px;
   padding: 15px 30px;
   border: none;
   color: #323335;
@@ -4365,6 +4370,8 @@ img.responsive {
 
 .btn-primary {
   background: #E8BE4F; }
+  .btn-primary:hover {
+    background: #C94A7A; }
 
 .btn-secondary {
   background: #40806A;
@@ -4374,7 +4381,7 @@ img.responsive {
   padding: 16px 0;
   border-bottom: 2px solid #F0F0E9;
   text-align: center;
-  margin: 0 16px 16px;
+  margin: 0 16px 24px;
   z-index: 100;
   position: relative;
   display: block; }
@@ -4385,17 +4392,18 @@ img.responsive {
   text-align: center; }
   .socialicons i {
     display: inline-block;
-    margin: 0 4px 8px 0;
+    margin: 16px 4px 8px 0;
     font-size: 24px;
     line-height: 40px;
     width: 40px;
     height: 40px;
     color: #40806A; }
     .socialicons i:hover {
-      color: #E0CFA2; }
+      color: #E8BE4F; }
 
 .socialicons__small i {
-  font-size: 14px; }
+  margin-top: 0px;
+  font-size: 20px; }
 
 body.home nav.navbar .navbarlogo {
   display: none; }
@@ -4413,7 +4421,7 @@ nav.navbar {
     margin-bottom: 0; }
   nav.navbar .navbarmain a {
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 16px;
     color: #FFFEFA;
     line-height: 40px; }
   nav.navbar .navbarlogo {
@@ -4476,13 +4484,14 @@ nav.navbar {
     .projectcard .details .content {
       width: 100%;
       position: absolute;
-      top: 60px; }
+      top: 54px; }
     .projectcard .details h3 {
-      font-size: 26px;
-      padding: 0 5% 10px; }
-    .projectcard .details p {
-      font-style: italic;
-      font-size: 16px;
+      color: #F0F0E9;
+      font-size: 30px;
+      text-transform: lowercase;
+      padding: 0 8px; }
+    .projectcard .details h4 {
+      color: #F2F0DA;
       margin-bottom: 0; }
   .projectcard:hover .thumbnail img {
     margin-bottom: -1px;
@@ -4551,7 +4560,9 @@ footer {
   text-align: center;
   padding: 50px 0 60px; }
   footer h4 {
-    color: #AEA07D; }
+    color: #E6E3C5; }
+  footer ul {
+    margin-top: 0; }
   footer li {
     float: none;
     display: inline-block;
@@ -4560,9 +4571,11 @@ footer {
   footer p {
     color: #E6E3C5; }
   footer a {
+    margin-top: 16px;
     text-transform: uppercase;
     font-size: 14px;
-    color: #E6E3C5;
+    color: #F2F0DA;
+    display: inline-block;
     padding: 0 15px; }
 
 @media only screen and (max-width: 991px) {
