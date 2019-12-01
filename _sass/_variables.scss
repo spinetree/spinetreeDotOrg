@@ -1,8 +1,20 @@
-$white: #FAF9EE;
+
+$white: #Fff;
+$white1: #FAF9ED;
+$white2: #F0EDE6;
+$white3: #B9B9B9;
+
     
-$black1: #262E27;
-$black2: darken($black1,2%);
-$black3: darken($black1,5%);
+$black1: #2C2C2C;
+$black2: #323335;
+$black3: #333;
+
+$yellow1: #E8BE4F;
+$yellow2: #E0CFA2;
+
+$teal : #40806A;
+
+$pink: #C94A7A; 
 
 
 $tan0: #EFEDD9;
@@ -30,22 +42,4 @@ $blue3: #4C716E;
 $blue4: #2B403F;
 
 
-%ralewaybold {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-}
 
-%raleway {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 500;
-}
-
-%ralewaylight {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 300;
-}
-
-%noto {
-    font-family: 'Noto', serif;
-    font-weight:400;
-}

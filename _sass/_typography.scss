@@ -2,12 +2,45 @@
 // ******************************************************************
 // text defaults
 //*******************************************************************
+%ralewaylight {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
 
+%raleway {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+} 
+
+%ralewaysemi {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+%ralewaybold {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+%noto {
+    font-family: 'Libre Baskerville', serif;
+    font-weight:400;
+}
+
+%libre {
+    font-family: 'Libre Baskerville', serif;
+    font-weight:400;
+}
+
+%librebold {
+    font-family: 'Libre Baskerville', serif;
+    font-weight:700;
+}
 
 
 body {
-    @extend %noto;
-    background: $white;
+    @extend %libre;
+    background: $white1;
     color: $black1;
     line-height:1.2;
     font-size:16px;
@@ -16,14 +49,14 @@ body {
 }
 
 p {
-    @extend %noto;
+    @extend %libre;
     margin-bottom:16px;
     line-height:1.4;
 
 }
 
 li {
-    @extend %noto;
+    @extend %libre;
     margin-bottom:16px;
 }
 
@@ -51,15 +84,15 @@ a {
 
 
 h1, h2, h3, h4 {    
-    text-transform:uppercase;
     letter-spacing:1.2px;
     color:$white;
     margin:0 0 32px 0;
 }
 
 h1 {
-    font-size:40px;
+    font-size:58px;
     @extend %ralewaybold;
+    color:$white2;
 }
 
 h2 {
@@ -72,7 +105,7 @@ h2 {
 .titlebar {
     background: $black1;
     padding: 15px 0;
-    border-top: 4px solid $black2;
+
     border-bottom: 4px solid $black2;
     text-align: center;
     margin: 0 auto;

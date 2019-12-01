@@ -1,20 +1,4 @@
 @charset "UTF-8";
-.sixpieces h2, h1, h3, .about-bar .connect h4 {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700; }
-
-.stats li, .stats .languages li, h4, h5, nav.navbar .navbarmain a, .about-bar .connect .email, .btn {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 500; }
-
-.stats .languages li span, .recommendations .quote p, h2, footer a {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 300; }
-
-body, p, li {
-  font-family: 'Noto', serif;
-  font-weight: 400; }
-
 .about {
   background: #C6CCBC;
   color: #2B403F; }
@@ -87,7 +71,7 @@ body, p, li {
     color: #605232; }
   .recommendations .quote p {
     font-size: 14px;
-    color: #212822;
+    color: #323335;
     font-style: italic; }
   .recommendations p.attribution {
     text-align: right;
@@ -95,7 +79,7 @@ body, p, li {
 
 .sixpieces {
   background: #4C716E;
-  color: #FAF9EE;
+  color: #Fff;
   padding: 100px 0;
   -webkit-transform: skewY(-3deg);
           transform: skewY(-3deg);
@@ -4159,9 +4143,29 @@ html, html a {
       color: black;
       opacity: 0.75; }
 
+.stats .languages li span, .recommendations .quote p, h2, footer a {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300; }
+
+.stats li, .stats .languages li, h4, h5, nav.navbar .navbarmain a, .about-bar .connect .email, .btn {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500; }
+
+.sixpieces h2, h1, h3, .about-bar .connect h4 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700; }
+
+body, p, li {
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 400; }
+
+.frontpagehero h4 {
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 700; }
+
 body {
-  background: #FAF9EE;
-  color: #262E27;
+  background: #FAF9ED;
+  color: #2C2C2C;
   line-height: 1.2;
   font-size: 16px;
   letter-spacing: 0.6px;
@@ -4196,13 +4200,13 @@ a {
     color: #E0CFA2; }
 
 h1, h2, h3, h4 {
-  text-transform: uppercase;
   letter-spacing: 1.2px;
-  color: #FAF9EE;
+  color: #Fff;
   margin: 0 0 32px 0; }
 
 h1 {
-  font-size: 40px; }
+  font-size: 58px;
+  color: #F0EDE6; }
 
 h2 {
   font-size: 20px;
@@ -4210,10 +4214,9 @@ h2 {
   letter-spacing: 2.4px; }
 
 .titlebar {
-  background: #262E27;
+  background: #2C2C2C;
   padding: 15px 0;
-  border-top: 4px solid #212822;
-  border-bottom: 4px solid #212822;
+  border-bottom: 4px solid #323335;
   text-align: center;
   margin: 0 auto;
   z-index: 100;
@@ -4236,7 +4239,7 @@ h4 {
 h5 {
   font-size: 12px;
   letter-spacing: 1.5px;
-  color: #FAF9EE;
+  color: #Fff;
   line-height: 24px; }
 
 img.responsive {
@@ -4258,9 +4261,9 @@ body.home nav.navbar .navbarlogo {
   display: none; }
 
 nav.navbar {
-  background: #212822;
+  background: #323335;
   border-top: none;
-  border-bottom: 4px solid #1a201b;
+  border-bottom: none;
   z-index: 100;
   position: absolute;
   top: 0;
@@ -4271,7 +4274,7 @@ nav.navbar {
   nav.navbar .navbarmain a {
     text-transform: uppercase;
     font-size: 12px;
-    color: #E6E3C5;
+    color: #FAF9ED;
     line-height: 20px;
     padding-top: 20px;
     padding-bottom: 20px; }
@@ -4293,18 +4296,18 @@ nav.navbar {
     nav.navbar .navbarsocial i {
       font-size: 14px;
       line-height: 40px;
-      color: #E6E3C5; }
+      color: #40806A; }
       nav.navbar .navbarsocial i:hover {
         color: #E0CFA2; }
 
 @media only screen and (max-width: 767px) {
   nav.navbar {
-    border-bottom: 3px solid #212822; }
+    border-bottom: 3px solid #323335; }
     nav.navbar .navbarlogo {
       top: 0; }
 
   #navbar {
-    background: #1a201b;
+    background: #333;
     text-align: center; }
     #navbar .navbarsocial {
       margin: 20px auto;
@@ -4364,34 +4367,26 @@ nav.navbar {
   .slides {
     padding-bottom: 40px; } }
 .frontpagehero {
-  height: 600px;
-  height: 86vh;
+  height: 570px;
+  height: 57vh;
   min-height: 600px;
   padding: 0 0 40px;
   position: relative;
   clear: both;
-  background: url("../images/pageHeaderBg.jpg");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: #2C2C2C;
   text-align: center; }
-  .frontpagehero img {
-    margin: 22vh auto 8vh;
-    max-width: 360px;
-    width: 100%;
-    padding: 0 8px; }
+  .frontpagehero h1 {
+    margin: 22vh auto 2vh auto; }
   .frontpagehero h4 {
     text-transform: none;
-    color: #E6E3C5;
-    font-size: 14px;
-    letter-spacing: 1.5px;
+    color: #E8BE4F;
+    font-size: 28px;
     margin: 0 20px 20px; }
   .frontpagehero i {
     margin-top: 30px;
     margin-top: 4vh;
     font-size: 40px;
-    color: #FAF9EE; }
+    color: #Fff; }
 
 .projectcard {
   overflow: hidden;
@@ -4461,9 +4456,9 @@ nav.navbar {
       line-height: 1.4; } }
 .project {
   margin-top: -40px;
-  background: #FAF9EE; }
+  background: #Fff; }
   .project .hero {
-    background: #FAF9EE;
+    background: #Fff;
     margin-top: -80px;
     padding-top: 160px;
     display: block;
@@ -4473,14 +4468,14 @@ nav.navbar {
       margin: 0 auto -10px; }
   .project .meta {
     padding: 30px 0;
-    background: #262E27;
-    border-top: 4px solid #212822;
-    border-bottom: 6px solid #212822;
-    color: #FAF9EE; }
+    background: #2C2C2C;
+    border-top: 4px solid #323335;
+    border-bottom: 6px solid #323335;
+    color: #Fff; }
     .project .meta .primary {
       padding: 0 40px 0 0;
       text-align: right;
-      border-right: 4px solid #212822; }
+      border-right: 4px solid #323335; }
       .project .meta .primary h1 {
         margin: 0 0 15px; }
       .project .meta .primary h4 {
@@ -4562,7 +4557,7 @@ nav.navbar {
     text-align: center; } }
 .about-bar {
   background: #2B403F;
-  color: #FAF9EE; }
+  color: #Fff; }
   .about-bar .description {
     margin: 60px 0; }
   .about-bar .connect {
@@ -4597,8 +4592,8 @@ nav.navbar {
   .about-bar button {
     margin-top: 20px; } }
 footer {
-  background: #262E27;
-  border-top: 30px solid #212822;
+  background: #2C2C2C;
+  border-top: 30px solid #323335;
   text-align: center;
   padding: 50px 0 60px; }
   footer h4 {
@@ -4640,7 +4635,7 @@ footer {
   padding: 15px 30px;
   border: none;
   box-shadow: 2px 2px 11px -4px #444444;
-  color: #FAF9EE; }
+  color: #Fff; }
 
 .btn-primary {
   background: #4C716E; }
@@ -4648,6 +4643,6 @@ footer {
     background: #517C79; }
 
 .about-page {
-  background: #FAF9EE;
+  background: #Fff;
   color: #2B403F;
   padding-top: 60px; }

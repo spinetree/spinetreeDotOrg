@@ -13,7 +13,7 @@ body.home nav.navbar .navbarlogo {display:none;}
 nav.navbar {
     background: $black2;
     border-top:none;
-    border-bottom: 4px solid $black3;
+    border-bottom:none;
     z-index:100;
     position:absolute;
     top:0;
@@ -25,7 +25,7 @@ nav.navbar {
             @extend %raleway;
             text-transform: uppercase;
             font-size: 12px;
-            color:$tan1;
+            color:$white1;
             line-height:20px;
             padding-top:20px;
             padding-bottom:20px;
@@ -51,7 +51,7 @@ nav.navbar {
         i {
             font-size:14px;
             line-height:40px;
-            color:$tan1;
+            color:$teal;
             &:hover {color:$tan2;}
         }
     }
