@@ -68,16 +68,6 @@ h2 {
     color:$black2;
 }
 
-.titlebar {
-    padding: 16px 0;
-    border-bottom: 2px solid $black4;
-    text-align: center;
-    margin: 0 16px 16px;
-    z-index: 100;
-    position: relative;
-    display: block; 
-    a {color:$black2;}
-}
 
 h3 {
     @extend %ralewaybold;
