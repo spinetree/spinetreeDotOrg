@@ -15,6 +15,7 @@
     border:none;
     color:$black2;
     border-radius: 0;
+    transition: all 225ms ease;
 }
 
 .btn-primary {
@@ -49,6 +50,7 @@
         width:40px;
         height:40px;
         color:$teal;
+        transition: all 225ms ease;
         &:hover {color:$yellow1;}
     }
 }
@@ -82,6 +84,7 @@ nav.navbar {
             font-size: 16px;
             color:$white1;
             line-height:40px;
+            &:hover {color:$pink;}
         }
     }
     .navbarlogo {
@@ -126,7 +129,7 @@ nav.navbar {
 .projectcard {
     overflow: hidden;
     min-height:220px;
-    border:16px solid $white1;
+    border:16px solid $white2;
     .row {
         align-items: stretch;
     }
@@ -137,6 +140,7 @@ nav.navbar {
             min-height: 220px;
         }
         img {
+            transition: all 225ms ease;
             max-width: 320px;
             margin: 0 auto;
             position: absolute;
@@ -156,22 +160,23 @@ nav.navbar {
         .content {
             width:100%;
             position:absolute;
-            top:54px;
+            top:48px;
         }            
         h3 {
             color:$white2;
             font-size:30px;
             text-transform:lowercase;
-            padding:0 8px;
+            padding:0 0 0 8px;
         }
         h4 {
             color: $tan0;
             margin-bottom: 0;
+            padding:0 8px;
         }
     }
     &:hover .thumbnail img {
         margin-bottom: -1px;
-        transition: margin-bottom .4s;
+        // transition: margin-bottom .4s;
     }
 }
 
@@ -201,7 +206,7 @@ nav.navbar {
             font-size:20px;
             padding-bottom:0;
             }
-        p {
+        h4 {
             font-size:14px;
             line-height:1.4;
             }
@@ -218,25 +223,17 @@ nav.navbar {
 .contact-bar {
     background: $black4;
     padding:64px 32px;
-    border-top:48px solid $white1;
     p {color:$white1;}
     h3 {color: $white1;}
     .socialicons i {
         color:$yellow1;
-    }
-    }
-
-@media only screen and (max-width: 991px) {
-    .about-bar { 
-        .description {text-align:center;}
-        .connect {
-            margin-top:0px;
-            transform:rotate(0deg);
+        &:hover {color:$pink;}
         }
-        button {margin-top:20px;}
     }
-}
 
+@media only screen and (max-width: 892px) {
+    .contact-bar {text-align:center;}
+}
 
 
 
@@ -299,7 +296,7 @@ footer {
         font-family: "slick";
         font-size: 30px;
         line-height: 1;
-        color: $tan3;
+        color: $teal;
         opacity: 0.75;
         -webkit-font-smoothing: antialiased;
     }

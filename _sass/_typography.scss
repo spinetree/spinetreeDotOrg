@@ -6,7 +6,6 @@
 
 body {
     @extend %libre;
-    background: $white1;
     color: $black1;
     line-height:1.2;
     font-size:16px;
@@ -42,9 +41,9 @@ a {
     outline: none !important;
     text-decoration: none !important;
     transition: all 225ms ease;
-    color: $tan1;
+    color: $teal;
     &:hover {
-        color: $tan2;
+        color: $pink;
     }
 }
 
@@ -54,6 +53,7 @@ h1, h2, h3, h4 {
     margin-top:16px;
     margin-bottom:0;
 }
+
 
 h1 {
     font-size:58px;
@@ -81,7 +81,7 @@ h3 {
 
 h4 {
     @extend %raleway;
-    font-size: 18px;
+    font-size: 16px;
     text-transform:uppercase;
     letter-spacing:1.25px;
     line-height:20px;
@@ -92,7 +92,7 @@ h5 {
     @extend %raleway;
     font-size:12px;
     letter-spacing:1.5px;
-    color:$white;
+    color:$white1;
     line-height:24px;
 }
 

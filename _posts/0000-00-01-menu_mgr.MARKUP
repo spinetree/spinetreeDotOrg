@@ -146,7 +146,6 @@ tools: 'Role - Design lead'
         <div class="row">
             <div class="subtitles col-md-3">
                 <h3>Visual Design</h3>
-                
                 <ul>
                     <li>sketch</li>
                     <li>zeplin</li>
@@ -160,7 +159,6 @@ tools: 'Role - Design lead'
                 <p>Because we were working on the B2B side of Leafly, I wanted to create a distinct UI that would exist
                     in the same world as Leafly’s B2C products but also be recognizable on its own, optimized for
                     functionality, and quick to prototype with.</p>
-
             </div>
             <div class="images col-md-9 col-md-offset-3">
                 <img class="" src="/images/projects/mm_visual_preview.png" />
@@ -169,8 +167,6 @@ tools: 'Role - Design lead'
                 <p>I used Google’s Material Design library to springboard off of, keeping many of its interaction
                     patterns and implementing visuals complementary to the rest of our products, creating a distinct
                     sub-brand for the B2B vertical that still allowed our devs to build quickly.</p>
-
-
             </div>
         </div>
     </div>

@@ -1,6 +1,6 @@
 ---
 layout: work
-title: 'More Web Design & Development'
+title: 'More UI/UX Design & Development'
 categories: work
 date: 2015-08-01 13:26:34
 thumbnail: 'images/thumbs/web@2x.jpg'
@@ -8,9 +8,9 @@ permalink: /work/web/
 hero: '/images/projects/webhero.jpg'
 color: '#8D9389'
 client: various
-type: UI Design - UX Design - Drupal & Wordpress Development
+type: 
 description: Various Websites
-tools: 'Photoshop, Sketch, Axure, Drupal, Wordpress, Shopify'
+tools: 'HTML5, CSS/SASS, Javascript, jQuery, Drupal, Wordpress, Shopify'
 color: '#8D9389'
 ---
 

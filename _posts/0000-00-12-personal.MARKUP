@@ -6,7 +6,7 @@ date: 2015-08-01 13:26:34
 thumbnail: '/images/thumbs/oldboy@2x.jpg'
 hero: '/images/projects/personalhero.jpg'
 permalink: /work/personal/
-type: Various
+type: 
 description: Various personal projects
 tools: 'Illustrator, Photoshop, Corel Painter, Natural Media'
 color: '#517334'
