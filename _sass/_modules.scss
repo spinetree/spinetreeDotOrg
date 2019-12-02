@@ -129,7 +129,7 @@ nav.navbar {
 .projectcard {
     overflow: hidden;
     min-height:220px;
-    border:16px solid $white1;
+    border:16px solid $white2;
     .row {
         align-items: stretch;
     }
@@ -166,12 +166,12 @@ nav.navbar {
             color:$white2;
             font-size:30px;
             text-transform:lowercase;
-            padding:0 4px;
+            padding:0 0 0 8px;
         }
         h4 {
             color: $tan0;
             margin-bottom: 0;
-            padding:0 4px;
+            padding:0 8px;
         }
     }
     &:hover .thumbnail img {

@@ -7,7 +7,7 @@ thumbnail: '/images/thumbs/fcs@2x.jpg'
 hero: '/images/projects/fcshero.jpg'
 permalink: /work/fcsgroup/
 client: FCS Group
-type: Web Design & Development
+type: UI Design & Development
 description: FCS approached me to help design and launch a Wordpress site for their public services and utility consulting firm. The challenge was to quickly assess the available content and find a logical way to build it into a modern, responsive marketing site with great speed and SEO.
 tools: 'Sketch, InVision, Wordpress, ThemeFusion Framework'
 color: '#477780'
