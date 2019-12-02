@@ -4,10 +4,9 @@
 //*******************************************************************
 
 
-
 body {
-    @extend %noto;
-    background: $white;
+    @extend %libre;
+    background: $white1;
     color: $black1;
     line-height:1.2;
     font-size:16px;
@@ -16,18 +15,18 @@ body {
 }
 
 p {
-    @extend %noto;
-    margin-bottom:16px;
+    @extend %libre;
+    margin-top:16px;
     line-height:1.4;
 
 }
 
 li {
-    @extend %noto;
-    margin-bottom:16px;
+    @extend %libre;
+    margin-top:16px;
 }
 
-ul {margin-bottom:24px;}
+ul {margin-top:24px;}
 
 section,
 header,
@@ -51,52 +50,43 @@ a {
 
 
 h1, h2, h3, h4 {    
-    text-transform:uppercase;
     letter-spacing:1.2px;
-    color:$white;
-    margin:0 0 32px 0;
+    margin-top:16px;
+    margin-bottom:0;
 }
 
 h1 {
-    font-size:40px;
+    font-size:58px;
     @extend %ralewaybold;
+    color:$white2;
 }
+
 
 h2 {
-    font-size:20px;
-    @extend %ralewaylight;
-    color:$tan2;
-    letter-spacing:2.4px;
+    @extend %ralewaybold;
+    font-size:26px;
+    line-height:35px;
+    text-transform:uppercase;
+    color:$black2;
 }
 
-.titlebar {
-    background: $black1;
-    padding: 15px 0;
-    border-top: 4px solid $black2;
-    border-bottom: 4px solid $black2;
-    text-align: center;
-    margin: 0 auto;
-    z-index: 100;
-    position: relative;
-    display: block;
-    color:$tan2;
-    font-size:16px; 
-    letter-spacing:4.8px;
-}
 
 h3 {
     @extend %ralewaybold;
-    font-size: 18px;
-    letter-spacing:1.5px;
-    color:$tan4;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing:1.25px;
 }
+
 
 h4 {
     @extend %raleway;
-    font-size: 16px;
-    letter-spacing:1.7px;
-    color:$tan3;
+    font-size: 18px;
+    text-transform:uppercase;
+    letter-spacing:1.25px;
+    line-height:20px;
 }
+
 
 h5 {
     @extend %raleway;

@@ -1,11 +1,24 @@
-$white: #FAF9EE;
+
+$white: #Fff;
+$white1: #FFFEFA;
+$white2: #F0F0E9;
+$white3: #B9B9B9;
+
     
-$black1: #262E27;
-$black2: darken($black1,2%);
-$black3: darken($black1,5%);
+$black1: #2C2C2C;
+$black2: #323335;
+$black3: #333;
+$black4: #3F3F3F;
+
+$yellow1: #E8BE4F;
+$yellow2: #E0CFA2;
+
+$teal : #40806A;
+
+$pink: #C94A7A; 
 
 
-$tan0: #EFEDD9;
+$tan0: #F2F0DA;
 $tan1: #E6E3C5;
 $tan2: #E0CFA2;
 $tan3: #E4D297;
@@ -30,22 +43,38 @@ $blue3: #4C716E;
 $blue4: #2B403F;
 
 
-%ralewaybold {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-}
-
-%raleway {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 500;
-}
 
 %ralewaylight {
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
 }
 
+%raleway {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+} 
+
+%ralewaysemi {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+%ralewaybold {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
 %noto {
-    font-family: 'Noto', serif;
+    font-family: 'Libre Baskerville', serif;
     font-weight:400;
+}
+
+%libre {
+    font-family: 'Libre Baskerville', serif;
+    font-weight:400;
+}
+
+%librebold {
+    font-family: 'Libre Baskerville', serif;
+    font-weight:700;
 }

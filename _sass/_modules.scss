@@ -2,8 +2,63 @@
 
 
 // ******************************************************************
-// Modular content areas 
+// Modular content components 
 // ******************************************************************
+
+.btn {
+    @extend %ralewaybold;
+    letter-spacing:.8px;
+    text-transform:uppercase;
+    font-size:18px;
+    margin-top:16px;
+    padding:15px 30px;
+    border:none;
+    color:$black2;
+    border-radius: 0;
+}
+
+.btn-primary {
+    background:$yellow1; 
+    &:hover {background:$pink;}
+}
+
+.btn-secondary {
+    background:$teal;
+    color: $white2; 
+}
+
+.titlebar {
+    padding: 16px 0;
+    border-bottom: 2px solid $white2;
+    text-align: center;
+    margin: 0 16px 24px;
+    z-index: 100;
+    position: relative;
+    display: block; 
+    a {color:$black2;}
+}
+
+
+.socialicons {
+    text-align:center;
+        i {
+        display:inline-block;
+        margin:16px 4px 8px 0; 
+        font-size:24px;
+        line-height:40px;
+        width:40px;
+        height:40px;
+        color:$teal;
+        &:hover {color:$yellow1;}
+    }
+}
+
+.socialicons__small {
+    i {
+        margin-top:0px;
+        font-size:20px;
+    }
+}
 
 
 
@@ -13,7 +68,7 @@ body.home nav.navbar .navbarlogo {display:none;}
 nav.navbar {
     background: $black2;
     border-top:none;
-    border-bottom: 4px solid $black3;
+    border-bottom:none;
     z-index:100;
     position:absolute;
     top:0;
@@ -24,11 +79,9 @@ nav.navbar {
         a {
             @extend %raleway;
             text-transform: uppercase;
-            font-size: 12px;
-            color:$tan1;
-            line-height:20px;
-            padding-top:20px;
-            padding-bottom:20px;
+            font-size: 16px;
+            color:$white1;
+            line-height:40px;
         }
     }
     .navbarlogo {
@@ -42,19 +95,7 @@ nav.navbar {
             margin-left:-30px;
         }
     }
-    .navbarsocial {
-        padding: 0 20px;
-        a {
-            text-align:center;
-            padding:10px 12px;
-        }
-        i {
-            font-size:14px;
-            line-height:40px;
-            color:$tan1;
-            &:hover {color:$tan2;}
-        }
-    }
+
 }
 
 @media only screen and (max-width: 767px) {
@@ -77,24 +118,166 @@ nav.navbar {
     }
 }
 
+
 // ******************************************************************
-// Modular Content areas
+// Project Cards
+//*******************************************************************
+
+.projectcard {
+    overflow: hidden;
+    min-height:220px;
+    border:16px solid $white1;
+    .row {
+        align-items: stretch;
+    }
+    .thumbnail {
+        text-align: center;
+        .content {
+            position:relative;
+            min-height: 220px;
+        }
+        img {
+            max-width: 320px;
+            margin: 0 auto;
+            position: absolute;
+            bottom: -10px;
+            left:50%;
+            margin-left:-160px;
+            margin-bottom:-10px;
+        }
+    }
+    .details {
+        text-align: center;
+        position:relative;
+        min-height:220px;
+        display:inline-block;
+        width:100%;
+        z-index:1;
+        .content {
+            width:100%;
+            position:absolute;
+            top:54px;
+        }            
+        h3 {
+            color:$white2;
+            font-size:30px;
+            text-transform:lowercase;
+            padding:0 8px;
+        }
+        h4 {
+            color: $tan0;
+            margin-bottom: 0;
+        }
+    }
+    &:hover .thumbnail img {
+        margin-bottom: -1px;
+        transition: margin-bottom .4s;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .projectcard {
+        .details {min-height:140px;
+            .content {top:60px;}
+        }   
+    }
+}
+
+
+@media only screen and (max-width: 991px) {
+    .projectcard {
+        .details {
+            min-height:140px;
+            .content {top:60px;}
+        }   
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .projectcard {
+        .details {min-height:80px;
+            .content {top:30px;}
+        h3 {
+            font-size:20px;
+            padding-bottom:0;
+            }
+        p {
+            font-size:14px;
+            line-height:1.4;
+            }
+        }   
+    }
+}
+
+
+
+// ******************************************************************
+// About/Contact bar on work pages
+//*******************************************************************
+
+.contact-bar {
+    background: $black4;
+    padding:64px 32px;
+    border-top:48px solid $white1;
+    p {color:$white1;}
+    h3 {color: $white1;}
+    .socialicons i {
+        color:$yellow1;
+    }
+    }
+
+@media only screen and (max-width: 991px) {
+    .about-bar { 
+        .description {text-align:center;}
+        .connect {
+            margin-top:0px;
+            transform:rotate(0deg);
+        }
+        button {margin-top:20px;}
+    }
+}
+
+
+
+
+// ******************************************************************
+// Footer
 //*******************************************************************
 
 
-.socialicons {
-    text-align:center;
-        i {
+footer {
+    background: $black1;
+    border-top: 30px solid $black2;
+    text-align: center;
+    padding: 50px 0 60px;
+    h4 {
+        color: $tan1;
+    }
+    ul {margin-top:0;}
+    li {
+        float: none;
         display:inline-block;
-        margin:0 4px 8px 0; 
-        font-size:20px;
-        background:$blue3;
-        border-radius:20px;
-        line-height:40px;
-        width:40px;
-        height:40px;
+        margin: 0 20px 0 0;
         color:$tan1;
-        &:hover {background:$blue2;}
+    }
+    p {
+        color:$tan1;
+    }
+    a {
+        margin-top:16px;
+        @extend %ralewaylight;
+        text-transform: uppercase;
+        font-size: 14px;
+        color:$tan0;
+        display:inline-block;
+        padding:0 15px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    footer {
+        padding:20px 0 60px;
+        h4 {margin-top:60px;}
     }
 }
 

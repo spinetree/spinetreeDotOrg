@@ -1,6 +1,6 @@
 ---
 layout: work
-title: Case Study:<br />Leafly Menu Manager
+title: Case Study:<br />Menu Manager
 categories: work
 date: 2015-08-01 13:26:34
 thumbnail: '/images/thumbs/menumanager@2x.jpg'
@@ -19,7 +19,6 @@ tools: 'Role - Design lead'
         <div class="row">
             <div class="subtitles col-md-3">
                 <h3>Design Challenge</h3>
-                
                 <ul>
                     <li>project brief</li>
                     <li>kickoff meeting</li>
