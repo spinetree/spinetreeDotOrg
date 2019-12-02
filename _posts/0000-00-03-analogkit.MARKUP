@@ -18,7 +18,7 @@ tools: 'Axure, Photoshop, Illustrator, After Effects'
         <div class="row">
   
             <div class="images col-md-6">
-                <img class="" src="{{ site.data.global.url }}/images/projects/akkeys.jpg" />
+                <img class="" src="/images/projects/akkeys.jpg" />
             </div>
             
             <div class="imagemeta col-md-6">
@@ -30,7 +30,7 @@ tools: 'Axure, Photoshop, Illustrator, After Effects'
         <div class="row">
     
             <div class="images col-md-6 col-md-push-6">
-                <img class="" src="{{ site.data.global.url }}/images/projects/akmodules.jpg" />
+                <img class="" src="/images/projects/akmodules.jpg" />
             </div>
             
             <div class="imagemeta col-md-6 col-md-pull-6">
@@ -43,7 +43,7 @@ tools: 'Axure, Photoshop, Illustrator, After Effects'
 
     
             <div class="images col-md-6">
-                <img class="" src="{{ site.data.global.url }}/images/projects/akui.jpg" />
+                <img class="" src="/images/projects/akui.jpg" />
             </div>
             
             <div class="imagemeta col-md-6">
@@ -56,7 +56,7 @@ tools: 'Axure, Photoshop, Illustrator, After Effects'
     
             
             <div class="images col-md-6 col-md-push-6">
-                <img class="" src="{{ site.data.global.url }}/images/projects/akmenu.jpg" />
+                <img class="" src="/images/projects/akmenu.jpg" />
             </div>
             
             <div class="imagemeta col-md-6 col-md-pull-6">
@@ -73,15 +73,15 @@ tools: 'Axure, Photoshop, Illustrator, After Effects'
         <div class="row">
   
             <div class="images col-sm-3">
-                <img class="" src="{{ site.data.global.url }}/images/projects/akquartercard.jpg" />
+                <img class="" src="/images/projects/akquartercard.jpg" />
             </div>
             
             <div class="images col-sm-6">
-                <img class="" src="{{ site.data.global.url }}/images/projects/akshirt.jpg" />
+                <img class="" src="/images/projects/akshirt.png" />
             </div>
             
             <div class="images col-sm-3">
-                <img class="" src="{{ site.data.global.url }}/images/projects/akfacebook.jpg" />
+                <img class="" src="/images/projects/akfacebook.jpg" />
             </div>
     
         </div>
@@ -106,7 +106,7 @@ tools: 'Axure, Photoshop, Illustrator, After Effects'
             </div>  
             
             <div class="images col-md-6">
-                <img class="" src="{{ site.data.global.url }}/images/projects/akmenuux.jpg" />
+                <img class="" src="/images/projects/akmenuux.jpg" />
             </div>
                 
         </div>   
@@ -123,15 +123,15 @@ tools: 'Axure, Photoshop, Illustrator, After Effects'
             </div>  
             
             <div class="images col-md-4">
-                <img class="" src="{{ site.data.global.url }}/images/projects/aktutorial1.jpg" />
+                <img class="" src="/images/projects/aktutorial1.jpg" />
             </div>
 
             <div class="images col-md-4">
-                <img class="" src="{{ site.data.global.url }}/images/projects/aktutorial2.jpg" />
+                <img class="" src="/images/projects/aktutorial2.jpg" />
             </div>
 
             <div class="images col-md-4">
-                <img class="" src="{{ site.data.global.url }}/images/projects/aktutorial3.jpg" />
+                <img class="" src="/images/projects/aktutorial3.jpg" />
             </div>
                 
         </div>   

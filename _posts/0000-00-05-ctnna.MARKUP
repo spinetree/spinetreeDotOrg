@@ -18,7 +18,7 @@ tools: 'Sketch, Photoshop'
         <div class="row">
   
             <div class="images col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-1">
-                <img class="responsive" src="{{ site.data.global.url }}/images/projects/ctnnabooks.jpg" />
+                <img class="responsive" src="/images/projects/ctnnabooks.png" />
             </div>
 
             <div class="imagemeta col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-0">
@@ -33,17 +33,14 @@ tools: 'Sketch, Photoshop'
 <section class="projectsection">
     <div class="container">
         <div class="row">
-  
             <div class="images col-md-10 col-md-offset-1">
-                <img class="" src="{{ site.data.global.url }}/images/projects/ctnnawebsite.jpg" />
+                <img class="" src="/images/projects/ctnnawebsite.png" />
             </div>
-
             <div class="imagemeta wide col-md-8 col-md-offset-2">
                 <h3>Viral Marketing Site</h3>
-            <p>Rather than a traditional marketing website, we came up with the idea of making a website for a giant evil corporate that exists in the novel, and turning it into a viral campaign.</p>            
+            <p>Rather than a traditional marketing website, we came up with the idea of making a website for a giant evil corporate that exists in the novel, and turning it into a viral campaign.</p>
                 <a href="http://www.corporatetorsos.com" target="_blank"><button type="button" class="btn btn-primary center-block livesite">View Live Site</button></a>
             </div>
-
         </div>   
     </div>
 </section>
@@ -51,20 +48,16 @@ tools: 'Sketch, Photoshop'
 <section class="projectsection dark">
     <div class="container">
         <div class="row">
-            
             <div class="imagemeta col-md-6">
                 <h3>Rapid design, prototyping and development</h3>
                 <p>Jekyll, Sketch and Bootstrap allowed me to build the site extremely quickly and focus on creating the experience of degeneration and descent into madness that the site's intended to evoke. I used style tiles to create the initial brand identity, and used Pinterest to collaborate with the author on the book's visual identity.</p>
             </div>
-            
             <div class="images col-md-6">
-                <img class="responsive shadow" src="{{ site.data.global.url }}/images/projects/ctnnabrandguide.jpg" />
+                <img class="responsive shadow" src="/images/projects/ctnnabrandguide.jpg" />
             </div>
-
             <div class="images col-md-6 col-md-offset-3">
-                <img class="responsive shadow" src="{{ site.data.global.url }}/images/projects/ctnnaux.jpg" />
+                <img class="responsive shadow" src="/images/projects/ctnnaux.jpg" />
             </div>
-
-        </div>   
+        </div>
     </div>
 </section>
