@@ -199,7 +199,8 @@
             padding: 0 40px 0 0;
             text-align: right;
             border-right: 4px solid $black2;
-            h1 {margin:0 0 15px;}
+            h1 {margin:0 0 15px; font-size:48px;}
+            h3 {color: $tan0;}
             h4 {margin-bottom:0;}
         }
         .description {
@@ -208,22 +209,21 @@
             p {margin-bottom:10px;}
             p.tools {
                 font-style:italic;
-                color:$green;
+                color:$yellow2;
             }
 
         }
     }
     .pquote {
-        color:$blue3;
-    font-size: 24px;
-    margin:24px 48px; 
-    font-weight:700;
+        color:$teal;
+        font-size: 24px;
+        margin:24px 48px; 
+        font-weight:700;
     }
     .projectsection {
         padding:64px 0;
         text-align: center;
         h3 {
-            color:$blue4;
             padding-top:60px;
             margin-bottom:25px;
         }
@@ -275,11 +275,12 @@
         .projectsection .subtitles {
             text-align:center;
             p { text-align:center;}
-            ul {text-align:center; margin:0 auto; margin-bottom:16px; margin-left:0; padding-left:0;}
+            ul {text-align:center; margin:0 auto; 
+                margin-bottom:16px; margin-left:0; padding-left:0;}
             ul li {
                 display:inline-block;
             padding:0 12px;
-            border-right:1px solid $green;}
+            border-right:1px solid $tan0;}
             ul li:last-child {border-right:none;}
         }
         .imagemeta {

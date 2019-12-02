@@ -211,46 +211,20 @@ nav.navbar {
 
 
 
-
-
-
-
-
 // ******************************************************************
 // About/Contact bar on work pages
 //*******************************************************************
 
-.about-bar {
-    background: $white2;
-    padding:32px;
-    .description {
-        margin:24px 0;
-        }
-    .connect {
-    text-align:center;
-    padding:30px 20px 40px;
-    background:$white1;
-    border:10px solid $white3;
-    max-width:320px;
-    margin:32px auto;
-    transform: rotate(1deg);
-    h4 {
-        @extend %ralewaybold;
-        font-size:20px;
-        letter-spacing:2.4px;
-        color:$brown2; 
-        margin-bottom:20px;
-        }
-    .email {
-        color:$pink;
-        @extend %ralewaysemi;
-        font-size:16px;
-        margin-bottom:20px;
-        text-transform:uppercase;
-        display:block;
-        }
+.contact-bar {
+    background: $black4;
+    padding:64px 32px;
+    border-top:48px solid $white1;
+    p {color:$white1;}
+    h3 {color: $white1;}
+    .socialicons i {
+        color:$yellow1;
     }
-}
+    }
 
 @media only screen and (max-width: 991px) {
     .about-bar { 

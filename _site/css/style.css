@@ -3148,11 +3148,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   font-family: 'Raleway', sans-serif;
   font-weight: 500; }
 
-.about-bar .connect .email {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 600; }
-
-.sixpieces h2, h1, h2, h3, .btn, .about-bar .connect h4 {
+.sixpieces h2, h1, h2, h3, .btn {
   font-family: 'Raleway', sans-serif;
   font-weight: 700; }
 
@@ -3325,7 +3321,10 @@ body, p, li {
       text-align: right;
       border-right: 4px solid #323335; }
       .project .meta .primary h1 {
-        margin: 0 0 15px; }
+        margin: 0 0 15px;
+        font-size: 48px; }
+      .project .meta .primary h3 {
+        color: #F2F0DA; }
       .project .meta .primary h4 {
         margin-bottom: 0; }
     .project .meta .description {
@@ -3335,9 +3334,9 @@ body, p, li {
         margin-bottom: 10px; }
       .project .meta .description p.tools {
         font-style: italic;
-        color: #729673; }
+        color: #E0CFA2; }
   .project .pquote {
-    color: #4C716E;
+    color: #40806A;
     font-size: 24px;
     margin: 24px 48px;
     font-weight: 700; }
@@ -3345,7 +3344,6 @@ body, p, li {
     padding: 64px 0;
     text-align: center; }
     .project .projectsection h3 {
-      color: #2B403F;
       padding-top: 60px;
       margin-bottom: 25px; }
     .project .projectsection img {
@@ -3397,7 +3395,7 @@ body, p, li {
     .project .projectsection .subtitles ul li {
       display: inline-block;
       padding: 0 12px;
-      border-right: 1px solid #729673; }
+      border-right: 1px solid #F2F0DA; }
     .project .projectsection .subtitles ul li:last-child {
       border-right: none; }
   .project .imagemeta h3 {
@@ -3677,7 +3675,7 @@ h3 {
   letter-spacing: 1.25px; }
 
 h4 {
-  font-size: 14px;
+  font-size: 18px;
   text-transform: uppercase;
   letter-spacing: 1.25px;
   line-height: 20px; }
@@ -4519,31 +4517,16 @@ nav.navbar {
     .projectcard .details p {
       font-size: 14px;
       line-height: 1.4; } }
-.about-bar {
-  background: #F0F0E9;
-  padding: 32px; }
-  .about-bar .description {
-    margin: 24px 0; }
-  .about-bar .connect {
-    text-align: center;
-    padding: 30px 20px 40px;
-    background: #FFFEFA;
-    border: 10px solid #B9B9B9;
-    max-width: 320px;
-    margin: 32px auto;
-    -webkit-transform: rotate(1deg);
-            transform: rotate(1deg); }
-    .about-bar .connect h4 {
-      font-size: 20px;
-      letter-spacing: 2.4px;
-      color: #605232;
-      margin-bottom: 20px; }
-    .about-bar .connect .email {
-      color: #C94A7A;
-      font-size: 16px;
-      margin-bottom: 20px;
-      text-transform: uppercase;
-      display: block; }
+.contact-bar {
+  background: #3F3F3F;
+  padding: 64px 32px;
+  border-top: 48px solid #FFFEFA; }
+  .contact-bar p {
+    color: #FFFEFA; }
+  .contact-bar h3 {
+    color: #FFFEFA; }
+  .contact-bar .socialicons i {
+    color: #E8BE4F; }
 
 @media only screen and (max-width: 991px) {
   .about-bar .description {
