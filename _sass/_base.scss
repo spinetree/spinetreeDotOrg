@@ -2,7 +2,10 @@
 // Front Page
 //*******************************************************************
 
-body {background: #FCFCF7;}
+body {
+    background: #FCFCF7;
+    transition: all 225ms ease;
+}
 
 .frontpagehero {
     height:570px;

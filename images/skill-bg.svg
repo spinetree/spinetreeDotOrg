@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="453px" height="353px" viewBox="0 0 453 353" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>skill-bg</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Home-2.0" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="home-2.0-dark" transform="translate(-519.000000, -2980.000000)" fill-rule="nonzero">
+            <g id="Group-15" transform="translate(0.000000, 2849.000000)">
+                <g id="Group-9" transform="translate(60.000000, 34.000000)">
+                    <g id="Group-8" transform="translate(115.000000, 97.000000)">
+                        <g id="skill-bg" transform="translate(344.000000, 0.000000)">
+                            <circle id="Oval" fill="#C94A7A" cx="358" cy="310" r="43"></circle>
+                            <circle id="Oval-Copy" fill="#72B0AC" cx="43" cy="79" r="43"></circle>
+                            <polygon id="Rectangle" fill="#F0EDE6" points="16.515625 -7.86981591e-13 364.515625 24 373.515625 347.03125 27 321.03125"></polygon>
+                            <polygon id="Rectangle" fill="#D4D4D4" transform="translate(273.500000, 319.500000) rotate(-5.000000) translate(-273.500000, -319.500000) " points="95 301 443 303.558847 452 338 105.484375 335.227915"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

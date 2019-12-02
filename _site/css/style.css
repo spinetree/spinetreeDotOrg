@@ -3161,7 +3161,9 @@ body, p, li {
   font-weight: 700; }
 
 body {
-  background: #FCFCF7; }
+  background: #FCFCF7;
+  -webkit-transition: all 225ms ease;
+  transition: all 225ms ease; }
 
 .frontpagehero {
   height: 570px;
@@ -3677,7 +3679,7 @@ h3 {
   letter-spacing: 1.25px; }
 
 h4 {
-  font-size: 18px;
+  font-size: 16px;
   text-transform: uppercase;
   letter-spacing: 1.25px;
   line-height: 20px; }
@@ -4366,7 +4368,9 @@ img.responsive {
   padding: 15px 30px;
   border: none;
   color: #323335;
-  border-radius: 0; }
+  border-radius: 0;
+  -webkit-transition: all 225ms ease;
+  transition: all 225ms ease; }
 
 .btn-primary {
   background: #E8BE4F; }
@@ -4397,7 +4401,9 @@ img.responsive {
     line-height: 40px;
     width: 40px;
     height: 40px;
-    color: #40806A; }
+    color: #40806A;
+    -webkit-transition: all 225ms ease;
+    transition: all 225ms ease; }
     .socialicons i:hover {
       color: #E8BE4F; }
 
@@ -4424,6 +4430,8 @@ nav.navbar {
     font-size: 16px;
     color: #FFFEFA;
     line-height: 40px; }
+    nav.navbar .navbarmain a:hover {
+      color: #C94A7A; }
   nav.navbar .navbarlogo {
     width: 60px;
     position: absolute;
@@ -4467,6 +4475,8 @@ nav.navbar {
       position: relative;
       min-height: 220px; }
     .projectcard .thumbnail img {
+      -webkit-transition: all 225ms ease;
+      transition: all 225ms ease;
       max-width: 320px;
       margin: 0 auto;
       position: absolute;
@@ -4484,19 +4494,18 @@ nav.navbar {
     .projectcard .details .content {
       width: 100%;
       position: absolute;
-      top: 54px; }
+      top: 48px; }
     .projectcard .details h3 {
       color: #F0F0E9;
       font-size: 30px;
       text-transform: lowercase;
-      padding: 0 8px; }
+      padding: 0 4px; }
     .projectcard .details h4 {
       color: #F2F0DA;
-      margin-bottom: 0; }
+      margin-bottom: 0;
+      padding: 0 4px; }
   .projectcard:hover .thumbnail img {
-    margin-bottom: -1px;
-    -webkit-transition: margin-bottom .4s;
-    transition: margin-bottom .4s; }
+    margin-bottom: -1px; }
 
 @media only screen and (max-width: 1199px) {
   .projectcard .details {
@@ -4516,29 +4525,24 @@ nav.navbar {
     .projectcard .details h3 {
       font-size: 20px;
       padding-bottom: 0; }
-    .projectcard .details p {
+    .projectcard .details h4 {
       font-size: 14px;
       line-height: 1.4; } }
 .contact-bar {
   background: #3F3F3F;
-  padding: 64px 32px;
-  border-top: 48px solid #FFFEFA; }
+  padding: 64px 32px; }
   .contact-bar p {
     color: #FFFEFA; }
   .contact-bar h3 {
     color: #FFFEFA; }
   .contact-bar .socialicons i {
     color: #E8BE4F; }
+    .contact-bar .socialicons i:hover {
+      color: #C94A7A; }
 
-@media only screen and (max-width: 991px) {
-  .about-bar .description {
-    text-align: center; }
-  .about-bar .connect {
-    margin-top: 0px;
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg); }
-  .about-bar button {
-    margin-top: 20px; } }
+@media only screen and (max-width: 892px) {
+  .contact-bar {
+    text-align: center; } }
 footer {
   background: #2C2C2C;
   border-top: 30px solid #323335;
