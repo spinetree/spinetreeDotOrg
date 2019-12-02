@@ -93,7 +93,7 @@ Illustrator, Sketch, Framer, Zeplin, InVision, VSCode, HTML, CSS, Javascript'
             <div class="imagemeta wide col-sm-12">
 
                 <div class="images col-md-6">
-                    <img class="" src="/images/projects/whiteboard_wires.jpg" />
+                    <img class="darkframe shadow" src="/images/projects/whiteboard_wires.jpg" />
                 </div>
 
                 <div class="imagemeta col-md-6">
@@ -156,7 +156,7 @@ Illustrator, Sketch, Framer, Zeplin, InVision, VSCode, HTML, CSS, Javascript'
             <div class="imagemeta wide col-sm-12">
 
                 <div class="images">
-                    <img class="" src="/images/projects/pattern_library.jpg" />
+                    <img class="darkframe shadow" src="/images/projects/pattern_library.jpg" />
 
                 </div>
 

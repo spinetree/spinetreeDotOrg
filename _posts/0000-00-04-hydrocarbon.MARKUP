@@ -18,19 +18,19 @@ color: '#9C2E44'
         <div class="row">
   
             <div class="images col-sm-4">
-                <img class="image shadow" src="{{ site.data.global.url }}/images/projects/hcclogomagenta.jpg" />
+                <img class="image shadow" src="/images/projects/hcclogomagenta.jpg" />
             </div>
 
             <div class="images col-sm-4">
-                <img class="image shadow" src="{{ site.data.global.url }}/images/projects/hcclogo.jpg" />
+                <img class="image shadow" src="/images/projects/hcclogo.jpg" />
             </div>
             
             <div class="images col-sm-4">
-                <img class="image shadow" src="{{ site.data.global.url }}/images/projects/hcclogoteal.jpg" />
+                <img class="image shadow" src="/images/projects/hcclogoteal.jpg" />
             </div>
             
             <div class="images col-sm-10 col-sm-offset-1">
-                <img class="image shadow" src="{{ site.data.global.url }}/images/projects/hccbrandguide.jpg" />
+                <img class="image shadow" src="/images/projects/hccbrandguide.jpg" />
             </div>
             
         </div>   
@@ -42,11 +42,11 @@ color: '#9C2E44'
         <div class="row">
   
             <div class="images col-sm-5">
-                <img class="image" src="{{ site.data.global.url }}/images/projects/hcchoodie.jpg" />
+                <img class="image" src="/images/projects/hcchoodie.jpg" />
             </div>
 
             <div class="images col-sm-6 col-sm-offset-1">
-                <img class="image shadow" src="{{ site.data.global.url }}/images/projects/hcctrump.jpg" />
+                <img class="image shadow" src="/images/projects/hcctrump.jpg" />
             </div>
             
         </div>   
@@ -58,15 +58,15 @@ color: '#9C2E44'
         <div class="row">
   
             <div class="images col-sm-10 col-sm-offset-2 col-sm-pull-1">
-                <img class="image shadow" src="{{ site.data.global.url }}/images/projects/hccsketches.jpg" />
+                <img class="image shadow" src="/images/projects/hccsketches.jpg" />
             </div>
 
             <div class="images col-sm-8 col-sm-offset-2">
-                <img class="image shadow" src="{{ site.data.global.url }}/images/projects/hccconcepts1.jpg" />
+                <img class="image shadow" src="/images/projects/hccconcepts1.jpg" />
             </div>
             
             <div class="images col-sm-8 col-sm-offset-2">
-                <img class="image shadow" src="{{ site.data.global.url }}/images/projects/hccconcepts2.jpg" />
+                <img class="image shadow" src="/images/projects/hccconcepts2.jpg" />
             </div>
             
         </div>   

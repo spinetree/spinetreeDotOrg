@@ -18,7 +18,7 @@ color: '#477780'
         <div class="row">
   
             <div class="images col-md-10 col-md-offset-1">
-                <img class="image" src="{{ site.data.global.url }}/images/projects/fcsscreens.jpg" />
+                <img class="image" src="/images/projects/fcsWebsite.png" />
             </div>
 
             <div class="imagemeta wide col-md-8 col-md-offset-2">
@@ -37,7 +37,7 @@ color: '#477780'
         <div class="row">
   
             <div class="images col-md-5 col-md-offset-1">
-                <img class="image shadow" src="{{ site.data.global.url }}/images/projects/fcshomepage.jpg" />
+                <img class="image shadow" src="/images/projects/fcshomepage.jpg" />
             </div>
 
             <div class="imagemeta col-md-5 col-md-offset-1">
@@ -46,7 +46,7 @@ color: '#477780'
             </div>
             
                         <div class="images col-md-5 col-md-offset-1">
-                <img class="image shadow" src="{{ site.data.global.url }}/images/projects/fcssolution.jpg" />
+                <img class="image shadow" src="/images/projects/fcssolution.jpg" />
             </div>
 
         </div>   
