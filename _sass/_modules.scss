@@ -28,6 +28,7 @@
     color: $white2; 
 }
 
+
 .titlebar {
     padding: 16px 0;
     border-bottom: 2px solid $white2;
@@ -37,6 +38,13 @@
     position: relative;
     display: block; 
     a {color:$black2;}
+}
+
+@media only screen and (max-width: 767px) {
+        .titlebar {
+            padding:8px 0;
+            margin: 0 8px 8px
+        }
 }
 
 
@@ -199,10 +207,12 @@ nav.navbar {
 
 @media only screen and (max-width: 767px) {
     .projectcard {
+        border:8px solid $white2;
         .details {min-height:80px;
-            .content {top:30px;}
+            .content {top:24px;}
         h3 {
             font-size:20px;
+            line-height:1.2;
             padding-bottom:0;
             }
         h4 {
@@ -287,8 +297,9 @@ footer {
 //*******************************************************************
 
 .slides {
-    padding:20px 0 0px;
+    padding:16px 0 0px;
     .slick-next {right:-40px;}
+    .slick-next:hover {color:$pink;}
     .slick-prev {left:-40px;}
     .slick-prev:before, 
     .slick-next:before {
@@ -299,11 +310,14 @@ footer {
         opacity: 0.75;
         -webkit-font-smoothing: antialiased;
     }
-    .slick-dots {bottom:-30px; padding:0 10%;}
+    .slick-dots {
+        bottom:-30px; 
+        padding:0 10%;}
     .slick-dots li button:before {
         content: "●";
-        width: 20px;
-        height: 20px;
+        color: $teal;
+        width: 16px;
+        height: 16px;
         font-family: "slick";
         font-size: 16px;
         line-height: 20px;

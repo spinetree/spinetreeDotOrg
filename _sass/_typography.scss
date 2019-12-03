@@ -9,23 +9,31 @@ body {
     color: $black1;
     line-height:1.2;
     font-size:16px;
-    letter-spacing:0.6px;
+    letter-spacing:0.4px;
     font-weight:400;
+}
+
+@media only screen and (max-width: 767px) {
+    body {font-size: 12px;}
 }
 
 p {
     @extend %libre;
     margin-top:16px;
-    line-height:1.4;
-
+    line-height:1.5;
 }
+
 
 li {
     @extend %libre;
     margin-top:16px;
+    line-height:1.5;
 }
 
-ul {margin-top:24px;}
+ul {
+    margin-top:24px;
+    padding-left:16px;
+}
 
 section,
 header,
@@ -61,32 +69,44 @@ h1 {
     color:$white2;
 }
 
+@media only screen and (max-width: 767px) {
+    h1 {font-size:36px;}
+}
 
 h2 {
     @extend %ralewaybold;
     font-size:26px;
-    line-height:35px;
+    line-height:1.2;
     text-transform:uppercase;
     color:$black2;
 }
 
+@media only screen and (max-width: 767px) {
+    h2 {font-size:20px;}
+}
 
 h3 {
     @extend %ralewaybold;
     font-size: 24px;
-    line-height: 32px;
+    line-height: 1.2;
     letter-spacing:1.25px;
 }
 
+@media only screen and (max-width: 767px) {
+    h3 {font-size:18px;}
+}
 
 h4 {
-    @extend %raleway;
+    @extend %ralewaysemi;
     font-size: 16px;
     text-transform:uppercase;
     letter-spacing:1.25px;
-    line-height:20px;
+    line-height:1.2;
 }
 
+@media only screen and (max-width: 767px) {
+    h4 {font-size:14px;}
+}
 
 h5 {
     @extend %raleway;

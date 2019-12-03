@@ -37,14 +37,29 @@ body {
     }
 }
 
+@media only screen and (max-width: 415px) {
+    .frontpagehero {
+        img {margin: 35vh auto 26vh;}
+        i {display:none;}
+    }
+}
+
 .thumbs {
     padding:32px 16px 64px;
     background: $white2;
 }
 
+@media only screen and (max-width: 415px) {
+    .thumbs {padding:16px 8px 32px;}
+}
+
 .about {
-    padding:32px;
-    h2 {margin-bottom:60px;}
+    padding:32px 16px;
+    h2 {margin-bottom:32px;}
+}
+
+@media only screen and (max-width: 767px) {
+    .about {padding:32px 8px;}
 }
 
 .bio {
@@ -61,7 +76,7 @@ body {
 .stats {
     text-align:center;
     padding-top:32px;
-    ul {padding:0 20px;}
+    ul {padding:0 16px;}
     li {
     list-style:none;
     @extend %raleway;
@@ -95,6 +110,17 @@ body {
     }
 }
 
+@media only screen and (max-width: 767px) {
+    .stats .languages {
+        text-align:center;
+        padding:16px 0 32px;
+    span {
+        float:none; 
+        display:block;
+        text-align:center;
+    }
+}
+}
 
 .bioconnect {
     text-align: center;
@@ -147,7 +173,7 @@ body {
 
 @media only screen and (max-width: 990px) {
     .about h1 {text-align:center;}
-    .biophoto {margin-bottom:60px;}
+    .biophoto {margin-bottom:32px;}
     .sixpieces {padding: 40px 0 120px;
         .page {
             border-left:none; 
@@ -168,7 +194,10 @@ body {
 @media only screen and (max-width: 767px) {
     .bio {margin-bottom:20px;}
     .stats { 
-        .apps {margin-bottom:30px;}
+        .apps {
+            margin-bottom:30px;
+            margin-top:0;
+        }
     }
 }
 
@@ -209,9 +238,9 @@ body {
             h4 {margin-bottom:0;}
         }
         .description {
-            padding-top:20px;
-            padding-left: 40px;
-            p {margin-bottom:10px;}
+            padding-top:8px;
+            padding-left: 32px;
+            p {margin-bottom:8px;}
             p.tools {
                 font-style:italic;
                 color:$yellow2;
@@ -230,7 +259,7 @@ body {
         text-align: center;
         h3 {
             padding-top:60px;
-            margin-bottom:25px;
+            margin-bottom:16px;
         }
         img {
             max-width: 90%;
@@ -253,7 +282,7 @@ body {
     }
     .projectsection.dark {background:$white2;}
     .imagemeta {
-        padding: 20px 30px;
+        padding: 24px 32px;
         p {color:$brown3;}
     }
     .imagemeta.wide h3 {
@@ -261,7 +290,7 @@ body {
         text-align:center;
     }
     .images.slides {
-        padding: 0 30px;
+        padding: 0 32px;
         img {
             margin: 0 10px;
         }
@@ -270,27 +299,35 @@ body {
 
 @media only screen and (max-width: 991px) {
     .project {
+        .hero {padding-top:160px;}
         .meta {
             .primary {
+                h1 {font-size:36px;}
                 padding:0 0 0 0;
                 text-align:center;
                 border-right:none;
             }
         }
+        .projectsection {padding:24px 0;}
         .projectsection .subtitles {
             text-align:center;
+            margin-bottom:32px;
+            font-style: italic;
             p { text-align:center;}
             ul {text-align:center; margin:0 auto; 
                 margin-bottom:16px; margin-left:0; padding-left:0;}
             ul li {
+                margin-top:8px;
                 display:inline-block;
-            padding:0 12px;
-            border-right:1px solid $black4;}
+                padding:0 12px;
+                border-right:1px solid $white3;
+            }
             ul li:last-child {border-right:none;}
         }
         .imagemeta {
+            padding:8px 16px;
             h3 {
-                padding-top:10px;
+                padding:16px;
                 text-align:center;
             }
         }
