@@ -3670,7 +3670,7 @@ body {
 
 @media only screen and (max-width: 767px) {
   body {
-    font-size: 12px; } }
+    font-size: 14px; } }
 p {
   margin-top: 16px;
   line-height: 1.5; }
@@ -3729,7 +3729,7 @@ h3 {
 
 @media only screen and (max-width: 767px) {
   h3 {
-    font-size: 18px; } }
+    font-size: 20px; } }
 h4 {
   font-size: 16px;
   text-transform: uppercase;
@@ -4580,11 +4580,11 @@ nav.navbar {
   .projectcard {
     border: 8px solid #F0F0E9; }
     .projectcard .details {
-      min-height: 80px; }
+      min-height: 88px; }
       .projectcard .details .content {
-        top: 24px; }
+        top: 16px; }
       .projectcard .details h3 {
-        font-size: 20px;
+        font-size: 24px;
         line-height: 1.2;
         padding-bottom: 0; }
       .projectcard .details h4 {
