@@ -8,7 +8,7 @@ hero: '/images/projects/cleartunehero.jpg'
 permalink: /work/cleartune/
 color: '#272B2F'
 client: Bitcount Ltd.
-type: Instrument Tuner for iOS & Android
+type: instrument tuner for iOS & Android 
 description: Cleartune is an app I designed for Bitcount Ltd just as the iOS app store was getting really huge. The challenge was to display both fine and coarse readings in an intuitive way that worked even when the user might be holding an instrument and looking at the app from several feet away. 
 tools: 'Photoshop - UI Design'
 ---

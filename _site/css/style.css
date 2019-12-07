@@ -3378,7 +3378,7 @@ body {
     padding: 64px 0;
     text-align: center; }
     .project .projectsection h3 {
-      padding-top: 60px;
+      padding-top: 48px;
       margin-bottom: 16px; }
     .project .projectsection img {
       max-width: 90%;
@@ -3727,7 +3727,8 @@ h2 {
 h3 {
   font-size: 24px;
   line-height: 1.2;
-  letter-spacing: 1.25px; }
+  letter-spacing: 1.25px;
+  text-transform: lowercase; }
 
 @media only screen and (max-width: 767px) {
   h3 {
@@ -4569,12 +4570,12 @@ nav.navbar {
   .projectcard .details {
     min-height: 140px; }
     .projectcard .details .content {
-      top: 60px; } }
+      top: 48px; } }
 @media only screen and (max-width: 991px) {
   .projectcard .details {
     min-height: 140px; }
     .projectcard .details .content {
-      top: 60px; } }
+      top: 48px; } }
 @media only screen and (max-width: 767px) {
   .projectcard {
     border: 8px solid #F0F0E9; }
