@@ -109,9 +109,17 @@ nav.navbar {
 
 }
 
+.navbar-inverse {
+border:none;
+}
+
+.navbar-toggle {
+    border:none;
+}
+
 @media only screen and (max-width: 767px) {
     nav.navbar {
-        border-bottom: 3px solid $black2;
+        // border-bottom: 3px solid $black2;
         .navbarlogo {top:0;}
     }
     #navbar { 

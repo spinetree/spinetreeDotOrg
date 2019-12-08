@@ -3178,10 +3178,12 @@ body {
   clear: both;
   background: #2C2C2C;
   text-align: center; }
-  .frontpagehero img {
+  .frontpagehero .lockup {
     margin: 22vh auto 2vh auto;
-    max-width: 800px;
+    max-width: 700px;
     padding: 0 16px; }
+  .frontpagehero .lockup-mobile {
+    max-width: 400px; }
   .frontpagehero h4 {
     text-transform: none;
     color: #E8BE4F;
@@ -4501,11 +4503,15 @@ nav.navbar {
       width: 100%;
       margin-left: -30px; }
 
+.navbar-inverse {
+  border: none; }
+
+.navbar-toggle {
+  border: none; }
+
 @media only screen and (max-width: 767px) {
-  nav.navbar {
-    border-bottom: 3px solid #323335; }
-    nav.navbar .navbarlogo {
-      top: 0; }
+  nav.navbar .navbarlogo {
+    top: 0; }
 
   #navbar {
     background: #333;

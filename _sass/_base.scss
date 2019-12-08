@@ -16,10 +16,13 @@ body {
     clear:both;
     background: $black1;
     text-align: center;
-    img { 
+    .lockup { 
         margin: 22vh auto 2vh auto;
-        max-width:800px;
+        max-width:700px;
         padding:0 16px;
+    }
+    .lockup-mobile { 
+        max-width:400px;
     }
     h4 {        
         @extend %librebold;
