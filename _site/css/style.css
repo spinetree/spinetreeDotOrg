@@ -3253,6 +3253,8 @@ body {
         font-weight: 400; }
 
 @media only screen and (max-width: 767px) {
+  .stats li {
+    font-size: 13px; }
   .stats .languages {
     text-align: center;
     padding: 16px 0 32px; }
@@ -3376,7 +3378,7 @@ body {
     padding: 64px 0;
     text-align: center; }
     .project .projectsection h3 {
-      padding-top: 60px;
+      padding-top: 48px;
       margin-bottom: 16px; }
     .project .projectsection img {
       max-width: 90%;
@@ -3670,7 +3672,7 @@ body {
 
 @media only screen and (max-width: 767px) {
   body {
-    font-size: 12px; } }
+    font-size: 14px; } }
 p {
   margin-top: 16px;
   line-height: 1.5; }
@@ -3725,20 +3727,18 @@ h2 {
 h3 {
   font-size: 24px;
   line-height: 1.2;
-  letter-spacing: 1.25px; }
+  letter-spacing: 1.25px;
+  text-transform: lowercase; }
 
 @media only screen and (max-width: 767px) {
   h3 {
-    font-size: 18px; } }
+    font-size: 20px; } }
 h4 {
   font-size: 16px;
   text-transform: uppercase;
   letter-spacing: 1.25px;
   line-height: 1.2; }
 
-@media only screen and (max-width: 767px) {
-  h4 {
-    font-size: 14px; } }
 h5 {
   font-size: 12px;
   letter-spacing: 1.5px;
@@ -4570,21 +4570,21 @@ nav.navbar {
   .projectcard .details {
     min-height: 140px; }
     .projectcard .details .content {
-      top: 60px; } }
+      top: 48px; } }
 @media only screen and (max-width: 991px) {
   .projectcard .details {
     min-height: 140px; }
     .projectcard .details .content {
-      top: 60px; } }
+      top: 48px; } }
 @media only screen and (max-width: 767px) {
   .projectcard {
     border: 8px solid #F0F0E9; }
     .projectcard .details {
-      min-height: 80px; }
+      min-height: 88px; }
       .projectcard .details .content {
-        top: 24px; }
+        top: 16px; }
       .projectcard .details h3 {
-        font-size: 20px;
+        font-size: 24px;
         line-height: 1.2;
         padding-bottom: 0; }
       .projectcard .details h4 {

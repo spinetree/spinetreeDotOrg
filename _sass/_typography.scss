@@ -14,7 +14,7 @@ body {
 }
 
 @media only screen and (max-width: 767px) {
-    body {font-size: 12px;}
+    body {font-size: 14px;}
 }
 
 p {
@@ -90,10 +90,11 @@ h3 {
     font-size: 24px;
     line-height: 1.2;
     letter-spacing:1.25px;
+    text-transform: lowercase;
 }
 
 @media only screen and (max-width: 767px) {
-    h3 {font-size:18px;}
+    h3 {font-size:20px;}
 }
 
 h4 {
@@ -105,7 +106,7 @@ h4 {
 }
 
 @media only screen and (max-width: 767px) {
-    h4 {font-size:14px;}
+    // h4 {font-size:14px;}
 }
 
 h5 {
