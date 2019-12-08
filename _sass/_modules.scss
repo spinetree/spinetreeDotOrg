@@ -76,7 +76,7 @@ body.home nav.navbar .navbarlogo {display:none;}
 
 
 nav.navbar {
-    background: $black2;
+    background: $black1;
     border-top:none;
     border-bottom:none;
     z-index:100;
@@ -109,9 +109,17 @@ nav.navbar {
 
 }
 
+.navbar-inverse {
+border:none;
+}
+
+.navbar-toggle {
+    border:none;
+}
+
 @media only screen and (max-width: 767px) {
     nav.navbar {
-        border-bottom: 3px solid $black2;
+        // border-bottom: 3px solid $black2;
         .navbarlogo {top:0;}
     }
     #navbar { 
