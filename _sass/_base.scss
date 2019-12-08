@@ -17,7 +17,7 @@ body {
     background: $black1;
     text-align: center;
     img { 
-        margin: 22vh auto 4vh auto;
+        margin: 22vh auto 2vh auto;
         max-width:800px;
         padding:0 16px;
     }
@@ -29,18 +29,19 @@ body {
         margin:0 20px 20px;
     }
     i {
-        margin-top:30px;
-        margin-top: 4vh;
-        font-size:40px;
-        color:$white1;
+        position:absolute;
+        left:calc(50% - 20px);
+        bottom: 24px;
+        font-size:48px;
+        color:$white3;
         display:block;
     }
 }
 
 @media only screen and (max-width: 415px) {
     .frontpagehero {
-        img {margin: 35vh auto 26vh;}
-        i {display:none;}
+        img {margin: 22vh auto 26vh;}
+        // i {display:none;}
     }
 }
 
