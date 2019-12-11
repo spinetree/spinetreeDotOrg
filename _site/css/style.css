@@ -4525,6 +4525,10 @@ nav.navbar {
           padding: 10px 20px; }
         #navbar .navbarsocial li i {
           font-size: 18px; } }
+.grid-container {
+  display: -ms-grid;
+  display: grid; }
+
 .projectcard {
   overflow: hidden;
   min-height: 220px;
