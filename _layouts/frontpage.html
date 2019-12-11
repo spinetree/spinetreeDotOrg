@@ -29,8 +29,10 @@
 
                 <a class="project-meta" href="{{ post.url }}">
                     <h3 class="project-title">{{ post.title }}</h3>
-                    <h4 class="project-type">{{ post.type }}</h4>
-                </a>
+                    {% if post.type %}
+                        <h4 class="project-type">{{ post.type }}</h4>
+                    {% endif %}
+                    </a>
 
                 <a href="{{ post.url }}" class="project-thumbnail">
                     <img class="project-thumbnail-image" src="{{ post.thumbnail }}" />

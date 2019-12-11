@@ -33,7 +33,7 @@
     padding: 16px 0;
     border-bottom: 2px solid $white2;
     text-align: center;
-    margin: 0 16px 24px;
+    margin: 24px 16px;
     z-index: 100;
     position: relative;
     display: block; 
@@ -154,9 +154,10 @@ border:none;
 .project-card {
     display:grid;
     grid-template-columns:1fr 1fr;
+    grid-template-rows:minmax(120px,220px);
     position:relative;
-    min-height:220px;
     overflow:hidden;
+    align-items:center;
    
     .project-thumbnail {
         text-align: center;
@@ -168,15 +169,14 @@ border:none;
 
     .project-meta {
         text-align: center;
-        position:relative;
-        align-self:center;
-        min-height:220px;
-        
+        padding:16px;
         .project-title {
+            place-self:center;
             color:$white2;
             font-size:30px;
             text-transform:lowercase;
             padding:0 0 0 8px;
+            margin-top:0;
         }
         .project-type {
             color: $tan0;
@@ -186,7 +186,7 @@ border:none;
     }
 
     &:hover .project-thumbnail-image {
-        margin-bottom: -1px;
+        transform: scale(1.04); 
     }
 }
 
