@@ -3165,7 +3165,9 @@ body, p, li {
   font-weight: 700; }
 
 body {
-  background: #FCFCF7;
+  background: #FCFCF7; }
+
+body * {
   -webkit-transition: all 225ms ease;
   transition: all 225ms ease; }
 
@@ -3761,6 +3763,10 @@ img.responsive {
 @media only screen and (max-width: 990px) {
   h1 {
     font-size: 24px; } }
+.grid-container {
+  display: -ms-grid;
+  display: grid; }
+
 .container {
   margin-right: auto;
   margin-left: auto;
@@ -4441,7 +4447,7 @@ img.responsive {
   padding: 16px 0;
   border-bottom: 2px solid #F0F0E9;
   text-align: center;
-  margin: 0 16px 24px;
+  margin: 24px 16px;
   z-index: 100;
   position: relative;
   display: block; }
@@ -4525,74 +4531,79 @@ nav.navbar {
           padding: 10px 20px; }
         #navbar .navbarsocial li i {
           font-size: 18px; } }
-.projectcard {
+.project-grid {
+  padding: 0 16px;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  display: -ms-grid;
+  display: grid; }
+
+.project-card {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: minmax(120px, 220px);
+      grid-template-rows: minmax(120px, 220px);
+  position: relative;
   overflow: hidden;
-  min-height: 220px;
-  border: 16px solid #F0F0E9; }
-  .projectcard .row {
-    -webkit-box-align: stretch;
-        -ms-flex-align: stretch;
-            align-items: stretch; }
-  .projectcard .thumbnail {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .project-card .project-thumbnail {
     text-align: center; }
-    .projectcard .thumbnail .content {
-      position: relative;
-      min-height: 220px; }
-    .projectcard .thumbnail img {
-      -webkit-transition: all 225ms ease;
-      transition: all 225ms ease;
+    .project-card .project-thumbnail .project-thumbnail-image {
       max-width: 320px;
-      margin: 0 auto;
-      position: absolute;
-      bottom: -10px;
-      left: 50%;
-      margin-left: -160px;
       margin-bottom: -10px; }
-  .projectcard .details {
+  .project-card .project-meta {
     text-align: center;
-    position: relative;
-    min-height: 220px;
-    display: inline-block;
-    width: 100%;
-    z-index: 1; }
-    .projectcard .details .content {
-      width: 100%;
-      position: absolute;
-      top: 48px; }
-    .projectcard .details h3 {
+    padding: 16px; }
+    .project-card .project-meta .project-title {
+      place-self: center;
       color: #F0F0E9;
       font-size: 30px;
       text-transform: lowercase;
-      padding: 0 0 0 8px; }
-    .projectcard .details h4 {
+      padding: 0 0 0 8px;
+      margin-top: 0; }
+    .project-card .project-meta .project-type {
       color: #F2F0DA;
       margin-bottom: 0;
       padding: 0 8px; }
-  .projectcard:hover .thumbnail img {
-    margin-bottom: -1px; }
+  .project-card:hover .project-thumbnail-image {
+    -webkit-transform: scale(1.04);
+            transform: scale(1.04); }
 
 @media only screen and (max-width: 1199px) {
-  .projectcard .details {
-    min-height: 140px; }
-    .projectcard .details .content {
-      top: 48px; } }
+  .project-card {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr; }
+    .project-card .details {
+      min-height: 140px; }
+      .project-card .details .content {
+        top: 48px; } }
 @media only screen and (max-width: 991px) {
-  .projectcard .details {
-    min-height: 140px; }
-    .projectcard .details .content {
-      top: 48px; } }
+  .project-grid {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr; }
+
+  .project-card {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr; } }
 @media only screen and (max-width: 767px) {
-  .projectcard {
-    border: 8px solid #F0F0E9; }
-    .projectcard .details {
+  .project-card {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr; }
+    .project-card .details {
       min-height: 88px; }
-      .projectcard .details .content {
+      .project-card .details .content {
         top: 16px; }
-      .projectcard .details h3 {
+      .project-card .details .project-title {
         font-size: 24px;
         line-height: 1.2;
         padding-bottom: 0; }
-      .projectcard .details h4 {
+      .project-card .details .project-type {
         font-size: 14px;
         line-height: 1.4; } }
 .contact-bar {
