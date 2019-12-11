@@ -21,11 +21,11 @@
         <header>
             <h2 class="titlebar"><a name="work">Work</a></h2>
         </header>
-        <div class="grid-container">
+        <div class="project-grid">
 
             {% for post in site.posts reversed %}
             {% if post.categories contains 'work' %}
-            <div class="projectcard" style="background:{{post.color}}">
+            <div class="project-card" style="background:{{post.color}}">
 
                 <a class="project-meta" href="{{ post.url }}">
                     <h3 class="project-title">{{ post.title }}</h3>
@@ -37,7 +37,7 @@
                 </a>
 
             </div><!-- /projectcard -->
-            
+
             {% endif %}
             {% endfor %}
 
