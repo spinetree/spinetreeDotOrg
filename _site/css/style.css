@@ -4686,3 +4686,5 @@ footer {
 @media only screen and (max-width: 405px) {
   .slides {
     padding-bottom: 40px; } }
+.gif {
+  padding-top: 64px; }

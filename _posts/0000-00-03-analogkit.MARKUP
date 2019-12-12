@@ -16,62 +16,56 @@ tools: 'Axure, Photoshop, Illustrator, After Effects'
 <section class="projectsection">
     <div class="container">
         <div class="row">
-  
             <div class="images col-md-6">
-                <img class="" src="/images/projects/akkeys.jpg" />
+                <img class="gif" src="/images/projects/akbumper.gif" />
             </div>
-            
             <div class="imagemeta col-md-6">
                 <h3>Build, Share and Play</h3>
                 <p>The AnalogKit interface has to accomplish two very different tasks - building and tweaking projects, and then performing with those modules in a live environment. My solution was a 'play mode' where modules and connections locked into position and the user could treat their iPad more like a conventional piece of music hardware.</p>
-            </div>            
-    
+            </div>
         </div>
         <div class="row">
-    
             <div class="images col-md-6 col-md-push-6">
                 <img class="" src="/images/projects/akmodules.jpg" />
             </div>
-            
             <div class="imagemeta col-md-6 col-md-pull-6">
                 <h3>Modular Audio Building</h3>
                 <p>AnalogKit ships with dozens of modules and interface components that users can wire together in any way they choose. My goal was to create modules that were easy to tell apart from one another, easy to interact with in a hurry, and efficient in their use of space.</p>
             </div>
-    
         </div>
         <div class="row">
-
-    
             <div class="images col-md-6">
                 <img class="" src="/images/projects/akui.jpg" />
             </div>
-            
             <div class="imagemeta col-md-6">
                 <h3>Menus and Type</h3>
                 <p>Each module in AnalogKit has a variety of available settings. I crafted a system of menus and popups that harkened back to some of the awesome design and typography that I love on vintage audio hardware.</p>
             </div>  
-            
         </div>
         <div class="row">
-    
-            
             <div class="images col-md-6 col-md-push-6">
                 <img class="" src="/images/projects/akmenu.jpg" />
             </div>
-            
             <div class="imagemeta col-md-6 col-md-pull-6">
                 <h3>The AK Menu</h3>
                 <p>Users who build for any length of time will find themselves with hundreds of modules that they'll use while building. The AK menu is a contextual menu that gives users access to their own components as well as shared components from users they follow.</p>
-            </div>            
-            
-        </div>   
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="projectsection">
+    <div class="row">
+        <div class="images col-sm-12">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/6xUyG8muKa8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/7ruy2upGtcE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
     </div>
 </section>
 
 <section class="projectsection dark">
     <div class="container">
         <div class="row">
-  
             <div class="images col-sm-3">
                 <img class="" src="/images/projects/akquartercard.jpg" />
             </div>
