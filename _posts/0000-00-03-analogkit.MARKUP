@@ -16,10 +16,10 @@ tools: 'Axure, Photoshop, Illustrator, After Effects'
 <section class="projectsection">
     <div class="container">
         <div class="row">
-            <div class="images col-md-4">
+            <div class="images col-md-5">
                 <img class="gif" src="/images/projects/aksource.jpg" />
             </div>
-            <div class="imagemeta col-md-8">
+            <div class="imagemeta col-md-7">
                 <h3>Build, Share and Play</h3>
                 <p>Bitcount came to me asking for visual and UI design for AnalogKit, an audio playground created to let people build synthesizers and audio toys on the iPad. We’d worked together previously on Cleartune, and I was excited to get to work with them again.</p>
                 <p>We started by getting alignment on the ethos of the project -  old S-VHS cassettes, 4-track tape recorders, drum machines of the early 80s … all the things that musicians fell in love with and associated with DIY music-making and early computer systems.</p>
@@ -45,7 +45,7 @@ tools: 'Axure, Photoshop, Illustrator, After Effects'
     <div class="container">
         <div class="row">
             <div class="images col-md-6">
-                <img class="" src="/images/projects/akmodulelockup.jpg" />
+                <img class="" src="/images/projects/akmodulesiteration.jpg" />
                 <!-- <img class="" src="/images/projects/aknestedcontainer.jpg" /> -->
                 <img class="" src="/images/projects/akmodules.jpg" />
             </div>
@@ -83,15 +83,6 @@ tools: 'Axure, Photoshop, Illustrator, After Effects'
     </div>
 </section>
 
-<!-- <section class="projectsection">
-    <div class="row">
-        <div class="images col-sm-12">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/6xUyG8muKa8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/7ruy2upGtcE?start=50" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-    </div>
-</section> -->
-
 <section class="projectsection">
     <div class="container">
         <div class="row">
@@ -124,6 +115,12 @@ tools: 'Axure, Photoshop, Illustrator, After Effects'
             <div class="images col-md-6">
                 <img class="" src="/images/projects/akmenu.jpg" />
                 <img class="" src="/images/projects/aksavemenu.jpg" />
+            </div>
+            <div class="images col-md-6">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/6xUyG8muKa8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="images col-md-6">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/7ruy2upGtcE?start=50" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
     </div>
