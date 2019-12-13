@@ -108,6 +108,12 @@ tools: 'Axure, Photoshop, Illustrator, After Effects'
 <p>Swap meet, AnalogKit’s sharing marketplace, continues to host some great user-generated projects, including visualizers, games and of course lots of audio toys.</p>
 <p>My learnings from AnalogKit informed a lot of the training that I’ve done since, and even though we didn’t get rich, it was a great experience.</p>
             </div>  
+                        <div class="images col-md-6">
+        <iframe src="https://www.youtube.com/embed/6xUyG8muKa8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="images col-md-6">
+        <iframe src="https://www.youtube.com/embed/7ruy2upGtcE?start=50" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
             <div class="images col-md-6">
                 <img class="" src="/images/projects/akmodules.jpg" />
                 <img class="" src="/images/projects/aktutorial.jpg" />
@@ -115,12 +121,6 @@ tools: 'Axure, Photoshop, Illustrator, After Effects'
             <div class="images col-md-6">
                 <img class="" src="/images/projects/akmenu.jpg" />
                 <img class="" src="/images/projects/aksavemenu.jpg" />
-            </div>
-            <div class="images col-md-6">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/6xUyG8muKa8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <div class="images col-md-6">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/7ruy2upGtcE?start=50" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
     </div>
