@@ -23,7 +23,7 @@ tools: 'Axure, Photoshop, Illustrator, After Effects'
                 <h3>Build, Share and Play</h3>
                 <p>Bitcount came to me asking for visual and UI design for AnalogKit, an audio playground created to let people build synthesizers and audio toys on the iPad. We’d worked together previously on Cleartune, and I was excited to get to work with them again.</p>
                 <p>We started by getting alignment on the ethos of the project -  old S-VHS cassettes, 4-track tape recorders, drum machines of the early 80s … all the things that musicians fell in love with and associated with DIY music-making and early computer systems.</p>
-                <p>I also started condisering the story of a mobile app for musicians, and what was important about the moment in time when users would be touching our product. What’s going on around them? What’s hurts a little? What would make them smile?</p>
+                <p>I also started considering the story of a mobile app for musicians, and what was important about the moment in time when users would be touching our product. What’s going on around them? What’s hurts a little? What would make them smile?</p>
                 <p>The challenge was twofold. Users could use our app to build or modify synthesizer toys on their ipad, then use those toys in live performance. They'd be surrounded by an overwhelming amount of other things ... hardware, lights, even *gulp* an audience.</p>
                 <p>We needed to think about the audio hardware that had stood the test of time and welcomed people in. What instruments made people smile? Which felt beautiful to touch? What moments in time caused frustration with the gear? What could we do better?</p>
                 <p>We visited music stores all over, took photos and shared on Pinterest the gear and brands that felt like they were welcoming to everyone, every style, every person wanting to create something.</p>
@@ -57,12 +57,13 @@ tools: 'Axure, Photoshop, Illustrator, After Effects'
             </div>
             <div class="imagemeta col-md-6">
                 <h3>Modules of Delight</h3>
-                <p>Since musicians interact with synths through knobs, sliders and other bits of control panel, nailing the ui of these elements was my main focus. With a well-designed instrument, every touch of a knob becomes  intimate, joyful, expressive and immersive.</p>
+                <p>Since musicians interact with synths through knobs, sliders and other bits of control panel, nailing the look and feel of these elements was critical. With a well-designed instrument, every touch of a control becomes  intimate, joyful and expressive.</p>
                     <p>I looked at audio hardware that was successful - UI designs that people had been using on stage for decades. But skeumorphic audio apps existed on desktop and they didn’t translate well to mobile devices, or live performance.</p>
                     <p>In my sketching and iteration, I asked:</p>
                     <ul>
                         <li>What does a musical instrument that can look like *anything* look like?</li>  
-                        <li>What’s the most simple way I can represent a knob so a user can acquire it while they’re on a  stage in the middle of a live performance?</li>
+                        <li>What does a synthesizer look like that's powerful but also welcoming? How can a thing that's intimidating let more people in?</li>
+                        <li>How can I represent a knob so a user can acquire it while they’re on a stage in the middle of a live performance?</li>
                         <li>How can I reduce cognitive load when my app isn’t sitting by itself in the user’s hand but on a rack with a dozen other pieces of complicated hardware, all competing for attention?</li>
                     </ul>
                     <p>I simplified and refined the design of AnalogKit’s components until they made sense quickly, were pleasurable and welcoming to touch, and not overwhelming when put in the context of a project. We demoed an early beta at SXSW and got some great feedback. After testing, more modules followed and were added to the library of components.</p>
