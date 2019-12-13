@@ -36,16 +36,17 @@ color: '#477780'
     <div class="container">
         <div class="row">
   
-            <div class="images col-md-5 col-md-offset-1">
-                <img class="image shadow" src="/images/projects/fcshomepage.jpg" />
+            <div class="images col-md-8">
+                <img class="image" src="/images/projects/fcshomepage.jpg" />
             </div>
 
-            <div class="imagemeta col-md-5 col-md-offset-1">
+            <div class="imagemeta col-md-4">
                 <h3>Quick prototyping and turnaround</h3>
                 <p>The FCS site was great because we had a very particular timeframe to work in, and I was able to rapidly prototype and iterate with the client with Sketch and InVision.</p>
+                <p>I went to work immediately on building out a visual language to represent different areas of the business, gave each a set of iconography, images and color, and built templates for each type of page that would work across the sub-brands.</p>
             </div>
             
-                        <div class="images col-md-5 col-md-offset-1">
+            <div class="images col-md-4">
                 <img class="image shadow" src="/images/projects/fcssolution.jpg" />
             </div>
 
