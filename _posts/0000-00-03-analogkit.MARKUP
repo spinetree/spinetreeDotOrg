@@ -27,7 +27,7 @@ tools: 'Axure, Photoshop, Illustrator, After Effects'
         </div>
     </div>
 </section>
-<section class="projectsection">
+<section class="projectsection dark">
     <div class="container">
         <div class="row">
             <div class="images col-md-8 col-md-push-4">
@@ -64,7 +64,7 @@ tools: 'Axure, Photoshop, Illustrator, After Effects'
         </div>
             </div>
 </section>
-<section class="projectsection">
+<section class="projectsection dark">
     <div class="container">
         <div class="row">
             <div class="images col-md-8 col-md-push-2">
@@ -107,13 +107,11 @@ tools: 'Axure, Photoshop, Illustrator, After Effects'
     </div>
 </section>
 
-<section class="projectsection">
+<section class="projectsection dark">
     <div class="container">
         <div class="row">
-        <div class="images col-md-8 col-md-push-2">
-                <img class="" src="/images/projects/akbumper.gif" />
-            </div>
             <div class="imagemeta col-md-10 col-md-offset-1">
+                <img class="" src="/images/projects/akbumper.gif" />
                 <h3>Bittersweet Polyphony</h3>
                 <p>AnalogKit got a great reception in the synth and DIY music communities. We did a Reddit AMA, several podcasts and had great reviews on popular YouTube channels.  It didn’t hit with a wide audience like Cleartune, but I learned a lot about building component libraries  and the journey from design spec to finished product.</p>
 <p>Swap meet, AnalogKit’s sharing marketplace, continues to host some great user-generated projects, including visualizers, games and of course lots of audio toys.</p>
