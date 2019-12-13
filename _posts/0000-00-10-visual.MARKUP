@@ -13,13 +13,13 @@ tools: 'Photoshop, Illustrator, InDesign, Various Natural Media'
 color: '#539388'
 ---
 
-<!-- 
+
 <section class="projectsection">
     <div class="container">
         <div class="row">
   
-            <div class="images col-sm-10 col-sm-offset-1">
-                <img class="frame shadow" src="/images/projects/niagara.jpg" />
+            <div class="images col-sm-8 col-sm-offset-2">
+                <img class="" src="/images/projects/niagara.jpg" />
             </div>
 
             <div class="imagemeta wide col-sm-12">
@@ -29,8 +29,24 @@ color: '#539388'
 
         </div>   
     </div>
-</section> -->
+</section>
 
+<section class="projectsection dark">
+    <div class="container">
+        <div class="row">
+  
+            <div class="images col-md-8">
+                <img class="" src="/images/projects/richlabel.png" />
+            </div>
+
+            <div class="imagemeta col-md-4">
+                <h3>Nutcracker Tripel IPA</h3>
+                <p>Labels for a friend's microbrewed IPA. He was tasteful with the hops and besides, this was before IPAs sold out and got so mainstream.</p>
+            </div>
+
+        </div>   
+    </div>
+</section>
 
 
 <section class="projectsection">
@@ -87,21 +103,6 @@ color: '#539388'
 </section>
 
 
-<section class="projectsection dark">
-    <div class="container">
-        <div class="row">
-  
-            <div class="images col-md-8">
-                <img class="" src="/images/projects/richlabel.png" />
-            </div>
 
-            <div class="imagemeta col-md-4">
-                <h3>Nutcracker Tripel IPA</h3>
-                <p>Labels for a friend's microbrewed IPA. He was tasteful with the hops and besides, this was before IPAs sold out and got so mainstream.</p>
-            </div>
-
-        </div>   
-    </div>
-</section>
 
 
