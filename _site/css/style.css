@@ -3380,6 +3380,11 @@ body * {
   .project .projectsection {
     padding: 64px 0;
     text-align: center; }
+    .project .projectsection:hover img {
+      -webkit-transform: scale(1.01);
+              transform: scale(1.01);
+      -webkit-transition: all 500ms ease-in-out;
+      transition: all 500ms ease-in-out; }
     .project .projectsection h3 {
       padding-top: 48px;
       margin-bottom: 16px; }

@@ -267,6 +267,10 @@ body * {
     .projectsection {
         padding:64px 0;
         text-align: center;
+        &:hover img {
+            transform: scale(1.01);
+            transition: all 500ms ease-in-out;
+        }
         h3 {
             padding-top:48px;
             margin-bottom:16px;
