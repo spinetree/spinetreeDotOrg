@@ -23,6 +23,10 @@ tools: 'Axure, Photoshop, Illustrator, After Effects'
                 <h3>Build, Share and Play</h3>
                 <p>Bitcount came to me asking for visual and UI design for AnalogKit, an audio playground created to let people build synthesizers and audio toys on the iPad. We’d worked together previously on Cleartune, and I was excited to get to work with them again.</p>
                 <p>We started by getting alignment on the ethos of the project -  old S-VHS cassettes, 4-track tape recorders, drum machines of the early 80s … all the things that musicians fell in love with and associated with DIY music-making and early computer systems.</p>
+                <p>I also started condisering the story of a mobile app for musicians, and what was important about the moment in time when users would be touching our product. What’s going on around them? What’s hurts a little? What would make them smile?</p>
+                <p>The challenge was twofold. Users could use our app to build or modify synthesizer toys on their ipad, then use those toys in live performance. They'd be surrounded by an overwhelming amount of other things ... hardware, lights, even *gulp* an audience.</p>
+                <p>We needed to think about the audio hardware that had stood the test of time and welcomed people in. What instruments made people smile? Which felt beautiful to touch? What moments in time caused frustration with the gear? What could we do better?</p>
+                <p>We visited music stores all over, took photos and shared on Pinterest the gear and brands that felt like they were welcoming to everyone, every style, every person wanting to create something.</p>
             </div>
         </div>
     </div>
@@ -36,11 +40,13 @@ tools: 'Axure, Photoshop, Illustrator, After Effects'
             </div>
             <div class="imagemeta col-md-4 col-md-pull-8">
                 <h3>Brand Old (School)</h3>
-                <p>I went through several design concepts before settling on something that spoke to our target audience, had an aesthetic we could build on, and most importantly, felt like the start of a world full of awesome vintage synths that you wanted to inhabit.</p>
+                <p>I began letting the research that we'd done make its way into something new. I started with a single image, like a poster, print ad or sticker, thinking about a personality. All the audio hardware people we talked to loved had quirks, odd shapes, unique feels. It all had weight and edges and texture and made a unique impression. Each instrument was a character, and I was building a world for it to live in.</p>
+                <p>I went through several design concepts before settling on something that spoke to our target audiences, had an aesthetic I could build on, and most importantly, felt like the start of a world that you wanted to inhabit.</p>
             </div>
         </div>
             </div>
 </section>
+
 <section class="projectsection">
     <div class="container">
         <div class="row">
@@ -108,12 +114,6 @@ tools: 'Axure, Photoshop, Illustrator, After Effects'
 <p>Swap meet, AnalogKit’s sharing marketplace, continues to host some great user-generated projects, including visualizers, games and of course lots of audio toys.</p>
 <p>My learnings from AnalogKit informed a lot of the training that I’ve done since, and even though we didn’t get rich, it was a great experience.</p>
             </div>  
-                        <div class="images col-md-6">
-        <iframe src="https://www.youtube.com/embed/6xUyG8muKa8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <div class="images col-md-6">
-        <iframe src="https://www.youtube.com/embed/7ruy2upGtcE?start=50" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
             <div class="images col-md-6">
                 <img class="" src="/images/projects/akmodules.jpg" />
                 <img class="" src="/images/projects/aktutorial.jpg" />
@@ -121,6 +121,12 @@ tools: 'Axure, Photoshop, Illustrator, After Effects'
             <div class="images col-md-6">
                 <img class="" src="/images/projects/akmenu.jpg" />
                 <img class="" src="/images/projects/aksavemenu.jpg" />
+            </div>
+            <div class="images col-md-6">
+                <iframe src="https://www.youtube.com/embed/6xUyG8muKa8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="images col-md-6">
+                <iframe src="https://www.youtube.com/embed/7ruy2upGtcE?start=50" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
     </div>
