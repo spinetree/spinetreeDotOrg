@@ -272,7 +272,7 @@ body * {
             margin-bottom:16px;
         }
         img {
-            max-width: 90%;
+            max-width: 100%;
             margin:20px 0;
             display: inline-block;
         }
@@ -288,7 +288,6 @@ body * {
                 font-weight:700;
             }
         }
-
     }
     .projectsection.dark {background:$white2;}
     .imagemeta {

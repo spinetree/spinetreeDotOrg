@@ -12,6 +12,22 @@ tools: 'Illustrator, Photoshop, Corel Painter, Natural Media'
 color: '#517334'
 client: The Worst One
 ---
+<section class="projectsection">
+    <div class="container">
+        <div class="row">
+  
+            <div class="images col-sm-4">
+                <img class="shadow" src="/images/projects/wreckage.jpg" />
+            </div>
+
+            <div class="imagemeta wide col-sm-8">
+                <h3>dark knight rises quote</h3>
+                <p>This was a project from my typography class to tell a story using just layout and hand lettering. I chose a moment from <em>The Dark Knight Rises</em> where we learn what kind of person Bane, the story's villain, is and the lengths the people working for him are willing to go.</p>
+            </div>
+
+        </div>   
+    </div>
+</section>
 
 <section class="projectsection dark">
     <div class="container">
