@@ -267,12 +267,16 @@ body * {
     .projectsection {
         padding:64px 0;
         text-align: center;
+        &:hover img {
+            transform: scale(1.01);
+            transition: all 500ms ease-in-out;
+        }
         h3 {
-            padding-top:48px;
+            // padding-top:48px;
             margin-bottom:16px;
         }
         img {
-            max-width: 90%;
+            max-width: 100%;
             margin:20px 0;
             display: inline-block;
         }
@@ -288,9 +292,9 @@ body * {
                 font-weight:700;
             }
         }
-
     }
     .projectsection.dark {background:$white2;}
+    .projectsection.tan {background:#F5EFDD;}
     .imagemeta {
         padding: 24px 32px;
         p {color:$brown3;}

@@ -13,55 +13,18 @@ tools: 'Photoshop, Illustrator, InDesign, Various Natural Media'
 color: '#539388'
 ---
 
-<!-- 
+
 <section class="projectsection">
     <div class="container">
         <div class="row">
   
-            <div class="images col-sm-10 col-sm-offset-1">
-                <img class="frame shadow" src="/images/projects/niagara.jpg" />
+            <div class="images col-sm-8 col-sm-offset-2">
+                <img class="" src="/images/projects/niagara.jpg" />
             </div>
 
             <div class="imagemeta wide col-sm-12">
                 <h3>Niagara: A Novel</h3>
                 <p>Author Linda Grace approached me to handle the production and design end of turning a manuscript into a finished book and ebook. I created the cover art, handled interior layout, created a map illustration and built the book's marketing site.</p>
-            </div>
-
-        </div>   
-    </div>
-</section> -->
-
-
-
-<section class="projectsection dark">
-    <div class="container">
-        <div class="row">
-  
-            <div class="images col-md-8">
-                <img class="" src="/images/projects/crppostcard.png" />
-            </div>
-
-            <div class="imagemeta col-md-4">
-                <h3>City and Regional Planning Postcard - Cornell University</h3>
-                <p>Mailer to attract students to come to Cornell's College of Architecture, Art and Planning. Ithaca's autumn foliage makes a convincing case.</p>
-            </div>
-
-        </div>   
-    </div>
-</section>
-
-
-<section class="projectsection">
-    <div class="container">
-        <div class="row">
-  
-            <div class="images col-md-5 col-md-push-6">
-                <img class="frame shadow" src="/images/projects/rice.jpg" />
-            </div>
-
-            <div class="imagemeta col-md-5 col-md-offset-1 col-md-pull-5">
-                <h3>Rice Panicle Illustration - Cornell Chronicle</h3>
-                <p>Illustration created to go with a story published in the Cornell Chronicle. I started with pen and ink that then went into Illustrator. Really happy with the hand-drawn but still technical style.</p>
             </div>
 
         </div>   
@@ -90,6 +53,42 @@ color: '#539388'
     <div class="container">
         <div class="row">
   
+            <div class="images col-md-5 col-md-push-6">
+                <img class="frame shadow" src="/images/projects/rice.jpg" />
+            </div>
+
+            <div class="imagemeta col-md-5 col-md-offset-1 col-md-pull-5">
+                <h3>Rice Panicle Illustration - Cornell Chronicle</h3>
+                <p>At one point, I was the on-staff illustrator for Cornell's weekly news publication, the Cornell Chrhonicle. This illustration was created to go with a story about different types of crops and their environmental impact.</p>
+                <p>I started with pen and ink, went into Illustrator and finished with a vector coloring job and final product that looked great in print and online. Really happy with the hand-drawn but still technical style.</p>
+            </div>
+
+        </div>   
+    </div>
+</section>
+
+
+<section class="projectsection dark">
+    <div class="container">
+        <div class="row">
+  
+            <div class="images col-md-8">
+                <img class="" src="/images/projects/crppostcard.png" />
+            </div>
+
+            <div class="imagemeta col-md-4">
+                <h3>City and Regional Planning Postcard - Cornell University</h3>
+                <p>Mailer to attract students to come to Cornell's College of Architecture, Art and Planning. Ithaca's autumn foliage makes a convincing case.</p>
+            </div>
+
+        </div>   
+    </div>
+</section>
+
+<section class="projectsection">
+    <div class="container">
+        <div class="row">
+  
             <div class="images col-md-6 col-md-push-6">
                 <img class="shadow" src="/images/projects/abcopenmic.jpg" />
             </div>
@@ -102,3 +101,8 @@ color: '#539388'
         </div>   
     </div>
 </section>
+
+
+
+
+

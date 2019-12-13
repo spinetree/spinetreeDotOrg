@@ -8,107 +8,99 @@ hero: '/images/projects/akhero.jpg'
 permalink: /work/analogkit/
 color: '#57340F'
 client: Bitcount Ltd.
-type: Generative Music App for iOS
-description: AnalogKit is a complex generative audio app that allows users to build, share and play modular synthesizers and digital audio effects processors. As the UI/UX lead, my challenge was to create a UI that merged the visual language of hardware synths with conventions of iOS apps, as well as craft effective ways of using the limited real estate of a tablet to build deep, complex pieces of virtual music gear. 
+type: Mobile UI Design
+description: AnalogKit is a complex generative audio app that allows users to build, share and play modular synthesizers and digital audio effects processors. As the UI/visual designer, my challenge was to create an interface that merged the visual language of hardware synths with conventions of iOS apps, as well as craft effective ways of using the limited real estate of a tablet to build deep, complex pieces of virtual music gear. 
 tools: 'Axure, Photoshop, Illustrator, After Effects'
 ---
 
 <section class="projectsection">
     <div class="container">
         <div class="row">
-  
-            <div class="images col-md-6">
-                <img class="" src="/images/projects/akkeys.jpg" />
+            <div class="images col-md-5">
+                <img class="gif" src="/images/projects/aksource.jpg" />
             </div>
-            
-            <div class="imagemeta col-md-6">
+            <div class="imagemeta col-md-7">
                 <h3>Build, Share and Play</h3>
-                <p>The AnalogKit interface has to accomplish two very different tasks - building and tweaking projects, and then performing with those modules in a live environment. My solution was a 'play mode' where modules and connections locked into position and the user could treat their iPad more like a conventional piece of music hardware.</p>
-            </div>            
-    
+                <p>Bitcount came to me asking for visual and UI design for AnalogKit, an audio playground created to let people build synthesizers and audio toys on the iPad. We’d worked together previously on Cleartune, and I was excited to get to work with them again.</p>
+                <p>We started by getting alignment on the ethos of the project -  old S-VHS cassettes, 4-track tape recorders, drum machines of the early 80s … all the things that musicians fell in love with and associated with DIY music-making and early computer systems.</p>
+                <p>I also started considering the story of a mobile app for musicians, and what was important about the moment in time when users would be touching our product. What’s going on around them? What’s hurts a little? What would make them smile?</p>
+                <p>The challenge was twofold. Users could use our app to build or modify synthesizer toys on their ipad, then use those toys in live performance. They'd be surrounded by an overwhelming amount of other things ... hardware, lights, even *gulp* an audience.</p>
+                <p>We needed to think about the audio hardware that had stood the test of time and welcomed people in. What instruments made people smile? Which felt beautiful to touch? What moments in time caused frustration with the gear? What could we do better?</p>
+                <p>We visited music stores all over, took photos and shared on Pinterest the gear and brands that felt like they were welcoming to everyone, every style, every person wanting to create something.</p>
+            </div>
         </div>
-        <div class="row">
-    
-            <div class="images col-md-6 col-md-push-6">
-                <img class="" src="/images/projects/akmodules.jpg" />
-            </div>
-            
-            <div class="imagemeta col-md-6 col-md-pull-6">
-                <h3>Modular Audio Building</h3>
-                <p>AnalogKit ships with dozens of modules and interface components that users can wire together in any way they choose. My goal was to create modules that were easy to tell apart from one another, easy to interact with in a hurry, and efficient in their use of space.</p>
-            </div>
-    
-        </div>
-        <div class="row">
-
-    
-            <div class="images col-md-6">
-                <img class="" src="/images/projects/akui.jpg" />
-            </div>
-            
-            <div class="imagemeta col-md-6">
-                <h3>Menus and Type</h3>
-                <p>Each module in AnalogKit has a variety of available settings. I crafted a system of menus and popups that harkened back to some of the awesome design and typography that I love on vintage audio hardware.</p>
-            </div>  
-            
-        </div>
-        <div class="row">
-    
-            
-            <div class="images col-md-6 col-md-push-6">
-                <img class="" src="/images/projects/akmenu.jpg" />
-            </div>
-            
-            <div class="imagemeta col-md-6 col-md-pull-6">
-                <h3>The AK Menu</h3>
-                <p>Users who build for any length of time will find themselves with hundreds of modules that they'll use while building. The AK menu is a contextual menu that gives users access to their own components as well as shared components from users they follow.</p>
-            </div>            
-            
-        </div>   
     </div>
 </section>
-
 <section class="projectsection dark">
     <div class="container">
         <div class="row">
-  
-            <div class="images col-sm-3">
-                <img class="" src="/images/projects/akquartercard.jpg" />
+            <div class="images col-md-8 col-md-push-4">
+                <img class="" src="/images/projects/aklogoconcepts.jpg" />
+                <img class="" src="/images/projects/akbrandlockup.jpg" />
             </div>
-            
-            <div class="images col-sm-6">
-                <img class="" src="/images/projects/akshirt.png" />
+            <div class="imagemeta col-md-4 col-md-pull-8">
+                <h3>Brand Old (School)</h3>
+                <p>I began letting the research that we'd done make its way into something new. I started with a single image, like a poster, print ad or sticker, thinking about a personality. All the audio hardware people we talked to loved had quirks, odd shapes, unique feels. It all had weight and edges and texture and made a unique impression. Each instrument was a character, and I was building a world for it to live in.</p>
+                <p>I went through several design concepts before settling on something that spoke to our target audiences, had an aesthetic I could build on, and most importantly, felt like the start of a world that you wanted to inhabit.</p>
             </div>
-            
-            <div class="images col-sm-3">
-                <img class="" src="/images/projects/akfacebook.jpg" />
-            </div>
-    
         </div>
+            </div>
+</section>
+
+<section class="projectsection">
+    <div class="container">
         <div class="row">
-        
-            <div class="imagemeta wide col-md-10 col-md-offset-2 col-md-pull-1">
-                <h3>The Complete Package</h3>
-                <p>In addition to designing AnalogKit itself, I created SXSW promotional materials, ads for a Facebook campaign, and all our press releases and whitepaper. Our team got a great response from users and appeared on several audio-related podcasts and a Reddit AMA.</p>
+            <div class="images col-md-6">
+                <img class="" src="/images/projects/akmodulesiteration.jpg" />
+                <!-- <img class="" src="/images/projects/aknestedcontainer.jpg" /> -->
+                <img class="" src="/images/projects/akmodules.jpg" />
+            </div>
+            <div class="imagemeta col-md-6">
+                <h3>Modules of Delight</h3>
+                <p>Since musicians interact with synths through knobs, sliders and other bits of control panel, nailing the look and feel of these elements was critical. With a well-designed instrument, every touch of a control becomes  intimate, joyful and expressive.</p>
+                    <p>I looked at audio hardware that was successful - UI designs that people had been using on stage for decades. But skeumorphic audio apps existed on desktop and they didn’t translate well to mobile devices, or live performance.</p>
+                    <p>In my sketching and iteration, I asked:</p>
+                    <ul>
+                        <li>What does a musical instrument that can look like *anything* look like?</li>  
+                        <li>What does a synthesizer look like that's powerful but also welcoming? How can a thing that's intimidating let more people in?</li>
+                        <li>How can I represent a knob so a user can acquire it while they’re on a stage in the middle of a live performance?</li>
+                        <li>How can I reduce cognitive load when my app isn’t sitting by itself in the user’s hand but on a rack with a dozen other pieces of complicated hardware, all competing for attention?</li>
+                    </ul>
+                    <p>I simplified and refined the design of AnalogKit’s components until they made sense quickly, were pleasurable and welcoming to touch, and not overwhelming when put in the context of a project. We demoed an early beta at SXSW and got some great feedback. After testing, more modules followed and were added to the library of components.</p>
             </div>  
-    
-        </div>   
+        </div>
+            </div>
+</section>
+<section class="projectsection dark">
+    <div class="container">
+        <div class="row">
+            <div class="images col-md-8 col-md-push-2">
+                <img class="" src="/images/projects/akmenuconcepts.jpg" />
+            </div>
+            <div class="images col-md-12">
+                <img class="" src="/images/projects/akmenus.jpg" />
+            </div>
+            <div class="imagemeta col-md-10 col-md-push-1">
+                <h3>Menus Level Deep</h3>
+                <p>AnalogKit was ultimately about building instruments, and synths are deeply complicated, so I worked with our devs on an extensible system control panels which, like real synths, were intuitive and powerful  but also made you feel really cool to use.</p>
+                <p>As the app got more complex and acquired more (and more) modules, I usertested several types of menu for accessing and organizing components, before settling on a system for helper text, module documentation and  quick and advanced module controls.</p>
+                <p>In testing, users were able to to play and enjoy the example projects, but struggled with  building and modifying projects. I  wrote and designed a tutorial system based on their feedback that  helped them get started.</p>
+            </div>
+        </div>
     </div>
 </section>
 
 <section class="projectsection">
     <div class="container">
         <div class="row">
-  
-            <div class="imagemeta col-md-4 col-md-offset-2 col-md-pull-1">
-                <h3>Prototyping Galore</h3>
-                <p>A highly complex app, AnalogKit required extensive prototyping. Axure RP let me generate clickable prototypes that I could view on my iPad to help figure out how to build an interface that was both quck to use and easy to understand.</p>
-            </div>  
-            
-            <div class="images col-md-6">
-                <img class="" src="/images/projects/akmenuux.jpg" />
+            <div class="images wide col-md-12">
+                <img class="" src="/images/projects/akpatternlibrary.jpg" />
             </div>
-                
+            <div class="imagemeta wide col-md-12">
+                <h3>The Complete Package</h3>
+                <p>What started as a few cool-looking modules grew into a robust pattern library with hundreds of icons, modules galore and menus and buttons to build almost anything we could think of. Kind of meta, since the app is itself a pattern library. </p>
+            </div>  
+    
         </div>   
     </div>
 </section>
@@ -116,28 +108,27 @@ tools: 'Axure, Photoshop, Illustrator, After Effects'
 <section class="projectsection dark">
     <div class="container">
         <div class="row">
-  
-            <div class="imagemeta col-md-10 col-md-offset-2 col-md-pull-1">
-                <h3>Tutorials</h3>
-                <p>Drawing on my background in instructional design and usability research, I created a series of tutorials to help onboard users and explain the process of building and customizing modules.</p>
+            <div class="imagemeta col-md-10 col-md-offset-1">
+                <img class="" src="/images/projects/akbumper.gif" />
+                <h3>Bittersweet Polyphony</h3>
+                <p>AnalogKit got a great reception in the synth and DIY music communities. We did a Reddit AMA, several podcasts and had great reviews on popular YouTube channels.  It didn’t hit with a wide audience like Cleartune, but I learned a lot about building component libraries  and the journey from design spec to finished product.</p>
+<p>Swap meet, AnalogKit’s sharing marketplace, continues to host some great user-generated projects, including visualizers, games and of course lots of audio toys.</p>
+<p>My learnings from AnalogKit informed a lot of the training that I’ve done since, and even though we didn’t get rich, it was a great experience.</p>
             </div>  
-            
-            <div class="images col-md-4">
-                <img class="" src="/images/projects/aktutorial1.jpg" />
+            <div class="images col-md-6">
+                <img class="" src="/images/projects/akmodules.jpg" />
+                <img class="" src="/images/projects/aktutorial.jpg" />
             </div>
-
-            <div class="images col-md-4">
-                <img class="" src="/images/projects/aktutorial2.jpg" />
+            <div class="images col-md-6">
+                <img class="" src="/images/projects/akmenu.jpg" />
+                <img class="" src="/images/projects/aksavemenu.jpg" />
             </div>
-
-            <div class="images col-md-4">
-                <img class="" src="/images/projects/aktutorial3.jpg" />
+            <div class="images col-md-6">
+                <iframe src="https://www.youtube.com/embed/6xUyG8muKa8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-                
-        </div>   
+            <div class="images col-md-6">
+                <iframe src="https://www.youtube.com/embed/7ruy2upGtcE?start=50" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
     </div>
 </section>
-    
-
-    
- 
