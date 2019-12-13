@@ -37,9 +37,9 @@ tools: 'Sketch, Photoshop'
                 <img class="" src="/images/projects/ctnnawebsite.png" />
             </div>
             <div class="imagemeta wide col-md-8 col-md-offset-2">
-                <h3>Viral Marketing Site</h3>
+                <h3>Viral Marketing Campaign</h3>
             <p>Rather than a traditional marketing website, we came up with the idea of making a website for a giant evil corporate that exists in the novel, and turning it into a viral campaign.</p>
-                <a href="http://www.corporatetorsos.com" target="_blank"><button type="button" class="btn btn-primary center-block livesite">View Live Site</button></a>
+                <!-- <a href="http://www.corporatetorsos.com" target="_blank"><button type="button" class="btn btn-primary center-block livesite">View Live Site</button></a> -->
             </div>
         </div>   
     </div>
@@ -48,15 +48,12 @@ tools: 'Sketch, Photoshop'
 <section class="projectsection dark">
     <div class="container">
         <div class="row">
-            <div class="imagemeta col-md-6">
-                <h3>Rapid design, prototyping and development</h3>
-                <p>Jekyll, Sketch and Bootstrap allowed me to build the site extremely quickly and focus on creating the experience of degeneration and descent into madness that the site's intended to evoke. I used style tiles to create the initial brand identity, and used Pinterest to collaborate with the author on the book's visual identity.</p>
+            <div class="images wide col-md-12">
+                <img class="responsive" src="/images/projects/ctnnaprocess.jpg" />
             </div>
-            <div class="images col-md-6">
-                <img class="responsive shadow" src="/images/projects/ctnnabrandguide.jpg" />
-            </div>
-            <div class="images col-md-6 col-md-offset-3">
-                <img class="responsive shadow" src="/images/projects/ctnnaux.jpg" />
+            <div class="imagemeta col-md-10 col-md-push-1">
+                <h3>Sharing and Worldbuilding</h3>
+                <p>Our goal with CTNNA was to build an alternate reality and then blur the lines for the audience of exactly what was real. We used Pinterest to collect artifacts that painted a picture of a dystopian future and iterate on the book's brand and cover design.</p><p>I proceeded from sketching to identify important imagery to type and style tests with those images to a brand guide to identify the look and feel of the world of Corporate Torsos and Market Research Incorporated.</p><p>From there it was easy to put together a marketing site, print materials and build Market Research Incorporated's world via Linkedin and Facebook Business pages and a MailChimp campaign where users got sent a creepy questionaire from the fictional company.</p>
             </div>
         </div>
     </div>
