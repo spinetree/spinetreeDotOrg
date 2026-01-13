@@ -3,11 +3,11 @@ layout: work
 title: Trupanion
 categories: work
 date: 2015-08-01 13:26:34
-thumbnail: '/images/thumbs/menumanager@2x.jpg'
-hero: '/images/projects/menumanagerhero.jpg'
+thumbnail: '/images/thumbs/trupanion@2x.jpg'
+hero: '/images/projects/trupanion.jpg'
 permalink: /work/trupanion/
 color: '#1C284D'
-client: Trupabion
+client: Trupanion
 type: veterinary claims portal
 description: Leafly asked me to redesign their B2B SaaS product for managing dispensary menus on Leafly.com and Leafly mobile apps. I dove deep on understanding the unique needs of retailers operating in the cannabis space, conducted usability testing and research, and built a system that improved both our client and customer experience.
 tools: 'Role - Design lead'

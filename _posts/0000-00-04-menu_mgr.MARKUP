@@ -3,9 +3,9 @@ layout: work
 title: Leafly
 categories: work
 date: 2015-08-01 13:26:34
-thumbnail: '/images/thumbs/menumanager@2x.jpg'
-hero: '/images/projects/menumanagerhero.jpg'
-permalink: /work/menumanager/
+thumbnail: '/images/thumbs/leafly@2x.jpg'
+hero: '/images/projects/leafly.jpg'
+permalink: /work/leafly/
 color: '#017c6b'
 client: Leafly
 type: b2b ecommerce management

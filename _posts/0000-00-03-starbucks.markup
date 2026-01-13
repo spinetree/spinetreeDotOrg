@@ -3,9 +3,9 @@ layout: work
 title: Starbucks
 categories: work
 date: 2015-08-01 13:26:34
-thumbnail: '/images/thumbs/menumanager@2x.jpg'
-hero: '/images/projects/menumanagerhero.jpg'
-permalink: /work/menumanager/
+thumbnail: '/images/thumbs/sbux@2x.jpg'
+hero: '/images/projects/sbux.jpg'
+permalink: /work/starbucks/
 color: '#1E3931'
 client: Starbucks
 type: inventory management

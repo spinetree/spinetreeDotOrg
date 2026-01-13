@@ -3,9 +3,9 @@ layout: work
 title: Google
 categories: work
 date: 2015-08-01 13:26:34
-thumbnail: '/images/thumbs/menumanager@2x.jpg'
-hero: '/images/projects/menumanagerhero.jpg'
-permalink: /work/betterbug/
+thumbnail: '/images/thumbs/google@2x.jpg'
+hero: '/images/projects/google.jpg'
+permalink: /work/googlebugtracking/
 color: '#EA4335'
 client: Google
 type: ai-assisted bug reporting
