@@ -8,7 +8,7 @@ hero: '/images/projects/akhero.jpg'
 permalink: /work/analogkit/
 color: '#57340F'
 client: Bitcount Ltd.
-type: Mobile UI Design
+type: Mobile synthesizer playground
 description: AnalogKit is a complex generative audio app that allows users to build, share and play modular synthesizers and digital audio effects processors. As the UI/visual designer, my challenge was to create an interface that merged the visual language of hardware synths with conventions of iOS apps, as well as craft effective ways of using the limited real estate of a tablet to build deep, complex pieces of virtual music gear. 
 tools: 'Axure, Photoshop, Illustrator, After Effects'
 ---
