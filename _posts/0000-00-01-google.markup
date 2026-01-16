@@ -110,25 +110,3 @@ tools: 'Figma, Figjam, Google Docs'
         </div>   
     </div>
 </section>
-
-<section class="projectsection dark">
-    <div class="container">
-        <div class="row">
-  
-            <div class="images col-md-8">
-                <img class="image" src="/images/projects/" />
-            </div>
-
-            <div class="imagemeta col-md-4">
-                <h3>Section Title</h3>
-                <p>Paragraph</p>
-                <p>Paragraph</p>
-            </div>
-            
-            <div class="images col-md-4">
-                <img class="image shadow" src="/images/projects/.jpg" />
-            </div>
-
-        </div>   
-    </div>
-</section>
