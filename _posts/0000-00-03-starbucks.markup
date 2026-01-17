@@ -13,7 +13,7 @@ description: Embedded designer on a Starbucks engineering team focused on mobile
 tools: 'Figma, Sketch, eye tracking goggles, test kitchen, user interviews, employee surveys, site vists, code prototypes'
 ---
 
-<section class="projectsection">
+<section class="projectsection dark">
     <div class="container">
         <div class="row">
   
@@ -34,7 +34,7 @@ tools: 'Figma, Sketch, eye tracking goggles, test kitchen, user interviews, empl
     </div>
 </section>
 
-<section class="projectsection dark">
+<section class="projectsection">
     <div class="container">
         <div class="row">
 
@@ -58,7 +58,7 @@ tools: 'Figma, Sketch, eye tracking goggles, test kitchen, user interviews, empl
     </div>
 </section>
 
-<section class="projectsection">
+<section class="projectsection dark">
     <div class="container">
         <div class="row">
   
@@ -85,7 +85,7 @@ tools: 'Figma, Sketch, eye tracking goggles, test kitchen, user interviews, empl
     </div>
 </section>
 
-<section class="projectsection dark">
+<section class="projectsection">
     <div class="container">
         <div class="row">
 
@@ -95,8 +95,8 @@ tools: 'Figma, Sketch, eye tracking goggles, test kitchen, user interviews, empl
 
             <div class="imagemeta wide col-md-5">
                 <h3>Prototyping &amp; testing</h3>
-                <p>The team had access to an amazing test facility - a actual mock kitchen where we could run tests with employees counting real products in physical spaces, as well as eye tracking goggles that gave additional insights into cognitive details of the processes.</p>  
-                <p>Having outgrown the capabilities of Figma prototypes, and needing to get an accurate apples-to-apples speed comparison, we used code prototyping to test out different parts of the process and prove which elements improved on key metrics.</p>
+                <p>The team had access to an amazing test facility - an actual mock kitchen where we could run tests with employees counting real products in physical spaces, as well as eye tracking goggles that gave additional insights into the cognitive and physical details of the processes.</p>  
+                <p>Having outgrown the capabilities of Figma prototypes, and needing to get an accurate apples-to-apples speed comparison, we used code prototyping to test out different parts of the process and prove which elements of designs improved on key metrics.</p>
                 <p>As testing continued, we were able to quantify the cost of each change and (since we were talking about 10k stores worth of employees) the overall potential impact.</p>
             </div>
 
@@ -108,15 +108,15 @@ tools: 'Figma, Sketch, eye tracking goggles, test kitchen, user interviews, empl
     </div>
 </section>
 
-<section class="projectsection">
+<section class="projectsection dark">
     <div class="container">
         <div class="row">
 
             <div class="imagemeta wide col-md-5 col-md-offset-1">
                 <h3>Outcomes</h3>
                <ul>
-                    <li>P2T on the iPad demonstrated a 60% speed increase over scanner-based counting.</li>
-                    <li>Users expressed positive sentiments towards the iPad versions and the new workflow</li>
+                    <li>The redesigned app demonstrated a 60% speed increase over scanner-based counting.</li>
+                    <li>Users expressed positive sentiments towards the iPad versions and the new workflow, and the gamification elements introduced to help make a laborious process feel satisfying.</li>
                     <li>The company chose to devote additional resources to developing the app beyond its original scope, while also choosing to let employees have greater choice in how they conducted the count process.</li>
                 </ul>
             </div>
