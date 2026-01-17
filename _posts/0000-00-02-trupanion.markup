@@ -58,16 +58,17 @@ tools: 'Figma, Figjam, Sharepoint, site visits, user interviews'
     <div class="container">
         <div class="row">
   
-            <div class="images col-md-6">
+            <div class="images col-md-5">
                 <img class="image" src="/images/projects/trupanion/initial_research.png" />
             </div>
 
-            <div class="imagemeta wide col-md-8 col-md-offset-2">
+            <div class="imagemeta wide col-md-7">
                 <h3>Establishing a practice</h3>
+                <p>My first order of business at Trupanion was to map the existing software and begin to document things that had previously only existed as tribal knowledge. This included:</p>
                 <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>Site visits with the sales staff</li>
+                    <li>Interviews with support and customer service teams (Where I heard something I often hear - 'No one's ever asked us about these things before.')</li>
+                    <li>Regular workshops with the team to socialize findings, set exectations, and evangelize the design thinking methodology</li>
                 </ul>
             </div>
 
@@ -78,19 +79,14 @@ tools: 'Figma, Figjam, Sharepoint, site visits, user interviews'
 <section class="projectsection">
     <div class="container">
         <div class="row">
-  
-            <div class="images col-md-8">
-                <img class="image" src="/images/projects/trupanion/" />
-            </div>
 
-            <div class="imagemeta col-md-4">
+            <div class="imagemeta col-md-7">
                 <h3>Unifying and operationalizing</h3>
-                <p>Paragraph</p>
-                <p>Paragraph</p>
+                <p>Around this time, the team saw that the findings we were getting were helping inform better business decisions, so I was given resources to build out the design team with a research specialist and later, two junior designers. I iterated on new designs that took advantage of our learnings while my team was able to run tests and gain valuable insights on the new ideas.</p>
             </div>
-            
-            <div class="images col-md-4">
-                <img class="image" src="/images/projects/trupanion/.jpg" />
+  
+            <div class="images col-md-5">
+                <img class="image" src="/images/projects/trupanion/research_lockup.png" />
             </div>
 
         </div>   
@@ -101,17 +97,16 @@ tools: 'Figma, Figjam, Sharepoint, site visits, user interviews'
     <div class="container">
         <div class="row">
   
-            <div class="images col-md-10 col-md-offset-1">
-                <img class="image" src="/images/projects/trupanion/" />
+            <div class="images col-md-6">
+                <img class="image" src="/images/projects/trupanion/components_2.png" />
             </div>
 
-            <div class="imagemeta wide col-md-8 col-md-offset-2">
+            <div class="imagemeta wide col-md-6">
                 <h3>Bite sized pieces</h3>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
+                <p>From the beginning, I was able to identify frontend inconsistencies that had resulted from the app being built piecemeal. I set about creating a pattern library and set of spec docs to unify our UI elements and began a design QA process to ensure things were built to spec.</p>
+               
+                <p>During this time I also developed the system I still use today of multiple Figma files that serve as a set of specs for developers, a showroom for stakeholders, and a factory floor for the design team. Each entry is coded with metadata similar to Git commit messages that let anyone see where in the process a set of screens was created, what their status is, and what changed from previous entries. I've been asked to implement this same workflow by every other team I've demoed the process to.</p>
+
             </div>
 
         </div>   
@@ -122,18 +117,23 @@ tools: 'Figma, Figjam, Sharepoint, site visits, user interviews'
     <div class="container">
         <div class="row">
   
-            <div class="images col-md-8">
-                <img class="image" src="/images/projects/trupanion/" />
+            <div class="imagemeta center col-md-10 col-md-offset-1">
+                <h3>Results: A portal that performs</h3>
+                <p>After launch, our new portal was able to deliver solid improvements on the previous versions including:</p>
+                <ul>
+                    <li>16.9% dashboard lead growth</li>
+                    <li>~30% increase in users following golden path</li>
+                    <li>13% B2B customer increase after 6 months</li> 
+                    <li>24% B2C customer increase after 6 months</li>
+                </ul>
             </div>
 
-            <div class="imagemeta col-md-4">
-                <h3>Results: A portal that performs</h3>
-                <p>Paragraph</p>
-                <p>Paragraph</p>
-            </div>
-            
             <div class="images col-md-4">
-                <img class="image" src="/images/projects/trupanion/.jpg" />
+                <img class="image" src="/images/projects/trupanion/vetportal_dashboard_redesign@2x.png" />
+            </div>    
+            
+            <div class="images col-md-8">
+                <img class="image" src="/images/projects/trupanion/vetportal_webform_redesign@2x.png" />
             </div>
 
         </div>   

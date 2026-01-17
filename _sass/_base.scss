@@ -1,7 +1,6 @@
 // ******************************************************************
 // Front Page
 //*******************************************************************
-
 body {
     background: #FCFCF7;
 }
@@ -11,125 +10,140 @@ body * {
 }
 
 .frontpagehero {
-    height:570px;
+    height: 570px;
     height: 57vh;
-    min-height:600px;
+    min-height: 600px;
     padding: 0 0 40px;
     position: relative;
-    clear:both;
+    clear: both;
     background: $black1;
     text-align: center;
-    .lockup { 
+    .lockup {
         margin: 22vh auto 2vh auto;
-        max-width:700px;
-        padding:0 16px;
+        max-width: 700px;
+        padding: 0 16px;
     }
-    .lockup-mobile { 
-        max-width:400px;
+    .lockup-mobile {
+        max-width: 400px;
     }
-    h4 {        
+    h4 {
         @extend %librebold;
-        text-transform:none;
-        color:$yellow1;
-        font-size:28px;
-        margin:0 20px 20px;
+        text-transform: none;
+        color: $yellow1;
+        font-size: 28px;
+        margin: 0 20px 20px;
     }
     i {
-        position:absolute;
-        left:calc(50% - 20px);
+        position: absolute;
+        left: calc(50% - 20px);
         bottom: 24px;
-        font-size:48px;
-        color:$white3;
-        display:block;
+        font-size: 48px;
+        color: $white3;
+        display: block;
     }
 }
 
 @media only screen and (max-width: 415px) {
     .frontpagehero {
-        img {margin: 22vh auto 26vh;}
+        img {
+            margin: 22vh auto 26vh;
+        }
         // i {display:none;}
     }
 }
 
 .thumbs {
-    padding:32px 16px 64px;
+    padding: 32px 16px 64px;
     background: $white2;
 }
 
 @media only screen and (max-width: 415px) {
-    .thumbs {padding:16px 8px 32px;}
+    .thumbs {
+        padding: 16px 8px 32px;
+    }
 }
 
 .about {
-    padding:32px 16px;
-    h2 {margin-bottom:32px;}
+    padding: 32px 16px;
+    h2 {
+        margin-bottom: 32px;
+    }
 }
 
 @media only screen and (max-width: 767px) {
-    .about {padding:32px 8px;}
+    .about {
+        padding: 32px 8px;
+    }
 }
 
 .bio {
-    padding-bottom:0px;
-    margin-bottom:40px;
-    p {margin-bottom:20px;}
+    padding-bottom: 0px;
+    margin-bottom: 40px;
+    p {
+        margin-bottom: 20px;
     }
+}
 
 .biophoto {
-    text-align:center;
-    img {max-width:220px;}
+    text-align: center;
+    img {
+        max-width: 220px;
     }
+}
 
 .stats {
-    text-align:center;
-    padding-top:32px;
-    ul {padding:0 16px;}
+    text-align: center;
+    padding-top: 32px;
+    ul {
+        padding: 0 16px;
+    }
     li {
-    list-style:none;
-    @extend %raleway;
-    font-size: 14px;
+        list-style: none;
+        @extend %raleway;
+        font-size: 14px;
     }
     .apps {
-        margin-top:32px;
+        margin-top: 32px;
         li {
-        display:inline-block;
-        margin: 8px 12px;
+            display: inline-block;
+            margin: 8px 12px;
         }
     }
     .languages {
-        margin-top:16px;
-        padding:16px 48px 32px;
-        background:$white2;
+        margin-top: 16px;
+        padding: 16px 48px 32px;
+        background: $white2;
         li {
-            text-align:left;
+            text-align: left;
             @extend %raleway;
             span {
-                color:$pink;
-                margin-left:16px;
-                float:right;
-                text-align:left;
+                color: $pink;
+                margin-left: 16px;
+                float: right;
+                text-align: left;
                 @extend %ralewaylight;
-                font-style:italic;
-                font-weight:400;
+                font-style: italic;
+                font-weight: 400;
             }
-            
         }
     }
 }
 
 @media only screen and (max-width: 767px) {
     .stats {
-    li {font-size:13px;}
-    .languages {
-        text-align:center;
-        padding:16px 0 32px;
-    span {
-        float:none; 
-        display:block;
-        text-align:center;
+        li {
+            font-size: 13px;
+        }
+        .languages {
+            text-align: center;
+            padding: 16px 0 32px;
+            span {
+                float: none;
+                display: block;
+                text-align: center;
+            }
+        }
     }
-    }
-}
 }
 
 .bioconnect {
@@ -140,85 +154,93 @@ body * {
     .socialicons {
         padding-top: 10px;
     }
-    .resumebutton {margin-bottom:20px;}
+    .resumebutton {
+        margin-bottom: 20px;
+    }
 }
 
 .recommendations {
-    padding:64px 0 128px;
-    h3 {text-align:center; margin-bottom:30px;}
+    padding: 64px 0 128px;
+    h3 {
+        text-align: center;
+        margin-bottom: 30px;
+    }
     .quote p {
         @extend %ralewaylight;
-        font-size:14px;
-        color:$black2; 
-        font-style:italic;
+        font-size: 14px;
+        color: $black2;
+        font-style: italic;
     }
     p.attribution {
-        text-align:right;
-        font-style:normal;
+        text-align: right;
+        font-style: normal;
     }
 }
 
 .sixpieces {
-    background:$white2;
-    padding:100px 0;
-    transform:skewY(-3deg);
-    margin-top:-60px;
-    margin-bottom:-70px;
+    background: $white2;
+    padding: 100px 0;
+    transform: skewY(-3deg);
+    margin-top: -60px;
+    margin-bottom: -70px;
     .row {
-        transform:skewY(3deg);
+        transform: skewY(3deg);
     }
     li {
-        list-style:none;
+        list-style: none;
         margin: 0 0 30px;
     }
     .page {
-        padding:20px;
-        margin:60px 0;
+        padding: 20px;
+        margin: 60px 0;
     }
     h2 {
         @extend %ralewaybold;
-        text-align:center;
+        text-align: center;
     }
 }
 
 @media only screen and (max-width: 990px) {
-    .about h1 {text-align:center;}
-    .biophoto {margin-bottom:32px;}
-    .sixpieces {padding: 40px 0 120px;
+    .about h1 {
+        text-align: center;
+    }
+    .biophoto {
+        margin-bottom: 32px;
+    }
+    .sixpieces {
+        padding: 40px 0 120px;
         .page {
-            border-left:none; 
-            border-right:none;
-            margin-bottom:40px;
+            border-left: none;
+            border-right: none;
+            margin-bottom: 40px;
         }
     }
-    .stats .languages {margin-top:24px;}
-    .stats .languages .content {
-        margin:0 10px;
+    .stats .languages {
+        margin-top: 24px;
     }
-    .bio .socialicons {        
+    .stats .languages .content {
+        margin: 0 10px;
+    }
+    .bio .socialicons {
         padding-bottom: 20px;
     }
-
 }
 
 @media only screen and (max-width: 767px) {
-    .bio {margin-bottom:20px;}
-    .stats { 
+    .bio {
+        margin-bottom: 20px;
+    }
+    .stats {
         .apps {
-            margin-bottom:30px;
-            margin-top:0;
+            margin-bottom: 30px;
+            margin-top: 0;
         }
     }
 }
-
-
-
 
 // ******************************************************************
 // Work Pages
 //*******************************************************************
-
-
 .project {
     margin-top: -40px;
     background: $white1;
@@ -238,70 +260,95 @@ body * {
         background: $black1;
         border-top: 4px solid $black2;
         border-bottom: 6px solid $black2;
-        color:$white1;
+        color: $white1;
         .primary {
             padding: 0 40px 0 0;
             text-align: right;
             border-right: 4px solid $black2;
-            h1 {margin:0 0 15px; font-size:48px;}
-            h3 {color: $tan0;}
-            h4 {margin-bottom:0;}
+            h1 {
+                margin: 0 0 15px;
+                font-size: 48px;
+            }
+            h3 {
+                color: $tan0;
+            }
+            h4 {
+                margin-bottom: 0;
+            }
         }
         .description {
-            padding-top:8px;
+            padding-top: 8px;
             padding-left: 32px;
-            p {margin-bottom:8px;}
-            p.tools {
-                font-style:italic;
-                color:$yellow2;
+            p {
+                margin-bottom: 8px;
             }
-
+            p.tools {
+                font-style: italic;
+                color: $yellow2;
+            }
         }
     }
     .pquote {
-        color:$pink;
+        color: $pink;
         font-size: 24px;
-        margin:24px 48px; 
-        font-weight:700;
+        margin: 24px 48px;
+        font-weight: 700;
     }
     .projectsection {
-        padding:64px 0;
-        text-align: center;
+        padding: 64px 0;
         &:hover img {
             transform: scale(1.01);
             transition: all 500ms ease-in-out;
         }
         h3 {
             // padding-top:48px;
-            margin-bottom:16px;
+            margin-bottom: 16px;
+            text-align: center;
         }
         img {
             max-width: 100%;
-            margin:20px 0;
+            margin: 20px 0;
             display: inline-block;
         }
-        p, ul, li {text-align:left;}
+        .center {
+            text-align: center;
+        }
+        p,
+        ul,
+        li {}
         .subtitles {
-            text-align:right;
-            h3 {padding-top:0;}
-            p {text-transform: uppercase;}
-            p, ul, li {
+            text-align: right;
+            h3 {
+                padding-top: 0;
+            }
+            p {
+                text-transform: uppercase;
+            }
+            p,
+            ul,
+            li {
                 color: $teal;
                 list-style-type: none;
-                text-align:right;
-                font-weight:700;
+                text-align: right;
+                font-weight: 700;
             }
         }
     }
-    .projectsection.dark {background:$white2;}
-    .projectsection.tan {background:#F5EFDD;}
+    .projectsection.dark {
+        background: $white2;
+    }
+    .projectsection.tan {
+        background: #F5EFDD;
+    }
     .imagemeta {
         padding: 24px 32px;
-        p {color:$brown3;}
+        p {
+            color: $brown3;
+        }
     }
     .imagemeta.wide h3 {
-        padding-top:0;
-        text-align:center;
+        padding-top: 0;
+        text-align: center;
     }
     .images.slides {
         padding: 0 32px;
@@ -313,57 +360,61 @@ body * {
 
 @media only screen and (max-width: 991px) {
     .project {
-        .hero {padding-top:160px;}
+        .hero {
+            padding-top: 160px;
+        }
         .meta {
             .primary {
-                h1 {font-size:36px;}
+                h1 {
+                    font-size: 36px;
+                }
                 padding:0 0 0 0;
                 text-align:center;
                 border-right:none;
             }
         }
-        .projectsection {padding:24px 0;}
+        .projectsection {
+            padding: 24px 0;
+        }
         .projectsection .subtitles {
-            text-align:center;
-            margin-bottom:32px;
+            text-align: center;
+            margin-bottom: 32px;
             font-style: italic;
-            p { text-align:center;}
-            ul {text-align:center; margin:0 auto; 
-                margin-bottom:16px; margin-left:0; padding-left:0;}
-            ul li {
-                margin-top:8px;
-                display:inline-block;
-                padding:0 12px;
-                border-right:1px solid $white3;
+            p {
+                text-align: center;
             }
-            ul li:last-child {border-right:none;}
+            ul {
+                text-align: center;
+                margin: 0 auto;
+                margin-bottom: 16px;
+                margin-left: 0;
+                padding-left: 0;
+            }
+            ul li {
+                margin-top: 8px;
+                display: inline-block;
+                padding: 0 12px;
+                border-right: 1px solid $white3;
+            }
+            ul li:last-child {
+                border-right: none;
+            }
         }
         .imagemeta {
-            padding:8px 16px;
+            padding: 8px 16px;
             h3 {
-                padding:16px;
-                text-align:center;
+                padding: 16px;
+                text-align: center;
             }
         }
-        
     }
-    
 }
-
-
-
-
-
-
 
 // ******************************************************************
 // process, about pages
 //*******************************************************************
-
 .about-page {
     background: $white1;
-    color:$blue4;
-    padding-top:60px;
+    color: $blue4;
+    padding-top: 60px;
 }
-
-

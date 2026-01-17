@@ -1,38 +1,37 @@
-
 // ******************************************************************
 // text defaults
 //*******************************************************************
-
-
 body {
     @extend %libre;
     color: $black1;
-    line-height:1.2;
-    font-size:16px;
-    letter-spacing:0.4px;
-    font-weight:400;
+    line-height: 1.2;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    font-weight: 400;
 }
 
 @media only screen and (max-width: 767px) {
-    body {font-size: 14px;}
+    body {
+        font-size: 14px;
+    }
 }
 
 p {
     @extend %libre;
-    margin-top:16px;
-    line-height:1.5;
+    margin-top: 16px;
+    line-height: 1.5;
 }
-
 
 li {
     @extend %libre;
-    margin-top:16px;
-    line-height:1.5;
+    margin-top: 16px;
+    line-height: 1.5;
+    list-style-position: inside;
 }
 
 ul {
-    margin-top:24px;
-    padding-left:16px;
+    margin-top: 24px;
+    padding-left: 16px;
 }
 
 section,
@@ -55,54 +54,61 @@ a {
     }
 }
 
-
-h1, h2, h3, h4 {    
-    letter-spacing:1.2px;
-    margin-top:16px;
-    margin-bottom:0;
+h1,
+h2,
+h3,
+h4 {
+    letter-spacing: 1.2px;
+    margin-top: 16px;
+    margin-bottom: 0;
 }
 
-
 h1 {
-    font-size:58px;
+    font-size: 58px;
     @extend %ralewaybold;
-    color:$white2;
+    color: $white2;
 }
 
 @media only screen and (max-width: 767px) {
-    h1 {font-size:36px;}
+    h1 {
+        font-size: 36px;
+    }
 }
 
 h2 {
     @extend %ralewaybold;
-    font-size:26px;
-    line-height:1.2;
-    text-transform:uppercase;
-    color:$black2;
+    font-size: 26px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: $black2;
 }
 
 @media only screen and (max-width: 767px) {
-    h2 {font-size:20px;}
+    h2 {
+        font-size: 20px;
+    }
 }
 
 h3 {
     @extend %ralewaybold;
     font-size: 24px;
     line-height: 1.2;
-    letter-spacing:1.25px;
+    letter-spacing: 1.25px;
     text-transform: lowercase;
 }
 
 @media only screen and (max-width: 767px) {
-    h3 {font-size:20px;}
+    h3 {
+        font-size: 20px;
+    }
 }
 
 h4 {
     @extend %ralewaysemi;
     font-size: 16px;
-    text-transform:uppercase;
-    letter-spacing:1.25px;
-    line-height:1.2;
+    text-transform: uppercase;
+    letter-spacing: 1.25px;
+    line-height: 1.2;
 }
 
 @media only screen and (max-width: 767px) {
@@ -111,20 +117,30 @@ h4 {
 
 h5 {
     @extend %raleway;
-    font-size:12px;
-    letter-spacing:1.5px;
-    color:$white1;
-    line-height:24px;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    color: $white1;
+    line-height: 24px;
 }
 
-img.responsive {width:100%;}
+img.responsive {
+    width: 100%;
+}
 
-.frame {border:4px solid lighten($tan0,8%);}
+.frame {
+    border: 4px solid lighten($tan0, 8%);
+}
 
-.darkframe {border:1px solid $tan1;}
+.darkframe {
+    border: 1px solid $tan1;
+}
 
-.shadow {box-shadow: 2px 2px 11px -4px rgba(68,68,68,1);}
+.shadow {
+    box-shadow: 2px 2px 11px -4px rgba(68, 68, 68, 1);
+}
 
 @media only screen and (max-width: 990px) {
-    h1 {font-size:24px;}
+    h1 {
+        font-size: 24px;
+    }
 }
