@@ -23,7 +23,10 @@ tools: 'Figma, Sketch, eye tracking goggles, test kitchen, user interviews, empl
 
             <div class="imagemeta col-md-7">
                 <h3>Summary</h3>
-               <p>paragraph</p>
+               <p>At Starbucks I was asked to work on retiring a piece of beloved but expensive and frequently broken hardware - barcode scanners - used by employees to take inventory and thaw food items for the next day.</p>
+               <p>As a former restaurant worker still obsessed with cooking, the task was near and dear to my heart, and also gave me a chance to work in a medium I enjoy - apps people use to do their jobs. The opposite of another Candy Crush clone hoping to keep us obsessed with our screens, I love digital products that help people do things in the real world, and seek to build them with awareness that they're a tool, not a goal unto themselves.</p> 
+               
+               <p>Back of house software is often a company's most frequent touchpoint with their employees, and an opportunity to show someone whether you understand their day to day and are prioritizing giving them the best tools possible.</p>
             </div>
 
 
@@ -41,13 +44,13 @@ tools: 'Figma, Sketch, eye tracking goggles, test kitchen, user interviews, empl
             </div>
 
 
-            <div class="imagemeta col-md-4">
+            <div class="imagemeta col-md-5">
                 <h3>Design challenge</h3>
-                <p>Paragraph</p>
-                <p>Paragraph</p>
+                <p>The sentiment when I came on board and saw the hastily-ported over version of the app running on the iPad amounted to "We know, they're going to hate it, and it's going to be slower. Just do what you can."</p>
+                <p>The initial iPad app was not only cumbersome to use, its not-optimized interface required users to stretch their fingers to difficult touch areas, read small text at a further viewing distance, and manually search through lists of text to find and count products. In short, it was an accessibility and usability nightmare.</p>
             </div>
             
-            <div class="images col-md-4">
+            <div class="images col-md-3">
                 <img class="image" src="/images/projects/sbux/p2t_ipad.png" />
             </div>
 
@@ -63,16 +66,17 @@ tools: 'Figma, Sketch, eye tracking goggles, test kitchen, user interviews, empl
                 <img class="image" src="/images/projects/sbux/docs.png" />
             </div>
 
-           <div class="imagemeta wide col-md-6">
+           <div class="imagemeta wide col-md-5">
                 <h3>Research &amp; Ideation</h3>
+                <p>In my time with the team, I:</p>
                 <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>Ran studies quantifying exactly how much speed loss was occurring.</li>
+                    <li>Interviewed employees and conducted site visits to uncover found-in-the wild solutions that were already in use (under the radar).</li>
+                    <li>Annoyed everyone by obessively publishing and evangelizing findings and showing not just incremental changes but ideas for making the new app actively better than its predecessor.</li>
                 </ul>
             </div>
 
-            <div class="images col-md-3">
+            <div class="images col-md-4">
                 <img class="image" src="/images/projects/sbux/p2t_ipad_versions.png" />
             </div>
 
@@ -85,14 +89,18 @@ tools: 'Figma, Sketch, eye tracking goggles, test kitchen, user interviews, empl
     <div class="container">
         <div class="row">
 
-            <div class="imagemeta wide col-md-6">
-                <h3>Prototyping &amp; testing</h3>
-                <p></p>  
-                <p></p>
-                <p></p>
+            <div class="images col-md-3">
+                <img class="image" src="/images/projects/sbux/goggles.png" />
             </div>
 
-            <div class="images col-md-6">
+            <div class="imagemeta wide col-md-5">
+                <h3>Prototyping &amp; testing</h3>
+                <p>The team had access to an amazing test facility - a actual mock kitchen where we could run tests with employees counting real products in physical spaces, as well as eye tracking goggles that gave additional insights into cognitive details of the processes.</p>  
+                <p>Having outgrown the capabilities of Figma prototypes, and needing to get an accurate apples-to-apples speed comparison, we used code prototyping to test out different parts of the process and prove which elements improved on key metrics.</p>
+                <p>As testing continued, we were able to quantify the cost of each change and (since we were talking about 10k stores worth of employees) the overall potential impact.</p>
+            </div>
+
+            <div class="images col-md-4">
                 <img class="image" src="/images/projects/sbux/testing_lockup.png" />
             </div>
 
@@ -109,7 +117,7 @@ tools: 'Figma, Sketch, eye tracking goggles, test kitchen, user interviews, empl
                <ul>
                     <li>P2T on the iPad demonstrated a 60% speed increase over scanner-based counting.</li>
                     <li>Users expressed positive sentiments towards the iPad versions and the new workflow</li>
-                    <li>The company chose to devote additional resources to developing the app beyond its original scope, while also letting employees choose which workflow they would use.</li>
+                    <li>The company chose to devote additional resources to developing the app beyond its original scope, while also choosing to let employees have greater choice in how they conducted the count process.</li>
                 </ul>
             </div>
 
