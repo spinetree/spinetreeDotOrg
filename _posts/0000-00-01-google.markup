@@ -7,42 +7,28 @@ thumbnail: '/images/thumbs/google@2x.jpg'
 hero: '/images/projects/google/googlehero.jpg'
 permalink: /work/googlebugtracking/
 color: '#EA4335'
-client: contract Sept 2024-June 2025
+client: Senior UX Designer (contract)
 type: ai-assisted bug reporting
-description: Embedded designer on an engineering team at Google supporting the bug-reporting app used by all Google developers. The project is still under NDA, but here’re some extremely nonspecific points about my contributions.
+description: Embedded designer on an engineering team supporting the bug-reporting app used by all Google developers. 
 tools: 'Figma, Figjam, Google Docs'
 ---
-
-
-
 
 <section class="projectsection">
     <div class="container">
         <div class="row">
 
-            <div class="imagemeta col-md-4">
+            <div class="imagemeta col-md-5 col-md-offset-2">
                 <h3>Summary</h3>
 
-                <p>I worked with Google on AI implementation for an Android app used by its developers for bug reporting.</p> 
-              <p>Our work was able to significantly improve a long, painful process while freeing up a truly impressive amount of developer time. </p>
-
+                <p>I worked with Google on AI implementation for the Android app used by its developers and partners for bug reporting.</p> 
+              <p>Our work was able to <strong>significantly reduce waste</strong> on a long, tedious process and <strong>free up a truly unbelievable amount of developer time.</strong> </p>
+              <p>The project contract doesn't allow me to share details, but here’re some extremely nonspecific points about my contributions and some of the questions that came up (and would come up in any implementation of AI on an internal tool.)</p>
 
             </div>
 
-            <div class="images col-md-4">
+            <div class="images col-md-3">
                 <img class="image" src="/images/projects/google/bugs_3up.jpg" />
             </div>
-
-            <div class="imagemeta col-md-4">
-
-            <h3>Outcomes</h3>
-            <p>At a company with thousands of developers, our work (in its first 100 days) saved 200 hours of bug-filing and de-duping each day it was in use.</p>
-<p>That’s 25 <em>days</em> of newly free developer time. Every single day.</p>
-<p>I also used the opportunity to clean up and tokenize the team's pattern library while I was at it. :)</p>
-
-
-</div>
-
 
         </div>   
     </div>
@@ -52,60 +38,53 @@ tools: 'Figma, Figjam, Google Docs'
     <div class="container">
         <div class="row">
       
-
-            <div class="images col-md-4">
+            <div class="images col-md-3 col-md-offset-1">
                 <img class="image shadow" src="/images/projects/google/bugs_overflowing.jpg" />
             </div>
 
-
             <div class="imagemeta col-md-4">
         
-        <h3>Design Challenge</h3>
-
+                <h3>Design Challenge</h3>
                 <ul>
-                    <li>Use AI to speed up a process that people are doing (in some cases) all day every day.</li> 
-                    <li>The process involves a large number of form fields which take a long time to fill out.</li>
-                    <li>A huge number of bugs reported on any given day are duplicates and mostly a waste of everyone’s time.</li>
+                    <li>Use AI to speed up a task that people are doing (in some cases) <strong>many times every day.</strong></li> 
+                    <li>Streamline a process requiring a <strong>large number of user inputs</strong> which take a long time to fill out and are prone to errors.</li>
+                    <li><strong>Reduce the number of duplicate reports</strong> while still ensuring that new information is captured.</li>
                 </ul>
-</div>
-            <div class="imagemeta col-md-4">
+            
+            </div>
 
+            
+            <div class="imagemeta col-md-4 ">
 
                 <h3>Design Questions</h3>
                 <ul>
-                <li>When is it appropriate for AI to interrupt a user-driven process? What makes it empowering vs. annoying?</li>
-                <li>What kind of UI is appropriate to alert users mid-process in a way they can ignore when they want ...but won’t miss when they don’t?</li>
-                <li>How might we give users control over how and when AI offers assistance, keeping them in control of the workflow that is, for many of them, a core job function?</li>
+                <li>When is it appropriate for AI to interrupt a user-driven process? What conditions make it <strong>empowering vs. annoying</strong>?</li>
+                <li><strong>What kind of UI creates an appropriate cognitive volume</strong> for those interruptions to make users welcome them and not immediately look for a way to turn them off?</li>
+                <li>What does a satisfying AI-assist look like for users with <strong>deep expertise and entrenched habits with the task at hand?</strong> How does it differ from the way we offer assistance to someone doing something for the first time?</li>
                 </ul>
 
             </div>
             
-
-
         </div>   
     </div>
 </section>
 
+
 <section class="projectsection">
     <div class="container">
         <div class="row">
-  
-            <div class="imagemeta col-md-4">
-                <h3>Ideation</h3>
-                <p>After mapping out the software’s existing flows  and storyboarding new ideas, I iterated on elements from existing UI libraries to dial in the right cognitive volume for AI features and the timing in which they should occur.</p> 
-        
-                <p>We tested several versions of the UI, exploring density, quantity and hierarchy of information and shifting the workflow’s emphasis from 'collect all possible details' to 'spend user time and attention efficiently while still getting the job done.' </p>
-            </div>
-            
-            <div class="images col-md-4">
+
+            <div class="images col-md-2 col-md-offset-5">
                 <img class="image shadow" src="/images/projects/google/bug_specs.jpg" />
             </div>
 
-            <div class="imagemeta col-md-4">
-            <h3>Solutioning</h3>
-                <p>The solutions we landed on pared down long, elaborate forms to collect just what the LLM needed to check against known bugs. The update shifted the app from a workflow with way, way too many user inputs to a much more brief and conversational interaction.</p>
-                <p> Users were offered potential matches to review, or when appropriate, alerted that a bug was already known (and given the option to override, of course).</p>
-            </div>
+        <div class="imagemeta col-md-8 col-md-offset-2">
+
+            <h3>Outcomes</h3>
+            <p>At a company with thousands of developers, every saved moment was multiplied massively. As a result,</p>  <p class="pquote">...our work (in its first 100 days) saved 200 hours of bug-filing and de-duping <em>each day it was in use.</em></p>
+            <p>(I also cleaned up and tokenized the team's pattern library and design files while I was at it. NBD. :)</p>
+        
+        </div>
 
         </div>   
     </div>

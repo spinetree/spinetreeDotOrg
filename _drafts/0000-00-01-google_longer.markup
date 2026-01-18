@@ -1,0 +1,116 @@
+---
+layout: work
+title: Google
+categories: work
+date: 2015-08-01 13:26:34
+thumbnail: '/images/thumbs/google@2x.jpg'
+hero: '/images/projects/google/googlehero.jpg'
+permalink: /work/googlebugtracking/
+color: '#EA4335'
+client: Senior UX Designer (contract)
+type: ai-assisted bug reporting
+description: Embedded designer on an engineering team supporting the bug-reporting app used by all Google developers. 
+tools: 'Figma, Figjam, Google Docs'
+---
+
+<section class="projectsection">
+    <div class="container">
+        <div class="row">
+
+            <div class="imagemeta col-md-4 col-md-offset-2">
+                <h3>Summary</h3>
+
+                <p>I worked with Google on AI implementation for an Android app used by its developers for bug reporting.</p> 
+              <p>Our work was able to significantly reduce waste on a long, tedious process and free up a truly unbelievable amount of developer time. </p>
+              <p>The project contract doesn't allow me to share details, but here’re some extremely nonspecific points about my contributions.</p>
+
+            </div>
+
+            <div class="images col-md-6">
+                <img class="image" src="/images/projects/google/bugs_3up.jpg" />
+            </div>
+
+        </div>   
+    </div>
+</section>
+
+<section class="projectsection dark">
+    <div class="container">
+        <div class="row">
+      
+
+            <div class="images col-md-3">
+                <img class="image shadow" src="/images/projects/google/bugs_overflowing.jpg" />
+            </div>
+
+
+            <div class="imagemeta col-md-4">
+        
+                <h3>Design Challenge</h3>
+
+                <ul>
+                    <li>Use AI to speed up a process that people are doing (in some cases) <strong>many times every day.</strong></li> 
+                    <li>Streamline a process with a <strong>large number of user inputs</strong> which take a long time to fill out.</li>
+                    <li><strong>Reduce the number of duplicate reports</strong> while still ensuring that new bug information is captured.</li>
+                </ul>
+            
+            </div>
+            
+            <div class="imagemeta col-md-4">
+
+                <h3>Design Questions</h3>
+                <ul>
+                <li>When is it appropriate for AI to interrupt a user-driven process? What makes it <strong>empowering vs. annoying</strong>?</li>
+                <li><strong>What kind of UI</strong> is effective to alert users mid-process in a way they can ignore when they want ...but won’t miss when they don’t?</li>
+                <li>What does it look like to offer an appropriate level of assistance to someone with <strong>deep expertise on the task at hand?</strong></li>
+                </ul>
+
+            </div>
+            
+        </div>   
+    </div>
+</section>
+
+
+
+<section class="projectsection">
+    <div class="container">
+        <div class="row">
+  
+            <div class="imagemeta col-md-4" >
+                <h3>Ideation</h3>
+                <p>After mapping out the software’s existing flows and storyboarding/prototyping some new ideas, I used a combination of new and existing UI components to dial in the right cognitive volume for the new AI features and the timing with which they should occur.</p> 
+        
+                <p>We tested several versions of the implementation, exploring density, quantity and hierarchy of information and as well as how drastically the workflow would shift emphasis from collecting details to spending user time and attention efficiently while still getting the job done.</p>
+            </div>
+            
+            <div class="images col-md-4">
+                <img class="image shadow" src="/images/projects/google/bug_specs.jpg" />
+            </div>
+
+            <div class="imagemeta col-md-4">
+            <h3>Solutioning</h3>
+                <p>The solutions we landed on pared down long, elaborate forms to collect just what our LLM needed to check against known bugs. The update shifted the app from a workflow with way, way too many user inputs to a much more brief and conversational interaction.</p>
+                <p> Users were offered potential matches to review, or when appropriate, alerted that a bug was already known (and given the option to override, of course).</p>
+            </div>
+
+        </div>   
+    </div>
+</section>
+
+
+<section class="projectsection">
+    <div class="container">
+        <div class="row">
+
+        <div class="imagemeta center col-md-8 col-md-offset-2">
+
+            <h3>Outcomes</h3>
+            <p>At a company with thousands of developers, every saved moment was multiplied massively. As a result,</p>  <p class="pquote">...our work (in its first 100 days) saved 200 hours of bug-filing and de-duping <em>each day it was in use.</em></p>
+            <p>(I also used the opportunity to clean up and tokenize the team's pattern library while I was at it. NBD. :)</p>
+        
+        </div>
+
+        </div>   
+    </div>
+</section>

@@ -9,8 +9,8 @@ permalink: /work/trupanion/
 color: '#1C284D'
 client: B2B Design Lead
 type: veterinary portal
-description: Trupanion is a pet insurance company that allows vets to file claims from an online dashboard at the time of service, eliminating the need for pet owners to pay potentially thousands of dollars and wait for reimbursement. I was their first B2B design hire and spent several years building a team and establishing a design practice.
-tools: 'Figma, Figjam, Sharepoint, site visits, user interviews' 
+description: Trupanion is a pet insurance company that allows vets to file claims from an online dashboard at the time of service, eliminating the need for pet owners to pay potentially thousands of dollars up front and wait for reimbursement. I was their first B2B design hire and spent several years building a team and establishing a design practice.
+tools: 'Figma, Figjam, Sharepoint, OneNote, Azure DevOps, site visits, user interviews, my dog' 
 ---
 <section class="projectsection dark">
     <div class="container">
@@ -22,9 +22,9 @@ tools: 'Figma, Figjam, Sharepoint, site visits, user interviews'
 
             <div class="imagemeta wide col-md-7">
                 <h3>Summary</h3>
-                <p>I joined Trupanion as the first design hire on the B2B side of the company. Their flagship product, a SaaS dashboard for filing veterinary insurance claims, was a major source of new clients, but had been developed largely by executives standing over developers' shoulders or filing tickets without formal user research or design documentation.</p>
-                <p>In my time at Trupanion, I established a research-backed iterative design practice, component libraries, design QA, and a visual system for collaborative design similar to Git.</p>
-                <p>Beginning as a contractor, I was brought on as full-time design lead and grew the team to include two additional designers as we launched the flagship products' redesign and grew our capacity to multiple simultaneous B2B projects.</p>
+                <p>I joined Trupanion as the <strong>first design hire</strong> on the B2B side of the company. Their flagship product, a SaaS dashboard for filing veterinary insurance claims, was a major source of new clients, but had been developed largely by executives standing over developers' shoulders or filing tickets without formal user research or documentation.</p>
+                <p>In my time at Trupanion, I established a <strong>research-backed iterative design practice,</strong> component libraries, design QA, and a workflow for collaboration between stakeholders, designers and developers.</p>
+                <p>Beginning as a contractor, I was later promoted to <strong>FTE B2B design lead</strong> and grew the team to include two additional designers as we launched and iterated on the hospital software's redesign and grew our capacity to multiple simultaneous B2B projects.</p>
             </div>
 
         </div>   
@@ -38,10 +38,11 @@ tools: 'Figma, Figjam, Sharepoint, site visits, user interviews'
             <div class="imagemeta col-md-6">
                 <h3>Design Challenge</h3>
 
+
                 <ul>
-                    <li>Flagship product built piecemeal without formal user testing or iterative development.</li>
-                    <li>Poor accessibility, over-reliance on 'more buttons, bigger and more urgent-looking'</li>
-                    <li>Lack of formal documentation or information sharing with tech support, customer service, or other design teams.</li>
+                    <li><strong>Increase lead generation</strong> from a dashboard suffering from extreme information overload. </li>
+                    <li>Increase <strong>completion rate and reduce errors</strong> on a large complex webform being used in a hurry by people in cognitively overwhelming environments. </li>
+                    <li>Evangelize <strong>consistency, user testing practices and component-based frontend development</strong> to a team accustomed to building everything as a one-off.</li>
                 </ul>
                 </div>
 
@@ -63,43 +64,26 @@ tools: 'Figma, Figjam, Sharepoint, site visits, user interviews'
             </div>
 
             <div class="imagemeta wide col-md-7">
-                <h3>Establishing a practice</h3>
-                <p>My first order of business at Trupanion was to map the existing software and begin to document things that had previously only existed as tribal knowledge. This included:</p>
+                <h3>Establishing a research practice</h3>
+                <p>My first order of business at Trupanion was to map the existing software and begin to document an understanding of our software's life in the wild that had previously only existed as fragmented tribal knowledge. This included:</p>
                 <ul>
-                    <li>Site visits with the sales staff</li>
-                    <li>Interviews with support and customer service teams (Where I heard something I often hear - 'No one's ever asked us about these things before.')</li>
-                    <li>Regular workshops with the team to socialize findings, set exectations, and evangelize the design thinking methodology</li>
+                    <li>Site visits with the sales staff to interview and observe the users <strong>actually using our product.</strong> (Previously our feedback came mainly from administrators who made purchase decisions but didn't themselves use the software.)</li>
+                    <li><strong>Regular workshops with my team, stakeholders and teams from the rest of the company</strong> to socialize findings, set expectations, and evangelize our methodology.</li>
+                    <li>Interviews with tech support and customer service teams. In those interviews, I heard something I've heard at a number of companies before and since:</li> 
                 </ul>
+                                    <p class="pquote">"No one's ever asked us about these things before, we've been hoping someone would."</p>
+
             </div>
 
         </div>   
     </div>
 </section>
 
-<section class="projectsection">
-    <div class="container">
-        <div class="row">
 
-            <div class="imagemeta col-md-7">
-                <h3>Unifying and operationalizing</h3>
-                <p>Around this time, the team saw that the findings we were getting were helping inform better business decisions, so I was given resources to build out the design team with a research specialist and later, two junior designers. I iterated on new designs that took advantage of our learnings while my team was able to run tests and gain valuable insights on the new ideas.</p>
-            </div>
-  
-            <div class="images col-md-5">
-                <img class="image" src="/images/projects/trupanion/research_lockup.png" />
-            </div>
-
-        </div>   
-    </div>
-</section>
-
-<section class="projectsection dark">
+<section class="projectsection ">
     <div class="container">
         <div class="row">
   
-            <div class="images col-md-6">
-                <img class="image" src="/images/projects/trupanion/components_2.png" />
-            </div>
 
             <div class="imagemeta wide col-md-6">
                 <h3>Bite sized pieces</h3>
@@ -109,9 +93,32 @@ tools: 'Figma, Figjam, Sharepoint, site visits, user interviews'
 
             </div>
 
+            <div class="images col-md-6">
+                <img class="image" src="/images/projects/trupanion/components_2.png" />
+            </div>
+
         </div>   
     </div>
 </section>
+
+<section class="projectsection dark">
+    <div class="container">
+        <div class="row">
+
+            <div class="images col-md-4">
+                <img class="image" src="/images/projects/trupanion/research_lockup.png" />
+            </div>
+
+            <div class="imagemeta col-md-5 col-md-offset-1">
+                <h3>Unifying and operationalizing</h3>
+                <p>As the project progressed, I was given resources to <strong>build out the team</strong> with additional research and design staff. I moved to focusing on design ops, strategy, mentoring and doing design QA while my team ran tests, iterated on our designs and gained valuable insights on the new ideas.</p>
+            </div>
+  
+
+        </div>   
+    </div>
+</section>
+
 
 <section class="projectsection">
     <div class="container">
@@ -119,12 +126,12 @@ tools: 'Figma, Figjam, Sharepoint, site visits, user interviews'
   
             <div class="imagemeta center col-md-10 col-md-offset-1">
                 <h3>Results: A portal that performs</h3>
-                <p>After launch, our new portal was able to deliver solid improvements on the previous versions including:</p>
+                <p>After launch, our new portal was able to deliver <strong>solid improvements</strong> on the previous versions including:</p>
                 <ul>
-                    <li>16.9% dashboard lead growth</li>
-                    <li>~30% increase in users following golden path</li>
-                    <li>13% B2B customer increase after 6 months</li> 
-                    <li>24% B2C customer increase after 6 months</li>
+                    <li><strong>16.9% dashboard lead growth</strong></li>
+                    <li><strong>~30% increase in users following golden path claim submission process</strong></li>
+                    <li><strong>13% B2B customer increase after 6 months</strong></li> 
+                    <li><strong>24% B2C customer increase after 6 months</strong></li>
                 </ul>
             </div>
 
