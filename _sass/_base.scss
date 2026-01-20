@@ -78,7 +78,6 @@ body * {
 
 .bio {
     padding-bottom: 0px;
-    margin-bottom: 40px;
     p {
         margin-bottom: 20px;
     }
@@ -149,10 +148,14 @@ body * {
 .bioconnect {
     text-align: center;
     h3 {
-        margin: 20px 20px 12px;
+        margin: 24px 24px 12px;
     }
     .socialicons {
-        padding-top: 10px;
+        padding: 12px 0 24px;
+        a {
+            display: block;
+            padding: 12px 0 0;
+        }
     }
     .resumebutton {
         margin-bottom: 20px;
@@ -227,9 +230,7 @@ body * {
 }
 
 @media only screen and (max-width: 767px) {
-    .bio {
-        margin-bottom: 20px;
-    }
+    .bio {}
     .stats {
         .apps {
             margin-bottom: 30px;
@@ -348,6 +349,9 @@ body * {
     }
     .imagemeta.wide h3 {
         padding-top: 0;
+        text-align: center;
+    }
+    .images {
         text-align: center;
     }
     .images.slides {

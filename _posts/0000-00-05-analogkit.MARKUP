@@ -108,7 +108,7 @@ tools: 'Axure, Photoshop, Illustrator, After Effects'
 <section class="projectsection dark">
     <div class="container">
         <div class="row">
-            <div class="imagemeta col-md-10 col-md-offset-1">
+            <div class="imagemeta center col-md-10 col-md-offset-1">
                 <img class="" src="/images/projects/akbumper.gif" />
                 <h3>Bittersweet Polyphony</h3>
                 <p>AnalogKit got a great reception in the synth and DIY music communities. We did a Reddit AMA, several podcasts and had great reviews on popular YouTube channels.  It didn’t hit with a wide audience like Cleartune, but I learned a lot about building component libraries  and the journey from design spec to finished product.</p>

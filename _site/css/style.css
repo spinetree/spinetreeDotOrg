@@ -3218,8 +3218,7 @@ body * {
   .about {
     padding: 32px 8px; } }
 .bio {
-  padding-bottom: 0px;
-  margin-bottom: 40px; }
+  padding-bottom: 0px; }
   .bio p {
     margin-bottom: 20px; }
 
@@ -3268,9 +3267,12 @@ body * {
 .bioconnect {
   text-align: center; }
   .bioconnect h3 {
-    margin: 20px 20px 12px; }
+    margin: 24px 24px 12px; }
   .bioconnect .socialicons {
-    padding-top: 10px; }
+    padding: 12px 0 24px; }
+    .bioconnect .socialicons a {
+      display: block;
+      padding: 12px 0 0; }
   .bioconnect .resumebutton {
     margin-bottom: 20px; }
 
@@ -3329,9 +3331,6 @@ body * {
   .bio .socialicons {
     padding-bottom: 20px; } }
 @media only screen and (max-width: 767px) {
-  .bio {
-    margin-bottom: 20px; }
-
   .stats .apps {
     margin-bottom: 30px;
     margin-top: 0; } }
@@ -3416,6 +3415,8 @@ body * {
       color: #333620; }
   .project .imagemeta.wide h3 {
     padding-top: 0;
+    text-align: center; }
+  .project .images {
     text-align: center; }
   .project .images.slides {
     padding: 0 32px; }

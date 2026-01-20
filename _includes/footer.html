@@ -1,11 +1,11 @@
 <footer class="site-footer">
     <div class="container-fluid">
         <div class="row">
-            
+
             <div class="footernav col-xs-12 col-sm-4">
                 <h4>Sitemap</h4>
-                    {% for item in site.data.nav.main %}
-                    <a href="{{ item.url }}">{{ item.text }}</a> {% endfor %}
+                {% for item in site.data.nav.main %}
+                <a href="{{ item.url }}">{{ item.text }}</a> {% endfor %}
             </div>
 
             <div class="col-xs-12 col-sm-push-4 col-sm-4">
@@ -19,7 +19,7 @@
                     <li><a href="https://code.visualstudio.com/" target="_blank">VSCode</a></li>
                 </ul>
             </div>
-            
+
             <div class="col-xs-12 col-sm-pull-4 col-sm-4">
                 <h4>Steve Rokitka (Rocketkar)</h4>
                 <p>full-stack product design</p>
@@ -42,7 +42,7 @@
                 </div> -->
                 <p>&copy;2019</p>
             </div>
-            
+
         </div>
     </div>
 </footer>
@@ -52,14 +52,14 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script src="{{ site.data.global.url }}/js/slick.min.js"></script>
 <script src="{{ site.data.global.url }}/js/bootstrap.min.js"></script>
-<script src="https://kit.fontawesome.com/65c417386a.js" crossorigin="anonymous"></script>
+<!-- <script src="https://kit.fontawesome.com/65c417386a.js" crossorigin="anonymous"></script>-->
 <script src="{{ site.data.global.url }}/js/spinetree.js"></script>
 <script type="text/javascript">
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-17887842-6']);
     _gaq.push(['pageTracker._setAllowAnchor(true)']);
     _gaq.push(['_trackPageview']);
-    (function () {
+    (function() {
         var ga = document.createElement('script');
         ga.type = 'text/javascript';
         ga.async = true;

@@ -78,11 +78,11 @@ tools: 'Figma, Figjam, Google Docs'
                 <img class="image shadow" src="/images/projects/google/bug_specs.jpg" />
             </div>
 
-        <div class="imagemeta col-md-8 col-md-offset-2">
+        <div class="imagemeta center col-md-8 col-md-offset-2">
 
             <h3>Outcomes</h3>
-            <p>At a company with thousands of developers, every saved moment was multiplied massively. As a result,</p>  <p class="pquote">...our work (in its first 100 days) saved 200 hours of bug-filing and de-duping <em>each day it was in use.</em></p>
-            <p>(I also cleaned up and tokenized the team's pattern library and design files while I was at it. NBD. :)</p>
+            <p>At a company with thousands of developers, every saved moment was multiplied massively. As a result,</p>  <p class="pquote">...our work (in its first 100 days) saved 200 hours<br /> or 25 <em>days</em> of developer time <em>each day it was in use.</em></p>
+            <p>(I also cleaned up and tokenized the team's pattern library and design files.<br /> Because I believe in the campsite rule. :)</p>
         
         </div>
 

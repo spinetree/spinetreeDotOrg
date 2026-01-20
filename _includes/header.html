@@ -17,7 +17,7 @@
     <meta name="description" content="full stack product design" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="yes" name="mobile-web-app-capable">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
     <!-- RSS -->
@@ -56,13 +56,13 @@
     <link rel="apple-touch-icon-precomposed" sizes="152x152" href="{{ site.data.global.url }}/images/favicons/apple-touch-icon-152x152.png" />
     <link rel="icon" type="image/png" href="{{ site.data.global.url }}/images/favicons/favicon-32x32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="{{ site.data.global.url }}/images/favicons/favicon-16x16.png" sizes="16x16" />
-    <meta name="application-name" content="Steve Rocketkar - full stack product design"/>
+    <meta name="application-name" content="Steve Rocketkar - full stack product design" />
     <meta name="msapplication-TileColor" content="#6E7C4B" />
     <meta name="msapplication-TileImage" content="{{ site.data.global.url }}/images/favicons/mstile-144x144.png" />
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Raleway:300,500,600,700&display=swap" rel="stylesheet">
-    
+
     <!-- Styles -->
     <link rel="stylesheet" href="/css/style.css">
     <!--[if lt IE 9]>
@@ -73,65 +73,55 @@
 </head>
 
 <body class="{% if page.title %}post{% else %}home{% endif %}">
-    
+
     <nav class="navbar navbar-inverse">
         <div class="container-fluid">
             <div class="row">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-            </div>
-            
-            <div id="navbar" class="navbar-collapse collapse">
-                <ul class="navbarmain nav navbar-nav navbar-left">
-                    {% for item in site.data.nav.main %}
+                </div>
+
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="navbarmain nav navbar-nav navbar-left">
+                        {% for item in site.data.nav.main %}
                         <li>
                             <a href="{{ item.url }}">{{ item.text }}</a>
                         </li>
-                    {% endfor %}
-                </ul>
-                
-                <!-- <ul class="navbarlogo main-nav nav navbar-nav">
+                        {% endfor %}
+                    </ul>
+
+                    <!-- <ul class="navbarlogo main-nav nav navbar-nav">
                     <li>
                         <a href="{{ site.data.global.url }}"><img src="/images/lockup.svg" /></a>
                     </li>
                 </ul> -->
-                
-                <ul class="socialicons socialicons__small nav navbar-nav navbar-right">                    
-                    <li>
-                        <a href="https://www.linkedin.com/in/steverokitka" target="_blank">
-                            <i class="fa fa-linkedin" aria-hidden="true" title=""></i>
-                        </a>
-                    </li>  
-                    <li>                    
-                            <a href="https://www.instagram.com/rocketkar/" target="_blank">
-                                <i class="fa fa-instagram" aria-hidden="true" title=""></i>
+
+                    <!--  <ul class="socialicons socialicons__small nav navbar-nav navbar-right">
+                        <li>
+                            <a href="https://www.linkedin.com/in/steverokitka" target="_blank">
+                                linkedin
                             </a>
-                    </li>  
-                    <li>
-                        <a href="https://twitter.com/spinetree" target="_blank">
-                            <i class="fa fa-twitter" aria-hidden="true" title=""></i>
-                        </a>
-                    </li>  
-                    <li>
-                        <a href="https://github.com/spinetree" target="_blank">
-                            <i class="fa fa-github" aria-hidden="true" title=""></i>
-                        </a>
-                    </li>  
-                    <li>
-                        <a href="ma&#105;lto&#58;steve&#64;s%70%&#54;9n%6&#53;t&#114;ee&#46;&#111;&#114;&#103;" target="_blank">
-                            <i class="fa fa-envelope" aria-hidden="true" title=""></i>
-                        </a>
-                    </li>  
-                </ul>
-                
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/rocketkar/" target="_blank">
+                                instagram
+                            </a>
+                        </li>
+                        <li>
+                            <a href="ma&#105;lto&#58;steve&#64;s%70%&#54;9n%6&#53;t&#114;ee&#46;&#111;&#114;&#103;" target="_blank">
+                                <i class="fa fa-envelope" aria-hidden="true" title=""></i>
+                            </a>
+                        </li>
+                    </ul>-->
+
+                </div>
+
             </div>
-                
-            </div> <!-- /row -->
+            <!-- /row -->
         </div>
     </nav>
-
