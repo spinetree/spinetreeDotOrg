@@ -8,23 +8,24 @@ permalink: /process/
 hero: '/images/projects/process_hero.jpg'
 color: '#4A4A4A'
 type: Tools and methology
-tools: 'Paper, Whiteboard, Notion, User interviews, Competitive analysis, Journey mapping, Usertesting.com, Figma, FigJam, Claude, VSCode and anything else I can get my hands on'
+tools: 'Paper, Whiteboard, Notion, User interviews, Competitive analysis, Journey mapping, Usertesting.com, Figma, FigJam, Claude, ChatGPT, VSCode and anything else I can get my hands on'
 ---
+
 
 
 <section class="projectsection">
     <div class="container">
         <div class="row">
   
-
-            <div class="imagemeta col-md-4">
-                <h3>What I do</h3>
+            <div class="images col-md-8">
+                <img class="image" src="/images/process/maps2.png" />
             </div>
 
-            <div class="col-md-8">
-                <p>My path's always been a multidisciplinary one, driven by a huge love for new experiences. I started out as a journalist, learned web development and usability research at Cornell University, grew into UI/UX with courses on typography, color cognition, business strategy, and brand development plus various code bootcamps and workshops along the way. My hobby of going back to school between jobs gave me opportunities to learn workflows outisde of design, and I pride myself on having cribbed tricks from each of them.</p>
-
-            <p>The resulting process is a mashup of IDEO's design thinking, an investigative journalism project, a first responder's triage, and a restaurant kitchen during Friday night rush. I'm an empathy-forward designer, meaning I connect with products by trying to see the people using them, the moment in time where that takes place, and the story of what they're calling on us to help with. At the same time, I'm relentlessly driven to get useful and impactful changes out into the world, because understanding someone is nice, but giving them solutions that make them <strong>feel</strong> understood are the ultimate goal.</p>
+            <div class="imagemeta col-md-4">
+                <h3>Publish or perish</h3>
+                <p>From the beginning of a project, the work I do is documented in both a design team notebook and a project board for stakeholders. The team notebook documents nitty-gritty details of our research and business needs. Our stakeholder documents are for a wider audience, provide visibility into where we are in a project and how we've arrived at our decisions.</p>
+                <p>I also publish a design process overview that helps set expectations and align on workflow, language and the purpose of each part of our work.</p> 
+      
             </div>
 
         </div>   
@@ -37,9 +38,8 @@ tools: 'Paper, Whiteboard, Notion, User interviews, Competitive analysis, Journe
   
             <div class="imagemeta col-md-4">
                 <h3>Make a map</h3>
-                <p>Some products are immaculately documented. Most I work on are ...complicated, as every digital product is a living, breathing being that gets messy as it evolves.</p>
-                <p>I start a new project making maps that help identify patterns and spot inconsistencies. Map-building is also a way to get a feel for the main flows of a product, much like walking a job site before any build begins.</p> 
-                <p>During this process, I begin filling out my quadrant system - pain points, goals/KPIs, quick wins and ideal future state. These four areas  are published in exist in project docs which are updated continuously to be visible to anyone working on the project.</p>
+                <p>Every digital product is a living, breathing being that gets messy as it evolves.</p>
+                <p>I start a new project making maps that help identify patterns and spot inconsistencies. Map-building is also a way to get a feel for the main flows of a product, much like walking a job site before any build begins.</p><p>This tends to be a deceptively quick process, often involving a single day's worth of screenshotting and arranging, but has been super helpful as a part of the process.</p> 
             </div>
 
             <div class="images col-md-8">
@@ -55,38 +55,18 @@ tools: 'Paper, Whiteboard, Notion, User interviews, Competitive analysis, Journe
     <div class="container">
         <div class="row">
   
-            <div class="images col-md-6">
+            <div class="images col-md-4">
                 <img class="image" src="/images/process/stories.png" />
             </div>
 
-            <div class="imagemeta col-md-6">
-                <h3>Find the stories that haven't been told.</h3>
-                <p>My map-making extends to the people and real-world spaces where a product is used, and I always make it a point to spend time talking with not only stakeholders and SMEs, but sales and support staff, engineering, business analysts, and anyone else who works in the space around a product.</p>
-                <p>I also make it a point to do site visits whenever possible, and frequently get valuable insights into the physical environments in which  products are being used, the hardware they're working on, and the real world situation in which our users interact with us. In spaces like medical software, these realities can be extremely visceral, and carrying them back to the team gives much-needed context.</p>
-                <p>The phrase I hear the most often during this time is 'No one's ever asked us about this before' and it's music to my ears.</p>
+            <div class="imagemeta col-md-5">
+                <h3>Find the stories (and solutions) that haven't been told.</h3>
+                <p>I look for the people and real-world spaces where a product is used, and I always make it a point to spend time talking with not only  SMEs, but sales and support staff, engineering, business analysts, and anyone else who works in and around a product.</p>
+                <p>I also make it a point to do site visits whenever possible, and frequently get valuable insights into the real world situation in which our users interact with us. In spaces like medical software, these realities can be extremely visceral, and carrying them back to the team gives much-needed context.</p>
+                <p>The phrase I hear the most often during this time is 'No one's ever asked us about this before' and it always lets me know I'm on the right track.</p>
             </div>
 
-        </div>   
-    </div>
-</section>
-
-<section class="projectsection dark">
-    <div class="container">
-        <div class="row">
-  
-            <div class="images col-md-4">
-                <img class="image" src="/images/process/whoelse1.png" />
-            </div>
-
-            <div class="imagemeta col-md-4">
-                <h3>Solved problems</h3>
-                <p>Besides my client's own product, I investigate competitors and peers who have found solutions to the problems we're working on.</p>
-                <p>Documenting these things in competitive and parallel analysis sections helps give us a sense of the standards we need to meet or exceed (as well as differentiate ourselves from.)</p>
-                <p>Documenting the bush-fixes and DIY solutions our users, staff and others have already found has been an incredibly valuable resource, and led to some of the most sucessful methods for problem solving I've found.</p>
-            </div>
-
-
-            <div class="images col-md-4">
+            <div class="images col-md-3">
                 <img class="image" src="/images/process/whoelse2.png" />
             </div>
 
@@ -94,37 +74,19 @@ tools: 'Paper, Whiteboard, Notion, User interviews, Competitive analysis, Journe
     </div>
 </section>
 
-<section class="projectsection">
-    <div class="container">
-        <div class="row">
-  
-            <div class="images col-md-8">
-                <img class="image" src="/images/process/publish.png" />
-            </div>
-
-            <div class="imagemeta col-md-4">
-                <h3>Publish or perish</h3>
-                <p>From the beginning of a project, the work I do is documented in both a team notebook and a project board for stakeholders. The team notebook documents nitty-gritty details of our research and business needs. Our stakeholder documents are for a wider audience, provide visibility into where we are in a project and how we've arrived at our decisions.</p>
-                <p>I also publish a design process overview that helps set expectations and align on workflow, language and the purpose of each part of our work.</p> 
-                <p>These docs are less about marketing ourselves and more about working out in the open. Rather than taking additional time, I've found that their transparency helps leadership feel confident in the progress we make, and have better conversations about when to allocate time and resources.</p>
-            </div>
-
-        </div>   
-    </div>
-</section>
 
 
 <section class="projectsection dark">
     <div class="container">
         <div class="row">
   
-            <div class="imagemeta col-md-3">
+            <div class="imagemeta col-md-4">
                 <h3>If you’ve been paying attention, you’ve already got a million ideas</h3>
                 <p>The best part of map-making is that you tend to find ample gold during your process, which is why solutioning always feels more like winnowing down a fix to its essential elements and what it would take to apply it in our problem space.</p>
                 <p>I like to work quick and medium-dirty at this stage, and love the lowest-fidelity method that can communicate an idea quickly, whether it be post-its, procreate wireframes, or the trusty whiteboard.</p>
             </div>
 
-            <div class="images col-md-9">
+            <div class="images col-md-8">
                 <img class="image" src="/images/process/millionideas.png" />
             </div>
 
@@ -133,26 +95,9 @@ tools: 'Paper, Whiteboard, Notion, User interviews, Competitive analysis, Journe
     </div>
 </section>
 
+
+
 <section class="projectsection">
-    <div class="container">
-        <div class="row">
-  
-            <div class="images col-md-6">
-                <img class="image" src="/images/process/coyotes1.png" />
-            </div>
-
-            <div class="imagemeta col-md-6">
-                <h3>Listen to the users, adjust accordingly</h3>
-                <p>A well-mapped user experience rarely survives contact with the users, and I'm a huge proponent of testing early and often.</p>
-                <p>A challenge with user testing can be interpreting the results, and it's extremely easy to fall into confirmation bias, so the best user tests involve both quantitative and qualitative investigation.</p>
-            </div>
-
-        </div>   
-    </div>
-</section>
-
-
-<section class="projectsection dark">
     <div class="container">
         <div class="row">
   
@@ -162,7 +107,7 @@ tools: 'Paper, Whiteboard, Notion, User interviews, Competitive analysis, Journe
 
             <div class="imagemeta col-md-4">
                 <h3>Things to test &amp; the sneakiest possible way to test them</h3>
-                <p>Code prototyping has been my holy grail for years, and it's the part of modern AI tools for which I'm the most thankful. There's a place for ever tool, and paper, click-through or other prototypes have great utility, but there's something extra, extra special about being able to test in the best apparoximation of the real medium, on the real device, in the real environment where a product will be used.</p><p>Tools like Claude Code are answering a lot of my dreams for performant ways to produce apples-to-apples test candidates to compare an idea to its current state.</p>
+                <p>Code prototyping has been my holy grail for years, and it's the part of modern AI tools for which I'm the most thankful. There's a place for ever tool, and paper, click-through or other prototypes have great utility, but there's something extra, extra special about being able to test in the best apparoximation of the real medium, on a real device.</p><p>Tools like Claude Code are answering a lot of my dreams for performant ways to produce apples-to-apples test candidates to validate solutions.</p>
             </div>
 
             <div class="images col-md-4">
@@ -175,7 +120,7 @@ tools: 'Paper, Whiteboard, Notion, User interviews, Competitive analysis, Journe
 
 
 
-<section class="projectsection">
+<section class="projectsection dark">
     <div class="container">
         <div class="row">
   
@@ -185,8 +130,7 @@ tools: 'Paper, Whiteboard, Notion, User interviews, Competitive analysis, Journe
 
             <div class="imagemeta col-md-4">
                 <h3>Dial it in</h3>
-                <p>As a former obsessive CSS enthusiast, getting a frontend that looks like someone really, really paid attention means a great deal to me.</p>
-                <p>Rather than hoping every developer is an obsessive measurer of pixels, this really comes from a well-executed design QA process and component workflow.</p>
+                <p>Getting a frontend that looks like someone really, really paid attention means a great deal to me, Rather than hoping every developer is an obsessive measurer of pixels, this really comes from a well-executed design QA process and component workflow.</p>
                 <p>In recent years, I've had the luxury of being able to build out design systems where these details can be dialed in, as well as resources to fine tune code as it makes it journey from test to production.</p>
             </div>
   
@@ -199,17 +143,23 @@ tools: 'Paper, Whiteboard, Notion, User interviews, Competitive analysis, Journe
 </section>
 
 
-<section class="projectsection dark">
+
+
+<section class="projectsection">
     <div class="container">
         <div class="row">
   
-            <div class="imagemeta col-md-4">
-                <h3>Operationalize</h3>
-                <p>In my time as both an IC and manager, I've developed a surprusingly simple system for design documentation that's largely just a visual verison of Git. Each 'commit' has a change log, commit messages, and may exist on a branch where we try out an idea, fix a bug, or propose something new.</p><p>There's more to the method, but most importantly, it lets me work asynchronously with my team and our devs in a way that gets us all speaking a similar language and taking advantage of a familiar workflow.</p>    </div>
-            
-            <div class="images col-md-8">
-                <img class="image shadow" src="/images/process/operationalize2.png" />
+            <div class="images col-md-6">
+                <img class="image" src="/images/process/operationalize.png" />
             </div>
+
+            <div class="imagemeta col-md-6">
+                <h3>Operationalize, democratize</h3>
+     
+
+            <p>As a product moves from idea to iteration, design docs, codebases and projects can grow into resources for both internal and external teams. Self-documented Figma files can help new hires onbaord quickly while normalizing expectations around workflow, and spec docs and pattern libraries can become valuable references to let whoever's bulding what comes next (whether human or LLM accessing via MCP) build successfully on existing work.</p>
+            </div>
+            
 
         </div>   
     </div>
