@@ -1,0 +1,55 @@
+---
+layout: work
+title: FCS Group
+categories: work
+date: 2015-08-01 13:26:34
+thumbnail: '/images/thumbs/fcs@2x.jpg'
+hero: '/images/projects/fcshero.jpg'
+permalink: /work/fcsgroup/
+client: FCS Group
+type: web design and development
+description: FCS approached me to help design and launch a Wordpress site for their public services and utility consulting firm. The challenge was to quickly assess the available content and find a logical way to build it into a modern, responsive marketing site with great speed and SEO.
+tools: 'Sketch, InVision, Wordpress, ThemeFusion Framework'
+color: '#477780'
+---
+
+<section class="projectsection">
+    <div class="container">
+        <div class="row">
+  
+            <div class="images col-md-10 col-md-offset-1">
+                <img class="image" src="/images/projects/fcsWebsite.png" />
+            </div>
+
+            <div class="imagemeta wide col-md-8 col-md-offset-2">
+                <p>The site uses the ThemeFusion/Avada framework for Wordpress and a variety of plugins for everything from fine-grained control over its responsive layouts to displaying custom Google Maps data on their projects.</p>
+                <a href="http://www.fcsgroup.com" target="_blank">
+                    <button type="button" class="btn btn-primary center-block livesite">View Live Site</button>
+                </a>
+            </div>
+
+        </div>   
+    </div>
+</section>
+
+<section class="projectsection dark">
+    <div class="container">
+        <div class="row">
+  
+            <div class="images col-md-8">
+                <img class="image" src="/images/projects/fcshomepage.jpg" />
+            </div>
+
+            <div class="imagemeta col-md-4">
+                <h3>Quick prototyping and turnaround</h3>
+                <p>The FCS site was great because we had a very particular timeframe to work in, and I was able to rapidly prototype and iterate with the client with Sketch and InVision.</p>
+                <p>I went to work immediately on building out a visual language to represent different areas of the business, gave each a set of iconography, images and color, and built templates for each type of page that would work across the sub-brands.</p>
+            </div>
+            
+            <div class="images col-md-4">
+                <img class="image shadow" src="/images/projects/fcssolution.jpg" />
+            </div>
+
+        </div>   
+    </div>
+</section>
