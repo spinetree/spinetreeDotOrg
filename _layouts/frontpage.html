@@ -6,8 +6,10 @@
         <div class="container">
             <div class="row">
                 <div class="frontpage ">
-                    <img class="responsive lockup hidden-xs visible-sm visible-md visible-lg" src="/images/lockup.svg" alt="steve rocketkar" />
-                    <img class="responsive lockup lockup-mobile visible-xs hidden-sm hidden-md hidden-lg" src="/images/lockup-mobile.svg" alt="steve rocketkar" />
+                    <img class="responsive lockup hidden-xs visible-sm visible-md visible-lg" src="/images/lockup.svg"
+                        alt="steve rocketkar" />
+                    <img class="responsive lockup lockup-mobile visible-xs hidden-sm hidden-md hidden-lg"
+                        src="/images/lockup-mobile.svg" alt="steve rocketkar" />
                     <h1 class="hidden">steve rokitka(rocketkar)</h1>
                     <i class="fal fa-chevron-down" aria-hidden="true"></i>
                 </div>
@@ -21,27 +23,27 @@
         </header>
         <div class="project-grid">
 
-            {% for post in site.posts reversed %} {% if post.categories contains 'work' %}
+            {% for post in site.posts reversed %}
+            {% if post.categories contains 'work' %}
             <div class="project-card" style="background:{{post.color}}">
 
                 <a class="project-meta" href="{{ post.url }}">
                     <h3 class="project-title">{{ post.title }}</h3>
                     {% if post.type %}
-                    <h4 class="project-type">{{ post.type }}</h4>
+                        <h4 class="project-type">{{ post.type }}</h4>
                     {% endif %}
-                </a>
+                    </a>
 
                 <a href="{{ post.url }}" class="project-thumbnail">
                     <img class="project-thumbnail-image" src="{{ post.thumbnail }}" />
                 </a>
 
-            </div>
-            <!-- /projectcard -->
+            </div><!-- /projectcard -->
 
-            {% endif %} {% endfor %}
+            {% endif %}
+            {% endfor %}
 
-        </div>
-        <!-- /grid-container -->
+        </div><!-- /grid-container -->
     </div>
 
 
@@ -59,14 +61,17 @@
                         <div class="container-fluid">
                             <div class="row">
 
-                                <div class="biophoto col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-3 col-md-11 col-md-offset-1">
+                                <div
+                                    class="biophoto col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-3 col-md-11 col-md-offset-1">
                                     <img class="images responsive" src="/images/steve.jpg" />
                                 </div>
 
-                                <div class="bioconnect hidden-xs hidden-sm visible-md visible-lg col-md-11 col-md-offset-1">
+                                <div
+                                    class="bioconnect hidden-xs hidden-sm visible-md visible-lg col-md-11 col-md-offset-1">
                                     <div class="socialicons">
                                         <h4>Connect</h4>
-                                        <a href="ma&#105;lto&#58;steve&#64;s%70%&#54;9n%6&#53;t&#114;ee&#46;&#111;&#114;&#103;" target="_blank">
+                                        <a href="ma&#105;lto&#58;steve&#64;s%70%&#54;9n%6&#53;t&#114;ee&#46;&#111;&#114;&#103;"
+                                            target="_blank">
                                             <i class="fa fa-envelope" aria-hidden="true" title=""></i>
                                         </a>
                                         <a href="https://www.linkedin.com/in/steverokitka" target="_blank">
@@ -75,44 +80,55 @@
                                         <a href="https://www.instagram.com/rocketkar/" target="_blank">
                                             <i class="fa fa-instagram" aria-hidden="true" title=""></i>
                                         </a>
+                                        <a href="https://twitter.com/spinetree" target="_blank">
+                                            <i class="fa fa-twitter" aria-hidden="true" title=""></i>
+                                        </a>
                                         <a href="https://github.com/spinetree" target="_blank">
                                             <i class="fa fa-github" aria-hidden="true" title=""></i>
                                         </a>
                                     </div>
                                     <div class="resumebutton">
                                         <h4>Resume</h4>
-                                        <a href="{{ site.data.global.url }}/images/Rokitka-resume-2026.pdf" target "_blank">
+                                        <a href="{{ site.data.global.url }}/images/rokitka-resume.pdf" target"_blank">
                                             <button type="button" class="btn btn-primary resume">Download</button>
                                         </a>
                                     </div>
                                 </div>
 
                             </div>
-                        </div>
-                        <!-- /container-fluid -->
-                    </div>
-                    <!-- /layout div -->
+                        </div><!-- /container-fluid -->
+                    </div><!-- /layout div -->
 
                     <div class="col-xs-12 col-xs-offset-0 col-sm-12 col-sm-offset-0 col-md-6">
 
-                        <p>My name's Steve Rokitka (aka Rocketkar) and I'm a full-stack product designer. What's that mean exactly? It means someone with the skills to look at a business need, research the problem space, then design, test and build solutions
-                            from prototype to production. Think of me as a designer who can code, or an engineer who can bring a designer's eye to a user interface.
-                        </p>
+                        <p>My name's Steve Rokitka (aka Rocketkar) and I'm a full-stack product designer. What's that
+                            mean exactly? It means someone with the skills to look at a business need, research the
+                            problem space, then design, test and build solutions from prototype to production. Think of
+                            me as a designer who can code, or an engineer who can bring a designer's eye to a user
+                            interface.</p>
 
-                        <p>My career's always been a multidisciplinary one. I started out as a writer and illustrator, turned UI/UX designer, and rolled everything together with a liberal coating of usability research and developer training at Cornell University
-                            and Code Fellows Seattle. I've gone deepest on mobile apps, UI/pattern library creation and ecommerce design, along with some great indie publishing and brand/identity projects on the side.</p>
+                        <p>My career's always been a multidisciplinary one. I started out as a writer and illustrator,
+                            turned UI/UX designer, and rolled everything together with a liberal coating of usability
+                            research and developer training at Cornell University and Code Fellows Seattle. I've gone
+                            deepest on mobile apps, UI/pattern library creation and ecommerce design, along with some
+                            great indie publishing and brand/identity projects on the side.</p>
 
-                        <p>When I'm not crafting various parts of the internet, I go on adventures that give me an excuse to learn new things. In the last couple years I've painted a house, rode a motorcycle to Burning Man, got Wilderness First Responder
-                            certified, learned to fix cars at a community college, and continued my training in various martial arts.</p>
+                        <p>When I'm not crafting various parts of the internet, I go on adventures that give me an
+                            excuse to learn new things. In the last couple years I've painted a house, rode a motorcycle
+                            to Burning Man, got Wilderness First Responder certified, learned to fix cars at a community
+                            college, and continued my training in various martial arts.</p>
 
-                        <p>Today, I'm looking for awesome projects that I can be a part of. If you've got something that needs solutions found, ideas given form, stories discovered or just a bit of snark injected into a situation, drop me a line and let's
-                            get started.</p>
+                        <p>Today, I'm looking for awesome projects that I can be a part of. If you've got something that
+                            needs solutions found, ideas given form, stories discovered or just a bit of snark injected
+                            into a situation, drop me a line and let's get started.</p>
                     </div>
 
-                    <div class="bioconnect mobile col-xs-12 col-xs-offset-0 col-sm-6 col-sm-offset-3 visible-xs visible-sm">
+                    <div
+                        class="bioconnect mobile col-xs-12 col-xs-offset-0 col-sm-6 col-sm-offset-3 visible-xs visible-sm">
                         <div class="socialicons">
                             <h4>Connect</h4>
-                            <a href="ma&#105;lto&#58;steve&#64;s%70%&#54;9n%6&#53;t&#114;ee&#46;&#111;&#114;&#103;" target="_blank">
+                            <a href="ma&#105;lto&#58;steve&#64;s%70%&#54;9n%6&#53;t&#114;ee&#46;&#111;&#114;&#103;"
+                                target="_blank">
                                 <i class="fa fa-envelope" aria-hidden="true" title=""></i>
                             </a>
                             <a href="https://www.linkedin.com/in/steverokitka" target="_blank">
@@ -130,15 +146,13 @@
                         </div>
                         <div class="resumebutton">
                             <h4>Resume</h4>
-                            <a href="{{ site.data.global.url }}/images/rokitka-resume.pdf" target "_blank">
+                            <a href="{{ site.data.global.url }}/images/rokitka-resume.pdf" target"_blank">
                                 <button type="button" class="btn btn-primary resume">Download</button>
                             </a>
                         </div>
 
-                    </div>
-                    <!-- /row -->
-                </div>
-                <!-- /container -->
+                    </div><!-- /row -->
+                </div><!-- /container -->
         </section>
 
 
@@ -193,7 +207,8 @@
                     </div>
 
                     <div class="skills">
-                        <div class="languages col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-md-4 col-md-pull-4 col-md-offset-0">
+                        <div
+                            class="languages col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-md-4 col-md-pull-4 col-md-offset-0">
                             <div class="content">
                                 <h4>Languages</h4>
                                 <ul>
@@ -213,10 +228,11 @@
         </section>
 
         {% include recommendations.html %}
-        </div>
-        <!-- /about -->
-        {% include sixpieces.html %}
+    </div><!-- /about -->
+    {% include sixpieces.html %}
 
 
 </main>
-{% include contact-bar.html %} {% include footer.html %}
+{% include contact-bar.html %}
+
+{% include footer.html %}
