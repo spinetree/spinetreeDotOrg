@@ -222,3 +222,21 @@ tools: 'Paper, Whiteboard, Notion, User interviews, Competitive analysis, Journe
         </div>
     </div>
 </section>
+
+<section class="projectsection">
+    <div class="container">
+        <div class="row">
+
+            <div class="imagemeta col-md-8 col-md-offset-2">
+     
+            <h3>Next steps</h3>
+
+            <p>The direction I'm most excited about and working towards is streamlining the abstraction of designers working in one app, then handing off specs to developers to build separately, and the logistically expensive QA processes required to get things correct. Even with component libraries, the process counts on devs being good at writing SQL <em>and</em> noticing spacing, typography etc. far more than experience tells me is realistic, or on designers doing rounds of correction to </p>
+            
+            <p>Rather than waiting for Figma to grow the ability to export production code, I'm excited for LLMs enabling design teams to take more role in the code lifecycle of their work. Beyond just vibe coding prototypes, I'd like for us to have a role in owning our own frontend code (whether there's a dedicated design engineer on the team or not) and being as accountable for a product's UI polish as anyone on the dev team.</p> 
+            
+            </div>
+
+        </div>   
+    </div>
+</section>
